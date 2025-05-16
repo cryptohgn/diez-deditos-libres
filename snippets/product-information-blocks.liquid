@@ -28,7 +28,7 @@
             class="product__block product__block--{{ block.type }}"
             {{ block.shopify_attributes }}
           >
-            <h1 class="product__title {{ block.settings.heading_size }}">{{ product.title | escape }}</h1>
+            <h1 class="product__title {{ block.settings.heading_size }}">{{ product.title | escape }} - {{ product.metafields.custom.test }}</h1>
             <a href="{{ product.url }}" class="product__title">
               <h2 class="h1">
                 {{ product.title | escape }} - {{ product.metafields.custom.test }}
