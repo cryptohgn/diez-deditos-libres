@@ -82,7 +82,7 @@
     "header": {
       "type": "header",
       "settings": {
-        "container": "full",
+        "container": "fixed",
         "color_scheme": "scheme-1",
         "menu": "main-menu",
         "menu_mobile": "main-menu",
@@ -92,7 +92,7 @@
         "show_sperator_line": true,
         "enable_transparent_header": false,
         "transparent_header_color": "#ffffff",
-        "logo_mobile_position": "center",
+        "logo_mobile_position": "left",
         "show_social_media_icons": true,
         "enable_language_selector": true,
         "enable_country_selector": true,

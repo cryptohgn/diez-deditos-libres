@@ -105,6 +105,7 @@
         },
         "button_kNmwgT": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "Button label",
             "button_link": "",
@@ -130,21 +131,60 @@
     "product_tabs_iJHLzK": {
       "type": "product-tabs",
       "blocks": {
-        "tab_Yz8Mnz": {
+        "tab_WzMgfT": {
+          "type": "tab",
+          "settings": {
+            "title": "Novedades Colección Primavera Verano 2025",
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "tab_WzMgfT"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "header_layout": "horizontal",
+        "heading": "",
+        "heading_size": "h1",
+        "heading_highlight_style": "none",
+        "limit": 9,
+        "columns": 3,
+        "column_gap": "extra-small",
+        "row_gap": "inherit",
+        "grid_layout": "standard",
+        "pcard_image_ratio": "",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "show_all_button_on_top": true,
+        "button_label": "Ver todas",
+        "button_link": "",
+        "button_style": "btn--underline",
+        "tabs_nav_style": "design-2",
+        "padding_top": 100,
+        "padding_bottom": 100,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "product_tabs_78AUXG": {
+      "type": "product-tabs",
+      "blocks": {
+        "tab_DaVkiG": {
           "type": "tab",
           "settings": {
             "title": "Tab name",
             "collection": ""
           }
         },
-        "tab_9cGBUe": {
+        "tab_HDUjhx": {
           "type": "tab",
           "settings": {
             "title": "Tab name",
             "collection": ""
           }
         },
-        "tab_AfgNn8": {
+        "tab_gj43aE": {
           "type": "tab",
           "settings": {
             "title": "Tab name",
@@ -153,10 +193,11 @@
         }
       },
       "block_order": [
-        "tab_Yz8Mnz",
-        "tab_9cGBUe",
-        "tab_AfgNn8"
+        "tab_DaVkiG",
+        "tab_HDUjhx",
+        "tab_gj43aE"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "",
         "header_layout": "horizontal",
@@ -1285,6 +1326,7 @@
     "slideshow_q3U4Jn",
     "rich_text_Jr78BJ",
     "product_tabs_iJHLzK",
+    "product_tabs_78AUXG",
     "highlight_text_with_image_9KLzcX",
     "collection_list_Pr36qH",
     "products_bundle_cFjE73",
