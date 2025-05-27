@@ -99,7 +99,7 @@
         "text_4HMP7y": {
           "type": "text",
           "settings": {
-            "text": "<p>¡La primavera llega con <strong>nuevas marcas barefoot y colores vibrantes</strong> en calzado barefoot! Descubre nuestra colección de <strong>zapatos minimalistas, zapatillas y sandalias</strong> que ofrecen <strong>máximo confort, flexibilidad y libertad de movimiento</strong>. ¡Siente la diferencia de un calzado que respeta tus pies! <strong>Explora la colección antes de que se agoten.</strong></p>",
+            "text": "<p>¡La primavera llega con nuevas marcas barefoot y colores vibrantes en calzado barefoot! Descubre nuestra colección de zapatos minimalistas, zapatillas y sandalias que ofrecen máximo confort, flexibilidad y libertad de movimiento. ¡Siente la diferencia de un calzado que respeta tus pies! Explora la colección antes de que se agoten.</p>",
             "text_size": "text-base"
           }
         },
@@ -263,6 +263,138 @@
         "alignment": "center",
         "padding_top": 100,
         "padding_bottom": 100,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "image_with_text_MgddA8": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_XLgqVJ": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "¡Novedad fresca y divertida!"
+          }
+        },
+        "heading_J7mctK": {
+          "type": "heading",
+          "settings": {
+            "heading": "Recién Llegado",
+            "heading_size": "hd1",
+            "heading_highlight_style": "none"
+          }
+        },
+        "text_A3Dahr": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Llega el modelo Base de <strong>Froddo Barefoot</strong>. Combinando <strong>piel serraje azul</strong> con <strong>tejido amarillo neón transpirable</strong>, este zapato ofrece el equilibrio perfecto entre <strong>comodidad, flexibilidad y estilo</strong>. Ajuste fácil con doble velcro. Transpirable y respetuoso con el movimiento natural.</p><p> Ideal para primavera/verano.<br/></p><p><em>¡Ya disponible! No te quedes sin tu talla.</em></p>",
+            "text_size": "text-lg"
+          }
+        },
+        "button_jAUX49": {
+          "type": "button",
+          "settings": {
+            "button_label": "Comprar ahora",
+            "button_link": "",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_XLgqVJ",
+        "heading_J7mctK",
+        "text_A3Dahr",
+        "button_jAUX49"
+      ],
+      "settings": {
+        "section_color_scheme": "",
+        "color_scheme": "scheme-2",
+        "image": "shopify://shop_images/DEPORTIVASAZUL.webp",
+        "image_height": "adapt",
+        "layout": "text_first",
+        "desktop_content_position": "center",
+        "desktop_content_alignment": "center",
+        "enable_parallax": false,
+        "parallax_direction": "vertical",
+        "mobile_content_alignment": "left",
+        "padding_top": 100,
+        "padding_bottom": 0,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "rich_text_iKgXTP": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_r9cAGE": {
+          "type": "heading",
+          "settings": {
+            "heading": "Calzado Respetuoso con los Pies",
+            "heading_size": "hd1",
+            "heading_highlight_style": "none"
+          }
+        },
+        "text_LArGLV": {
+          "type": "text",
+          "settings": {
+            "text": "<p>¡Pequeños pasos, grandes beneficios! Conoce nuestros zapatos barefoot diseñados para el libre movimiento y confort de los bebés, niños y adultos. Zapatos con forma de pie que se adaptan a tus pies.</p>",
+            "text_size": "text-base"
+          }
+        },
+        "button_a7NCAJ": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_r9cAGE",
+        "text_LArGLV",
+        "button_a7NCAJ"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "color_scheme": "",
+        "content_alignment": "center",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "rich_text_7rBwdd": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_cUbnWW": {
+          "type": "heading",
+          "settings": {
+            "heading": "Calzado Respetuoso con los Pies",
+            "heading_size": "h1",
+            "heading_highlight_style": "none"
+          }
+        },
+        "button_PeGbeL": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style": "btn--underline"
+          }
+        }
+      },
+      "block_order": [
+        "heading_cUbnWW",
+        "button_PeGbeL"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "content_alignment": "center",
+        "padding_top": 60,
+        "padding_bottom": 0,
         "show_section_divider": false,
         "divider_width": "fixed"
       }
@@ -627,10 +759,10 @@
         "divider_width": "fixed"
       }
     },
-    "rich_text_7rBwdd": {
+    "rich_text_J3XnPC": {
       "type": "rich-text",
       "blocks": {
-        "heading_cUbnWW": {
+        "heading_jLVTiL": {
           "type": "heading",
           "settings": {
             "heading": "Talk about your brand",
@@ -638,7 +770,7 @@
             "heading_highlight_style": "none"
           }
         },
-        "button_PeGbeL": {
+        "button_jYDXnF": {
           "type": "button",
           "settings": {
             "button_label": "Button label",
@@ -648,13 +780,13 @@
         }
       },
       "block_order": [
-        "heading_cUbnWW",
-        "button_PeGbeL"
+        "heading_jLVTiL",
+        "button_jYDXnF"
       ],
       "settings": {
         "color_scheme": "",
         "content_alignment": "center",
-        "padding_top": 60,
+        "padding_top": 100,
         "padding_bottom": 0,
         "show_section_divider": false,
         "divider_width": "fixed"
@@ -726,62 +858,6 @@
         "row_gap": "inherit",
         "swipe_on_mobile": false,
         "columns_mobile": "1",
-        "padding_top": 100,
-        "padding_bottom": 0,
-        "show_section_divider": false,
-        "divider_width": "fixed"
-      }
-    },
-    "image_with_text_MgddA8": {
-      "type": "image-with-text",
-      "blocks": {
-        "subheading_XLgqVJ": {
-          "type": "subheading",
-          "settings": {
-            "subheading": "¡Novedad fresca y divertida!"
-          }
-        },
-        "heading_J7mctK": {
-          "type": "heading",
-          "settings": {
-            "heading": "Recién Llegado",
-            "heading_size": "hd1",
-            "heading_highlight_style": "none"
-          }
-        },
-        "text_A3Dahr": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Llega el modelo Base de <strong>Froddo Barefoot</strong>. Combinando <strong>piel serraje azul</strong> con <strong>tejido amarillo neón transpirable</strong>, este zapato ofrece el equilibrio perfecto entre <strong>comodidad, flexibilidad y estilo</strong>. Ajuste fácil con doble velcro. Transpirable y respetuoso con el movimiento natural.</p><p> Ideal para primavera/verano.<br/></p><p><em>¡Ya disponible! No te quedes sin tu talla.</em></p>",
-            "text_size": "text-lg"
-          }
-        },
-        "button_jAUX49": {
-          "type": "button",
-          "settings": {
-            "button_label": "Comprar ahora",
-            "button_link": "",
-            "button_style": "btn--primary"
-          }
-        }
-      },
-      "block_order": [
-        "subheading_XLgqVJ",
-        "heading_J7mctK",
-        "text_A3Dahr",
-        "button_jAUX49"
-      ],
-      "settings": {
-        "section_color_scheme": "",
-        "color_scheme": "scheme-2",
-        "image": "shopify://shop_images/DEPORTIVASAZUL.webp",
-        "image_height": "adapt",
-        "layout": "text_first",
-        "desktop_content_position": "center",
-        "desktop_content_alignment": "center",
-        "enable_parallax": false,
-        "parallax_direction": "vertical",
-        "mobile_content_alignment": "left",
         "padding_top": 100,
         "padding_bottom": 0,
         "show_section_divider": false,
@@ -1201,39 +1277,6 @@
         "divider_width": "fixed"
       }
     },
-    "rich_text_J3XnPC": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_jLVTiL": {
-          "type": "heading",
-          "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1",
-            "heading_highlight_style": "none"
-          }
-        },
-        "button_jYDXnF": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style": "btn--underline"
-          }
-        }
-      },
-      "block_order": [
-        "heading_jLVTiL",
-        "button_jYDXnF"
-      ],
-      "settings": {
-        "color_scheme": "",
-        "content_alignment": "center",
-        "padding_top": 100,
-        "padding_bottom": 0,
-        "show_section_divider": false,
-        "divider_width": "fixed"
-      }
-    },
     "custom_content_dxQmWd": {
       "type": "custom-content",
       "blocks": {
@@ -1344,20 +1387,21 @@
     "product_tabs_iJHLzK",
     "product_tabs_78AUXG",
     "highlight_text_with_image_9KLzcX",
+    "image_with_text_MgddA8",
+    "rich_text_iKgXTP",
+    "rich_text_7rBwdd",
     "collection_list_Pr36qH",
     "products_bundle_cFjE73",
     "multicolumn_mQAQbW",
     "card_images_YfYkKC",
     "feature_list_cW3d9c",
-    "rich_text_7rBwdd",
+    "rich_text_J3XnPC",
     "custom_content_rhXbV3",
-    "image_with_text_MgddA8",
     "products_showcase_9KVeQe",
     "scrolling_promotion_htQpcB",
     "featured_products_tab_yYcGgw",
     "testimonials_8JHr3L",
     "collapsible_tabs_KNKLiF",
-    "rich_text_J3XnPC",
     "custom_content_dxQmWd"
   ]
 }
