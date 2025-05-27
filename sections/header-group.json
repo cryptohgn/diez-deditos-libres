@@ -263,7 +263,7 @@
           "type": "promotion_banner",
           "settings": {
             "menu_title": "infantil",
-            "menu_columns": 5,
+            "menu_columns": 6,
             "promotions_width": 38,
             "promotion_columns": 1,
             "color_scheme_1": "",
