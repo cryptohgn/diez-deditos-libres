@@ -81,6 +81,9 @@
     },
     "header": {
       "type": "header",
+      "custom_css": [
+        "ul, ol {margin: 0 -4rem;}"
+      ],
       "settings": {
         "container": "full",
         "color_scheme": "scheme-1",
