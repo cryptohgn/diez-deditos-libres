@@ -591,6 +591,15 @@
             "icon_style": "btn--secondary",
             "text": "Feature item"
           }
+        },
+        "feature_item_GdLDXK": {
+          "type": "feature_item",
+          "settings": {
+            "color_scheme": "",
+            "icon": "check",
+            "icon_style": "btn--secondary",
+            "text": "Feature"
+          }
         }
       },
       "block_order": [
@@ -598,7 +607,8 @@
         "feature_item_NzxQGa",
         "feature_item_yyNV9A",
         "feature_item_gBgLft",
-        "feature_item_R8A8eX"
+        "feature_item_R8A8eX",
+        "feature_item_GdLDXK"
       ],
       "settings": {
         "color_scheme": "scheme-7",
@@ -728,13 +738,13 @@
         "subheading_XLgqVJ": {
           "type": "subheading",
           "settings": {
-            "subheading": "Add a tagline"
+            "subheading": "¡Novedad fresca y divertida!"
           }
         },
         "heading_J7mctK": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand",
+            "heading": "Recién Llegado",
             "heading_size": "hd1",
             "heading_highlight_style": "none"
           }
@@ -742,14 +752,14 @@
         "text_A3Dahr": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text": "<p>Llega el modelo Base de <strong>Froddo Barefoot</strong>. Combinando <strong>piel serraje azul</strong> con <strong>tejido amarillo neón transpirable</strong>, este zapato ofrece el equilibrio perfecto entre <strong>comodidad, flexibilidad y estilo</strong>. Ajuste fácil con doble velcro. Transpirable y respetuoso con el movimiento natural.</p><p> Ideal para primavera/verano.<br/></p><p><em>¡Ya disponible! No te quedes sin tu talla.</em></p>",
             "text_size": "text-lg"
           }
         },
         "button_jAUX49": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
+            "button_label": "Comprar ahora",
             "button_link": "",
             "button_style": "btn--primary"
           }
@@ -764,6 +774,7 @@
       "settings": {
         "section_color_scheme": "",
         "color_scheme": "scheme-2",
+        "image": "shopify://shop_images/DEPORTIVASAZUL.webp",
         "image_height": "adapt",
         "layout": "text_first",
         "desktop_content_position": "center",
