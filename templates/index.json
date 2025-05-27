@@ -1089,7 +1089,7 @@
         "testimonial_dhi3Xf": {
           "type": "testimonial",
           "settings": {
-            "text": "<p><strong>Me encantan!</strong></p>",
+            "text": "<p>Me encantan!</p>",
             "author": "Laura R.D.",
             "bio": "",
             "product": "blanditos-by-crio-s-zapatilla-respetuosa-rio-blanco-naranja",
@@ -1119,20 +1119,20 @@
         "testimonial_dDRMwy": {
           "type": "testimonial",
           "settings": {
-            "text": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.</p>",
-            "author": "Author's name",
+            "text": "<p>Envío rápido y con un detalle incluido. Muy buena experiencia.</p>",
+            "author": "Julia G.V.",
             "bio": "",
-            "product": "",
+            "product": "fare-bare-zapatilla-respetuosa-serie-a-turquesa-floral",
             "icon": "none"
           }
         },
-        "testimonial_RgfDDw": {
+        "testimonial_eHxqgW": {
           "type": "testimonial",
           "settings": {
-            "text": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.</p>",
-            "author": "Author's name",
+            "text": "<p>Piel muy suave, sin costuras enla parte interior y muy sencillas de calzar incluso para los mas pequeños. Suela muy flexible.</p>",
+            "author": "Alicia L.",
             "bio": "",
-            "product": "",
+            "product": "blanditos-by-crio-s-deportiva-respetuosa-paris",
             "icon": "none"
           }
         },
@@ -1152,7 +1152,7 @@
         "testimonial_D7Mq7i",
         "testimonial_33tAjm",
         "testimonial_dDRMwy",
-        "testimonial_RgfDDw",
+        "testimonial_eHxqgW",
         "testimonial_abi6JN"
       ],
       "settings": {
