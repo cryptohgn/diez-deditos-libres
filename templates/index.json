@@ -405,8 +405,24 @@
         "featured_collection_VHfaMD": {
           "type": "featured_collection",
           "settings": {
-            "collection": "",
-            "image": "shopify://shop_images/victoria-mercedita-manzana-06.jpg",
+            "collection": "baby-lobitos",
+            "image": "shopify://shop_images/BABYLOBITOS_GLOBOS_10.png",
+            "title": "Baby lobitos",
+            "description": ""
+          }
+        },
+        "featured_collection_3qNJmC": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "blanditos",
+            "title": "",
+            "description": ""
+          }
+        },
+        "featured_collection_N3bT8g": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "froddo-1",
             "title": "",
             "description": ""
           }
@@ -414,15 +430,16 @@
         "featured_collection_H3VHEr": {
           "type": "featured_collection",
           "settings": {
-            "collection": "",
-            "title": "",
+            "collection": "flexinens",
+            "image": "shopify://shop_images/5759-PR_CAPRONE_NUDE_PRIMEMIEL.png",
+            "title": "FLexinens",
             "description": ""
           }
         },
         "featured_collection_ytHAXL": {
           "type": "featured_collection",
           "settings": {
-            "collection": "",
+            "collection": "coquette",
             "title": "",
             "description": ""
           }
@@ -430,7 +447,7 @@
         "featured_collection_inyzwk": {
           "type": "featured_collection",
           "settings": {
-            "collection": "",
+            "collection": "igor",
             "title": "",
             "description": ""
           }
@@ -438,18 +455,20 @@
       },
       "block_order": [
         "featured_collection_VHfaMD",
+        "featured_collection_3qNJmC",
+        "featured_collection_N3bT8g",
         "featured_collection_H3VHEr",
         "featured_collection_ytHAXL",
         "featured_collection_inyzwk"
       ],
       "settings": {
         "color_scheme": "scheme-3",
-        "layout": "split",
-        "subheading": "Add a tagline",
-        "heading": "Collections",
+        "layout": "standard",
+        "subheading": "",
+        "heading": "Encuentra tu favorita",
         "heading_size": "h1",
         "heading_highlight_style": "none",
-        "description": "<p>This area is used to describe your collection's details.</p>",
+        "description": "<p>Marcas</p>",
         "text_size": "text-base",
         "card_color_inherited": false,
         "show_product_count": true,
@@ -659,6 +678,7 @@
         "image_card_gQwfAa",
         "image_card_944yhH"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "",
         "subheading": "",
