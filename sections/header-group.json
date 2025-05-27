@@ -17,7 +17,7 @@
         "text_niHbzP": {
           "type": "text",
           "settings": {
-            "text": "",
+            "text": "**SOMOS TIENDA ONLINE** Entrega en mano en Torrent y punto de entrega en Valencia.",
             "text_link": "",
             "text_size": "text-base",
             "font_weight": "font-heading",
@@ -32,7 +32,7 @@
         "text_t3BcT4": {
           "type": "text",
           "settings": {
-            "text": "TELL CUSTOMERS ABOUT A PROMOTION",
+            "text": "¿Quieres probar y comprar calzado sin salir de casa? Consulta nuestras sesiones Zapatupper",
             "text_link": "",
             "text_size": "text-base",
             "font_weight": "font-heading",
@@ -47,7 +47,7 @@
         "text_QCAxbn": {
           "type": "text",
           "settings": {
-            "text": "TELL CUSTOMERS ABOUT A PROMOTION",
+            "text": "Enviamos a Alemania, Andorra, Austria, Bélgica, Francia, Italia, Paises Bajos y Portugal",
             "text_link": "",
             "text_size": "text-base",
             "font_weight": "font-heading",
@@ -70,9 +70,9 @@
         "vertical_alignment": "center",
         "direction": "left",
         "pause_on_hover": false,
-        "speed": 0.5,
+        "speed": 0.1,
         "h_spacing": 60,
-        "v_spacing": 0,
+        "v_spacing": 12,
         "padding_top": 12,
         "padding_bottom": 12,
         "show_divider": false,
