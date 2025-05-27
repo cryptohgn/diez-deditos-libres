@@ -72,7 +72,7 @@
         "pause_on_hover": false,
         "speed": 0.1,
         "h_spacing": 60,
-        "v_spacing": 12,
+        "v_spacing": 4,
         "padding_top": 12,
         "padding_bottom": 12,
         "show_divider": false,
