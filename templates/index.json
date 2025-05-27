@@ -134,7 +134,7 @@
         "tab_WzMgfT": {
           "type": "tab",
           "settings": {
-            "title": "Novedades Colección Primavera Verano 2025",
+            "title": "Primavera 2025",
             "collection": ""
           }
         }
@@ -803,6 +803,7 @@
       "blocks": {
         "image_p6c9Fb": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image_height": 80,
             "image_rounded": true,
@@ -813,7 +814,7 @@
         "text_eJYFM7": {
           "type": "text",
           "settings": {
-            "text": "Tell customers about a promotion",
+            "text": "Gana puntos para diferentes acciones y convierte en increíbles recompensas.",
             "text_link": "",
             "text_size": "h2",
             "font_weight": "font-body",
@@ -827,6 +828,7 @@
         },
         "image_i3axe6": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image_height": 80,
             "image_rounded": true,
@@ -837,7 +839,7 @@
         "text_QcbBQ9": {
           "type": "text",
           "settings": {
-            "text": "Tell customers about a promotion",
+            "text": "**SOMOS TIENDA ONLINE** Entrega en mano en Torrent y punto de entrega en Valencia.",
             "text_link": "",
             "text_size": "h2",
             "font_weight": "font-body",
@@ -851,7 +853,9 @@
         },
         "image_rMjhMM": {
           "type": "image",
+          "disabled": true,
           "settings": {
+            "image": "shopify://shop_images/LogoDDLSinTexto.svg",
             "image_height": 80,
             "image_rounded": true,
             "image_link": "",
@@ -861,7 +865,7 @@
         "text_qrqedj": {
           "type": "text",
           "settings": {
-            "text": "Tell customers about a promotion",
+            "text": " ¡Únete y obtén un 5% de descuento!",
             "text_link": "",
             "text_size": "h2",
             "font_weight": "font-body",
@@ -875,6 +879,7 @@
         },
         "image_9EAm3A": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image_height": 80,
             "image_rounded": true,
@@ -885,7 +890,7 @@
         "text_K7hiEY": {
           "type": "text",
           "settings": {
-            "text": "Tell customers about a promotion",
+            "text": "¿Quieres probar y comprar calzado sin salir de casa? Consulta nuestras sesiones Zapatupper.",
             "text_link": "",
             "text_size": "h2",
             "font_weight": "font-body",
