@@ -390,9 +390,7 @@
         "promotion_banner_PGbeKU",
         "promotion_banner_xTXWKF"
       ],
-      "custom_css": [
-        "ul, ol {margin: 0 -4rem;}"
-      ],
+      "custom_css": [],
       "settings": {
         "container": "full",
         "color_scheme": "scheme-1",
