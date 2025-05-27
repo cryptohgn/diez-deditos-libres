@@ -1089,30 +1089,30 @@
         "testimonial_dhi3Xf": {
           "type": "testimonial",
           "settings": {
-            "text": "<p>{{ block.settings.product.metafields.reviews.rating | metafield_tag }}</p>",
-            "author": "Author's{{ block.settings.product.metafields.reviews.rating | metafield_text }}",
+            "text": "<p><strong>Me encantan!</strong></p>",
+            "author": "Laura R.D.",
             "bio": "",
-            "product": "",
+            "product": "blanditos-by-crio-s-zapatilla-respetuosa-rio-blanco-naranja",
             "icon": "none"
           }
         },
         "testimonial_D7Mq7i": {
           "type": "testimonial",
           "settings": {
-            "text": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.</p>",
-            "author": "Author's name",
+            "text": "<p>Son cómodas y se adaptan a cualquier look!!</p>",
+            "author": "Patricia T.",
             "bio": "",
-            "product": "",
+            "product": "coqueflex-sambas-barefoot-adulto-cereza",
             "icon": "none"
           }
         },
         "testimonial_33tAjm": {
           "type": "testimonial",
           "settings": {
-            "text": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.</p>",
-            "author": "Author's name",
+            "text": "<p>Mi peque ha empezado a andar hace 1mes y las bobux han sido perfectas para empezar a caminar, blanditas y fáciles de poner.</p>",
+            "author": "Patricia T.",
             "bio": "",
-            "product": "",
+            "product": "bobux-explorer-go-scamp-organic-rojo",
             "icon": "none"
           }
         },
