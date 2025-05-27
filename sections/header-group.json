@@ -85,8 +85,8 @@
         "promotion_banner_bJVgND": {
           "type": "promotion_banner",
           "settings": {
-            "menu_title": "",
-            "menu_columns": 3,
+            "menu_title": "marcas",
+            "menu_columns": 5,
             "promotions_width": 38,
             "promotion_columns": 1,
             "color_scheme_1": "",
