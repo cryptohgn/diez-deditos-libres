@@ -74,12 +74,12 @@
       ],
       "settings": {
         "container": "full",
-        "layout": "centered",
+        "layout": "standard",
         "slide_height": "medium",
         "show_dots": true,
         "autoplay": true,
         "autoplay_delay": 7,
-        "controls_position": "below",
+        "controls_position": "bottom",
         "show_text_below": true,
         "text_alignment_mobile": "left",
         "accessibility_info": "Slideshow about our brand"
