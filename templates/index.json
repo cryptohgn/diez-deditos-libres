@@ -505,8 +505,10 @@
         "product_63XUQd",
         "product_bNtrwr"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "",
+        "image": "shopify://shop_images/FLATSKY6_445f67b6-5533-4652-9780-04817026372f.webp",
         "heading": "Build Your Own Basket",
         "heading_size": "h1",
         "heading_highlight_style": "none",
@@ -1087,8 +1089,8 @@
         "testimonial_dhi3Xf": {
           "type": "testimonial",
           "settings": {
-            "text": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.</p>",
-            "author": "Author's name",
+            "text": "<p>{{ block.settings.product.metafields.reviews.rating | metafield_tag }}</p>",
+            "author": "Author's{{ block.settings.product.metafields.reviews.rating | metafield_text }}",
             "bio": "",
             "product": "",
             "icon": "none"
@@ -1155,21 +1157,21 @@
       ],
       "settings": {
         "color_scheme": "scheme-2",
-        "heading": "Testimonials",
+        "heading": "Los clientes hablan por nosotros",
         "heading_size": "h2",
         "heading_highlight_style": "none",
         "subheading": "",
         "description": "",
         "text_size": "text-base",
         "card_color_scheme": "",
-        "card_layout": "1",
-        "columns_desktop": 4,
+        "card_layout": "2",
+        "columns_desktop": 5,
         "column_gap": "medium",
         "enable_slider": true,
         "columns_mobile": "1",
         "swipe_on_mobile": true,
-        "padding_top": 100,
-        "padding_bottom": 80,
+        "padding_top": 56,
+        "padding_bottom": 98,
         "show_section_divider": false,
         "divider_width": "fixed"
       }
