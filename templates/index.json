@@ -75,7 +75,7 @@
       "settings": {
         "container": "full",
         "layout": "centered",
-        "slide_height": "adapt",
+        "slide_height": "medium",
         "show_dots": true,
         "autoplay": true,
         "autoplay_delay": 7,
@@ -1230,7 +1230,7 @@
           "type": "image_card",
           "settings": {
             "color_scheme": "",
-            "image_ratio": "adapt",
+            "image_ratio": "1/1",
             "image_overlay_opacity": 0,
             "heading": "Image card",
             "heading_size": "h2",
