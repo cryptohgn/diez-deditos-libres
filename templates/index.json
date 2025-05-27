@@ -314,7 +314,7 @@
         "layout": "text_first",
         "desktop_content_position": "center",
         "desktop_content_alignment": "center",
-        "enable_parallax": false,
+        "enable_parallax": true,
         "parallax_direction": "vertical",
         "mobile_content_alignment": "left",
         "padding_top": 100,
@@ -359,8 +359,8 @@
       "settings": {
         "color_scheme": "",
         "content_alignment": "center",
-        "padding_top": 50,
-        "padding_bottom": 50,
+        "padding_top": 100,
+        "padding_bottom": 100,
         "show_section_divider": false,
         "divider_width": "fixed"
       }
