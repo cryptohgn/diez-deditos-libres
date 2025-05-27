@@ -85,7 +85,7 @@
         "promotion_banner_bJVgND": {
           "type": "promotion_banner",
           "settings": {
-            "menu_title": "menu principal",
+            "menu_title": "main-menu",
             "menu_columns": 5,
             "promotions_width": 38,
             "promotion_columns": 1,
