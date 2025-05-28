@@ -45,7 +45,7 @@
             "subheading": "",
             "description": "<p>El calzado barefoot que respeta el crecimiento natural de sus pies.</p>",
             "description_size": "text-lg",
-            "button_label": "Button label",
+            "button_label": "Descubrir",
             "button_link": "shopify://collections/bar3foot",
             "button_style": "btn--primary"
           }
@@ -63,7 +63,7 @@
             "subheading": "",
             "description": "<p>Muévete cómodo y natural con nuestro calzado barefoot.</p>",
             "description_size": "text-lg",
-            "button_label": "Button label",
+            "button_label": "Descubrir",
             "button_link": "shopify://collections/bar3foot",
             "button_style": "btn--primary"
           }
