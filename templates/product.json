@@ -130,9 +130,7 @@
         "complementary",
         "addons"
       ],
-      "custom_css": [
-        "button.btn--secondary[type=\"submit\"] {background: #EA5CB8; color: white;}"
-      ],
+      "custom_css": [],
       "settings": {
         "color_scheme": "scheme-1",
         "enable_sticky_info": true,
