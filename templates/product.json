@@ -116,6 +116,13 @@
             "show_share": true,
             "show_ask_question": true
           }
+        },
+        "popup_Fj8KDC": {
+          "type": "popup",
+          "settings": {
+            "text": "Pop-up link text",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -131,7 +138,8 @@
         "collapsible_tab_LBaqXK",
         "pickup_availability",
         "complementary",
-        "addons"
+        "addons",
+        "popup_Fj8KDC"
       ],
       "custom_css": [],
       "settings": {
