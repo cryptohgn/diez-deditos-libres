@@ -71,7 +71,7 @@
         ".form-control {--color-border: var(--color-field);}"
       ],
       "settings": {
-        "color_scheme": "scheme-inverse",
+        "color_scheme": "scheme-4",
         "enable_follow_on_shop": false,
         "show_social": false,
         "enable_country_selector": true,
