@@ -47,7 +47,7 @@
             "block_width": 17,
             "heading": "Información Barefoot",
             "heading_size": "h4",
-            "menu": "footer",
+            "menu": "footer-menu-4",
             "open_default": false,
             "show_divider": false
           }
@@ -58,7 +58,7 @@
             "block_width": 17,
             "heading": "Nuestro compromiso",
             "heading_size": "h4",
-            "menu": "footer",
+            "menu": "protecci-n-de-datos-personales",
             "open_default": false,
             "show_divider": false
           }
