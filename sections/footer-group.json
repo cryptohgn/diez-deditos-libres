@@ -27,21 +27,18 @@
             "order_first": true
           }
         },
-        "image_text_F3FNhx": {
-          "type": "image_text",
+        "menu_DEKGYP": {
+          "type": "menu",
           "settings": {
-            "block_width": 25,
-            "heading": "About",
+            "block_width": 17,
+            "heading": "Colecciones Destacadas",
             "heading_size": "h4",
-            "image_width": 150,
-            "text": "<p>Share store details, promotions, or brand content with your customers.</p>",
-            "button_label": "Button label",
-            "button_link": "",
+            "menu": "footer-menu",
             "open_default": false,
             "show_divider": false
           }
         },
-        "menu_DEKGYP": {
+        "menu_6rhtVW": {
           "type": "menu",
           "settings": {
             "block_width": 17,
@@ -58,7 +55,7 @@
             "block_width": 17,
             "heading": "Nuestro compromiso",
             "heading_size": "h4",
-            "menu": "protecci-n-de-datos-personales",
+            "menu": "footer",
             "open_default": false,
             "show_divider": false
           }
@@ -66,19 +63,19 @@
       },
       "block_order": [
         "newsletter_3qCrWc",
-        "image_text_F3FNhx",
         "menu_DEKGYP",
+        "menu_6rhtVW",
         "menu_4eCrBB"
       ],
       "custom_css": [
         ".form-control {--color-border: var(--color-field);}"
       ],
       "settings": {
-        "color_scheme": "scheme-1",
-        "enable_follow_on_shop": true,
-        "show_social": true,
+        "color_scheme": "scheme-inverse",
+        "enable_follow_on_shop": false,
+        "show_social": false,
         "enable_country_selector": true,
-        "enable_language_selector": false,
+        "enable_language_selector": true,
         "payment_enable": true,
         "footer_bottom_menu": "",
         "show_section_divider": true,
