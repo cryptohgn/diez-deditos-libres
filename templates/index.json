@@ -150,7 +150,7 @@
         "heading_size": "h1",
         "heading_highlight_style": "none",
         "limit": 9,
-        "columns": 3,
+        "columns": 4,
         "column_gap": "extra-small",
         "row_gap": "inherit",
         "grid_layout": "standard",
