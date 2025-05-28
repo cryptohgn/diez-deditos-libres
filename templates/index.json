@@ -78,7 +78,7 @@
       "settings": {
         "container": "full",
         "layout": "standard",
-        "slide_height": "medium",
+        "slide_height": "adapt",
         "show_dots": true,
         "autoplay": false,
         "autoplay_delay": 7,
@@ -121,8 +121,11 @@
         "text_4HMP7y",
         "button_kNmwgT"
       ],
+      "custom_css": [
+        "{max-width: 750px; margin: auto;}"
+      ],
       "settings": {
-        "color_scheme": "",
+        "color_scheme": "scheme-1",
         "content_alignment": "center",
         "padding_top": 100,
         "padding_bottom": 50,
