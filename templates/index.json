@@ -147,6 +147,7 @@
       "block_order": [
         "tab_WzMgfT"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "scheme-3",
         "header_layout": "horizontal",
@@ -510,7 +511,7 @@
         "card_color_inherited": false,
         "show_product_count": true,
         "show_icon": true,
-        "card_style": "",
+        "card_style": "style-2",
         "card_image_ratio": "adapt",
         "content_alignment": "left",
         "columns_desktop": 5,
