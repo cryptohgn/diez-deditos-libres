@@ -15,9 +15,9 @@
         "slide_JhU8hg": {
           "type": "slide",
           "settings": {
-            "color_scheme": "scheme-1",
-            "background": "shopify://shop_images/Captura_de_pantalla_2025-05-23_230728.png",
-            "background_mobile": "shopify://shop_images/Captura_de_pantalla_2025-05-23_230728.png",
+            "color_scheme": "scheme-9",
+            "background": "shopify://shop_images/Habia_Banner_Design___F.jpg",
+            "background_mobile": "shopify://shop_images/Habia_Banner_Design___F_M.jpg",
             "image_overlay_opacity": 0,
             "content_position": "middle-left",
             "text_alignment": "left",
@@ -34,9 +34,9 @@
         "slide_9yhE8c": {
           "type": "slide",
           "settings": {
-            "color_scheme": "scheme-9",
-            "background": "shopify://shop_images/70160-LI_BOX_TEJA-SKIMO-AGUA_LIBERTYMIEL-3.png",
-            "background_mobile": "shopify://shop_images/70160-LI_BOX_TEJA-SKIMO-AGUA_LIBERTYMIEL-3.png",
+            "color_scheme": "scheme-1",
+            "background": "shopify://shop_images/Habia_Banner_Design02_03_F.jpg",
+            "background_mobile": "shopify://shop_images/Habia_Banner_Design02_03_F_M.jpg",
             "image_overlay_opacity": 0,
             "content_position": "middle-left",
             "text_alignment": "left",
@@ -54,7 +54,8 @@
           "type": "slide",
           "settings": {
             "color_scheme": "scheme-1",
-            "background": "shopify://shop_images/5815-LI_CAPRONE_CAVA_LIBERTYMIEL-3.png",
+            "background": "shopify://shop_images/Habia_Banner_Design010101_F.jpg",
+            "background_mobile": "shopify://shop_images/Habia_Banner_Design010101_F_M.jpg",
             "image_overlay_opacity": 0,
             "content_position": "middle-left",
             "text_alignment": "left",
@@ -79,7 +80,7 @@
         "layout": "standard",
         "slide_height": "medium",
         "show_dots": true,
-        "autoplay": true,
+        "autoplay": false,
         "autoplay_delay": 7,
         "controls_position": "below",
         "show_text_below": true,
