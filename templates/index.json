@@ -81,7 +81,7 @@
         "show_dots": true,
         "autoplay": true,
         "autoplay_delay": 7,
-        "controls_position": "bottom",
+        "controls_position": "below",
         "show_text_below": true,
         "text_alignment_mobile": "left",
         "accessibility_info": "Slideshow about our brand"
