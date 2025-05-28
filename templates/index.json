@@ -307,6 +307,7 @@
         "text_A3Dahr",
         "button_jAUX49"
       ],
+      "disabled": true,
       "settings": {
         "section_color_scheme": "",
         "color_scheme": "scheme-2",
@@ -345,8 +346,8 @@
         "button_a7NCAJ": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
+            "button_label": "Comprar ahora",
+            "button_link": "shopify://collections",
             "button_style": "btn--primary"
           }
         }
@@ -476,7 +477,7 @@
         "card_style": "",
         "card_image_ratio": "adapt",
         "content_alignment": "left",
-        "columns_desktop": 3,
+        "columns_desktop": 5,
         "column_gap": "medium",
         "row_gap": "medium",
         "enable_slider": true,
