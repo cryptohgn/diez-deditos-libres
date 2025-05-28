@@ -206,106 +206,6 @@
         "divider_width": "fixed"
       }
     },
-    "product_tabs_78AUXG": {
-      "type": "product-tabs",
-      "blocks": {
-        "tab_DaVkiG": {
-          "type": "tab",
-          "settings": {
-            "title": "Tab name",
-            "collection": ""
-          }
-        },
-        "tab_HDUjhx": {
-          "type": "tab",
-          "settings": {
-            "title": "Tab name",
-            "collection": ""
-          }
-        },
-        "tab_gj43aE": {
-          "type": "tab",
-          "settings": {
-            "title": "Tab name",
-            "collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "tab_DaVkiG",
-        "tab_HDUjhx",
-        "tab_gj43aE"
-      ],
-      "disabled": true,
-      "settings": {
-        "color_scheme": "",
-        "header_layout": "horizontal",
-        "heading": "",
-        "heading_size": "h1",
-        "heading_highlight_style": "none",
-        "limit": 8,
-        "columns": 4,
-        "column_gap": "extra-small",
-        "row_gap": "inherit",
-        "grid_layout": "standard",
-        "pcard_image_ratio": "",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "show_all_button_on_top": true,
-        "button_label": "Button label",
-        "button_link": "",
-        "button_style": "btn--underline",
-        "tabs_nav_style": "design-2",
-        "padding_top": 100,
-        "padding_bottom": 0,
-        "show_section_divider": false,
-        "divider_width": "fixed"
-      }
-    },
-    "highlight_text_with_image_9KLzcX": {
-      "type": "highlight-text-with-image",
-      "blocks": {
-        "image_URaWGC": {
-          "type": "image",
-          "settings": {
-            "image_link": "",
-            "image_width": 220,
-            "image_width_mobile": 110
-          }
-        },
-        "image_DyKWHM": {
-          "type": "image",
-          "settings": {
-            "image_link": "",
-            "image_width": 220,
-            "image_width_mobile": 110
-          }
-        },
-        "image_NGQQmW": {
-          "type": "image",
-          "settings": {
-            "image_link": "",
-            "image_width": 220,
-            "image_width_mobile": 110
-          }
-        }
-      },
-      "block_order": [
-        "image_URaWGC",
-        "image_DyKWHM",
-        "image_NGQQmW"
-      ],
-      "settings": {
-        "color_scheme": "",
-        "text": "Highlight products, [img1] a collection, or [img2] images alongside a brand message [img3]",
-        "heading_size": "hd1",
-        "alignment": "center",
-        "padding_top": 100,
-        "padding_bottom": 100,
-        "show_section_divider": false,
-        "divider_width": "fixed"
-      }
-    },
     "image_with_text_MgddA8": {
       "type": "image-with-text",
       "blocks": {
@@ -319,7 +219,7 @@
           "type": "heading",
           "settings": {
             "heading": "Recién Llegado",
-            "heading_size": "hd1",
+            "heading_size": "hd2",
             "heading_highlight_style": "none"
           }
         },
@@ -327,14 +227,14 @@
           "type": "text",
           "settings": {
             "text": "<p>Llega el modelo Base de <strong>Froddo Barefoot</strong>. Combinando <strong>piel serraje azul</strong> con <strong>tejido amarillo neón transpirable</strong>, este zapato ofrece el equilibrio perfecto entre <strong>comodidad, flexibilidad y estilo</strong>. Ajuste fácil con doble velcro. Transpirable y respetuoso con el movimiento natural. Ideal para primavera/verano.<br/></p><p><em>¡Ya disponible! No te quedes sin tu talla.</em></p>",
-            "text_size": "text-lg"
+            "text_size": "text-base"
           }
         },
         "button_jAUX49": {
           "type": "button",
           "settings": {
             "button_label": "Comprar ahora",
-            "button_link": "",
+            "button_link": "shopify://products/froddo-zapatillas-barefoot-base-piel-y-textil-azul-amarillo",
             "button_style": "btn--primary"
           }
         }
@@ -346,9 +246,9 @@
         "button_jAUX49"
       ],
       "settings": {
-        "section_color_scheme": "",
+        "section_color_scheme": "scheme-1",
         "color_scheme": "scheme-2",
-        "image": "shopify://shop_images/DEPORTIVASAZUL.webp",
+        "image": "shopify://shop_images/G3130261-4_1.jpg",
         "image_height": "adapt",
         "layout": "text_first",
         "desktop_content_position": "center",
@@ -393,6 +293,9 @@
         "heading_r9cAGE",
         "text_LArGLV",
         "button_a7NCAJ"
+      ],
+      "custom_css": [
+        "@media (min-width: 950px) {{max-width: 950px; margin: auto; }}"
       ],
       "settings": {
         "color_scheme": "",
@@ -1488,8 +1391,6 @@
     "rich_text_Jr78BJ",
     "product_tabs_iJHLzK",
     "featured_collection_qBzGAg",
-    "product_tabs_78AUXG",
-    "highlight_text_with_image_9KLzcX",
     "image_with_text_MgddA8",
     "rich_text_iKgXTP",
     "rich_text_7rBwdd",
