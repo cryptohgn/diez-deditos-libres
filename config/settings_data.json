@@ -144,7 +144,7 @@
           "border": "#8abfed",
           "text": "#072135",
           "background": "#eef8ff",
-          "secondary_background": "#eef8ff",
+          "secondary_background": "#FFFFFF",
           "button": "#2685db",
           "button_label": "#ffffff",
           "secondary_button": "#eef8ff",
