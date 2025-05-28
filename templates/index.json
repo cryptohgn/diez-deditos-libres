@@ -890,27 +890,6 @@
         "divider_width": "fixed"
       }
     },
-    "products_showcase_9KVeQe": {
-      "type": "products-showcase",
-      "settings": {
-        "color_scheme": "",
-        "heading": "Products showcase",
-        "heading_size": "h2",
-        "heading_highlight_style": "none",
-        "products": [],
-        "pcard_title_size": "hd2",
-        "pcard_description_display": "3-lines",
-        "pcard_description_size": "text-lg",
-        "pcard_image_ratio": "3/4",
-        "pcard_show_vendor": true,
-        "pcard_show_type": false,
-        "pcard_button_label": "Button label",
-        "padding_top": 100,
-        "padding_bottom": 100,
-        "show_section_divider": false,
-        "divider_width": "fixed"
-      }
-    },
     "scrolling_promotion_htQpcB": {
       "type": "scrolling-promotion",
       "blocks": {
@@ -1040,6 +1019,27 @@
         "divider_layout": "vertical"
       }
     },
+    "products_showcase_9KVeQe": {
+      "type": "products-showcase",
+      "settings": {
+        "color_scheme": "",
+        "heading": "Products showcase",
+        "heading_size": "h2",
+        "heading_highlight_style": "none",
+        "products": [],
+        "pcard_title_size": "hd2",
+        "pcard_description_display": "3-lines",
+        "pcard_description_size": "text-lg",
+        "pcard_image_ratio": "3/4",
+        "pcard_show_vendor": true,
+        "pcard_show_type": false,
+        "pcard_button_label": "Button label",
+        "padding_top": 100,
+        "padding_bottom": 100,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
     "featured_products_tab_yYcGgw": {
       "type": "featured-products-tab",
       "blocks": {
@@ -1086,6 +1086,7 @@
         "tab_hhgdKc",
         "tab_PQhFrR"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "",
         "enable_video_autoplay": true,
@@ -1312,6 +1313,7 @@
         "collapsible_item_JCwmkt",
         "image_card_jbgAcV"
       ],
+      "disabled": true,
       "settings": {
         "container": "fixed",
         "color_scheme": "scheme-2",
@@ -1422,6 +1424,7 @@
         "image_card_6PehkE",
         "image_card_GKVG6K"
       ],
+      "disabled": true,
       "settings": {
         "container": "fixed",
         "color_scheme": "",
@@ -1458,8 +1461,8 @@
     "feature_list_cW3d9c",
     "rich_text_J3XnPC",
     "custom_content_rhXbV3",
-    "products_showcase_9KVeQe",
     "scrolling_promotion_htQpcB",
+    "products_showcase_9KVeQe",
     "featured_products_tab_yYcGgw",
     "1748340579271eabb5",
     "testimonials_8JHr3L",

@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "name": "t:sections.footer.name",
   "type": "footer",
@@ -9,10 +18,10 @@
           "type": "newsletter",
           "settings": {
             "block_width": 41,
-            "heading": "Subscribe to our emails",
+            "heading": "Suscríbete al correo",
             "heading_size": "h1",
-            "newsletter_description": "<p>Be the first to know about new collections and exclusive offers.<\/p>",
-            "newsletter_term": "<p>By subscribing you agree to the <a href=\"#\">Terms of Use<\/a> & <a href=\"#\">Privacy Policy.<\/a><\/p>",
+            "newsletter_description": "<p>Sé la primera en enterarte de nuevas colecciones y ofertas exclusivas.</p>",
+            "newsletter_term": "<p>Al suscribirse, acepta los Términos de uso y la Política de privacidad.</p>",
             "newsletter_text_alignment": "left",
             "form_width": 465,
             "order_first": true
@@ -25,28 +34,33 @@
             "heading": "About",
             "heading_size": "h4",
             "image_width": 150,
-            "text": "<p>Share store details, promotions, or brand content with your customers.<\/p>",
+            "text": "<p>Share store details, promotions, or brand content with your customers.</p>",
             "button_label": "Button label",
             "button_link": "",
-            "open_default": false
+            "open_default": false,
+            "show_divider": false
           }
         },
         "menu_DEKGYP": {
           "type": "menu",
           "settings": {
             "block_width": 17,
-            "heading": "Quick links",
+            "heading": "Información Barefoot",
             "heading_size": "h4",
-            "open_default": false
+            "menu": "footer",
+            "open_default": false,
+            "show_divider": false
           }
         },
         "menu_4eCrBB": {
           "type": "menu",
           "settings": {
             "block_width": 17,
-            "heading": "Quick links",
+            "heading": "Nuestro compromiso",
             "heading_size": "h4",
-            "open_default": false
+            "menu": "footer",
+            "open_default": false,
+            "show_divider": false
           }
         }
       },
@@ -66,6 +80,7 @@
         "enable_country_selector": true,
         "enable_language_selector": false,
         "payment_enable": true,
+        "footer_bottom_menu": "",
         "show_section_divider": true,
         "divider_width": "full"
       }
@@ -102,7 +117,7 @@
           "type": "link",
           "settings": {
             "text": "About",
-            "url": "shopify:\/\/pages\/about",
+            "url": "shopify://pages/about",
             "icon": "map-pin"
           }
         }
