@@ -1031,7 +1031,7 @@
         "vertical_alignment": "center",
         "direction": "left",
         "pause_on_hover": true,
-        "speed": 0.2,
+        "speed": 0.1,
         "h_spacing": 50,
         "v_spacing": 26,
         "padding_top": 0,
