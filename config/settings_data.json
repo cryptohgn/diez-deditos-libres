@@ -9,7 +9,7 @@
  */
 {
   "current": {
-    "logo": "shopify://shop_images/LogoDDLSinTexto.svg",
+    "logo": "shopify://shop_images/LogoDDL.svg",
     "logo_width": 80,
     "logo_width_mobile": 80,
     "type_body_font": "quicksand_n4",
@@ -118,8 +118,8 @@
           "button": "#ea5cb8",
           "button_label": "#ffffff",
           "secondary_button": "#ea5cb8",
-          "secondary_button_border": "#FFFFFF",
-          "secondary_button_label": "#FFFFFF",
+          "secondary_button_border": "#ffffff",
+          "secondary_button_label": "#ffffff",
           "button_hover": "#f3a6d8",
           "button_label_hover": "#072135",
           "form_field": "#f5f5f5",
@@ -152,7 +152,7 @@
           "border": "#8abfed",
           "text": "#072135",
           "background": "#eef8ff",
-          "secondary_background": "#FFFFFF",
+          "secondary_background": "#ffffff",
           "button": "#2685db",
           "button_label": "#ffffff",
           "secondary_button": "#eef8ff",
@@ -167,40 +167,40 @@
       },
       "scheme-4": {
         "settings": {
-          "primary_accent": "#FFFFFF",
+          "primary_accent": "#ffffff",
           "border": "#2685db",
-          "text": "#FFFFFF",
+          "text": "#ffffff",
           "background": "#2685db",
           "secondary_background": "#8abfed",
-          "button": "#FFFFFF",
+          "button": "#ffffff",
           "button_label": "#2685db",
           "secondary_button": "#8abfed",
-          "secondary_button_border": "#FFFFFF",
-          "secondary_button_label": "#FFFFFF",
-          "button_hover": "#FFFFFF",
+          "secondary_button_border": "#ffffff",
+          "secondary_button_label": "#ffffff",
+          "button_hover": "#ffffff",
           "button_label_hover": "#2685db",
-          "form_field": "#FFFFFF",
+          "form_field": "#ffffff",
           "form_field_label": "#2685db",
           "product_price_sale": "#d63a2f"
         }
       },
       "scheme-inverse": {
         "settings": {
-          "primary_accent": "#FFFFFF",
+          "primary_accent": "#ffffff",
           "border": "#ea5cb8",
-          "text": "#FFFFFF",
+          "text": "#ffffff",
           "background": "#ea5cb8",
           "secondary_background": "#f3a6d8",
           "button": "#ffffff",
           "button_label": "#ea5cb8",
           "secondary_button": "#ea5cb8",
-          "secondary_button_border": "#FFFFFF",
-          "secondary_button_label": "#FFFFFF",
-          "button_hover": "#FFFFFF",
+          "secondary_button_border": "#ffffff",
+          "secondary_button_label": "#ffffff",
+          "button_hover": "#ffffff",
           "button_label_hover": "#ea5cb8",
           "form_field": "#ffffff",
           "form_field_label": "#ea5cb8",
-          "product_price_sale": "#6C69DE"
+          "product_price_sale": "#6c69de"
         }
       },
       "scheme-6": {

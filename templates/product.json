@@ -57,6 +57,7 @@
         },
         "inventory": {
           "type": "inventory",
+          "disabled": true,
           "settings": {
             "text_style": "body",
             "inventory_threshold": 5,
@@ -180,7 +181,6 @@
     },
     "featured_collection_mMNhac": {
       "type": "featured-collection",
-      "name": "t:sections.featured-collection.presets.name",
       "settings": {
         "color_scheme": "scheme-2",
         "header_layout": "vertical",
