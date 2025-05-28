@@ -12,7 +12,7 @@
     "breadcrumbs_Gxg9wp": {
       "type": "breadcrumbs",
       "settings": {
-        "text_alignment": "center"
+        "text_alignment": "start"
       }
     },
     "banner": {
@@ -42,8 +42,8 @@
         "enable_parallax": true,
         "parallax_direction": "vertical",
         "image_height_mobile": "auto",
-        "padding_top": 38,
-        "padding_bottom": 60
+        "padding_top": 20,
+        "padding_bottom": 50
       }
     },
     "product-grid": {
