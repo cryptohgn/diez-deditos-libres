@@ -219,7 +219,7 @@
           "type": "heading",
           "settings": {
             "heading": "Recién Llegado",
-            "heading_size": "hd2",
+            "heading_size": "h1",
             "heading_highlight_style": "none"
           }
         },
@@ -269,7 +269,7 @@
           "type": "heading",
           "settings": {
             "heading": "Calzado Respetuoso con los Pies",
-            "heading_size": "hd1",
+            "heading_size": "h1",
             "heading_highlight_style": "none"
           }
         },
