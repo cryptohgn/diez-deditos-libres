@@ -86,6 +86,26 @@
         "collapsible_tab_7HzjbR": {
           "type": "collapsible_tab",
           "settings": {
+            "heading": "Características Barefoot",
+            "icon": "none",
+            "content": "<p>{{ product.metafields.info.caracteristicas_barefoot | metafield_tag }}</p>",
+            "page": "",
+            "default_open": false
+          }
+        },
+        "collapsible_tab_bExi78": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Materiales",
+            "icon": "none",
+            "content": "<p>{{ product.metafields.info.materiales | metafield_tag }}</p>",
+            "page": "",
+            "default_open": false
+          }
+        },
+        "collapsible_tab_AQMpAi": {
+          "type": "collapsible_tab",
+          "settings": {
             "heading": "Materiales",
             "icon": "none",
             "content": "<p>{{ product.metafields.info.materiales | metafield_tag }}</p>",
@@ -157,6 +177,8 @@
         "buy_buttons",
         "collapsible_tab_3cpfAJ",
         "collapsible_tab_7HzjbR",
+        "collapsible_tab_bExi78",
+        "collapsible_tab_AQMpAi",
         "collapsible_tab_q8mehX",
         "collapsible_tab_LBaqXK",
         "pickup_availability",
