@@ -1824,5 +1824,10 @@
         }
       }
     }
+  },
+  "platform_customizations": {
+    "custom_css": [
+      "@media (max-width: 768px) {.menu-drawer__item-link {font-weight: 400px !important; font-size: var(--font-h6-size)!important; }}"
+    ]
   }
 }
