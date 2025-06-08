@@ -105,21 +105,11 @@
             "text": "<p>¡La primavera llega con nuevas marcas barefoot y colores vibrantes en calzado barefoot! Descubre nuestra colección de zapatos minimalistas, zapatillas y sandalias que ofrecen máximo confort, flexibilidad y libertad de movimiento. ¡Siente la diferencia de un calzado que respeta tus pies! Explora la colección antes de que se agoten.</p>",
             "text_size": "text-base"
           }
-        },
-        "button_kNmwgT": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style": "btn--primary"
-          }
         }
       },
       "block_order": [
         "heading_nxCWcP",
-        "text_4HMP7y",
-        "button_kNmwgT"
+        "text_4HMP7y"
       ],
       "custom_css": [
         "@media (min-width: 950px) and (max-width: 1536px) {{max-width: 750px; margin: auto; }}"
@@ -129,46 +119,6 @@
         "content_alignment": "center",
         "padding_top": 100,
         "padding_bottom": 50,
-        "show_section_divider": false,
-        "divider_width": "fixed"
-      }
-    },
-    "product_tabs_iJHLzK": {
-      "type": "product-tabs",
-      "blocks": {
-        "tab_WzMgfT": {
-          "type": "tab",
-          "settings": {
-            "title": "Primavera 2025",
-            "collection": "novedades-1"
-          }
-        }
-      },
-      "block_order": [
-        "tab_WzMgfT"
-      ],
-      "disabled": true,
-      "settings": {
-        "color_scheme": "scheme-3",
-        "header_layout": "horizontal",
-        "heading": "",
-        "heading_size": "h1",
-        "heading_highlight_style": "none",
-        "limit": 12,
-        "columns": 4,
-        "column_gap": "extra-small",
-        "row_gap": "inherit",
-        "grid_layout": "standard",
-        "pcard_image_ratio": "",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "show_all_button_on_top": true,
-        "button_label": "Ver todas",
-        "button_link": "",
-        "button_style": "btn--underline",
-        "tabs_nav_style": "design-2",
-        "padding_top": 100,
-        "padding_bottom": 100,
         "show_section_divider": false,
         "divider_width": "fixed"
       }
@@ -306,40 +256,6 @@
         "divider_width": "fixed"
       }
     },
-    "rich_text_7rBwdd": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_cUbnWW": {
-          "type": "heading",
-          "settings": {
-            "heading": "Calzado Respetuoso con los Pies",
-            "heading_size": "h1",
-            "heading_highlight_style": "none"
-          }
-        },
-        "button_PeGbeL": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style": "btn--underline"
-          }
-        }
-      },
-      "block_order": [
-        "heading_cUbnWW",
-        "button_PeGbeL"
-      ],
-      "disabled": true,
-      "settings": {
-        "color_scheme": "",
-        "content_alignment": "center",
-        "padding_top": 60,
-        "padding_bottom": 0,
-        "show_section_divider": false,
-        "divider_width": "fixed"
-      }
-    },
     "collection_list_Pr36qH": {
       "type": "collection-list",
       "blocks": {
@@ -425,408 +341,6 @@
         "swipe_on_mobile": true,
         "padding_top": 100,
         "padding_bottom": 100,
-        "show_section_divider": false,
-        "divider_width": "fixed"
-      }
-    },
-    "products_bundle_cFjE73": {
-      "type": "products-bundle",
-      "blocks": {
-        "product_tNmVzg": {
-          "type": "product",
-          "settings": {
-            "product": "bigtoes-flat-sky-1",
-            "color_scheme": "",
-            "horizontal_position": 77,
-            "vertical_position": 48
-          }
-        },
-        "product_63XUQd": {
-          "type": "product",
-          "settings": {
-            "product": "baby-lobitos-lobitos-barefoot-sandia",
-            "color_scheme": "",
-            "horizontal_position": 45,
-            "vertical_position": 54
-          }
-        },
-        "product_bNtrwr": {
-          "type": "product",
-          "settings": {
-            "product": "bar3foot-deportiva-respetuosa-elf-denver-blanco",
-            "color_scheme": "",
-            "horizontal_position": 19,
-            "vertical_position": 41
-          }
-        }
-      },
-      "block_order": [
-        "product_tNmVzg",
-        "product_63XUQd",
-        "product_bNtrwr"
-      ],
-      "disabled": true,
-      "settings": {
-        "color_scheme": "",
-        "image": "shopify://shop_images/FLATSKY6_445f67b6-5533-4652-9780-04817026372f.webp",
-        "heading": "Build Your Own Basket",
-        "heading_size": "h1",
-        "heading_highlight_style": "none",
-        "subheading": "Bundle & save",
-        "description": "",
-        "padding_top": 100,
-        "padding_bottom": 0,
-        "show_section_divider": false,
-        "divider_width": "fixed"
-      }
-    },
-    "multicolumn_mQAQbW": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_6be7nJ": {
-          "type": "column",
-          "settings": {
-            "image_width": "extra-large",
-            "title": "",
-            "heading_size": "h4",
-            "text": "<p>“Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.”</p>",
-            "text_size": "text-lg",
-            "button_label": "",
-            "button_style": "btn--underline",
-            "button_link": "",
-            "mobile_layout": "inherit"
-          }
-        },
-        "column_m4RcYP": {
-          "type": "column",
-          "settings": {
-            "image_width": "extra-large",
-            "title": "",
-            "heading_size": "h4",
-            "text": "<p>“Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.”</p>",
-            "text_size": "text-lg",
-            "button_label": "",
-            "button_style": "btn--underline",
-            "button_link": "",
-            "mobile_layout": "inherit"
-          }
-        },
-        "column_bRpkxq": {
-          "type": "column",
-          "settings": {
-            "image_width": "extra-large",
-            "title": "",
-            "heading_size": "h4",
-            "text": "<p>“Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.”</p>",
-            "text_size": "text-lg",
-            "button_label": "",
-            "button_style": "btn--underline",
-            "button_link": "",
-            "mobile_layout": "inherit"
-          }
-        }
-      },
-      "block_order": [
-        "column_6be7nJ",
-        "column_m4RcYP",
-        "column_bRpkxq"
-      ],
-      "disabled": true,
-      "settings": {
-        "color_scheme": "",
-        "heading": "Multicolumn",
-        "heading_size": "h1",
-        "heading_highlight_style": "none",
-        "subheading": "",
-        "description": "",
-        "text_size": "text-base",
-        "column_alignment": "center",
-        "columns_desktop": 3,
-        "column_gap": "large",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_top": 100,
-        "padding_bottom": 100,
-        "show_section_divider": false,
-        "divider_width": "fixed"
-      }
-    },
-    "card_images_YfYkKC": {
-      "type": "card-images",
-      "blocks": {
-        "image_card_wqEYFA": {
-          "type": "image_card",
-          "settings": {
-            "color_scheme": "",
-            "image_overlay_opacity": 0,
-            "heading": "Image card",
-            "heading_size": "hd2",
-            "subheading": "Add a tagline",
-            "description": "<p>Tell your brand's story through images</p>",
-            "description_size": "text-lg",
-            "button_label": "Button label",
-            "button_style": "btn--primary",
-            "content_position": "middle-left",
-            "content_alignment": "left",
-            "content_spacing": "large",
-            "card_link": "",
-            "content_position_mobile": "top-center",
-            "content_alignment_mobile": "center"
-          }
-        },
-        "image_card_gQwfAa": {
-          "type": "image_card",
-          "settings": {
-            "color_scheme": "",
-            "image_overlay_opacity": 0,
-            "heading": "Image card",
-            "heading_size": "hd2",
-            "subheading": "Add a tagline",
-            "description": "<p>Tell your brand's story through images</p>",
-            "description_size": "text-lg",
-            "button_label": "Button label",
-            "button_style": "btn--primary",
-            "content_position": "middle-left",
-            "content_alignment": "left",
-            "content_spacing": "large",
-            "card_link": "",
-            "content_position_mobile": "top-center",
-            "content_alignment_mobile": "center"
-          }
-        },
-        "image_card_944yhH": {
-          "type": "image_card",
-          "settings": {
-            "color_scheme": "",
-            "image_overlay_opacity": 0,
-            "heading": "Image card",
-            "heading_size": "hd2",
-            "subheading": "Add a tagline",
-            "description": "<p>Tell your brand's story through images</p>",
-            "description_size": "text-lg",
-            "button_label": "Button label",
-            "button_style": "btn--primary",
-            "content_position": "middle-left",
-            "content_alignment": "left",
-            "content_spacing": "large",
-            "card_link": "",
-            "content_position_mobile": "top-center",
-            "content_alignment_mobile": "center"
-          }
-        }
-      },
-      "block_order": [
-        "image_card_wqEYFA",
-        "image_card_gQwfAa",
-        "image_card_944yhH"
-      ],
-      "disabled": true,
-      "settings": {
-        "color_scheme": "",
-        "subheading": "",
-        "heading": "Card images",
-        "heading_size": "h1",
-        "heading_highlight_style": "none",
-        "description": "",
-        "description_size": "text-base",
-        "image_ratio": "adapt",
-        "enable_equal_height": false,
-        "columns_desktop": 2,
-        "column_gap": "extra-small",
-        "enable_slider": true,
-        "padding_top": 100,
-        "padding_bottom": 0,
-        "show_section_divider": true,
-        "divider_width": "full"
-      }
-    },
-    "feature_list_cW3d9c": {
-      "type": "feature-list",
-      "blocks": {
-        "feature_item_VbCwL3": {
-          "type": "feature_item",
-          "settings": {
-            "color_scheme": "",
-            "icon": "check",
-            "icon_style": "btn--secondary",
-            "text": "Feature item"
-          }
-        },
-        "feature_item_NzxQGa": {
-          "type": "feature_item",
-          "settings": {
-            "color_scheme": "",
-            "icon": "check",
-            "icon_style": "btn--secondary",
-            "text": "Feature item"
-          }
-        },
-        "feature_item_yyNV9A": {
-          "type": "feature_item",
-          "settings": {
-            "color_scheme": "",
-            "icon": "check",
-            "icon_style": "btn--secondary",
-            "text": "Feature item"
-          }
-        },
-        "feature_item_gBgLft": {
-          "type": "feature_item",
-          "settings": {
-            "color_scheme": "",
-            "icon": "check",
-            "icon_style": "btn--secondary",
-            "text": "Feature item"
-          }
-        },
-        "feature_item_R8A8eX": {
-          "type": "feature_item",
-          "settings": {
-            "color_scheme": "",
-            "icon": "check",
-            "icon_style": "btn--secondary",
-            "text": "Feature item"
-          }
-        },
-        "feature_item_GdLDXK": {
-          "type": "feature_item",
-          "settings": {
-            "color_scheme": "",
-            "icon": "check",
-            "icon_style": "btn--secondary",
-            "text": "Feature"
-          }
-        }
-      },
-      "block_order": [
-        "feature_item_VbCwL3",
-        "feature_item_NzxQGa",
-        "feature_item_yyNV9A",
-        "feature_item_gBgLft",
-        "feature_item_R8A8eX",
-        "feature_item_GdLDXK"
-      ],
-      "disabled": true,
-      "settings": {
-        "color_scheme": "scheme-7",
-        "subheading": "",
-        "heading": "",
-        "heading_size": "h2",
-        "heading_highlight_style": "none",
-        "description": "",
-        "text_size": "text-base",
-        "item_alignment": "center",
-        "icon_size": "extra-medium",
-        "swipe_on_mobile": true,
-        "padding_top": 100,
-        "padding_bottom": 0,
-        "show_section_divider": false,
-        "divider_width": "fixed"
-      }
-    },
-    "rich_text_J3XnPC": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_jLVTiL": {
-          "type": "heading",
-          "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1",
-            "heading_highlight_style": "none"
-          }
-        },
-        "button_jYDXnF": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style": "btn--underline"
-          }
-        }
-      },
-      "block_order": [
-        "heading_jLVTiL",
-        "button_jYDXnF"
-      ],
-      "disabled": true,
-      "settings": {
-        "color_scheme": "",
-        "content_alignment": "center",
-        "padding_top": 100,
-        "padding_bottom": 0,
-        "show_section_divider": false,
-        "divider_width": "fixed"
-      }
-    },
-    "custom_content_rhXbV3": {
-      "type": "custom-content",
-      "blocks": {
-        "image_card_g7LinJ": {
-          "type": "image_card",
-          "settings": {
-            "color_scheme": "scheme-inverse",
-            "image_ratio": "adapt",
-            "image_overlay_opacity": 0,
-            "heading": "Image card",
-            "heading_size": "h1",
-            "heading_highlight_style": "none",
-            "subheading": "Add a tagline",
-            "description": "",
-            "button_label": "Button label",
-            "button_style": "btn--primary",
-            "content_position": "top-center",
-            "content_alignment": "center",
-            "content_spacing": "large",
-            "card_link": "",
-            "color_scheme_mobile": "scheme-inverse",
-            "show_text_below": false,
-            "content_alignment_mobile": "center",
-            "width": "50%",
-            "alignment": "start",
-            "block_custom_class": ""
-          }
-        },
-        "collections_Q3fY6f": {
-          "type": "collections",
-          "settings": {
-            "collection_list": [],
-            "hide_collection_name": false,
-            "button_label": "",
-            "button_style": "btn--primary",
-            "limit": 4,
-            "columns": 2,
-            "column_gap": "extra-small",
-            "row_gap": "inherit",
-            "enable_slider": true,
-            "pcard_image_ratio": "",
-            "columns_mobile": "2",
-            "swipe_on_mobile": false,
-            "width": "50%",
-            "alignment": "start",
-            "block_custom_class": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_card_g7LinJ",
-        "collections_Q3fY6f"
-      ],
-      "disabled": true,
-      "settings": {
-        "container": "fixed",
-        "color_scheme": "",
-        "enable_sticky_column": true,
-        "heading": "",
-        "heading_size": "h1",
-        "heading_highlight_style": "none",
-        "subheading": "",
-        "description": "",
-        "column_gap": "large",
-        "row_gap": "inherit",
-        "swipe_on_mobile": false,
-        "columns_mobile": "1",
-        "padding_top": 100,
-        "padding_bottom": 0,
         "show_section_divider": false,
         "divider_width": "fixed"
       }
@@ -960,6 +474,96 @@
         "divider_layout": "vertical"
       }
     },
+    "multicolumn_fyPhFX": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_RBiGpV": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/LogoDDL2.svg",
+            "image_width": "large",
+            "title": "Atención al cliente",
+            "heading_size": "h4",
+            "text": "<p>Disponemos de un equipo de asesoramiento dispuesto a ayudarle en todo momento</p>",
+            "text_size": "text-base",
+            "button_label": "",
+            "button_style": "btn--underline",
+            "button_link": "",
+            "mobile_layout": "inherit"
+          }
+        },
+        "column_yE84rN": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/LogoDDL2.svg",
+            "image_width": "large",
+            "title": "Atención al cliente",
+            "heading_size": "h4",
+            "text": "<p>Disponemos de un equipo de asesoramiento dispuesto a ayudarle en todo momento</p>",
+            "text_size": "text-base",
+            "button_label": "",
+            "button_style": "btn--underline",
+            "button_link": "",
+            "mobile_layout": "inherit"
+          }
+        },
+        "column_PjQBVB": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/LogoDDL2.svg",
+            "image_width": "large",
+            "title": "Atención al cliente",
+            "heading_size": "h4",
+            "text": "<p>Disponemos de un equipo de asesoramiento dispuesto a ayudarle en todo momento</p>",
+            "text_size": "text-base",
+            "button_label": "",
+            "button_style": "btn--underline",
+            "button_link": "",
+            "mobile_layout": "inherit"
+          }
+        },
+        "column_MNeAPn": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/LogoDDL2.svg",
+            "image_width": "large",
+            "title": "Atención al cliente",
+            "heading_size": "h4",
+            "text": "<p>Disponemos de un equipo de asesoramiento dispuesto a ayudarle en todo momento</p>",
+            "text_size": "text-base",
+            "button_label": "",
+            "button_style": "btn--underline",
+            "button_link": "",
+            "mobile_layout": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "column_RBiGpV",
+        "column_yE84rN",
+        "column_PjQBVB",
+        "column_MNeAPn"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "color_scheme": "scheme-2",
+        "heading": "",
+        "heading_size": "h1",
+        "heading_highlight_style": "none",
+        "subheading": "",
+        "description": "",
+        "text_size": "text-base",
+        "column_alignment": "center",
+        "columns_desktop": 4,
+        "column_gap": "large",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
     "1748340579271eabb5": {
       "type": "apps",
       "blocks": {
@@ -1010,121 +614,19 @@
       "settings": {
         "include_margins": true,
         "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "testimonials_8JHr3L": {
-      "type": "testimonials",
-      "blocks": {
-        "testimonial_dhi3Xf": {
-          "type": "testimonial",
-          "settings": {
-            "text": "<p>Me encantan!</p>",
-            "author": "Laura R.D.",
-            "bio": "",
-            "product": "blanditos-by-crio-s-zapatilla-respetuosa-rio-blanco-naranja",
-            "icon": "none"
-          }
-        },
-        "testimonial_D7Mq7i": {
-          "type": "testimonial",
-          "settings": {
-            "text": "<p>Son cómodas y se adaptan a cualquier look!!</p>",
-            "author": "Patricia T.",
-            "bio": "",
-            "product": "coqueflex-sambas-barefoot-adulto-cereza",
-            "icon": "none"
-          }
-        },
-        "testimonial_33tAjm": {
-          "type": "testimonial",
-          "settings": {
-            "text": "<p>Mi peque ha empezado a andar hace 1mes y las bobux han sido perfectas para empezar a caminar, blanditas y fáciles de poner.</p>",
-            "author": "Patricia T.",
-            "bio": "",
-            "product": "bobux-explorer-go-scamp-organic-rojo",
-            "icon": "none"
-          }
-        },
-        "testimonial_dDRMwy": {
-          "type": "testimonial",
-          "settings": {
-            "text": "<p>Envío rápido y con un detalle incluido. Muy buena experiencia.</p>",
-            "author": "Julia G.V.",
-            "bio": "",
-            "product": "fare-bare-zapatilla-respetuosa-serie-a-turquesa-floral",
-            "icon": "none"
-          }
-        },
-        "testimonial_eHxqgW": {
-          "type": "testimonial",
-          "settings": {
-            "text": "<p>Piel muy suave, sin costuras enla parte interior y muy sencillas de calzar incluso para los mas pequeños. Suela muy flexible.</p>",
-            "author": "Alicia L.",
-            "bio": "",
-            "product": "blanditos-by-crio-s-deportiva-respetuosa-paris",
-            "icon": "none"
-          }
-        },
-        "testimonial_abi6JN": {
-          "type": "testimonial",
-          "settings": {
-            "text": "<p>Genial. Para repetir.</p><p>Alta calidad. Buen asesoramiento</p>",
-            "author": "María J.P.",
-            "bio": "",
-            "product": "cordones-elasticos-funny-lok",
-            "icon": "none"
-          }
-        }
-      },
-      "block_order": [
-        "testimonial_dhi3Xf",
-        "testimonial_D7Mq7i",
-        "testimonial_33tAjm",
-        "testimonial_dDRMwy",
-        "testimonial_eHxqgW",
-        "testimonial_abi6JN"
-      ],
-      "disabled": true,
-      "settings": {
-        "color_scheme": "scheme-2",
-        "heading": "Los clientes hablan por nosotros",
-        "heading_size": "h2",
-        "heading_highlight_style": "none",
-        "subheading": "",
-        "description": "",
-        "text_size": "text-base",
-        "card_color_scheme": "",
-        "card_layout": "2",
-        "columns_desktop": 5,
-        "column_gap": "medium",
-        "enable_slider": true,
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "padding_top": 56,
-        "padding_bottom": 98,
-        "show_section_divider": false,
-        "divider_width": "fixed"
+        "padding_bottom": 80
       }
     }
   },
   "order": [
     "slideshow_q3U4Jn",
     "rich_text_Jr78BJ",
-    "product_tabs_iJHLzK",
     "featured_collection_qBzGAg",
     "image_with_text_MgddA8",
     "rich_text_iKgXTP",
-    "rich_text_7rBwdd",
     "collection_list_Pr36qH",
-    "products_bundle_cFjE73",
-    "multicolumn_mQAQbW",
-    "card_images_YfYkKC",
-    "feature_list_cW3d9c",
-    "rich_text_J3XnPC",
-    "custom_content_rhXbV3",
     "scrolling_promotion_htQpcB",
-    "1748340579271eabb5",
-    "testimonials_8JHr3L"
+    "multicolumn_fyPhFX",
+    "1748340579271eabb5"
   ]
 }
