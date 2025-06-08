@@ -40,16 +40,6 @@
           "type": "price",
           "settings": {}
         },
-        "collapsible_tab_3cpfAJ": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Descripción",
-            "icon": "none",
-            "content": "{{ product.description }}",
-            "page": "",
-            "default_open": false
-          }
-        },
         "description": {
           "type": "description",
           "disabled": true,
@@ -81,6 +71,36 @@
             "show_quantity_selector": false,
             "show_dynamic_checkout": true,
             "show_gift_card_recipient": true
+          }
+        },
+        "collapsible_tab_3cpfAJ": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Descripción",
+            "icon": "none",
+            "content": "{{ product.description }}",
+            "page": "",
+            "default_open": false
+          }
+        },
+        "collapsible_tab_7HzjbR": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Descripción",
+            "icon": "none",
+            "content": "{{ product.description }}",
+            "page": "",
+            "default_open": false
+          }
+        },
+        "collapsible_tab_q8mehX": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Descripción",
+            "icon": "none",
+            "content": "{{ product.description }}",
+            "page": "",
+            "default_open": false
           }
         },
         "collapsible_tab_LBaqXK": {
@@ -131,11 +151,13 @@
         "title",
         "judge_me_reviews_preview_badge_9jbUUp",
         "price",
-        "collapsible_tab_3cpfAJ",
         "description",
         "inventory",
         "variant_picker",
         "buy_buttons",
+        "collapsible_tab_3cpfAJ",
+        "collapsible_tab_7HzjbR",
+        "collapsible_tab_q8mehX",
         "collapsible_tab_LBaqXK",
         "pickup_availability",
         "complementary",
