@@ -211,7 +211,18 @@
                 </button>
                 <div class="drawer__body v-scrollable h-full">
                   <h1 class="h2">{{ block.settings.page.title | escape }}</h1>
-                  {{ block.settings.page.content }}
+                  {% comment %}{{ block.settings.page.content }}{% endcomment %}
+                  <img
+                    src="{{ product.metafields.custom.collapsable | image_url }}"
+                    {% if product.metafields.custom.collapsable.alt != blank %}
+                      alt="{{ product.metafields.custom.collapsable.alt | escape }}"
+                    {% else %}
+                      role="presentation"
+                    {% endif %}
+                    height="auto"
+                    width="auto"
+                    loading="lazy"
+                  >
                 </div>
               </div>
             </basic-modal>
