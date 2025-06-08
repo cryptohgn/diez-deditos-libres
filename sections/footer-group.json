@@ -73,7 +73,7 @@
       "settings": {
         "color_scheme": "scheme-4",
         "enable_follow_on_shop": false,
-        "show_social": false,
+        "show_social": true,
         "enable_country_selector": true,
         "enable_language_selector": true,
         "payment_enable": true,
