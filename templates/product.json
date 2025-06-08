@@ -106,9 +106,19 @@
         "collapsible_tab_AQMpAi": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Materiales",
+            "heading": "Información sobre Tallas",
             "icon": "none",
-            "content": "<p>{{ product.metafields.info.materiales | metafield_tag }}</p>",
+            "content": "<p>{{ product.metafields.info.tallas | metafield_tag }}</p>",
+            "page": "",
+            "default_open": false
+          }
+        },
+        "collapsible_tab_fjKBCq": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Estado Marcha y Horma",
+            "icon": "none",
+            "content": "<p>{{ product.metafields.info.marcha_horma | metafield_tag }}</p>",
             "page": "",
             "default_open": false
           }
@@ -179,6 +189,7 @@
         "collapsible_tab_7HzjbR",
         "collapsible_tab_bExi78",
         "collapsible_tab_AQMpAi",
+        "collapsible_tab_fjKBCq",
         "collapsible_tab_q8mehX",
         "collapsible_tab_LBaqXK",
         "pickup_availability",
