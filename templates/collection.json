@@ -84,7 +84,7 @@
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "color_scheme": "",
-        "content_alignment": "center",
+        "content_alignment": "left",
         "padding_top": 50,
         "padding_bottom": 50,
         "show_section_divider": false,
