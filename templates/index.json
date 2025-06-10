@@ -480,11 +480,11 @@
         "column_RBiGpV": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/LogoDDL2.svg",
+            "image": "shopify://shop_images/Diseno_sin_titulo_6.png",
             "image_width": "large",
-            "title": "Atención al cliente",
+            "title": "Envío 24-72h",
             "heading_size": "h4",
-            "text": "<p>Disponemos de un equipo de asesoramiento dispuesto a ayudarle en todo momento</p>",
+            "text": "",
             "text_size": "text-base",
             "button_label": "",
             "button_style": "btn--underline",
@@ -495,11 +495,11 @@
         "column_yE84rN": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/LogoDDL2.svg",
+            "image": "shopify://shop_images/Diseno_sin_titulo_3.png",
             "image_width": "large",
-            "title": "Atención al cliente",
+            "title": "Calzado Respetuoso",
             "heading_size": "h4",
-            "text": "<p>Disponemos de un equipo de asesoramiento dispuesto a ayudarle en todo momento</p>",
+            "text": "",
             "text_size": "text-base",
             "button_label": "",
             "button_style": "btn--underline",
@@ -510,26 +510,11 @@
         "column_PjQBVB": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/LogoDDL2.svg",
+            "image": "shopify://shop_images/Diseno_sin_titulo_5.png",
             "image_width": "large",
-            "title": "Atención al cliente",
+            "title": "Atención Personalizada",
             "heading_size": "h4",
-            "text": "<p>Disponemos de un equipo de asesoramiento dispuesto a ayudarle en todo momento</p>",
-            "text_size": "text-base",
-            "button_label": "",
-            "button_style": "btn--underline",
-            "button_link": "",
-            "mobile_layout": "inherit"
-          }
-        },
-        "column_MNeAPn": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/LogoDDL2.svg",
-            "image_width": "large",
-            "title": "Atención al cliente",
-            "heading_size": "h4",
-            "text": "<p>Disponemos de un equipo de asesoramiento dispuesto a ayudarle en todo momento</p>",
+            "text": "",
             "text_size": "text-base",
             "button_label": "",
             "button_style": "btn--underline",
@@ -541,8 +526,7 @@
       "block_order": [
         "column_RBiGpV",
         "column_yE84rN",
-        "column_PjQBVB",
-        "column_MNeAPn"
+        "column_PjQBVB"
       ],
       "name": "t:sections.multicolumn.presets.name",
       "settings": {
@@ -554,8 +538,8 @@
         "description": "",
         "text_size": "text-base",
         "column_alignment": "center",
-        "columns_desktop": 4,
-        "column_gap": "large",
+        "columns_desktop": 3,
+        "column_gap": "medium",
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_top": 50,
