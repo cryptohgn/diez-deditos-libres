@@ -11,8 +11,7 @@
   "current": {
     "logo": "shopify://shop_images/LogoDDL_b0fc2111-3162-4b7e-9fea-510693e099f5.svg",
     "logo_width": 140,
-    "logo_mobile": "shopify://shop_images/LogoDDL2.svg",
-    "logo_width_mobile": 60,
+    "logo_width_mobile": 140,
     "type_body_font": "quicksand_n4",
     "body_font_weight_bolder": "500",
     "body_font_size": 16,
