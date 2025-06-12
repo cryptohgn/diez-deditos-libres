@@ -125,7 +125,6 @@
     },
     "featured_collection_qBzGAg": {
       "type": "featured-collection",
-      "name": "t:sections.featured-collection.presets.name",
       "settings": {
         "color_scheme": "scheme-3",
         "header_layout": "vertical",
@@ -482,9 +481,9 @@
           "settings": {
             "image": "shopify://shop_images/Diseno_sin_titulo_6.png",
             "image_width": "large",
-            "title": "Envío 24-72h",
+            "title": "Envío desde 3,85€",
             "heading_size": "h4",
-            "text": "",
+            "text": "<p>Diferentes tipos de envíos; premium, estandar, city pack, oficina de correos, Inpost punto pack. Nacionales e internaciones. Entrega local en Torrent y punto de recogida en Valencia.</p>",
             "text_size": "text-base",
             "button_label": "",
             "button_style": "btn--underline",
@@ -497,9 +496,9 @@
           "settings": {
             "image": "shopify://shop_images/Diseno_sin_titulo_3.png",
             "image_width": "large",
-            "title": "Calzado Respetuoso",
+            "title": "Devoluciones",
             "heading_size": "h4",
-            "text": "",
+            "text": "<p>Dispones de 14 días para realizarlas. Fácil y rápido. Ponte en contacto con nosotras para tramitarlas.</p>",
             "text_size": "text-base",
             "button_label": "",
             "button_style": "btn--underline",
@@ -514,7 +513,7 @@
             "image_width": "large",
             "title": "Atención Personalizada",
             "heading_size": "h4",
-            "text": "",
+            "text": "<p>Asesoramiento a través de Whastapp, mail o rrss. Te resolvemos cualquier duda que tengas. </p>",
             "text_size": "text-base",
             "button_label": "",
             "button_style": "btn--underline",
@@ -528,7 +527,6 @@
         "column_yE84rN",
         "column_PjQBVB"
       ],
-      "name": "t:sections.multicolumn.presets.name",
       "settings": {
         "color_scheme": "scheme-2",
         "heading": "",
