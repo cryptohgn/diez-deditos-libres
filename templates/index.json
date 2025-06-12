@@ -175,7 +175,7 @@
         "text_A3Dahr": {
           "type": "text",
           "settings": {
-            "text": "<p>Llega el modelo Base de <strong>Froddo Barefoot</strong>. Combinando <strong>piel serraje azul</strong> con <strong>tejido amarillo neón transpirable</strong>, este zapato ofrece el equilibrio perfecto entre <strong>comodidad, flexibilidad y estilo</strong>. Ajuste fácil con doble velcro. Transpirable y respetuoso con el movimiento natural. Ideal para primavera/verano.<br/></p><p><em>¡Ya disponible! No te quedes sin tu talla.</em></p>",
+            "text": "<p>¡Ya están aquí las nuevas sandalias barefoot que estabas esperando!<br/></p><p>Diseñadas en piel suave con un elegante tono nude brillante, son la combinación perfecta entre comodidad natural y estilo.<br/></p><p>Ideales para el día a día veraniego o para esos eventos especiales donde quieres ir cómoda sin renunciar al detalle.<br/><strong><br/>Disponibles en tallas infantiles y de adulto, para que toda la familia camine libre.</strong><br/><br/></p>",
             "text_size": "text-base"
           }
         },
@@ -197,7 +197,7 @@
       "settings": {
         "section_color_scheme": "scheme-1",
         "color_scheme": "scheme-1",
-        "image": "shopify://shop_images/G3130261-4_1.jpg",
+        "image": "shopify://shop_images/5759-PR_CAPRONE_NUDE_PRIMEMIEL.png",
         "image_height": "adapt",
         "layout": "text_first",
         "desktop_content_position": "center",
