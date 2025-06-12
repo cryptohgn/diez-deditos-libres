@@ -498,7 +498,7 @@
             "image_width": "large",
             "title": "Devoluciones",
             "heading_size": "h4",
-            "text": "<p>Dispones de 14 días para realizarlas. Fácil y rápido. Ponte en contacto con nosotras para tramitarlas.</p>",
+            "text": "<p>Dispones de 14 días para realizarlas. Fácil y rápido. Ponte en contacto con nosotras para tramitarlas. Puedes consultar más en nuestras <a href=\"/pages/envios-y-devoluciones\" target=\"_blank\" title=\"Envíos y devoluciones\">Políticas</a>.</p>",
             "text_size": "text-base",
             "button_label": "",
             "button_style": "btn--underline",
