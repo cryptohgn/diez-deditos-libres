@@ -94,7 +94,7 @@
         "heading_nxCWcP": {
           "type": "heading",
           "settings": {
-            "heading": "Novedades Primavera",
+            "heading": "Novedades Verano",
             "heading_size": "hd1",
             "heading_highlight_style": "none"
           }
@@ -128,7 +128,7 @@
       "settings": {
         "color_scheme": "scheme-3",
         "header_layout": "vertical",
-        "heading": "Primavera 2025",
+        "heading": "Verano 2025",
         "heading_size": "h1",
         "heading_highlight_style": "none",
         "subheading": "",
