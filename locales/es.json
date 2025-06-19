@@ -113,7 +113,7 @@
   "accessibility": {
     "skip_to_text": "saltar al contenido",
     "skip_to_product_info": "Saltar a información del producto",
-    "close": "Cerca",
+    "close": "Cerrar",
     "unit_price_separator": "por",
     "vendor": "Proveedor:",
     "product_type": "Tipo:",
@@ -124,11 +124,11 @@
       "external": "Abre un sitio web externo."
     },
     "loading": "Cargando...",
-    "total_reviews": "revisiones totales",
+    "total_reviews": "Reseñas totales",
     "star_reviews_info": "{{ rating_value }} de {{ rating_max }} estrellas",
-    "collapsible_content_title": "Contenido plegable",
+    "collapsible_content_title": "Contenido colapsable",
     "complementary_products": "Productos complementarios",
-    "menu_drawer": "Alternar menú",
+    "menu_drawer": "Menú lateral",
     "layout_switcher": "{{ col }} columna",
     "play_video": "Reproduce el video",
     "load_video": "Cargar vídeo: {{ description }}"
