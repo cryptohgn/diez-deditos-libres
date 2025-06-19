@@ -699,6 +699,14 @@
         },
         "view_all_items": {
           "many": "Alle %{count} Artikel anzeigen"
+        },
+        "unit_price": {
+          "per_item": {
+            "many": "%{price} pro %{count} Artikel"
+          }
+        },
+        "pickup_unavailable_banner_title": {
+          "many": "Es sind keine Geschäfte mit Ihren Artikeln verfügbar."
         }
       },
       "shipping": {
@@ -903,6 +911,9 @@
         },
         "number_of_pickup_points_near_location": {
           "many": "%{count} Abholstellen in der Nähe Ihres Standorts"
+        },
+        "pickup_unavailable_banner_title": {
+          "many": "Für Ihre Artikel stehen keine Abholstellen zur Verfügung."
         }
       },
       "local_pickup": {
@@ -971,6 +982,9 @@
         },
         "tracking_number": {
           "many": "Sendungsverfolgungsnummern"
+        },
+        "gift_card_resend_button": {
+          "many": "Geschenkkarten erneut senden"
         }
       }
     },
