@@ -10,12 +10,12 @@
 {
   "general": {
     "password_page": {
-      "login_form_heading": "Ingrese a la tienda usando contraseña:",
-      "login_password_button": "Ingresar usando contraseña",
+      "login_form_heading": "Inicia sesión a la tienda usando contraseña:",
+      "login_password_button": "Iniciar sesión usando contraseña",
       "login_form_password_label": "Contraseña",
       "login_form_password_placeholder": "Tu contraseña",
       "login_form_error": "¡Contraseña incorrecta!",
-      "login_form_submit": "Ingresar",
+      "login_form_submit": "Iniciar sesión",
       "admin_link_html": "¿Eres el propietario de la tienda? <a href=\"/admin\" class=\"btn--link\">Inicia sesión aquí</a>",
       "powered_by_shopify_html": "Esta tienda funcionará con {{ shopify }}"
     },
@@ -41,20 +41,20 @@
     "pagination": {
       "label": "Paginación",
       "page": "Página {{ number }}",
-      "next": "Próximo",
+      "next": "Siguiente",
       "previous": "Anterior",
       "show_more": "Mostrar más"
     },
     "breadcrumbs": {
-      "home": "Hogar",
-      "collections": "Recopilación"
+      "home": "Inicio",
+      "collections": "Colecciones"
     },
     "search": {
       "search": "Buscar",
       "reset": "Borrar término de búsqueda"
     },
     "cart": {
-      "title": "tu carrito",
+      "title": "Tu carrito",
       "view": "Ver carrito ({{ count }})",
       "view_empty_cart": "Ver carrito",
       "item_added": "Artículo añadido a tu carrito",
@@ -63,11 +63,11 @@
       "note": {
         "title": "Nota de pedido",
         "caption": "Ordene instrucciones especiales",
-        "button": "Aplicar"
+        "button": "Añadir"
       },
       "free_shipping": {
         "remaining_html": "¡Gasta {{ remaining_amount }} más para alcanzar el envío gratis!",
-        "congratulations_html": "Eres elegible para envío gratis."
+        "congratulations_html": "Has conseguido el envío gratis."
       },
       "shipping_calculator": {
         "title": "Fecha de entrega estimada",
