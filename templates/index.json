@@ -155,6 +155,61 @@
         "divider_width": "fixed"
       }
     },
+    "image_with_text_overlay_NaDGKJ": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "subheading_7CR6d3": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "¡Novedad fresca y divertida!"
+          }
+        },
+        "heading_MLPXg4": {
+          "type": "heading",
+          "settings": {
+            "heading": "Recién Llegado",
+            "heading_size": "h1",
+            "heading_highlight_style": "none"
+          }
+        },
+        "text_g7bjNE": {
+          "type": "text",
+          "settings": {
+            "text": "<p>¡Ya están aquí las nuevas sandalias barefoot que estabas esperando!<br/></p><p>Diseñadas en piel suave con un elegante tono nude brillante, son la combinación perfecta entre comodidad natural y estilo.<br/></p><p>Ideales para el día a día veraniego o para esos eventos especiales donde quieres ir cómoda sin renunciar al detalle.<br/><strong><br/>Disponibles en tallas infantiles y de adulto, para que toda la familia camine libre.</strong><br/><br/></p>",
+            "text_size": "text-base"
+          }
+        },
+        "button_mnLQmN": {
+          "type": "button",
+          "settings": {
+            "button_label": "Comprar ahora",
+            "button_link": "shopify://collections/novedades-1",
+            "button_style": "btn--secondary"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_7CR6d3",
+        "heading_MLPXg4",
+        "text_g7bjNE",
+        "button_mnLQmN"
+      ],
+      "name": "t:sections.image-with-text-overlay.name",
+      "settings": {
+        "container": "full",
+        "image": "shopify://shop_images/5759-PR_CAPRONE_NUDE_PRIMEMIEL.png",
+        "desktop_height": "extra-medium",
+        "overlay_opacity": 30,
+        "enable_parallax": false,
+        "parallax_direction": "vertical",
+        "color_scheme": "scheme-inverse",
+        "content_position": "middle-center",
+        "content_alignment": "center",
+        "mobile_height": "auto",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
     "image_with_text_MgddA8": {
       "type": "image-with-text",
       "blocks": {
@@ -194,6 +249,7 @@
         "text_A3Dahr",
         "button_jAUX49"
       ],
+      "disabled": true,
       "settings": {
         "section_color_scheme": "scheme-1",
         "color_scheme": "scheme-1",
@@ -604,9 +660,10 @@
     "slideshow_q3U4Jn",
     "rich_text_Jr78BJ",
     "featured_collection_qBzGAg",
+    "image_with_text_overlay_NaDGKJ",
     "image_with_text_MgddA8",
-    "rich_text_iKgXTP",
     "collection_list_Pr36qH",
+    "rich_text_iKgXTP",
     "scrolling_promotion_htQpcB",
     "multicolumn_fyPhFX",
     "1748340579271eabb5"
