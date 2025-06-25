@@ -51,8 +51,8 @@
       "custom_css": [],
       "settings": {
         "color_scheme": "scheme-3",
-        "products_per_page": 15,
-        "columns_desktop": 3,
+        "products_per_page": 23,
+        "columns_desktop": 4,
         "grid_layout": "standard",
         "pagination": "number",
         "enable_color_swatch": true,
