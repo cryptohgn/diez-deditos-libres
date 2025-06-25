@@ -51,7 +51,7 @@
       "custom_css": [],
       "settings": {
         "color_scheme": "scheme-3",
-        "products_per_page": 32,
+        "products_per_page": 35,
         "columns_desktop": 5,
         "grid_layout": "standard",
         "pagination": "number",
