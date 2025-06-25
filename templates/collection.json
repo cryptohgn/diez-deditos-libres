@@ -52,7 +52,7 @@
       "settings": {
         "color_scheme": "scheme-3",
         "products_per_page": 32,
-        "columns_desktop": 4,
+        "columns_desktop": 5,
         "grid_layout": "standard",
         "pagination": "number",
         "enable_color_swatch": true,
