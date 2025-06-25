@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "general": {
     "password_page": {
@@ -627,6 +636,34 @@
       "max_characters": "{{ max_chars }} characters max",
       "send_on": "YYYY-MM-DD",
       "send_on_label": "Send on (optional)"
+    }
+  },
+  "shopify": {
+    "checkout": {
+      "order_summary": {
+        "unit_price": {
+          "per_item": {
+            "many": "%{price} per %{count} items"
+          }
+        },
+        "pickup_unavailable_banner_title": {
+          "many": "There are no stores available with your items."
+        }
+      },
+      "pickup_point": {
+        "pickup_unavailable_banner_title": {
+          "many": "There are no collection points available for your items."
+        }
+      }
+    }
+  },
+  "customer_accounts": {
+    "orders": {
+      "order_status": {
+        "gift_card_resend_button": {
+          "many": "Resend gift cards"
+        }
+      }
     }
   }
 }
