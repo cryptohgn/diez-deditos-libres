@@ -26,9 +26,9 @@
             "subheading": "",
             "description": "",
             "description_size": "text-lg",
-            "button_label": "",
-            "button_link": "shopify://collections/bar3foot",
-            "button_style": "btn--primary"
+            "button_label": "Rebajas",
+            "button_link": "shopify://collections/novedades",
+            "button_style": "btn--secondary"
           }
         },
         "slide_8EaHdq": {
