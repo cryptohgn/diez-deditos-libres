@@ -16,6 +16,25 @@
           "type": "slide",
           "settings": {
             "color_scheme": "scheme-9",
+            "background": "shopify://shop_images/Portadas_web_409c206e-2329-42ed-9e0c-b719da89c3f6.png",
+            "background_mobile": "shopify://shop_images/Portadas_web_409c206e-2329-42ed-9e0c-b719da89c3f6.png",
+            "image_overlay_opacity": 0,
+            "content_position": "middle-left",
+            "text_alignment": "left",
+            "title": "",
+            "heading_size": "hd2",
+            "subheading": "",
+            "description": "",
+            "description_size": "text-lg",
+            "button_label": "",
+            "button_link": "shopify://collections/bar3foot",
+            "button_style": "btn--primary"
+          }
+        },
+        "slide_8EaHdq": {
+          "type": "slide",
+          "settings": {
+            "color_scheme": "scheme-9",
             "background": "shopify://shop_images/Habia_Banner_Design___F.jpg",
             "background_mobile": "shopify://shop_images/Habia_Banner_Design___F_M.jpg",
             "image_overlay_opacity": 0,
@@ -72,6 +91,7 @@
       },
       "block_order": [
         "slide_JhU8hg",
+        "slide_8EaHdq",
         "slide_9yhE8c",
         "slide_9R3n8Y"
       ],
@@ -267,50 +287,6 @@
         "divider_width": "fixed"
       }
     },
-    "rich_text_iKgXTP": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_r9cAGE": {
-          "type": "heading",
-          "settings": {
-            "heading": "Calzado Respetuoso con los Pies",
-            "heading_size": "h1",
-            "heading_highlight_style": "none"
-          }
-        },
-        "text_LArGLV": {
-          "type": "text",
-          "settings": {
-            "text": "<p>¡Pequeños pasos, grandes beneficios! Conoce nuestros zapatos barefoot diseñados para el libre movimiento y confort de los bebés, niños y adultos. Zapatos con forma de pie que se adaptan a tus pies.</p>",
-            "text_size": "text-base"
-          }
-        },
-        "button_a7NCAJ": {
-          "type": "button",
-          "settings": {
-            "button_label": "Comprar ahora",
-            "button_link": "shopify://collections",
-            "button_style": "btn--primary"
-          }
-        }
-      },
-      "block_order": [
-        "heading_r9cAGE",
-        "text_LArGLV",
-        "button_a7NCAJ"
-      ],
-      "custom_css": [
-        "@media (min-width: 950px) and (max-width: 1536px) {{max-width: 950px; margin: auto; }}"
-      ],
-      "settings": {
-        "color_scheme": "",
-        "content_alignment": "center",
-        "padding_top": 100,
-        "padding_bottom": 100,
-        "show_section_divider": false,
-        "divider_width": "fixed"
-      }
-    },
     "collection_list_Pr36qH": {
       "type": "collection-list",
       "blocks": {
@@ -394,6 +370,50 @@
         "enable_slider": true,
         "columns_mobile": "1",
         "swipe_on_mobile": true,
+        "padding_top": 100,
+        "padding_bottom": 100,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "rich_text_iKgXTP": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_r9cAGE": {
+          "type": "heading",
+          "settings": {
+            "heading": "Calzado Respetuoso con los Pies",
+            "heading_size": "h1",
+            "heading_highlight_style": "none"
+          }
+        },
+        "text_LArGLV": {
+          "type": "text",
+          "settings": {
+            "text": "<p>¡Pequeños pasos, grandes beneficios! Conoce nuestros zapatos barefoot diseñados para el libre movimiento y confort de los bebés, niños y adultos. Zapatos con forma de pie que se adaptan a tus pies.</p>",
+            "text_size": "text-base"
+          }
+        },
+        "button_a7NCAJ": {
+          "type": "button",
+          "settings": {
+            "button_label": "Comprar ahora",
+            "button_link": "shopify://collections",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_r9cAGE",
+        "text_LArGLV",
+        "button_a7NCAJ"
+      ],
+      "custom_css": [
+        "@media (min-width: 950px) and (max-width: 1536px) {{max-width: 950px; margin: auto; }}"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "content_alignment": "center",
         "padding_top": 100,
         "padding_bottom": 100,
         "show_section_divider": false,
