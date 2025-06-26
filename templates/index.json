@@ -28,7 +28,7 @@
             "description_size": "text-lg",
             "button_label": "Rebajas",
             "button_link": "shopify://collections/novedades",
-            "button_style": "btn--secondary"
+            "button_style": "btn--primary"
           }
         },
         "slide_8EaHdq": {
