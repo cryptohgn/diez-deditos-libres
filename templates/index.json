@@ -12,25 +12,6 @@
     "slideshow_q3U4Jn": {
       "type": "slideshow",
       "blocks": {
-        "slide_JhU8hg": {
-          "type": "slide",
-          "settings": {
-            "color_scheme": "scheme-9",
-            "background": "shopify://shop_images/Portadas_web_409c206e-2329-42ed-9e0c-b719da89c3f6.png",
-            "background_mobile": "shopify://shop_images/PORTADAS_WEB_MOVIL.png",
-            "image_overlay_opacity": 0,
-            "content_position": "middle-left",
-            "text_alignment": "left",
-            "title": "Rebajas de verano",
-            "heading_size": "hd2",
-            "subheading": "Comienzan nuestras",
-            "description": "<p>Productos con hasta un 69% de descuento</p>",
-            "description_size": "text-lg",
-            "button_label": "Rebajas",
-            "button_link": "shopify://collections/novedades",
-            "button_style": "btn--primary"
-          }
-        },
         "slide_8EaHdq": {
           "type": "slide",
           "settings": {
@@ -47,6 +28,25 @@
             "description_size": "text-lg",
             "button_label": "Descubrir",
             "button_link": "shopify://collections/bar3foot",
+            "button_style": "btn--primary"
+          }
+        },
+        "slide_JhU8hg": {
+          "type": "slide",
+          "settings": {
+            "color_scheme": "scheme-9",
+            "background": "shopify://shop_images/Portadas_web_409c206e-2329-42ed-9e0c-b719da89c3f6.png",
+            "background_mobile": "shopify://shop_images/PORTADAS_WEB_MOVIL.png",
+            "image_overlay_opacity": 0,
+            "content_position": "middle-left",
+            "text_alignment": "left",
+            "title": "Rebajas de verano",
+            "heading_size": "hd2",
+            "subheading": "Comienzan nuestras",
+            "description": "<p>Productos con hasta un 69% de descuento</p>",
+            "description_size": "text-lg",
+            "button_label": "Rebajas",
+            "button_link": "shopify://collections/novedades",
             "button_style": "btn--primary"
           }
         },
@@ -90,8 +90,8 @@
         }
       },
       "block_order": [
-        "slide_JhU8hg",
         "slide_8EaHdq",
+        "slide_JhU8hg",
         "slide_9yhE8c",
         "slide_9R3n8Y"
       ],
