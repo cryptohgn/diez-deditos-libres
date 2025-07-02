@@ -86,7 +86,7 @@
           "type": "text",
           "settings": {
             "text": "REBAJAS VERANO HASTA 69% DE DESCUENTO ☀️",
-            "text_link": "",
+            "text_link": "shopify://collections/novedades",
             "text_size": "text-base",
             "font_weight": "font-heading",
             "font_style": "normal",
@@ -94,7 +94,7 @@
             "text_opacity": 100,
             "text_style": "normal",
             "use_custom_color": false,
-            "custom_color": "#000000"
+            "custom_color": "#072135"
           }
         }
       },
