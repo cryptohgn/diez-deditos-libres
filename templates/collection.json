@@ -70,7 +70,7 @@
     "rich_text_w8U3Uw": {
       "type": "rich-text",
       "blocks": {
-        "text_Tndyth": {
+        "text_b9M8Xb": {
           "type": "text",
           "settings": {
             "text": "{{ collection.metafields.custom.descripcion_seo | metafield_tag }}",
@@ -79,7 +79,7 @@
         }
       },
       "block_order": [
-        "text_Tndyth"
+        "text_b9M8Xb"
       ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
