@@ -73,7 +73,7 @@
         "text_Tndyth": {
           "type": "text",
           "settings": {
-            "text": "<p></p>{{ collection.description }}",
+            "text": "{{ collection.metafields.custom.descripcion_seo | metafield_tag }}",
             "text_size": "text-base"
           }
         }
