@@ -14,6 +14,7 @@
       "blocks": {
         "slide_8EaHdq": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "color_scheme": "scheme-9",
             "background": "shopify://shop_images/Habia_Banner_Design___F.jpg",
@@ -34,24 +35,25 @@
         "slide_JhU8hg": {
           "type": "slide",
           "settings": {
-            "color_scheme": "scheme-1",
-            "background": "shopify://shop_images/Portadas_web_409c206e-2329-42ed-9e0c-b719da89c3f6.png",
+            "color_scheme": "scheme-9",
+            "background": "shopify://shop_images/foto_web_10_deditos_995ba95a-d077-4aae-9188-6bab908de62b.png",
             "background_mobile": "shopify://shop_images/PORTADAS_WEB_MOVIL.png",
             "image_overlay_opacity": 0,
-            "content_position": "middle-left",
+            "content_position": "middle-right",
             "text_alignment": "left",
-            "title": "",
+            "title": "Rebajas Verano",
             "heading_size": "hd2",
             "subheading": "",
-            "description": "",
+            "description": "<p>Hasta 69% + 10% en Sandalias</p><p>Código: <strong>SANDALIAS10</strong></p>",
             "description_size": "text-lg",
-            "button_label": "Rebajas",
+            "button_label": "Comprar ahora",
             "button_link": "shopify://collections/novedades",
             "button_style": "btn--primary"
           }
         },
         "slide_9yhE8c": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "color_scheme": "scheme-1",
             "background": "shopify://shop_images/Habia_Banner_Design02_03_F.jpg",
@@ -71,6 +73,7 @@
         },
         "slide_9R3n8Y": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "color_scheme": "scheme-1",
             "background": "shopify://shop_images/Habia_Banner_Design010101_F.jpg",
