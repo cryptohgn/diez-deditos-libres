@@ -42,7 +42,7 @@
             "content_position": "middle-right",
             "text_alignment": "left",
             "title": "Rebajas Verano",
-            "heading_size": "hd1",
+            "heading_size": "hd2",
             "subheading": "",
             "description": "<p>Hasta 69% + 10% en Sandalias</p><p>Código: <strong>SANDALIAS10</strong></p>",
             "description_size": "text-lg",
@@ -107,7 +107,7 @@
         "autoplay_delay": 6,
         "controls_position": "below",
         "show_text_below": true,
-        "text_alignment_mobile": "left",
+        "text_alignment_mobile": "center",
         "accessibility_info": "Slideshow about our brand"
       }
     },
