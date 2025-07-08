@@ -47,7 +47,7 @@
             "description": "<p>Hasta 69% + 10% en Sandalias</p><p>Código: <strong>SANDALIAS10</strong></p>",
             "description_size": "text-lg",
             "button_label": "Comprar ahora",
-            "button_link": "shopify://collections/novedades",
+            "button_link": "https://www.diezdeditoslibres.com/discount/SANDALIAS10?redirect=%2Fcollections%2Fsandalias-10",
             "button_style": "btn--primary"
           }
         },
