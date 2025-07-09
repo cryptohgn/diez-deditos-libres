@@ -29,6 +29,21 @@
             "custom_color": "#072135"
           }
         },
+        "text_xVMVnW": {
+          "type": "text",
+          "settings": {
+            "text": "Envios GRATIS en Pedidos Superiores a 50€",
+            "text_link": "",
+            "text_size": "text-base",
+            "font_weight": "font-heading",
+            "font_style": "normal",
+            "letter_spacing": 0,
+            "text_opacity": 90,
+            "text_style": "normal",
+            "use_custom_color": false,
+            "custom_color": "#072135"
+          }
+        },
         "text_t3BcT4": {
           "type": "text",
           "settings": {
@@ -58,28 +73,13 @@
             "use_custom_color": false,
             "custom_color": "#000000"
           }
-        },
-        "text_U7d6gd": {
-          "type": "text",
-          "settings": {
-            "text": "Envío GRATIS en Pedidos Superiors a 50€",
-            "text_link": "",
-            "text_size": "h2",
-            "font_weight": "font-heading",
-            "font_style": "normal",
-            "letter_spacing": 0,
-            "text_opacity": 100,
-            "text_style": "normal",
-            "use_custom_color": false,
-            "custom_color": "#000000"
-          }
         }
       },
       "block_order": [
         "text_niHbzP",
+        "text_xVMVnW",
         "text_t3BcT4",
-        "text_QCAxbn",
-        "text_U7d6gd"
+        "text_QCAxbn"
       ],
       "settings": {
         "color_scheme": "scheme-2",
