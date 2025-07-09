@@ -58,12 +58,28 @@
             "use_custom_color": false,
             "custom_color": "#000000"
           }
+        },
+        "text_U7d6gd": {
+          "type": "text",
+          "settings": {
+            "text": "Envío GRATIS en Pedidos Superiors a 50€",
+            "text_link": "",
+            "text_size": "h2",
+            "font_weight": "font-heading",
+            "font_style": "normal",
+            "letter_spacing": 0,
+            "text_opacity": 100,
+            "text_style": "normal",
+            "use_custom_color": false,
+            "custom_color": "#000000"
+          }
         }
       },
       "block_order": [
         "text_niHbzP",
         "text_t3BcT4",
-        "text_QCAxbn"
+        "text_QCAxbn",
+        "text_U7d6gd"
       ],
       "settings": {
         "color_scheme": "scheme-2",
