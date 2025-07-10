@@ -41,13 +41,13 @@
             "image_overlay_opacity": 30,
             "content_position": "middle-right",
             "text_alignment": "left",
-            "title": "<a href=\"https://www.diezdeditoslibres.com/collections/novedades\" title=\"https://www.diezdeditoslibres.com/collections/novedades\">Rebajas Verano</a>",
+            "title": "<a href=\"/collections/todas-las-sandalias\" title=\"Todas las sandalias\">Sandalias 2025</a>",
             "heading_size": "hd2",
             "subheading": "",
-            "description": "<p>Hasta 69% + 10% en Sandalias</p><p>Código: <strong>SANDALIAS10</strong></p>",
+            "description": "<p>Descubre nuestras novedades</p>",
             "description_size": "text-lg",
             "button_label": "Comprar ahora",
-            "button_link": "https://www.diezdeditoslibres.com/discount/SANDALIAS10?redirect=%2Fcollections%2Fsandalias-10",
+            "button_link": "shopify://collections/todas-las-sandalias",
             "button_style": "btn--primary"
           }
         },
@@ -73,7 +73,6 @@
         },
         "slide_9R3n8Y": {
           "type": "slide",
-          "disabled": true,
           "settings": {
             "color_scheme": "scheme-1",
             "background": "shopify://shop_images/Habia_Banner_Design010101_F.jpg",
