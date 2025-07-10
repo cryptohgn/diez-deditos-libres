@@ -32,6 +32,25 @@
             "button_style": "btn--primary"
           }
         },
+        "slide_9R3n8Y": {
+          "type": "slide",
+          "settings": {
+            "color_scheme": "scheme-1",
+            "background": "shopify://shop_images/Habia_Banner_Design010101_F.jpg",
+            "background_mobile": "shopify://shop_images/Habia_Banner_Design010101_F_M.jpg",
+            "image_overlay_opacity": 0,
+            "content_position": "middle-left",
+            "text_alignment": "left",
+            "title": "Camina como si estuvieras descalzo",
+            "heading_size": "hd2",
+            "subheading": "",
+            "description": "<p>Muévete cómodo y natural con nuestro calzado barefoot.</p>",
+            "description_size": "text-lg",
+            "button_label": "Descubrir",
+            "button_link": "shopify://collections/bar3foot",
+            "button_style": "btn--primary"
+          }
+        },
         "slide_JhU8hg": {
           "type": "slide",
           "settings": {
@@ -70,32 +89,13 @@
             "button_link": "shopify://collections/bar3foot",
             "button_style": "btn--primary"
           }
-        },
-        "slide_9R3n8Y": {
-          "type": "slide",
-          "settings": {
-            "color_scheme": "scheme-1",
-            "background": "shopify://shop_images/Habia_Banner_Design010101_F.jpg",
-            "background_mobile": "shopify://shop_images/Habia_Banner_Design010101_F_M.jpg",
-            "image_overlay_opacity": 0,
-            "content_position": "middle-left",
-            "text_alignment": "left",
-            "title": "Camina como si estuvieras descalzo",
-            "heading_size": "hd2",
-            "subheading": "",
-            "description": "<p>Muévete cómodo y natural con nuestro calzado barefoot.</p>",
-            "description_size": "text-lg",
-            "button_label": "Descubrir",
-            "button_link": "shopify://collections/bar3foot",
-            "button_style": "btn--primary"
-          }
         }
       },
       "block_order": [
         "slide_8EaHdq",
+        "slide_9R3n8Y",
         "slide_JhU8hg",
-        "slide_9yhE8c",
-        "slide_9R3n8Y"
+        "slide_9yhE8c"
       ],
       "settings": {
         "container": "full",
