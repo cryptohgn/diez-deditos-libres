@@ -37,7 +37,7 @@
           "settings": {
             "color_scheme": "scheme-9",
             "background": "shopify://shop_images/foto_web_10_deditos_995ba95a-d077-4aae-9188-6bab908de62b.png",
-            "background_mobile": "shopify://shop_images/Habia_Banner_Design010101_F_M.jpg",
+            "background_mobile": "shopify://shop_images/foto_web_10_deditos_1.png",
             "image_overlay_opacity": 0,
             "content_position": "middle-right",
             "text_alignment": "center",
@@ -133,6 +133,7 @@
         "heading_nxCWcP",
         "text_4HMP7y"
       ],
+      "disabled": true,
       "custom_css": [
         "@media (min-width: 950px) and (max-width: 1536px) {{max-width: 750px; margin: auto; }}"
       ],
