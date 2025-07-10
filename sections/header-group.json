@@ -100,9 +100,8 @@
       "blocks": {
         "text_GJgyqj": {
           "type": "text",
-          "disabled": true,
           "settings": {
-            "text": "REBAJAS HASTA 69% + 10% EXTRA EN SANDALIAS, CÓDIGO: SANDALIAS10",
+            "text": "Envío gratis Inpost, pedidos superiores a 20€, código: ENVÍOGRATIS",
             "text_link": "shopify://collections/novedades",
             "text_size": "text-base",
             "font_weight": "font-heading",

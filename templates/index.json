@@ -46,8 +46,8 @@
             "subheading": "",
             "description": "<p>Pedidos +20€</p><p>Punto de entrega Inpost</p>",
             "description_size": "text-lg",
-            "button_label": "Cupón: ENVÍOGRATIS",
-            "button_link": "shopify://collections/bar3foot",
+            "button_label": "Código: ENVÍOGRATIS",
+            "button_link": "shopify://collections/novedades",
             "button_style": "btn--primary"
           }
         },
