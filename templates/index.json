@@ -41,12 +41,12 @@
             "image_overlay_opacity": 0,
             "content_position": "middle-right",
             "text_alignment": "center",
-            "title": "ENVÍO GRATIS",
+            "title": "2as Rebajas",
             "heading_size": "hd2",
             "subheading": "",
-            "description": "<p>Pedidos +20€</p><p>Punto de entrega Inpost</p>",
+            "description": "<p>Nueva colección hasta 25%</p><p>Outlet hasta 69%</p>",
             "description_size": "text-lg",
-            "button_label": "Código: ENVÍOGRATIS",
+            "button_label": "Ver rebajas",
             "button_link": "shopify://collections/novedades",
             "button_style": "btn--primary"
           }

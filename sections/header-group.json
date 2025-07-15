@@ -100,6 +100,7 @@
       "blocks": {
         "text_GJgyqj": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "Envío gratis Inpost, pedidos superiores a 20€, código: ENVÍOGRATIS",
             "text_link": "shopify://collections/novedades",
