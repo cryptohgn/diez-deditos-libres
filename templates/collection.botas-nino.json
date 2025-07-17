@@ -76,7 +76,7 @@
       ],
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "custom_liquid": "<div class=\"boton-container\">\n  <a href=\"https://www.diezdeditoslibres.com/collections/botas-1\" class=\"boton-diezdeditos\">Botas y Botines Bebe</a>\n  <a href=\"https://www.diezdeditoslibres.com/collections/botas-y-botines-bebe-nino\" class=\"boton-diezdeditos\">Botas Bebe Niño</a>\n</div>",
+        "custom_liquid": "<div class=\"boton-container\">\n  <a href=\"https://www.diezdeditoslibres.com/collections/botas-1\" class=\"boton-diezdeditos\">Botas y Botines Bebe</a>\n  <a href=\"https://www.diezdeditoslibres.com/collections/botas-y-botines-bebe-nina\" class=\"boton-diezdeditos\">Botas Bebe Niña</a>\n</div>",
         "color_scheme": "",
         "padding_top": 50,
         "padding_bottom": 50
