@@ -637,5 +637,10 @@
       "send_on": "AAAA-MM-DD",
       "send_on_label": "Enviar (opcional)"
     }
+  },
+  "shopify": {
+    "links": {
+      "powered_by_shopify": " "
+    }
   }
 }
