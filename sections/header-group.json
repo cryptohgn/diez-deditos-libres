@@ -100,9 +100,8 @@
       "blocks": {
         "text_GJgyqj": {
           "type": "text",
-          "disabled": true,
           "settings": {
-            "text": "Envío gratis Inpost, pedidos superiores a 20€, código: ENVÍOGRATIS",
+            "text": "Nueva Promoción ENVÍO GRATIS, en pedidos superiores a 25€. Elige entre envío a domicilio en 48/72h o recogida en Punto Inpost. Solo envíos a la Península.",
             "text_link": "shopify://collections/novedades",
             "text_size": "text-base",
             "font_weight": "font-heading",
