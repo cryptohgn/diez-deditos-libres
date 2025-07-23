@@ -133,6 +133,26 @@
             "default_open": false
           }
         },
+        "collapsible_tab_TFANKi": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Reglamento",
+            "icon": "none",
+            "content": "<p>{{ product.metafields.info.reglamento | metafield_tag }}</p>",
+            "page": "",
+            "default_open": false
+          }
+        },
+        "collapsible_tab_ADYjbr": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Advertencias",
+            "icon": "none",
+            "content": "",
+            "page": "",
+            "default_open": false
+          }
+        },
         "collapsible_tab_LBaqXK": {
           "type": "collapsible_tab",
           "settings": {
@@ -191,6 +211,8 @@
         "collapsible_tab_AQMpAi",
         "collapsible_tab_fjKBCq",
         "collapsible_tab_q8mehX",
+        "collapsible_tab_TFANKi",
+        "collapsible_tab_ADYjbr",
         "collapsible_tab_LBaqXK",
         "pickup_availability",
         "complementary",
