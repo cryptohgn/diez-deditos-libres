@@ -61,6 +61,7 @@
         },
         "text_QCAxbn": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "Enviamos a Alemania, Andorra, Austria, Bélgica, Francia, Italia, Paises Bajos y Portugal",
             "text_link": "",
@@ -101,7 +102,7 @@
         "text_GJgyqj": {
           "type": "text",
           "settings": {
-            "text": "Nueva Promoción ENVÍO GRATIS, en pedidos superiores a 25€.Solo envíos a la Península.",
+            "text": "Nueva Promoción ENVÍO GRATIS, en pedidos superiores a 25€. Solo envíos a la Península.",
             "text_link": "shopify://collections/novedades",
             "text_size": "text-base",
             "font_weight": "font-heading",
@@ -119,7 +120,7 @@
       ],
       "settings": {
         "color_scheme": "scheme-3",
-        "vertical_alignment": "center",
+        "vertical_alignment": "start",
         "direction": "left",
         "pause_on_hover": false,
         "speed": 0.1,
