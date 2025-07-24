@@ -58,9 +58,9 @@
           "type": "variant_picker",
           "settings": {
             "picker_type": "button",
-            "swatch_type": "color_swatch",
+            "swatch_type": "variant_image",
             "button_style": "standard",
-            "button_size": 30,
+            "button_size": 50,
             "size_title": "Size",
             "size_chart_from_page": ""
           }
