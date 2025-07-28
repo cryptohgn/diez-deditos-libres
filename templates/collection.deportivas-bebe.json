@@ -76,7 +76,7 @@
       ],
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "custom_liquid": "<div class=\"boton-container\">\n  <a href=\"https://www.diezdeditoslibres.com/collections/zapatillas-deportivas-bebe-nina\" class=\"boton-diezdeditos\">Zapatillas Deportivas Bebe Niña</a>\n  <a href=\"https://www.diezdeditoslibres.com/collections/zapatillas-deportivas-bebe-nino\" class=\"boton-diezdeditos\">Zapatillas Deportivas Bebe Niño</a>\n</div>",
+        "custom_liquid": "<div class=\"boton-container\">\n  <a href=\"https://www.diezdeditoslibres.com/collections/zapatillas-deportivas-bebe-nina\" class=\"boton-diezdeditos\">Zapatillas Deportivas Bebe Niña</a>\n  <a href=\"https://www.diezdeditoslibres.com/collections/zapatillas-deportivas-bebe-nino\" class=\"boton-diezdeditos\">Zapatillas Deportivas Bebe Niño</a>\n<a href=\"https://www.diezdeditoslibres.com/collections/zapatillas-bebe-sin-suela\" class=\"boton-diezdeditos\">Zapatillas Bebe sin Suela</a>\n</div>",
         "color_scheme": "",
         "padding_top": 50,
         "padding_bottom": 50
