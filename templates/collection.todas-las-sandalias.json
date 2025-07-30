@@ -15,21 +15,6 @@
         "text_alignment": "start"
       }
     },
-    "custom_liquid_CGJQzP": {
-      "type": "custom-liquid",
-      "custom_css": [
-        ".boton-tuvalum {display: inline-block; background-color: #ea5cb8; color: #ffffff; text-decoration: none; padding: 12px 24px; border-radius: 8px; /* Picos redondeados */ font-weight: bold; transition: background-color 0.3s ease, transform 0.2s ease; margin: 10px;}",
-        ".boton-tuvalum:hover {background-color: #f077c6; /* Color más claro al pasar el ratón */ transform: scale(1.05); /* Efecto sutil */}",
-        ".boton-container {text-align: center;}"
-      ],
-      "name": "t:sections.custom-liquid.presets.name",
-      "settings": {
-        "custom_liquid": "<div class=\"boton-container\">\n  <a href=\"https://www.diezdeditoslibres.com/collections/sandalias-1\" class=\"boton-tuvalum\">Sandalias Bebés</a>\n  <a href=\"https://www.diezdeditoslibres.com/collections/sandalias\" class=\"boton-tuvalum\">Sandalias Niños</a>\n  <a href=\"https://www.diezdeditoslibres.com/collections/sandalias-3\" class=\"boton-tuvalum\">Sandalias Adultos</a>\n</div>",
-        "color_scheme": "",
-        "padding_top": 50,
-        "padding_bottom": 50
-      }
-    },
     "banner": {
       "type": "main-collection-banner",
       "blocks": {
@@ -59,6 +44,21 @@
         "image_height_mobile": "auto",
         "padding_top": 32,
         "padding_bottom": 50
+      }
+    },
+    "custom_liquid_CGJQzP": {
+      "type": "custom-liquid",
+      "custom_css": [
+        ".boton-tuvalum {display: inline-block; background-color: #f5f5f5; color: #000000; text-decoration: none; padding: 12px 24px; border-radius: 50px; /* Picos redondeados */ border: 1px solid #e5e5e5; font-weight: 500; font-size: 12px; margin: 10px;}",
+        ".boton-tuvalum:hover {background-color: #f077c6; color: #ffffff;}",
+        ".boton-container {text-align: center;}"
+      ],
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<div class=\"boton-container\">\n  <a href=\"https://www.diezdeditoslibres.com/collections/sandalias-1\" class=\"boton-tuvalum\">Sandalias Bebés</a>\n  <a href=\"https://www.diezdeditoslibres.com/collections/sandalias\" class=\"boton-tuvalum\">Sandalias Niños</a>\n  <a href=\"https://www.diezdeditoslibres.com/collections/sandalias-3\" class=\"boton-tuvalum\">Sandalias Adultos</a>\n</div>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 40
       }
     },
     "product-grid": {
