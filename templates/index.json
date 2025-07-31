@@ -181,6 +181,39 @@
         "divider_width": "fixed"
       }
     },
+    "featured_collection_i6hcRW": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "header_layout": "vertical",
+        "heading": "Novedades Otoño",
+        "heading_size": "h1",
+        "heading_highlight_style": "none",
+        "subheading": "",
+        "description": "",
+        "text_size": "text-base",
+        "show_collection_description": false,
+        "collection": "novedades-1",
+        "limit": 8,
+        "columns": 4,
+        "column_gap": "medium",
+        "row_gap": "inherit",
+        "grid_layout": "standard",
+        "enable_slider": true,
+        "controls_position": "inside",
+        "pcard_image_ratio": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "show_all_button_on_top": false,
+        "button_label": "",
+        "button_style": "btn--primary",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
     "image_with_text_overlay_NaDGKJ": {
       "type": "image-with-text-overlay",
       "blocks": {
@@ -687,6 +720,7 @@
     "slideshow_q3U4Jn",
     "rich_text_Jr78BJ",
     "featured_collection_qBzGAg",
+    "featured_collection_i6hcRW",
     "image_with_text_overlay_NaDGKJ",
     "image_with_text_MgddA8",
     "collection_list_Pr36qH",
