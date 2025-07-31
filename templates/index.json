@@ -97,6 +97,9 @@
         "slide_JhU8hg",
         "slide_9yhE8c"
       ],
+      "custom_css": [
+        "@media (max-width: 767.98px) {.slideshow__text {margin: auto; }}"
+      ],
       "settings": {
         "container": "full",
         "layout": "standard",
@@ -105,7 +108,7 @@
         "autoplay": true,
         "autoplay_delay": 6,
         "controls_position": "below",
-        "show_text_below": true,
+        "show_text_below": false,
         "text_alignment_mobile": "center",
         "accessibility_info": "Slideshow about our brand"
       }
