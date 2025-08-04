@@ -46,21 +46,6 @@
         "padding_bottom": 50
       }
     },
-    "custom_liquid_zqV3bY": {
-      "type": "custom-liquid",
-      "custom_css": [
-        ".boton-diezdeditos {display: inline-block; background-color: #f5f5f5; color: #000000; text-decoration: none; padding: 12px 24px; border-radius: 50px; /* Picos redondeados */ border: 1px solid #e5e5e5; font-weight: 500; font-size: 12px; margin: 10px;}",
-        ".boton-diezdeditos:hover {background-color: #f077c6; color: #ffffff;}",
-        ".boton-container {text-align: center;}"
-      ],
-      "name": "t:sections.custom-liquid.presets.name",
-      "settings": {
-        "custom_liquid": "<div class=\"boton-container\">\n  <a href=\"https://www.diezdeditoslibres.com/collections/zapatillas-deportivas-bebe-nina\" class=\"boton-diezdeditos\">Zapatillas Deportivas Bebe Niña</a>\n  <a href=\"https://www.diezdeditoslibres.com/collections/zapatillas-deportivas-bebe-nino\" class=\"boton-diezdeditos\">Zapatillas Deportivas Bebe Niño</a>\n<a href=\"https://www.diezdeditoslibres.com/collections/zapatillas-bebe-sin-suela\" class=\"boton-diezdeditos\">Zapatillas Bebe sin Suela</a>\n<a href=\"https://www.diezdeditoslibres.com/collections/zapatillas-lona-bebe\" class=\"boton-diezdeditos\">Zapatillas Lona Bebé</a>\n</div>",
-        "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 40
-      }
-    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "custom_css": [],
@@ -80,6 +65,21 @@
         "padding_bottom": 100,
         "show_section_divider": true,
         "divider_width": "fixed"
+      }
+    },
+    "custom_liquid_zqV3bY": {
+      "type": "custom-liquid",
+      "custom_css": [
+        ".boton-diezdeditos {display: inline-block; background-color: #f5f5f5; color: #000000; text-decoration: none; padding: 12px 24px; border-radius: 50px; /* Picos redondeados */ border: 1px solid #e5e5e5; font-weight: 500; font-size: 12px; margin: 10px;}",
+        ".boton-diezdeditos:hover {background-color: #f077c6; color: #ffffff;}",
+        ".boton-container {text-align: center;}"
+      ],
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<div class=\"boton-container\">\n  <a href=\"https://www.diezdeditoslibres.com/collections/zapatillas-deportivas-bebe-nina\" class=\"boton-diezdeditos\">Zapatillas Deportivas Bebe Niña</a>\n  <a href=\"https://www.diezdeditoslibres.com/collections/zapatillas-deportivas-bebe-nino\" class=\"boton-diezdeditos\">Zapatillas Deportivas Bebe Niño</a>\n<a href=\"https://www.diezdeditoslibres.com/collections/zapatillas-bebe-sin-suela\" class=\"boton-diezdeditos\">Zapatillas Bebe sin Suela</a>\n<a href=\"https://www.diezdeditoslibres.com/collections/zapatillas-lona-bebe\" class=\"boton-diezdeditos\">Zapatillas Lona Bebé</a>\n</div>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 40
       }
     },
     "custom_liquid_UhggM8": {
@@ -126,8 +126,8 @@
   "order": [
     "breadcrumbs_Gxg9wp",
     "banner",
-    "custom_liquid_zqV3bY",
     "product-grid",
+    "custom_liquid_zqV3bY",
     "custom_liquid_UhggM8",
     "rich_text_w8U3Uw"
   ]
