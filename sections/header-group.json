@@ -16,6 +16,7 @@
       "blocks": {
         "text_niHbzP": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "**SOMOS TIENDA ONLINE** Entrega en mano en Torrent y punto de entrega en Valencia.",
             "text_link": "",
@@ -32,7 +33,7 @@
         "text_xVMVnW": {
           "type": "text",
           "settings": {
-            "text": "",
+            "text": "PEDIDOS EN LAS SEMANAS DEL 4 al 17 de Agosto SALDRÁN MARTES Y VIERNES, excepto 15 agosto (saldrán el jueves 14).",
             "text_link": "",
             "text_size": "text-base",
             "font_weight": "font-heading",
@@ -46,6 +47,7 @@
         },
         "text_t3BcT4": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "¿Quieres probar y comprar calzado sin salir de casa? Consulta nuestras sesiones Zapatupper",
             "text_link": "",
