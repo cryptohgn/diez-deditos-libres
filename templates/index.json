@@ -41,13 +41,13 @@
             "image_overlay_opacity": 0,
             "content_position": "middle-right",
             "text_alignment": "center",
-            "title": "2as Rebajas + Envío Gratis",
+            "title": "Regalo Plantillas",
             "heading_size": "hd2",
             "subheading": "",
-            "description": "<p>* Península y pedidos superiores a 25€</p>",
+            "description": "<p>Con la compra de Deportivas de Niños</p>",
             "description_size": "text-lg",
-            "button_label": "Ver rebajas",
-            "button_link": "shopify://collections/novedades",
+            "button_label": "Ver Deportivas",
+            "button_link": "shopify://collections/deportivas",
             "button_style": "btn--primary"
           }
         },
