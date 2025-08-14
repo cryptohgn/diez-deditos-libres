@@ -42,7 +42,7 @@
             "content_position": "middle-right",
             "text_alignment": "center",
             "title": "10% EXTRA",
-            "heading_size": "hd2",
+            "heading_size": "hd1",
             "subheading": "",
             "description": "<p><strong>Remate Final de Rebajas + envíos a 1€</strong></p>",
             "description_size": "text-lg",
@@ -98,6 +98,7 @@
         "slide_9yhE8c"
       ],
       "custom_css": [
+        ".text-lg{font-size: 2.5rem;}",
         "@media (max-width: 767.98px) {.slideshow__text {margin: auto; }}"
       ],
       "settings": {
