@@ -32,6 +32,7 @@
         },
         "text_xVMVnW": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "PEDIDOS EN LA SEMANA DEL 11 AL 17 de Agosto SALDRÁN MARTES 12 Y JUEVES 14",
             "text_link": "",
