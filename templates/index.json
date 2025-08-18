@@ -36,18 +36,18 @@
           "type": "slide",
           "settings": {
             "color_scheme": "scheme-9",
-            "background": "shopify://shop_images/Portadas_web_1_2b67d698-052e-46e4-acfb-4e7f8910455b.png",
-            "background_mobile": "shopify://shop_images/PORTADAS_WEB_MOVIL_833237a5-ae0a-4d00-a3aa-7aa205f59295.png",
+            "background": "shopify://shop_images/Portadas_web_2.jpg",
+            "background_mobile": "shopify://shop_images/PORTADAS_WEB_MOVIL.jpg",
             "image_overlay_opacity": 30,
             "content_position": "middle-right",
             "text_alignment": "center",
-            "title": "10% EXTRA",
+            "title": "2ª UD al 60%",
             "heading_size": "hd1",
             "subheading": "",
-            "description": "<p><strong>Remate Final de Rebajas + envíos a 1€</strong></p>",
+            "description": "<p><strong>En Deportivas de infantil y adulto</strong></p>",
             "description_size": "text-lg",
             "button_label": "Comprar Ahora",
-            "button_link": "shopify://collections/10-extra",
+            "button_link": "shopify://collections/2ª-unidad-60",
             "button_style": "btn--primary"
           }
         },
