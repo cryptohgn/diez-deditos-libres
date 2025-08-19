@@ -67,11 +67,27 @@
         "divider_width": "fixed"
       }
     },
+    "custom_liquid_bGR8PH": {
+      "type": "custom-liquid",
+      "custom_css": [
+        ".boton-deditos {display: inline-block; background-color: #ea5cb8; color: #ffffff; text-decoration: none; padding: 12px 24px; border-radius: 8px; /* Picos redondeados */ font-weight: bold; transition: background-color 0.3s ease, transform 0.2s ease; margin: 10px;}",
+        ".boton-deditos:hover {background-color: #f077c6; /* Color más claro al pasar el ratón */ transform: scale(1.05); /* Efecto sutil */}",
+        ".boton-container {text-align: center;}"
+      ],
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<div class=\"boton-container\">\n  <a href=\"https://www.diezdeditoslibres.com/collections/merceditas-bebe-nina-nino-barefoot-respetuosas\" class=\"boton-deditos\">Merceditas Bebé Barefoot Respetuosas</a>\n</div>",
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
     "17539423821d3adb98": {
       "type": "_blocks",
       "blocks": {
         "ai_gen_block_c82a648_nTg8pT": {
           "type": "ai_gen_block_c82a648",
+          "disabled": true,
           "settings": {
             "main_menu": "main-menu",
             "show_parent_button": false,
@@ -139,6 +155,7 @@
     "breadcrumbs_Gxg9wp",
     "banner",
     "product-grid",
+    "custom_liquid_bGR8PH",
     "17539423821d3adb98",
     "rich_text_w8U3Uw"
   ]
