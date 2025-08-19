@@ -37,8 +37,8 @@
           "settings": {
             "color_scheme": "scheme-9",
             "background": "shopify://shop_images/Portadas_web_modificado.webp",
-            "background_mobile": "shopify://shop_images/PORTADAS_WEB_MOVIL.jpg",
-            "image_overlay_opacity": 20,
+            "background_mobile": "shopify://shop_images/PORTADAS_WEB_MObilE2.png",
+            "image_overlay_opacity": 25,
             "content_position": "middle-right",
             "text_alignment": "center",
             "title": "2ª UD al 60%",
