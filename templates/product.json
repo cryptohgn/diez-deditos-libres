@@ -148,7 +148,7 @@
           "settings": {
             "heading": "Advertencias",
             "icon": "none",
-            "content": "",
+            "content": "<p><em>* Los colores de las imágenes pueden variar ligeramente de los colores reales según el dispositivo desde el que se visualicen.</em></p><p><em>* Los artículos de piel pueden presentar arrugas debido a su flexibilidad, sin que esto se considere un defecto. Igualmente, la piel de serraje puede presentar imperfecciones propias.</em></p><p><em>* El desgaste ocasionado por el uso habitual, roce o fricción no se considera un defecto de fábrica.<br/></em><br/><em>* Si necesitas ayuda para elegir la talla o el modelo adecuado, consúltanos por WhatsApp.</em></p><p><em>* Si eres de Torrent, Valencia o alrededores, consulta la posibilidad de probar antes de comprar y valora la entrega local.</em></p>",
             "page": "",
             "default_open": false
           }
