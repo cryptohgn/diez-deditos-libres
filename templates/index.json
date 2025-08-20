@@ -151,21 +151,22 @@
         "divider_width": "fixed"
       }
     },
-    "featured_collection_qBzGAg": {
+    "featured_collection_i6hcRW": {
       "type": "featured-collection",
+      "name": "t:sections.featured-collection.presets.name",
       "settings": {
-        "color_scheme": "scheme-3",
+        "color_scheme": "scheme-1",
         "header_layout": "vertical",
-        "heading": "Rebajas Verano 2025",
+        "heading": "Novedades Otoño",
         "heading_size": "h1",
         "heading_highlight_style": "none",
         "subheading": "",
         "description": "",
         "text_size": "text-base",
         "show_collection_description": false,
-        "collection": "novedades",
-        "limit": 10,
-        "columns": 5,
+        "collection": "novedades-1",
+        "limit": 8,
+        "columns": 4,
         "column_gap": "medium",
         "row_gap": "inherit",
         "grid_layout": "standard",
@@ -183,22 +184,21 @@
         "divider_width": "fixed"
       }
     },
-    "featured_collection_i6hcRW": {
+    "featured_collection_qBzGAg": {
       "type": "featured-collection",
-      "name": "t:sections.featured-collection.presets.name",
       "settings": {
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-3",
         "header_layout": "vertical",
-        "heading": "Novedades Otoño",
+        "heading": "Rebajas Verano 2025",
         "heading_size": "h1",
         "heading_highlight_style": "none",
         "subheading": "",
         "description": "",
         "text_size": "text-base",
         "show_collection_description": false,
-        "collection": "novedades-1",
-        "limit": 8,
-        "columns": 4,
+        "collection": "novedades",
+        "limit": 10,
+        "columns": 5,
         "column_gap": "medium",
         "row_gap": "inherit",
         "grid_layout": "standard",
@@ -721,8 +721,8 @@
   "order": [
     "slideshow_q3U4Jn",
     "rich_text_Jr78BJ",
-    "featured_collection_qBzGAg",
     "featured_collection_i6hcRW",
+    "featured_collection_qBzGAg",
     "image_with_text_overlay_NaDGKJ",
     "image_with_text_MgddA8",
     "collection_list_Pr36qH",
