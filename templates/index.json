@@ -186,6 +186,7 @@
     },
     "featured_collection_qBzGAg": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "color_scheme": "scheme-3",
         "header_layout": "vertical",
