@@ -116,7 +116,7 @@
         "collapsible_tab_fjKBCq": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Estado Marcha y Horma",
+            "heading": "Horma",
             "icon": "none",
             "content": "<p>{{ product.metafields.info.marcha_horma | metafield_tag }}</p>",
             "page": "",
