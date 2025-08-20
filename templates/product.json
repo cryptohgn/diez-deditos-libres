@@ -138,7 +138,7 @@
           "settings": {
             "heading": "Reglamento",
             "icon": "none",
-            "content": "<p>{{ product.metafields.info.reglamento | metafield_tag }}</p>",
+            "content": "<p>{{ product.metafields.info.reglamento | metafield_tag }}</p><p></p><p>Todos los productos se elaboran siguiendo la legislación y normativas vigentes, y pasan por rigurosos controles para asegurar su seguridad y calidad, cumpliendo con los estándares europeos de calidad.<br/><br/></p>",
             "page": "",
             "default_open": false
           }
