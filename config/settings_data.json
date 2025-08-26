@@ -125,6 +125,11 @@
         "type": "shopify://apps/essential-free-shipping/blocks/app_embed/4125375e-37c8-4137-949d-c4e1a3aac572",
         "disabled": false,
         "settings": {}
+      },
+      "573254258818049612": {
+        "type": "shopify://apps/crazy-egg/blocks/app-embed/7ea73823-6ad9-4252-a63e-088397d54aed",
+        "disabled": false,
+        "settings": {}
       }
     },
     "color_schemes": {
