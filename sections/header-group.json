@@ -79,6 +79,7 @@
         },
         "text_KmQqhE": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "GASTOS ENVÍO desde 3,90€",
             "text_link": "shopify://collections/colegiales",
