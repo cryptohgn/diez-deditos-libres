@@ -76,7 +76,7 @@
       ],
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "custom_liquid": "<div class=\"boton-container\">\n  <a href=\"https://www.diezdeditoslibres.com/collections/sandalias-bebe-nino\" class=\"boton-deditos\">Sandalias Bebé Niño</a>\n  <a href=\"https://www.diezdeditoslibres.com/collections/sandalias-bebe-nina\" class=\"boton-deditos\">Sandalias Bebé Niña</a>\n</div>",
+        "custom_liquid": "<div class=\"boton-container\">\n  <a href=\"https://www.diezdeditoslibres.com/collections/sandalias-bebe-nino\" class=\"boton-deditos\">Sandalias Bebé Niño</a>\n  <a href=\"https://www.diezdeditoslibres.com/collections/sandalias-bebe-nina\" class=\"boton-deditos\">Sandalias Bebé Niña</a>\n<a href=\"https://www.diezdeditoslibres.com/collections/sandalias-de-lona-para-bebe\" class=\"boton-deditos\">Sandalias Lona Bebé</a>\n<a href=\"https://www.diezdeditoslibres.com/collections/sandalias-respetuosas-bebe\" class=\"boton-deditos\">Sandalias Respetuosas Bebé</a>\n</div>",
         "color_scheme": "",
         "padding_top": 50,
         "padding_bottom": 50
