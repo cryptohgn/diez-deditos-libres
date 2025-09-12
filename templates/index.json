@@ -238,7 +238,7 @@
           "type": "text",
           "settings": {
             "text": "<p><br/>✨ Novedades Barefoot para toda la familia ✨<br/>Presentamos la nueva colección de zapatillas barefoot, disponibles en tallas infantiles y adulto. Diseñadas con materiales de calidad, flexibles y transpirables, estas zapatillas respetan el movimiento natural del pie y aportan comodidad en cada paso.<br/><br/>Con nuevos colores y estilos, son la opción ideal para el día a día, el cole o los paseos en familia. ¡Descubre la forma más saludable y bonita de calzar a pequeños y mayores!<br/><strong><br/>Disponibles en tallas infantiles y de adulto, para que toda la familia camine libre.</strong><br/></p>",
-            "text_size": "text-lg"
+            "text_size": "text-base"
           }
         },
         "button_mnLQmN": {
@@ -256,9 +256,7 @@
         "text_g7bjNE",
         "button_mnLQmN"
       ],
-      "custom_css": [
-        "media (max-width: 767.98px) {}"
-      ],
+      "custom_css": [],
       "name": "t:sections.image-with-text-overlay.name",
       "settings": {
         "container": "full",
