@@ -256,6 +256,9 @@
         "text_g7bjNE",
         "button_mnLQmN"
       ],
+      "custom_css": [
+        "media (max-width: 767.98px) {}"
+      ],
       "name": "t:sections.image-with-text-overlay.name",
       "settings": {
         "container": "full",
