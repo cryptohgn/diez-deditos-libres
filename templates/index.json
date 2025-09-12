@@ -256,7 +256,9 @@
         "text_g7bjNE",
         "button_mnLQmN"
       ],
-      "custom_css": [],
+      "custom_css": [
+        "@media only screen and (min-width: 749px){.rich-text > * + *:is(.rich-text__text) {font-size: 18px;} }"
+      ],
       "name": "t:sections.image-with-text-overlay.name",
       "settings": {
         "container": "full",
