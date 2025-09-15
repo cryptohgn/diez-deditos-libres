@@ -54,6 +54,13 @@
             "show_inventory_quantity": true
           }
         },
+        "popup_Fj8KDC": {
+          "type": "popup",
+          "settings": {
+            "text": "Guía de tallas",
+            "page": ""
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -71,13 +78,6 @@
             "show_quantity_selector": false,
             "show_dynamic_checkout": true,
             "show_gift_card_recipient": true
-          }
-        },
-        "popup_Fj8KDC": {
-          "type": "popup",
-          "settings": {
-            "text": "Guía de tallas",
-            "page": ""
           }
         },
         "collapsible_tab_3cpfAJ": {
@@ -203,9 +203,9 @@
         "price",
         "description",
         "inventory",
+        "popup_Fj8KDC",
         "variant_picker",
         "buy_buttons",
-        "popup_Fj8KDC",
         "collapsible_tab_3cpfAJ",
         "collapsible_tab_7HzjbR",
         "collapsible_tab_bExi78",
