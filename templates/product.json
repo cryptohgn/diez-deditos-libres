@@ -73,6 +73,13 @@
             "show_gift_card_recipient": true
           }
         },
+        "popup_Fj8KDC": {
+          "type": "popup",
+          "settings": {
+            "text": "Guía de tallas",
+            "page": ""
+          }
+        },
         "collapsible_tab_3cpfAJ": {
           "type": "collapsible_tab",
           "settings": {
@@ -187,13 +194,6 @@
             "show_share": true,
             "show_ask_question": true
           }
-        },
-        "popup_Fj8KDC": {
-          "type": "popup",
-          "settings": {
-            "text": "Guía de tallas",
-            "page": ""
-          }
         }
       },
       "block_order": [
@@ -205,6 +205,7 @@
         "inventory",
         "variant_picker",
         "buy_buttons",
+        "popup_Fj8KDC",
         "collapsible_tab_3cpfAJ",
         "collapsible_tab_7HzjbR",
         "collapsible_tab_bExi78",
@@ -216,10 +217,13 @@
         "collapsible_tab_LBaqXK",
         "pickup_availability",
         "complementary",
-        "addons",
-        "popup_Fj8KDC"
+        "addons"
       ],
-      "custom_css": [],
+      "custom_css": [
+        ".btn--underline {display: inline-block; border: 1.5px solid #ea5cb8; border-radius: 50px; padding: 4px 16px !important; color: #ea5cb8; text-decoration: none !important; font-weight: 700; transition: all 0.2s ease-in-out;}",
+        ".btn--underline:hover {background-color: #ea5cb8; color: #ffffff;}",
+        ".btn--underline::after {display: none !important;}"
+      ],
       "settings": {
         "color_scheme": "scheme-1",
         "enable_sticky_info": true,
