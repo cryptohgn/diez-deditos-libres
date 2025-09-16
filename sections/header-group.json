@@ -64,7 +64,6 @@
         },
         "text_QCAxbn": {
           "type": "text",
-          "disabled": true,
           "settings": {
             "text": "ZONA OUTLET HASTA 50%",
             "text_link": "shopify://collections/saldo",
@@ -101,7 +100,6 @@
         "text_QCAxbn",
         "text_KmQqhE"
       ],
-      "disabled": true,
       "settings": {
         "color_scheme": "scheme-2",
         "vertical_alignment": "center",
