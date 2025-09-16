@@ -32,6 +32,7 @@
         },
         "text_xVMVnW": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "Gastos de ENVÍO GRATIS, a Península, por compras superiores a 60€",
             "text_link": "",
@@ -79,7 +80,6 @@
         },
         "text_KmQqhE": {
           "type": "text",
-          "disabled": true,
           "settings": {
             "text": "GASTOS ENVÍO desde 3,90€",
             "text_link": "shopify://collections/colegiales",
