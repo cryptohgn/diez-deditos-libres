@@ -470,7 +470,7 @@
       "type": "_blocks",
       "blocks": {
         "ai_gen_block_d576ba7_xXGEfe": {
-          "type": "extrainfo_barefoot_block",
+          "type": "ai_gen_block_d576ba7",
           "settings": {
             "subtitle": "Descubre todo lo que tenemos para ofrecerte",
             "button_text": "Ver más",
