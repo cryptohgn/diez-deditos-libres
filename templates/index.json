@@ -466,23 +466,40 @@
         "divider_width": "fixed"
       }
     },
-    "1758018247d8895145": {
+    "17580188792b213968": {
       "type": "_blocks",
       "blocks": {
-        "ai_gen_block_d576ba7_xXGEfe": {
-          "type": "ai_gen_block_d576ba7",
+        "ai_gen_block_6d5c379_4brHLC": {
+          "type": "ai_gen_block_6d5c379",
           "settings": {
-            "subtitle": "Descubre todo lo que tenemos para ofrecerte",
-            "button_text": "Ver más",
-            "button_link": "",
+            "main_title": "Calzado Barefoot",
+            "subtitle": "Así es el calzado que respeta la forma y movimiento de tus pies",
+            "feature_1_icon": "shopify://shop_images/Mesa_de_trabajo_1.png",
+            "feature_1_title": "Suela flexible",
+            "feature_1_description": "Permite que el pie se mueva con total libertad. Facilita la adaptación al terreno y simula la sensación de ir descalzo.",
+            "feature_2_title": "Comodidad",
+            "feature_2_description": "La suela es plana, sin ninguna elevación en el talón. Esto promueve una postura natural y mejora la alineación del cuerpo.",
+            "feature_3_title": "Sin contrafuerte",
+            "feature_3_description": "No lleva la pieza rígida en el talón. Así, el pie se mueve libremente y fortalece sus músculos de forma natural.",
+            "button_text": "¿Qué es el calzado barefoot?",
+            "button_link": "https://www.diezdeditoslibres.com/blogs/habia-una-vez-diez-deditos-libres/que-es-el-calzado-barefoot-beneficios-para-los-pies-de-tu-familia",
+            "section_bg_color": "#ffffff",
             "title_color": "#000000",
-            "icon_color": "#ffffff"
+            "text_color": "#666666",
+            "icon_bg_color": "#f8f9fa",
+            "icon_color": "#ea5cb8",
+            "button_bg_color": "#ea5cb8",
+            "button_text_color": "#ffffff",
+            "title_font_size": 40,
+            "feature_title_font_size": 22,
+            "text_font_size": 18,
+            "section_padding": 60
           },
           "blocks": {}
         }
       },
       "block_order": [
-        "ai_gen_block_d576ba7_xXGEfe"
+        "ai_gen_block_6d5c379_4brHLC"
       ],
       "disabled": true,
       "name": "Section-infoBarefoot",
@@ -754,7 +771,7 @@
     "image_with_text_MgddA8",
     "collection_list_Pr36qH",
     "rich_text_iKgXTP",
-    "1758018247d8895145",
+    "17580188792b213968",
     "scrolling_promotion_htQpcB",
     "multicolumn_fyPhFX",
     "1748340579271eabb5"
