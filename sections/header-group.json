@@ -66,8 +66,8 @@
           "type": "text",
           "disabled": true,
           "settings": {
-            "text": "Enviamos a Alemania, Andorra, Austria, Bélgica, Francia, Italia, Paises Bajos y Portugal",
-            "text_link": "",
+            "text": "ZONA OUTLET HASTA 50%",
+            "text_link": "shopify://collections/saldo",
             "text_size": "text-base",
             "font_weight": "font-heading",
             "font_style": "normal",
@@ -101,6 +101,7 @@
         "text_QCAxbn",
         "text_KmQqhE"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "scheme-2",
         "vertical_alignment": "center",
