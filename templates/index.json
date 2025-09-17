@@ -502,6 +502,7 @@
       "block_order": [
         "ai_gen_block_6d5c379_4brHLC"
       ],
+      "disabled": true,
       "name": "Section-infoBarefoot",
       "settings": {}
     },
