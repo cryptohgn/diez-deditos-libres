@@ -220,7 +220,7 @@
         "addons"
       ],
       "custom_css": [
-        ".btn--underline {display: inline-block; border: 1.5px solid #ea5cb8; border-radius: 50px; padding: 4px 16px !important; color: #ea5cb8; text-decoration: none !important; font-weight: 700; transition: all 0.2s ease-in-out;}",
+        ".btn--underline {display: inline-block; border: 1.5px solid #ea5cb8; border-radius: 50px; padding: 4px 16px !important; color: #ea5cb8; text-decoration: none !important; font-weight: 600; transition: all 0.2s ease-in-out;}",
         ".btn--underline:hover {background-color: #ea5cb8; color: #ffffff;}",
         ".btn--underline::after {display: none !important;}"
       ],
