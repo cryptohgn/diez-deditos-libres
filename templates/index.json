@@ -476,13 +476,13 @@
             "subtitle": "Así es el calzado que respeta la forma y movimiento de tus pies",
             "icon_1": "shopify://shop_images/Mesa_de_trabajo_1_3a3f24a6-df1b-4fce-8591-5843fc6cc0c6.png",
             "feature_1_title": "Suela flexible",
-            "feature_1_text": "Adaptable and comfortable for all day wear",
+            "feature_1_text": "Permite que el pie se mueva con total libertad. Facilita la adaptación al terreno y simula la sensación de ir descalzo.",
             "icon_2": "shopify://shop_images/21copia.png",
-            "feature_2_title": "Comodidad",
-            "feature_2_text": "Perfect balance and stability for natural movement",
+            "feature_2_title": "Suela fina y sin drop",
+            "feature_2_text": "La suela es plana, sin ninguna elevación en el talón.\nEsto promueve una postura natural y mejora la alineación del cuerpo.",
             "icon_3": "shopify://shop_images/2copia_85f6f77d-e871-4eae-92f8-0c6c8b084e28.png",
             "feature_3_title": "Sin contrafuerte",
-            "feature_3_text": "Spacious design that accommodates natural foot shape",
+            "feature_3_text": "No lleva la pieza rígida en el talón.\nAsí, el pie se mueve libremente y fortalece sus músculos de forma natural.",
             "button_text": "¿Qué es el calzado barefoot?",
             "button_link": "https://www.diezdeditoslibres.com/blogs/habia-una-vez-diez-deditos-libres/que-es-el-calzado-barefoot-beneficios-para-los-pies-de-tu-familia",
             "button_style": "primary",
@@ -502,7 +502,6 @@
       "block_order": [
         "ai_gen_block_6d5c379_4brHLC"
       ],
-      "disabled": true,
       "name": "Section-infoBarefoot",
       "settings": {}
     },
