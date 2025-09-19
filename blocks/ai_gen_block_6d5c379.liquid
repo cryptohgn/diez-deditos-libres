@@ -247,13 +247,15 @@
       </div>
     </div>
 
-    {# {% if block.settings.button_text != blank %}
+    {% comment %}
+ {% if block.settings.button_text != blank %}
       <div class="features-cta-{{ extra_info_id }}">
         <a href="{{ block.settings.button_link }}" class="features-button-{{ extra_info_id }}">
           {{ block.settings.button_text }}
         </a>
       </div>
-    {% endif %} #}
+    {% endif %}
+     {% endcomment %}
   </div>
 </div>
 
