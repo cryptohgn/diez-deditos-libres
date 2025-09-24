@@ -134,6 +134,30 @@
         "show_section_divider": false,
         "divider_width": "fixed"
       }
+    },
+    "rich_text_k7LjG9": {
+      "type": "rich-text",
+      "blocks": {
+        "text_gjwmzP": {
+          "type": "text",
+          "settings": {
+            "text": "<p>hola caracola</p>",
+            "text_size": "text-base"
+          }
+        }
+      },
+      "block_order": [
+        "text_gjwmzP"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "color_scheme": "",
+        "content_alignment": "center",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
     }
   },
   "order": [
@@ -141,6 +165,7 @@
     "banner",
     "product-grid",
     "17539423821d3adb98",
-    "rich_text_w8U3Uw"
+    "rich_text_w8U3Uw",
+    "rich_text_k7LjG9"
   ]
 }
