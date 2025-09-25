@@ -131,7 +131,105 @@
         "text_bfNfpV",
         "button_BjTnTY"
       ],
-      "name": "t:sections.image-with-text.presets.name",
+      "name": "Image with text- qué es",
+      "settings": {
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_height": "adapt",
+        "layout": "image_first",
+        "desktop_content_position": "center",
+        "desktop_content_alignment": "left",
+        "enable_parallax": false,
+        "parallax_direction": "vertical",
+        "mobile_content_alignment": "left",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "image_with_text_xe8tX9": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_aQRRdj": {
+          "type": "heading",
+          "settings": {
+            "heading": "Características del calzado barefoot",
+            "heading_size": "hd1",
+            "heading_highlight_style": "none"
+          }
+        },
+        "text_itymBj": {
+          "type": "text",
+          "settings": {
+            "text": "<p>El calzado respetuoso, o barefoot, tiene una serie de características<br/> únicas que lo diferencian de los zapatos convencionales. Estas <br/>características son fundamentales para permitir que el pie funcione como<br/> debe, sin restricciones artificiales. A continuación, te explico los <br/>aspectos principales que hacen que este tipo de calzado sea tan <br/>especial:</p><h4>✔️ <strong>Suela flexible</strong><br/></h4><p>Una de las principales características del calzado barefoot es la <br/>flexibilidad de su suela. Esta flexibilidad permite que el pie se mueva <br/>libremente, adaptándose a las diferentes superficies y proporcionando <br/>una sensación muy parecida a la de ir descalzo. Cuando caminamos, <br/>nuestros pies deben ser capaces de flexionarse de forma natural, y un <br/>zapato con suela flexible permite justamente eso.</p><h4>✔️ <strong>Suela fina y sin drop (elevación de talón)</strong><br/></h4><p>En los zapatos tradicionales, el talón suele estar elevado con respecto a la parte delantera del pie, lo que se conoce como <strong>drop</strong>.<br/> Este diseño artificial limita el movimiento natural del pie y puede <br/>afectar nuestra postura y la forma en que caminamos. En el calzado <br/>barefoot, la suela es <strong>fina y plana</strong>, es decir, no hay <br/>elevación del talón. Esto permite que el pie esté en una posición más <br/>natural, promoviendo una pisada más equilibrada y mejorando la <br/>alineación del cuerpo.</p><h4>✔️ <strong>Sin contrafuerte</strong><br/></h4><p>Otro aspecto importante es que el calzado barefoot <strong>no tiene contrafuerte</strong>.<br/> El contrafuerte es esa pieza rígida que se encuentra en el talón de los<br/> zapatos tradicionales para darle soporte y estructura. En los zapatos <br/>barefoot, al no tener contrafuerte, el pie puede moverse libremente, <br/>permitiendo que los músculos y ligamentos del pie se fortalezcan de <br/>forma natural. Esto es especialmente beneficioso en los niños, ya que <br/>sus pies están en pleno desarrollo y necesitan libertad de movimiento <br/>para crecer correctamente.</p>",
+            "text_size": "text-base"
+          }
+        },
+        "button_Yrf4rg": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_aQRRdj",
+        "text_itymBj",
+        "button_Yrf4rg"
+      ],
+      "name": "Image with text-caracteristicas",
+      "settings": {
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_height": "adapt",
+        "layout": "text_first",
+        "desktop_content_position": "center",
+        "desktop_content_alignment": "left",
+        "enable_parallax": false,
+        "parallax_direction": "vertical",
+        "mobile_content_alignment": "left",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "image_with_text_EWeBLL": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_KC7kE4": {
+          "type": "heading",
+          "settings": {
+            "heading": "Beneficios del calzado respetuoso o barefoot",
+            "heading_size": "hd1",
+            "heading_highlight_style": "none"
+          }
+        },
+        "text_HTt9Gm": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ahora que ya sabes qué características tiene el calzado barefoot, te estarás preguntando: <strong>¿qué beneficios aporta realmente a mis pies (y los de mis hijos)?</strong> Vamos a ver algunos de los más importantes:</p><ol><li><strong>Desarrollo natural de los pies</strong><br/>El calzado barefoot promueve un desarrollo natural de los pies. A medida que caminamos descalzos o con calzado respetuoso, los músculos del pie, así como los ligamentos y tendones, se fortalecen de forma natural. Esto ayuda a prevenir problemas a largo plazo, como el pie plano o el pie cavo, ya que los pies trabajan como deberían: <strong>flexibles, fuertes y adaptativos</strong>.<br/></li><li><strong>Mejora la postura</strong><br/>Al no tener un talón elevado, el calzado barefoot permite que nuestra postura sea más equilibrada. Esto se debe a que el cuerpo, al estar alineado de manera más natural, distribuye mejor el peso al caminar. Además, como la suela es fina y flexible, nuestros pies pueden sentir mejor el terreno y ajustar nuestra postura según sea necesario.<br/></li><li><strong>Mayor movilidad y sensación de libertad</strong><br/>El caminar con un calzado respetuoso o barefoot ofrece una sensación de libertad. El pie se mueve de forma más natural, lo que aumenta la comodidad y la sensación de estar descalzo. Para los niños, esta libertad es fundamental, ya que el desarrollo motor en sus primeros años de vida está estrechamente relacionado con la capacidad de moverse de forma fluida y natural.<br/></li><li><strong>Mejor absorción de impactos</strong><br/>Aunque no lo parezca, el caminar descalzo sobre superficies duras como el suelo o el asfalto tiene un beneficio adicional: una <strong>mejor absorción de impactos</strong>. El pie está diseñado para amortiguar el impacto de manera eficiente, pero los zapatos convencionales, al ser rígidos, impiden que el pie actúe correctamente. Con el calzado barefoot, el pie puede adaptarse mejor a los diferentes terrenos y reducir el impacto.<br/></li><li><strong>Fomento del equilibrio y la propiocepción</strong><br/>El calzado barefoot favorece la propiocepción, es decir, la capacidad de percibir y sentir el propio cuerpo en el espacio. Al caminar con una suela fina, el pie puede detectar mejor el terreno, lo que mejora el equilibrio y la estabilidad. Esto es especialmente beneficioso para los niños que están desarrollando sus habilidades motrices y de coordinación.<br/></li></ol>",
+            "text_size": "text-base"
+          }
+        },
+        "button_MqrCUf": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_KC7kE4",
+        "text_HTt9Gm",
+        "button_MqrCUf"
+      ],
+      "name": "Image with text- beneficios",
       "settings": {
         "section_color_scheme": "",
         "color_scheme": "",
@@ -153,6 +251,8 @@
     "main",
     "image_with_text_fwFGAA",
     "featured_collection_A4aL4k",
-    "image_with_text_hBkrHJ"
+    "image_with_text_hBkrHJ",
+    "image_with_text_xe8tX9",
+    "image_with_text_EWeBLL"
   ]
 }
