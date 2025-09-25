@@ -11,13 +11,148 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "image_with_text_fwFGAA": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_pM9D3J": {
+          "type": "heading",
+          "settings": {
+            "heading": "¿Qué es el Calzado Barefoot?",
+            "heading_size": "hd1",
+            "heading_highlight_style": "none"
+          }
+        },
+        "text_XMQJ3U": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Beneficios para los Pies de tu Familia.</p>",
+            "text_size": "text-base"
+          }
+        },
+        "button_ctdxRN": {
+          "type": "button",
+          "settings": {
+            "button_label": "Elige tu Barefoot",
+            "button_link": "shopify://collections/all",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_pM9D3J",
+        "text_XMQJ3U",
+        "button_ctdxRN"
+      ],
+      "name": "Image with text-hero",
+      "settings": {
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_height": "adapt",
+        "layout": "text_first",
+        "desktop_content_position": "center",
+        "desktop_content_alignment": "left",
+        "enable_parallax": false,
+        "parallax_direction": "vertical",
+        "mobile_content_alignment": "left",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "featured_collection_A4aL4k": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "color_scheme": "",
+        "header_layout": "vertical",
+        "heading": "Featured collection",
+        "heading_size": "h1",
+        "heading_highlight_style": "none",
+        "subheading": "",
+        "description": "",
+        "text_size": "text-base",
+        "show_collection_description": false,
+        "collection": "",
+        "limit": 8,
+        "columns": 4,
+        "column_gap": "medium",
+        "row_gap": "inherit",
+        "grid_layout": "standard",
+        "enable_slider": true,
+        "controls_position": "inside",
+        "pcard_image_ratio": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "show_all_button_on_top": false,
+        "button_label": "",
+        "button_style": "btn--primary",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "image_with_text_hBkrHJ": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_88mdPQ": {
+          "type": "heading",
+          "settings": {
+            "heading": "¿Sabes qué es el calzado respetuoso o barefoot?",
+            "heading_size": "hd1",
+            "heading_highlight_style": "none"
+          }
+        },
+        "text_bfNfpV": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Si eres nuevo en el mundo del calzado respetuoso o barefoot, no te preocupes, aquí te cuento todo lo que necesitas saber.</p><p>El término \"barefoot\" proviene del inglés y significa <strong>“descalzo”</strong>,<br/> lo que nos da una pista de lo que realmente significa este tipo de <br/>calzado: la idea es sentirnos como si estuviéramos descalzos, es decir, <br/>caminar o correr <strong>sin el soporte artificial</strong> que nos <br/>ofrece un calzado tradicional. El objetivo es permitir que el pie se <br/>mueva de forma libre, natural y sin restricciones, tal y como lo haría <br/>si no lleváramos nada puesto.</p><p>Pero, ¿por qué es tan importante este tipo de calzado? Y, sobre todo,<br/> ¿cuáles son sus características y beneficios para nuestros pies, <br/>especialmente los de los más pequeños? Vamos a verlo.</p>",
+            "text_size": "text-base"
+          }
+        },
+        "button_BjTnTY": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_88mdPQ",
+        "text_bfNfpV",
+        "button_BjTnTY"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_height": "adapt",
+        "layout": "image_first",
+        "desktop_content_position": "center",
+        "desktop_content_alignment": "left",
+        "enable_parallax": false,
+        "parallax_direction": "vertical",
+        "mobile_content_alignment": "left",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "image_with_text_fwFGAA",
+    "featured_collection_A4aL4k",
+    "image_with_text_hBkrHJ"
   ]
 }
