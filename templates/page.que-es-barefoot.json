@@ -245,6 +245,55 @@
         "show_section_divider": false,
         "divider_width": "fixed"
       }
+    },
+    "image_with_text_aDD8VR": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_9N7HC9": {
+          "type": "heading",
+          "settings": {
+            "heading": "¿Por qué elegir calzado respetuoso o barefoot para tus hijos?",
+            "heading_size": "hd1",
+            "heading_highlight_style": "none"
+          }
+        },
+        "text_AFacjX": {
+          "type": "text",
+          "settings": {
+            "text": "<p>En el caso de los más pequeños, el calzado barefoot es <strong>ideal </strong>porque sus pies aún están en pleno desarrollo y son especialmente <br/>sensibles a los efectos de un calzado incorrecto. Los zapatos  tradicionales, que a menudo son rígidos o con una suela gruesa, pueden interferir en el desarrollo natural de los pies. Al ofrecerles calzado barefoot, estamos permitiendo que sus pies se desarrollen de manera libre y saludable, con todos los beneficios que ello conlleva.</p>",
+            "text_size": "text-base"
+          }
+        },
+        "button_mEVX8p": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_9N7HC9",
+        "text_AFacjX",
+        "button_mEVX8p"
+      ],
+      "name": "Image with text-caracteristicas",
+      "settings": {
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_height": "adapt",
+        "layout": "text_first",
+        "desktop_content_position": "center",
+        "desktop_content_alignment": "left",
+        "enable_parallax": false,
+        "parallax_direction": "vertical",
+        "mobile_content_alignment": "left",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
     }
   },
   "order": [
@@ -253,6 +302,7 @@
     "featured_collection_A4aL4k",
     "image_with_text_hBkrHJ",
     "image_with_text_xe8tX9",
-    "image_with_text_EWeBLL"
+    "image_with_text_EWeBLL",
+    "image_with_text_aDD8VR"
   ]
 }
