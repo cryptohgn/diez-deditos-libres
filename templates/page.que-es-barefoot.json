@@ -278,7 +278,7 @@
         "text_AFacjX",
         "button_mEVX8p"
       ],
-      "name": "Image with text-caracteristicas",
+      "name": "Image with text-para hijos",
       "settings": {
         "section_color_scheme": "",
         "color_scheme": "",
@@ -294,6 +294,48 @@
         "show_section_divider": false,
         "divider_width": "fixed"
       }
+    },
+    "rich_text_iJpd6m": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_MLH6f3": {
+          "type": "heading",
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "hd1",
+            "heading_highlight_style": "none"
+          }
+        },
+        "text_Tm9mFw": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text_size": "text-base"
+          }
+        },
+        "button_epWMc4": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_MLH6f3",
+        "text_Tm9mFw",
+        "button_epWMc4"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "color_scheme": "",
+        "content_alignment": "center",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
     }
   },
   "order": [
@@ -303,6 +345,7 @@
     "image_with_text_hBkrHJ",
     "image_with_text_xe8tX9",
     "image_with_text_EWeBLL",
-    "image_with_text_aDD8VR"
+    "image_with_text_aDD8VR",
+    "rich_text_iJpd6m"
   ]
 }
