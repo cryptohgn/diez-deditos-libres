@@ -69,6 +69,15 @@
     "predictive_search_enabled": true,
     "predictive_search_show_vendor": false,
     "predictive_search_show_price": false,
+    "most_searched_keyworkds": "Froddo, Blanditos, Coqueflex, Mustang",
+    "products_recommendations": [
+      "froddo-lonas-barefoot-veganas-adulto-amarillo",
+      "blanditos-by-crio-s-deportiva-barefoot-londres-blanco-1",
+      "coqueflex-deportiva-barefoot-combi-6-negro",
+      "mustang-zapatillas-casual-free-miami-barefoot-verde-84800",
+      "baby-lobitos-zapatilla-respetuosa-adulto-mapis-noche",
+      "beda-canvas-respetuosas-blue-moon"
+    ],
     "currency_code_enabled": false,
     "buttons_uppercase": false,
     "blog_card_style": "standard",
