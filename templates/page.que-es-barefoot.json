@@ -380,6 +380,7 @@
       "name": "t:sections.image-with-text-overlay.name",
       "settings": {
         "container": "full",
+        "image": "shopify://shop_images/nino.webp",
         "desktop_height": "extra-medium",
         "overlay_opacity": 70,
         "enable_parallax": false,
