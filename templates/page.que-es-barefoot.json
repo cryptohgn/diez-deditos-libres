@@ -162,7 +162,7 @@
         "text_itymBj": {
           "type": "text",
           "settings": {
-            "text": "<p>El calzado respetuoso, o barefoot, tiene una serie de características<br/> únicas que lo diferencian de los zapatos convencionales. Estas <br/>características son fundamentales para permitir que el pie funcione como<br/> debe, sin restricciones artificiales. A continuación, te explico los <br/>aspectos principales que hacen que este tipo de calzado sea tan <br/>especial:</p><h4>✔️ <strong>Suela flexible</strong><br/></h4><p>Una de las principales características del calzado barefoot es la <br/>flexibilidad de su suela. Esta flexibilidad permite que el pie se mueva <br/>libremente, adaptándose a las diferentes superficies y proporcionando <br/>una sensación muy parecida a la de ir descalzo. Cuando caminamos, <br/>nuestros pies deben ser capaces de flexionarse de forma natural, y un <br/>zapato con suela flexible permite justamente eso.</p><h4>✔️ <strong>Suela fina y sin drop (elevación de talón)</strong><br/></h4><p>En los zapatos tradicionales, el talón suele estar elevado con respecto a la parte delantera del pie, lo que se conoce como <strong>drop</strong>.<br/> Este diseño artificial limita el movimiento natural del pie y puede <br/>afectar nuestra postura y la forma en que caminamos. En el calzado <br/>barefoot, la suela es <strong>fina y plana</strong>, es decir, no hay <br/>elevación del talón. Esto permite que el pie esté en una posición más <br/>natural, promoviendo una pisada más equilibrada y mejorando la <br/>alineación del cuerpo.</p><h4>✔️ <strong>Sin contrafuerte</strong><br/></h4><p>Otro aspecto importante es que el calzado barefoot <strong>no tiene contrafuerte</strong>.<br/> El contrafuerte es esa pieza rígida que se encuentra en el talón de los<br/> zapatos tradicionales para darle soporte y estructura. En los zapatos <br/>barefoot, al no tener contrafuerte, el pie puede moverse libremente, <br/>permitiendo que los músculos y ligamentos del pie se fortalezcan de <br/>forma natural. Esto es especialmente beneficioso en los niños, ya que <br/>sus pies están en pleno desarrollo y necesitan libertad de movimiento <br/>para crecer correctamente.</p>",
+            "text": "<p>✔️ <strong>Suela flexible</strong><br/>Una de las principales características del calzado barefoot es la flexibilidad de su suela. Esta flexibilidad permite que el pie se mueva libremente, adaptándose a las diferentes superficies y proporcionando <br/>una sensación muy parecida a la de ir descalzo.</p><h4>✔️ <strong>Suela fina y sin drop (elevación de talón)</strong></h4><p>En los zapatos tradicionales, el talón suele estar elevado con respecto a la parte delantera del pie, lo que se conoce como <strong>drop</strong>. Este diseño artificial limita el movimiento natural del pie y puede <br/>afectar nuestra postura y la forma en que caminamos. En el calzado <br/>barefoot, no hay <br/>elevación del talón. Esto permite que el pie esté en una posición más <br/>natural, promoviendo una pisada más equilibrada y mejorando la <br/>alineación del cuerpo.</p><p>✔️ <strong>Sin contrafuerte</strong><br/><br/>El contrafuerte es esa pieza rígida que se encuentra en el talón de los zapatos tradicionales para darle soporte y estructura. En los zapatos barefoot, al no tener contrafuerte, el pie puede moverse libremente, permitiendo que los músculos y ligamentos del pie se fortalezcan de forma natural. Esto es especialmente beneficioso en los niños, ya que sus pies están en pleno desarrollo y necesitan libertad de movimiento para crecer correctamente.</p>",
             "text_size": "text-base"
           }
         },
@@ -246,10 +246,16 @@
         "divider_width": "fixed"
       }
     },
-    "image_with_text_aDD8VR": {
-      "type": "image-with-text",
+    "image_with_text_overlay_aEiiAU": {
+      "type": "image-with-text-overlay",
       "blocks": {
-        "heading_9N7HC9": {
+        "subheading_6DDrp6": {
+          "type": "subheading",
+          "settings": {
+            "subheading": ""
+          }
+        },
+        "heading_BiPPBY": {
           "type": "heading",
           "settings": {
             "heading": "¿Por qué elegir calzado respetuoso o barefoot para tus hijos?",
@@ -257,42 +263,41 @@
             "heading_highlight_style": "none"
           }
         },
-        "text_AFacjX": {
+        "text_fkM9HT": {
           "type": "text",
           "settings": {
             "text": "<p>En el caso de los más pequeños, el calzado barefoot es <strong>ideal </strong>porque sus pies aún están en pleno desarrollo y son especialmente <br/>sensibles a los efectos de un calzado incorrecto. Los zapatos  tradicionales, que a menudo son rígidos o con una suela gruesa, pueden interferir en el desarrollo natural de los pies. Al ofrecerles calzado barefoot, estamos permitiendo que sus pies se desarrollen de manera libre y saludable, con todos los beneficios que ello conlleva.</p>",
             "text_size": "text-base"
           }
         },
-        "button_mEVX8p": {
+        "button_WJQGGa": {
           "type": "button",
           "settings": {
-            "button_label": "",
-            "button_link": "",
-            "button_style": "btn--primary"
+            "button_label": "Elige el Barefoot de tu hijo",
+            "button_link": "shopify://collections/primeros-pasos",
+            "button_style": "btn--secondary"
           }
         }
       },
       "block_order": [
-        "heading_9N7HC9",
-        "text_AFacjX",
-        "button_mEVX8p"
+        "subheading_6DDrp6",
+        "heading_BiPPBY",
+        "text_fkM9HT",
+        "button_WJQGGa"
       ],
-      "name": "Image with text-para hijos",
+      "name": "t:sections.image-with-text-overlay.name",
       "settings": {
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "image_height": "adapt",
-        "layout": "text_first",
-        "desktop_content_position": "center",
-        "desktop_content_alignment": "left",
+        "container": "full",
+        "desktop_height": "extra-medium",
+        "overlay_opacity": 70,
         "enable_parallax": false,
         "parallax_direction": "vertical",
-        "mobile_content_alignment": "left",
+        "color_scheme": "",
+        "content_position": "middle-left",
+        "content_alignment": "center",
+        "mobile_height": "auto",
         "padding_top": 50,
-        "padding_bottom": 50,
-        "show_section_divider": false,
-        "divider_width": "fixed"
+        "padding_bottom": 50
       }
     },
     "rich_text_iJpd6m": {
@@ -309,7 +314,7 @@
         "text_Tm9mFw": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text": "<p>En resumen, el calzado barefoot es más que una moda; es una forma de devolverle a nuestros pies su <strong>movimiento natural</strong> y su <strong>capacidad de adaptación </strong>al entorno. No solo es una excelente opción para los adultos, sino que también es una de las mejores decisiones que puedes tomar para el desarrollo saludable de los pies de tus hijos. Si te preguntas si deberían probarlo, la respuesta es: <strong>¡sin duda!</strong></p>",
             "text_size": "text-base"
           }
         },
@@ -345,7 +350,7 @@
     "image_with_text_hBkrHJ",
     "image_with_text_xe8tX9",
     "image_with_text_EWeBLL",
-    "image_with_text_aDD8VR",
+    "image_with_text_overlay_aEiiAU",
     "rich_text_iJpd6m"
   ]
 }
