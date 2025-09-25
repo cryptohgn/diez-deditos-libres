@@ -337,15 +337,6 @@
     "collection_list_Pr36qH": {
       "type": "collection-list",
       "blocks": {
-        "featured_collection_VHfaMD": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "baby-lobitos",
-            "image": "shopify://shop_images/lobitos-6-min_01c98727-db36-49e4-8315-eaa67d112a88.jpg",
-            "title": "Baby lobitos",
-            "description": ""
-          }
-        },
         "featured_collection_3qNJmC": {
           "type": "featured_collection",
           "settings": {
@@ -379,6 +370,15 @@
             "description": ""
           }
         },
+        "featured_collection_VHfaMD": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "baby-lobitos",
+            "image": "shopify://shop_images/lobitos-6-min_01c98727-db36-49e4-8315-eaa67d112a88.jpg",
+            "title": "Baby lobitos",
+            "description": ""
+          }
+        },
         "featured_collection_inyzwk": {
           "type": "featured_collection",
           "settings": {
@@ -389,11 +389,11 @@
         }
       },
       "block_order": [
-        "featured_collection_VHfaMD",
         "featured_collection_3qNJmC",
         "featured_collection_N3bT8g",
         "featured_collection_H3VHEr",
         "featured_collection_ytHAXL",
+        "featured_collection_VHfaMD",
         "featured_collection_inyzwk"
       ],
       "settings": {
