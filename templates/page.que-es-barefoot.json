@@ -269,7 +269,7 @@
         "text_HTt9Gm": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Desarrollo natural de los pies</strong><br/>Esto ayuda a prevenir problemas a largo plazo, como el pie plano o el pie cavo, ya que los pies trabajan como deberían: <strong>flexibles, fuertes y adaptativos</strong>.<br/></p><p></p><p><strong>Mejora la postura</strong><br/>Al no tener un talón elevado, el calzado barefoot permite que nuestra postura sea más equilibrada y nuestros pies pueden sentir mejor el terreno y ajustar nuestra postura según sea necesario.<br/></p><p></p><p><strong>Mayor movilidad y sensación de libertad</strong><br/>El pie se mueve de forma más natural, lo que aumenta la comodidad y la sensación de estar descalzo. Para los niños, esta libertad es fundamental.<br/></p><p></p><p><strong>Mejor absorción de impactos</strong><br/>El pie está diseñado para amortiguar el impacto de manera eficiente. Con el calzado barefoot, el pie puede adaptarse mejor a los diferentes terrenos y reducir el impacto.<br/></p><p></p><p><strong>Fomento del equilibrio y la propiocepción</strong><br/>El calzado barefoot favorece la capacidad de percibir y sentir el propio cuerpo en el espacio. Al caminar con una suela fina, el pie puede detectar mejor el terreno, lo que mejora el equilibrio y la estabilidad. Esto es especialmente beneficioso para los niños que están desarrollando sus habilidades motrices y de coordinación.<br/></p>",
+            "text": "<p><strong>Desarrollo natural de los pies</strong><br/>Esto ayuda a prevenir problemas a largo plazo, como el pie plano o el pie cavo, ya que los pies trabajan como deberían: <strong>flexibles, fuertes y adaptativos</strong>.<br/></p><p></p><p><strong>Mejora la postura</strong><br/>Al no tener un talón elevado, el calzado barefoot permite que nuestra postura sea más equilibrada y nuestros pies pueden sentir mejor el terreno y ajustar nuestra postura según sea necesario.<br/></p><p></p><p><strong>Mayor movilidad y sensación de libertad</strong><br/>El pie se mueve de forma más natural, lo que aumenta la comodidad y la sensación de estar descalzo. Para los niños, esta libertad es fundamental.<br/></p><p></p><p><strong>Mejor absorción de impactos</strong><br/>El pie está diseñado para amortiguar el impacto de manera eficiente. Con el calzado barefoot, el pie puede adaptarse mejor a los diferentes terrenos y reducir el impacto.<br/></p><p></p><p><strong>Fomento del equilibrio y la propiocepción</strong><br/>Al caminar con una suela fina, el pie puede detectar mejor el terreno, lo que mejora el equilibrio y la estabilidad. Esto es especialmente beneficioso para los niños que están desarrollando sus habilidades motrices y de coordinación.<br/></p>",
             "text_size": "text-base"
           }
         },
@@ -304,6 +304,49 @@
         "show_section_divider": false,
         "divider_width": "fixed"
       }
+    },
+    "blocks_P43Lk4": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_6d5c379_ratH7t": {
+          "type": "ai_gen_block_6d5c379",
+          "settings": {
+            "main_title": "Calzado Barefoot",
+            "subtitle": "Así es el calzado que respeta la forma y movimiento de tus pies",
+            "icon_1": "shopify://shop_images/Mesa_de_trabajo_1_3a3f24a6-df1b-4fce-8591-5843fc6cc0c6.png",
+            "feature_1_title": "Comodidad",
+            "feature_1_text": "Permite que el pie se mueva con total libertad. Facilita la adaptación al terreno y simula la sensación de ir descalzo.",
+            "feature_1_button_text": "¿Qué es Barefoot?",
+            "feature_1_button_link": "https://www.diezdeditoslibres.com/blogs/habia-una-vez-diez-deditos-libres/que-es-el-calzado-barefoot-beneficios-para-los-pies-de-tu-familia",
+            "icon_2": "shopify://shop_images/21copia.png",
+            "feature_2_title": "La medida perfecta",
+            "feature_2_text": "Encontrar la talla adecuada para los zapatos de tus hijos es clave para su comodidad y desarrollo saludable",
+            "feature_2_button_text": "¿Cómo Medir los Pies?",
+            "feature_2_button_link": "https://www.diezdeditoslibres.com/blogs/habia-una-vez-diez-deditos-libres/como-medir-los-pies-de-los-ninos-y-elegir-la-talla-correcta-de-calzado",
+            "icon_3": "shopify://shop_images/2copia_85f6f77d-e871-4eae-92f8-0c6c8b084e28.png",
+            "feature_3_title": "Sin contrafuerte",
+            "feature_3_text": "No lleva la pieza rígida en el talón.\nAsí, el pie se mueve libremente y fortalece sus músculos de forma natural.",
+            "feature_3_button_text": "Contenido",
+            "feature_3_button_link": "",
+            "button_style": "primary",
+            "section_bg_color": "#ffffff",
+            "title_color": "#000000",
+            "text_color": "#666666",
+            "icon_bg_color": "#f8f9fa",
+            "icon_color": "#ea5cb8",
+            "title_font_size": 40,
+            "feature_title_font_size": 22,
+            "text_font_size": 18,
+            "section_padding": 60
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_6d5c379_ratH7t"
+      ],
+      "name": "Section-infoBarefoot",
+      "settings": {}
     },
     "image_with_text_overlay_aEiiAU": {
       "type": "image-with-text-overlay",
@@ -410,6 +453,7 @@
     "image_with_text_hBkrHJ",
     "image_with_text_xe8tX9",
     "image_with_text_EWeBLL",
+    "blocks_P43Lk4",
     "image_with_text_overlay_aEiiAU",
     "rich_text_iJpd6m"
   ]
