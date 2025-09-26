@@ -1,0 +1,460 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "image_with_text_fwFGAA": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_pM9D3J": {
+          "type": "heading",
+          "settings": {
+            "heading": "Cómo Medir los Pies de los Niños",
+            "heading_size": "hd1",
+            "heading_highlight_style": "none"
+          }
+        },
+        "text_XMQJ3U": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Encontrar la talla adecuada para los zapatos de tus hijos es clave para su comodidad y desarrollo saludable. Aquí te explico cómo hacerlo de manera sencilla.</p>",
+            "text_size": "text-base"
+          }
+        },
+        "button_ctdxRN": {
+          "type": "button",
+          "settings": {
+            "button_label": "Elige el Barefoot de tu hijo",
+            "button_link": "shopify://collections/caminantes",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_pM9D3J",
+        "text_XMQJ3U",
+        "button_ctdxRN"
+      ],
+      "name": "Image with text-hero",
+      "settings": {
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image": "shopify://shop_images/Diseno_sin_titulo.png",
+        "image_height": "adapt",
+        "layout": "text_first",
+        "desktop_content_position": "center",
+        "desktop_content_alignment": "left",
+        "enable_parallax": false,
+        "parallax_direction": "vertical",
+        "mobile_content_alignment": "center",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "collection_list_nhYpWK": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_CeCLEH": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "baby-lobitos",
+            "title": "",
+            "description": ""
+          }
+        },
+        "featured_collection_PTPnRT": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "blanditos",
+            "title": "",
+            "description": ""
+          }
+        },
+        "featured_collection_bg8TXR": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "froddo-1",
+            "title": "",
+            "description": ""
+          }
+        },
+        "featured_collection_8aHrMg": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "flexinens",
+            "title": "",
+            "description": ""
+          }
+        },
+        "featured_collection_77nbD4": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "coquette",
+            "title": "",
+            "description": ""
+          }
+        },
+        "featured_collection_XwrCPD": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "igor",
+            "title": "",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_CeCLEH",
+        "featured_collection_PTPnRT",
+        "featured_collection_bg8TXR",
+        "featured_collection_8aHrMg",
+        "featured_collection_77nbD4",
+        "featured_collection_XwrCPD"
+      ],
+      "name": "t:sections.collection-list.name",
+      "settings": {
+        "color_scheme": "scheme-3",
+        "layout": "standard",
+        "subheading": "",
+        "heading": "Encuentra tu favorita",
+        "heading_size": "h1",
+        "heading_highlight_style": "none",
+        "description": "",
+        "text_size": "text-base",
+        "card_color_inherited": false,
+        "show_product_count": true,
+        "show_icon": true,
+        "card_style": "",
+        "card_image_ratio": "1/1",
+        "content_alignment": "left",
+        "columns_desktop": 4,
+        "column_gap": "medium",
+        "row_gap": "medium",
+        "enable_slider": true,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "image_with_text_hBkrHJ": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_88mdPQ": {
+          "type": "heading",
+          "settings": {
+            "heading": "Materiales Necesarios",
+            "heading_size": "hd1",
+            "heading_highlight_style": "none"
+          }
+        },
+        "text_bfNfpV": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>Una hoja de papel grande<br/></li><li>Un lápiz o bolígrafo<br/></li><li>Una regla<br/></li><li>Una superficie plana<br/></li></ul>",
+            "text_size": "text-base"
+          }
+        },
+        "button_BjTnTY": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_88mdPQ",
+        "text_bfNfpV",
+        "button_BjTnTY"
+      ],
+      "name": "Image with text- qué es",
+      "settings": {
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image": "shopify://shop_images/49313-C58598-ZAPATO-MK-252-PLITYKAKY-C-06.jpg",
+        "image_height": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "center",
+        "desktop_content_alignment": "left",
+        "enable_parallax": false,
+        "parallax_direction": "vertical",
+        "mobile_content_alignment": "left",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "image_with_text_xe8tX9": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_aQRRdj": {
+          "type": "heading",
+          "settings": {
+            "heading": "Características del calzado barefoot",
+            "heading_size": "hd1",
+            "heading_highlight_style": "none"
+          }
+        },
+        "text_itymBj": {
+          "type": "text",
+          "settings": {
+            "text": "<h4><strong>1. Prepara el espacio</strong></h4><p>Coloca la hoja de papel sobre una superficie plana y rígida. Asegúrate de que el niño esté de pie, con el peso distribuido sobre ambos pies. Mejor medir por la tarde, con los pies más hinchados de la carga del día.</p><h4><strong>2. Dibuja el contorno del pie</strong></h4><p>Coloca el pie del niño sobre la hoja y dibuja el contorno con un lápiz, asegurándote de que el lápiz esté lo más cerca posible del borde del pie.</p><h4><strong>3. Mide la longitud</strong></h4><p>Usa una regla o cinta métrica para medir la distancia desde el talón hasta el dedo más largo. Esta es la medida de la longitud del pie.</p><h4><strong>4. Mide el ancho</strong></h4><p>En la parte más ancha del pie, generalmente a la altura de los metatarsos (la parte del pie justo antes de los dedos), mide el ancho con la regla. Este paso es importante porque algunos niños tienen pies más anchos o estrechos, y hay que asegurarse de que tengan suficiente espacio para mover los dedos libremente.</p><h4><strong>5. Repite con el otro pie</strong></h4><p>Es normal que un pie sea más grande que el otro, así que mide ambos pies y usa la medida del pie más largo y más ancho.</p>",
+            "text_size": "text-base"
+          }
+        },
+        "button_Yrf4rg": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_aQRRdj",
+        "text_itymBj",
+        "button_Yrf4rg"
+      ],
+      "name": "Image with text-caracteristicas",
+      "settings": {
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image": "shopify://shop_images/1medirpie.png",
+        "image_height": "adapt",
+        "layout": "text_first",
+        "desktop_content_position": "center",
+        "desktop_content_alignment": "left",
+        "enable_parallax": false,
+        "parallax_direction": "vertical",
+        "mobile_content_alignment": "left",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "image_with_text_EWeBLL": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_KC7kE4": {
+          "type": "heading",
+          "settings": {
+            "heading": "Consejos para Elegir los Zapatos Correctos",
+            "heading_size": "hd1",
+            "heading_highlight_style": "none"
+          }
+        },
+        "text_HTt9Gm": {
+          "type": "text",
+          "settings": {
+            "text": "<h3></h3><ul><li>Medir con frecuencia: Los pies de los niños crecen rápido, así que asegúrate de medirlos cada pocas semanas, sobre todo hasta los 3 años. A partir de esa edad, su crecida no es tan frecuente.<br/></li><li>Deja espacio para el crecimiento: Los zapatos deben dejar al menos un dedo de espacio (0,8-1,2cm) en la parte frontal para permitir el crecimiento natural del pie.<br/></li><li>Considera la actividad: Si tu hijo es muy activo, opta por zapatos deportivos que ofrezcan buen soporte y flexibilidad. Hasta 30 kg de peso, podrían usar cualquier calzado deportivo para actividades deportivas; con un peso superior debemos buscar un calzado más</li><li>específico para la actividad concreta a realizar.</li></ul>",
+            "text_size": "text-base"
+          }
+        },
+        "button_MqrCUf": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_KC7kE4",
+        "text_HTt9Gm",
+        "button_MqrCUf"
+      ],
+      "name": "Image with text- beneficios",
+      "settings": {
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image": "shopify://shop_images/nina-vestido.webp",
+        "image_height": "adapt",
+        "layout": "image_first",
+        "desktop_content_position": "center",
+        "desktop_content_alignment": "left",
+        "enable_parallax": false,
+        "parallax_direction": "vertical",
+        "mobile_content_alignment": "left",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "blocks_P43Lk4": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_6d5c379_ratH7t": {
+          "type": "ai_gen_block_6d5c379",
+          "settings": {
+            "main_title": "Calzado Barefoot",
+            "subtitle": "Así es el calzado que respeta la forma y movimiento de tus pies",
+            "icon_1": "shopify://shop_images/Mesa_de_trabajo_1_3a3f24a6-df1b-4fce-8591-5843fc6cc0c6.png",
+            "feature_1_title": "Comodidad",
+            "feature_1_text": "Permite que el pie se mueva con total libertad. Facilita la adaptación al terreno y simula la sensación de ir descalzo.",
+            "feature_1_button_text": "¿Qué es Barefoot?",
+            "feature_1_button_link": "https://www.diezdeditoslibres.com/blogs/habia-una-vez-diez-deditos-libres/que-es-el-calzado-barefoot-beneficios-para-los-pies-de-tu-familia",
+            "icon_2": "shopify://shop_images/21copia.png",
+            "feature_2_title": "La medida perfecta",
+            "feature_2_text": "Encontrar la talla adecuada para los zapatos de tus hijos es clave para su comodidad y desarrollo saludable",
+            "feature_2_button_text": "¿Cómo Medir los Pies?",
+            "feature_2_button_link": "https://www.diezdeditoslibres.com/blogs/habia-una-vez-diez-deditos-libres/como-medir-los-pies-de-los-ninos-y-elegir-la-talla-correcta-de-calzado",
+            "icon_3": "shopify://shop_images/2copia_85f6f77d-e871-4eae-92f8-0c6c8b084e28.png",
+            "feature_3_title": "Sin contrafuerte",
+            "feature_3_text": "No lleva la pieza rígida en el talón.\nAsí, el pie se mueve libremente y fortalece sus músculos de forma natural.",
+            "feature_3_button_text": "Contenido",
+            "feature_3_button_link": "",
+            "button_style": "primary",
+            "section_bg_color": "#ffffff",
+            "title_color": "#000000",
+            "text_color": "#666666",
+            "icon_bg_color": "#f8f9fa",
+            "icon_color": "#ea5cb8",
+            "title_font_size": 40,
+            "feature_title_font_size": 22,
+            "text_font_size": 18,
+            "section_padding": 60
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_6d5c379_ratH7t"
+      ],
+      "name": "Section-infoBarefoot",
+      "settings": {}
+    },
+    "image_with_text_overlay_aEiiAU": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "subheading_6DDrp6": {
+          "type": "subheading",
+          "settings": {
+            "subheading": ""
+          }
+        },
+        "heading_BiPPBY": {
+          "type": "heading",
+          "settings": {
+            "heading": "¿Por qué elegir calzado respetuoso o barefoot para tus hijos?",
+            "heading_size": "hd1",
+            "heading_highlight_style": "none"
+          }
+        },
+        "text_fkM9HT": {
+          "type": "text",
+          "settings": {
+            "text": "<p>En el caso de los más pequeños, el calzado barefoot es <strong>ideal </strong>porque sus pies aún están en pleno desarrollo y son especialmente <br/>sensibles a los efectos de un calzado incorrecto. Los zapatos  tradicionales, que a menudo son rígidos o con una suela gruesa, pueden interferir en el desarrollo natural de los pies. Al ofrecerles calzado barefoot, estamos permitiendo que sus pies se desarrollen de manera libre y saludable, con todos los beneficios que ello conlleva.</p>",
+            "text_size": "text-base"
+          }
+        },
+        "button_WJQGGa": {
+          "type": "button",
+          "settings": {
+            "button_label": "Elige el Barefoot de tu hijo",
+            "button_link": "shopify://collections/primeros-pasos",
+            "button_style": "btn--secondary"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_6DDrp6",
+        "heading_BiPPBY",
+        "text_fkM9HT",
+        "button_WJQGGa"
+      ],
+      "name": "t:sections.image-with-text-overlay.name",
+      "settings": {
+        "container": "full",
+        "image": "shopify://shop_images/nino.webp",
+        "desktop_height": "extra-medium",
+        "overlay_opacity": 70,
+        "enable_parallax": false,
+        "parallax_direction": "vertical",
+        "color_scheme": "",
+        "content_position": "middle-left",
+        "content_alignment": "center",
+        "mobile_height": "auto",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "rich_text_iJpd6m": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_MLH6f3": {
+          "type": "heading",
+          "settings": {
+            "heading": "¿Qué tal una mejora en la pisada?",
+            "heading_size": "hd1",
+            "heading_highlight_style": "none"
+          }
+        },
+        "text_Tm9mFw": {
+          "type": "text",
+          "settings": {
+            "text": "<p>En resumen, el calzado barefoot es más que una moda; es una forma de devolverle a nuestros pies su <strong>movimiento natural</strong> y su <strong>capacidad de adaptación </strong>al entorno. No solo es una excelente opción para los adultos, sino que también es una de las mejores decisiones que puedes tomar para el desarrollo saludable de los pies de tus hijos. Si te preguntas si deberían probarlo, la respuesta es: <strong>¡sin duda!</strong></p>",
+            "text_size": "text-base"
+          }
+        },
+        "button_epWMc4": {
+          "type": "button",
+          "settings": {
+            "button_label": "conocer los calzados Barefoot",
+            "button_link": "shopify://collections",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_MLH6f3",
+        "text_Tm9mFw",
+        "button_epWMc4"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "color_scheme": "",
+        "content_alignment": "center",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_fwFGAA",
+    "collection_list_nhYpWK",
+    "image_with_text_hBkrHJ",
+    "image_with_text_xe8tX9",
+    "image_with_text_EWeBLL",
+    "blocks_P43Lk4",
+    "image_with_text_overlay_aEiiAU",
+    "rich_text_iJpd6m"
+  ]
+}
