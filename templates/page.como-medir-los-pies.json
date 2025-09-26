@@ -24,7 +24,7 @@
           "type": "heading",
           "settings": {
             "heading": "Cómo Medir los Pies de los Niños",
-            "heading_size": "hd2",
+            "heading_size": "h3",
             "heading_highlight_style": "none"
           }
         },
@@ -60,7 +60,7 @@
         "desktop_content_alignment": "left",
         "enable_parallax": false,
         "parallax_direction": "vertical",
-        "mobile_content_alignment": "left",
+        "mobile_content_alignment": "center",
         "padding_top": 50,
         "padding_bottom": 50,
         "show_section_divider": false,
