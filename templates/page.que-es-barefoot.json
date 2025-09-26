@@ -24,7 +24,7 @@
           "type": "heading",
           "settings": {
             "heading": "¿Qué es el Calzado Barefoot?",
-            "heading_size": "hd1",
+            "heading_size": "hd2",
             "heading_highlight_style": "none"
           }
         },
@@ -162,7 +162,7 @@
           "type": "heading",
           "settings": {
             "heading": "¿Sabes qué es el calzado respetuoso o barefoot?",
-            "heading_size": "hd1",
+            "heading_size": "h1",
             "heading_highlight_style": "none"
           }
         },
@@ -212,7 +212,7 @@
           "type": "heading",
           "settings": {
             "heading": "Características del calzado barefoot",
-            "heading_size": "hd1",
+            "heading_size": "h1",
             "heading_highlight_style": "none"
           }
         },
@@ -262,7 +262,7 @@
           "type": "heading",
           "settings": {
             "heading": "Beneficios del calzado respetuoso o barefoot",
-            "heading_size": "hd1",
+            "heading_size": "h1",
             "heading_highlight_style": "none"
           }
         },
@@ -334,7 +334,7 @@
             "text_color": "#666666",
             "icon_bg_color": "#f8f9fa",
             "icon_color": "#ea5cb8",
-            "title_font_size": 40,
+            "title_font_size": 36,
             "feature_title_font_size": 22,
             "text_font_size": 18,
             "section_padding": 60
@@ -361,7 +361,7 @@
           "type": "heading",
           "settings": {
             "heading": "¿Por qué elegir calzado respetuoso o barefoot para tus hijos?",
-            "heading_size": "hd1",
+            "heading_size": "h1",
             "heading_highlight_style": "none"
           }
         },
@@ -410,7 +410,7 @@
           "type": "heading",
           "settings": {
             "heading": "¿Qué tal una mejora en la pisada?",
-            "heading_size": "hd1",
+            "heading_size": "h1",
             "heading_highlight_style": "none"
           }
         },
