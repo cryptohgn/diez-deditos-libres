@@ -191,7 +191,7 @@
       "settings": {
         "section_color_scheme": "",
         "color_scheme": "",
-        "image": "shopify://shop_images/49313-C58598-ZAPATO-MK-252-PLITYKAKY-C-06.jpg",
+        "image": "shopify://shop_images/reglaLapis.png",
         "image_height": "medium",
         "layout": "image_first",
         "desktop_content_position": "center",
@@ -241,7 +241,7 @@
       "settings": {
         "section_color_scheme": "",
         "color_scheme": "",
-        "image": "shopify://shop_images/1medirpie.png",
+        "image": "shopify://shop_images/3medirpie.png",
         "image_height": "adapt",
         "layout": "text_first",
         "desktop_content_position": "center",
@@ -305,6 +305,48 @@
         "divider_width": "fixed"
       }
     },
+    "rich_text_iJpd6m": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_MLH6f3": {
+          "type": "heading",
+          "settings": {
+            "heading": "Interpretación de las Medidas",
+            "heading_size": "hd1",
+            "heading_highlight_style": "none"
+          }
+        },
+        "text_Tm9mFw": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Con la medida en centímetros, consulta la tabla de tallas de la marca de zapatos que planeas comprar. Algunas marcas <br/>también ofrecen tallas especiales si los pies de tu hijo son más anchos(horma plus). A esa medida, debes añadirle entre 0,8-1,2cm al largo y entre 0,3-0,5cm al ancho para asegurarte de elegir la talla correcta.</p><p><em>Nota: Los pequeños que están empezando a caminar, es posible que se sientan más seguros con un margen menor de largo (0,8cm). Si tu pequeña/o ya tiene una marcha debutante o es un caminante especializado, opta por el margen de 1-1.2cm de largo</em>.</p><p><em>Respecto al ancho; si sobra más de 0,5cm pero el zapato ajusta bien al tobillo, no te preocupes, más libertad tendrán sus deditos, lo importante es que los tobillos vayan bien sujetos.</em></p>",
+            "text_size": "text-base"
+          }
+        },
+        "button_epWMc4": {
+          "type": "button",
+          "settings": {
+            "button_label": "Elige el Barefoot de tu hijo",
+            "button_link": "shopify://collections/primeros-pasos",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_MLH6f3",
+        "text_Tm9mFw",
+        "button_epWMc4"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "color_scheme": "",
+        "content_alignment": "center",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
     "blocks_P43Lk4": {
       "type": "_blocks",
       "blocks": {
@@ -360,7 +402,7 @@
         "heading_BiPPBY": {
           "type": "heading",
           "settings": {
-            "heading": "Interpretación de las Medidas",
+            "heading": "Conclusión",
             "heading_size": "hd1",
             "heading_highlight_style": "none"
           }
@@ -368,7 +410,7 @@
         "text_fkM9HT": {
           "type": "text",
           "settings": {
-            "text": "<p>Con la medida en centímetros, consulta la tabla de tallas de la marca de zapatos que planeas comprar. Algunas marcas <br/>también ofrecen tallas especiales si los pies de tu hijo son más anchos(horma plus). A esa medida, debes añadirle entre 0,8-1,2cm al largo y entre 0,3-0,5cm al ancho para asegurarte de elegir la talla correcta.</p><p><em>Nota: Los pequeños que están empezando a caminar, es posible que se sientan más seguros con un margen menor de largo (0,8cm). Si tu pequeña/o ya tiene una marcha debutante o es un caminante especializado, opta por el margen de 1-1.2cm de largo</em>.</p><p><em>Respecto al ancho; si sobra más de 0,5cm pero el zapato ajusta bien al tobillo, no te preocupes, más libertad tendrán sus deditos, lo importante es que los tobillos vayan bien sujetos.</em></p>",
+            "text": "<p>Medir los pies de los niños es un paso sencillo pero crucial para garantizar que siempre lleven zapatos cómodos y adecuados para su desarrollo. ¡No olvides hacerlo con regularidad!</p>",
             "text_size": "text-lg"
           }
         },
@@ -390,9 +432,9 @@
       "name": "t:sections.image-with-text-overlay.name",
       "settings": {
         "container": "full",
-        "image": "shopify://shop_images/nino.webp",
+        "image": "shopify://shop_images/nina_c69b1595-9aba-44b4-822e-3ddbcf41a987.webp",
         "desktop_height": "extra-medium",
-        "overlay_opacity": 70,
+        "overlay_opacity": 25,
         "enable_parallax": false,
         "parallax_direction": "vertical",
         "color_scheme": "",
@@ -401,48 +443,6 @@
         "mobile_height": "auto",
         "padding_top": 50,
         "padding_bottom": 50
-      }
-    },
-    "rich_text_iJpd6m": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_MLH6f3": {
-          "type": "heading",
-          "settings": {
-            "heading": "¿Qué tal una mejora en la pisada?",
-            "heading_size": "hd1",
-            "heading_highlight_style": "none"
-          }
-        },
-        "text_Tm9mFw": {
-          "type": "text",
-          "settings": {
-            "text": "<p>En resumen, el calzado barefoot es más que una moda; es una forma de devolverle a nuestros pies su <strong>movimiento natural</strong> y su <strong>capacidad de adaptación </strong>al entorno. No solo es una excelente opción para los adultos, sino que también es una de las mejores decisiones que puedes tomar para el desarrollo saludable de los pies de tus hijos. Si te preguntas si deberían probarlo, la respuesta es: <strong>¡sin duda!</strong></p>",
-            "text_size": "text-base"
-          }
-        },
-        "button_epWMc4": {
-          "type": "button",
-          "settings": {
-            "button_label": "conocer los calzados Barefoot",
-            "button_link": "shopify://collections",
-            "button_style": "btn--primary"
-          }
-        }
-      },
-      "block_order": [
-        "heading_MLH6f3",
-        "text_Tm9mFw",
-        "button_epWMc4"
-      ],
-      "name": "t:sections.rich-text.presets.name",
-      "settings": {
-        "color_scheme": "",
-        "content_alignment": "center",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "show_section_divider": false,
-        "divider_width": "fixed"
       }
     }
   },
@@ -453,8 +453,8 @@
     "image_with_text_hBkrHJ",
     "image_with_text_xe8tX9",
     "image_with_text_EWeBLL",
+    "rich_text_iJpd6m",
     "blocks_P43Lk4",
-    "image_with_text_overlay_aEiiAU",
-    "rich_text_iJpd6m"
+    "image_with_text_overlay_aEiiAU"
   ]
 }
