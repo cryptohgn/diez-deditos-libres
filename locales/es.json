@@ -269,7 +269,7 @@
     "facets": {
       "filter_and_operator_subtitle": "Combinar todos",
       "apply": "Aplicar",
-      "clear": "Claro",
+      "clear": "Limpiar",
       "clear_all": "Eliminar todo",
       "from": "De",
       "filter_and_sort": "Filtrar y ordenar",
@@ -342,7 +342,7 @@
       "suggestions": "Sugerencias",
       "articles_pages": "Artículos y páginas",
       "collections": "Colecciones",
-      "clear": "Claro",
+      "clear": "Limpiar",
       "most_searched_keywords": "Palabras clave más buscadas",
       "most_searched_products": "Productos más buscados"
     },
