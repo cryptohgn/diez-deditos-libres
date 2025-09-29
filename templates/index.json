@@ -32,25 +32,6 @@
             "button_style": "btn--primary"
           }
         },
-        "slide_9R3n8Y": {
-          "type": "slide",
-          "settings": {
-            "color_scheme": "scheme-9",
-            "background": "shopify://shop_images/Portadas_web_modificado.webp",
-            "background_mobile": "shopify://shop_images/PORTADAS_WEB_MObilE2.png",
-            "image_overlay_opacity": 25,
-            "content_position": "middle-right",
-            "text_alignment": "center",
-            "title": "",
-            "heading_size": "hd2",
-            "subheading": "",
-            "description": "",
-            "description_size": "text-lg",
-            "button_label": "Comprar Ahora",
-            "button_link": "shopify://collections/novedades-1",
-            "button_style": "btn--primary"
-          }
-        },
         "slide_JhU8hg": {
           "type": "slide",
           "settings": {
@@ -67,6 +48,25 @@
             "description_size": "text-lg",
             "button_label": "Comprar ahora",
             "button_link": "shopify://collections/colegiales",
+            "button_style": "btn--primary"
+          }
+        },
+        "slide_9R3n8Y": {
+          "type": "slide",
+          "settings": {
+            "color_scheme": "scheme-9",
+            "background": "shopify://shop_images/Portadas_web_modificado.webp",
+            "background_mobile": "shopify://shop_images/PORTADAS_WEB_MObilE2.png",
+            "image_overlay_opacity": 25,
+            "content_position": "middle-right",
+            "text_alignment": "center",
+            "title": "",
+            "heading_size": "hd2",
+            "subheading": "",
+            "description": "",
+            "description_size": "text-lg",
+            "button_label": "Comprar Ahora",
+            "button_link": "shopify://collections/novedades-1",
             "button_style": "btn--primary"
           }
         },
@@ -93,8 +93,8 @@
       },
       "block_order": [
         "slide_8EaHdq",
-        "slide_9R3n8Y",
         "slide_JhU8hg",
+        "slide_9R3n8Y",
         "slide_9yhE8c"
       ],
       "custom_css": [
