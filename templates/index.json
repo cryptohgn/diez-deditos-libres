@@ -36,18 +36,18 @@
           "type": "slide",
           "settings": {
             "color_scheme": "scheme-9",
-            "background": "shopify://shop_images/1-kids-getting-back-school-together.webp",
-            "background_mobile": "shopify://shop_images/vueltaColeKids.png",
+            "background": "shopify://shop_images/Banner_10DL.jpg",
+            "background_mobile": "shopify://shop_images/Sin_titulo_600_x_480_px_2.jpg",
             "image_overlay_opacity": 30,
             "content_position": "middle-right",
             "text_alignment": "center",
-            "title": "La vuelta al cole",
+            "title": "Calzado infantil",
             "heading_size": "hd2",
             "subheading": "",
-            "description": "<p><strong>Descubre nuestras ofertas</strong></p>",
+            "description": "<p>Piezas de construcción de regalo</p>",
             "description_size": "text-lg",
             "button_label": "Comprar ahora",
-            "button_link": "shopify://collections/colegiales",
+            "button_link": "shopify://collections/caminantes",
             "button_style": "btn--primary"
           }
         },
