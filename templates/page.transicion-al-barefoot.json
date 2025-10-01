@@ -23,7 +23,7 @@
         "heading_pM9D3J": {
           "type": "heading",
           "settings": {
-            "heading": "¿Qué es el Calzado Barefoot?",
+            "heading": "<strong>Transición al calzado barefoot</strong>",
             "heading_size": "h1",
             "heading_highlight_style": "none"
           }
@@ -31,7 +31,7 @@
         "text_XMQJ3U": {
           "type": "text",
           "settings": {
-            "text": "<p>Beneficios para los Pies de tu Familia.</p>",
+            "text": "<p>Un proceso de mimo y paciencia. Cambiar del calzado convencional al barefoot no es solo un cambio de zapatos. Es volver a confiar en nuestros pies, en lo que son capaces de hacer cuando los dejamos libres. Y como todo proceso de cambio, necesita <strong>tiempo, cariño y mucha escucha del cuerpo</strong>.</p>",
             "text_size": "text-base"
           }
         },
@@ -161,7 +161,7 @@
         "heading_88mdPQ": {
           "type": "heading",
           "settings": {
-            "heading": "¿Sabes qué es el calzado respetuoso o barefoot?",
+            "heading": "Empieza por mover y despertar tus pies",
             "heading_size": "h1",
             "heading_highlight_style": "none"
           }
@@ -169,7 +169,7 @@
         "text_bfNfpV": {
           "type": "text",
           "settings": {
-            "text": "<p>Si eres nuevo en el mundo del calzado respetuoso o barefoot, no te preocupes, aquí te cuento todo lo que necesitas saber.</p><p>El término \"barefoot\" proviene del inglés y significa <strong>“descalzo”</strong>,<br/> lo que nos da una pista de lo que realmente significa este tipo de <br/>calzado: la idea es sentirnos como si estuviéramos descalzos, es decir, <br/>caminar o correr <strong>sin el soporte artificial</strong> que nos <br/>ofrece un calzado tradicional. El objetivo es permitir que el pie se <br/>mueva de forma libre, natural y sin restricciones, tal y como lo haría <br/>si no lleváramos nada puesto.</p><p>Pero, ¿por qué es tan importante este tipo de calzado? Y, sobre todo,<br/> ¿cuáles son sus características y beneficios para nuestros pies, <br/>especialmente los de los más pequeños? Vamos a verlo.</p>",
+            "text": "<p>Antes de lanzarte a llevar barefoot todo el día, dedica unos minutitos a tus pies. Son ejercicios fáciles, que puedes hacer mientras ves la tele o juegas con los peques:</p><ul><li>Jugar con los dedos: abrirlos, cerrarlos, intentar separarlos.<br/><br/></li><li>Caminar de puntillas y de talones: para activar músculos y tobillos.<br/><br/></li><li>Recoger una toalla o una pelota con los pies.<br/><br/></li><li>Equilibrio en una pierna (y si te atreves, sobre un cojín).<br/><br/></li><li>Masajear la planta del pie con una pelota.<br/><br/></li></ul><p>Parece poca cosa, pero créeme: tus pies te lo agradecerán mucho cuando empieces la transición.</p>",
             "text_size": "text-base"
           }
         },
@@ -211,7 +211,7 @@
         "heading_aQRRdj": {
           "type": "heading",
           "settings": {
-            "heading": "Características del calzado barefoot",
+            "heading": "¿Cuándo es mejor empezar la transición?",
             "heading_size": "h1",
             "heading_highlight_style": "none"
           }
@@ -219,7 +219,7 @@
         "text_itymBj": {
           "type": "text",
           "settings": {
-            "text": "<p>✔️ <strong>Suela flexible</strong><br/>Esta flexibilidad permite que el pie se mueva libremente, adaptándose a las diferentes superficies y proporcionando <br/>una sensación muy parecida a la de ir descalzo.</p><h4>✔️ <strong>Suela fina y sin drop (elevación de talón)</strong></h4><p>Esto permite que el pie esté en una posición más natural, promoviendo una pisada más equilibrada y mejorando la alineación del cuerpo.</p><p>✔️ <strong>Sin contrafuerte</strong><br/><br/>En los zapatos barefoot, al no tener contrafuerte, el pie puede moverse libremente, permitiendo que los músculos y ligamentos del pie se fortalezcan de forma natural. Esto es especialmente beneficioso en los niños, ya que sus pies están en pleno desarrollo y necesitan libertad de movimiento para crecer correctamente.</p>",
+            "text": "<p>Aquí está el secreto: no todas las épocas del año ayudan de la misma manera.</p><p>🌸 <strong>Primavera</strong> suele ser el mejor momento. Hace buen tiempo, apetece estar descalzo en casa, en el césped o la playa, y poco a poco los pies se van acostumbrando.</p><p>🍂 <strong>Otoño e invierno</strong> también son buenas épocas. Al usar calzado cerrado, puedes apoyarte en <strong>plantillas de transición</strong>: empiezas con algo de altura y poco a poco la vas reduciendo hasta llegar a una plantilla fina y plana (2-3 mm). Es una forma muy amable de adaptarse.</p><p>☀️ <strong>Verano</strong>, en cambio, puede ser traicionero. Pasar directamente a sandalias muy planas y abiertas, sin preparación, puede traer molestias como fascitis. Si decides empezar en verano, hazlo despacito, alternando barefoot con calzado de transición.</p>",
             "text_size": "text-base"
           }
         },
