@@ -1,0 +1,460 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "image_with_text_fwFGAA": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_pM9D3J": {
+          "type": "heading",
+          "settings": {
+            "heading": "¿Qué es el Calzado Barefoot?",
+            "heading_size": "h1",
+            "heading_highlight_style": "none"
+          }
+        },
+        "text_XMQJ3U": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Beneficios para los Pies de tu Familia.</p>",
+            "text_size": "text-base"
+          }
+        },
+        "button_ctdxRN": {
+          "type": "button",
+          "settings": {
+            "button_label": "Elige tu Barefoot",
+            "button_link": "shopify://collections/all",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_pM9D3J",
+        "text_XMQJ3U",
+        "button_ctdxRN"
+      ],
+      "name": "Image with text-hero",
+      "settings": {
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image": "shopify://shop_images/exterior1.webp",
+        "image_height": "adapt",
+        "layout": "text_first",
+        "desktop_content_position": "center",
+        "desktop_content_alignment": "left",
+        "enable_parallax": false,
+        "parallax_direction": "vertical",
+        "mobile_content_alignment": "center",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "collection_list_nhYpWK": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_CeCLEH": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "baby-lobitos",
+            "title": "",
+            "description": ""
+          }
+        },
+        "featured_collection_PTPnRT": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "blanditos",
+            "title": "",
+            "description": ""
+          }
+        },
+        "featured_collection_bg8TXR": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "froddo-1",
+            "title": "",
+            "description": ""
+          }
+        },
+        "featured_collection_8aHrMg": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "flexinens",
+            "title": "",
+            "description": ""
+          }
+        },
+        "featured_collection_77nbD4": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "coquette",
+            "title": "",
+            "description": ""
+          }
+        },
+        "featured_collection_XwrCPD": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "igor",
+            "title": "",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_CeCLEH",
+        "featured_collection_PTPnRT",
+        "featured_collection_bg8TXR",
+        "featured_collection_8aHrMg",
+        "featured_collection_77nbD4",
+        "featured_collection_XwrCPD"
+      ],
+      "name": "t:sections.collection-list.name",
+      "settings": {
+        "color_scheme": "scheme-3",
+        "layout": "standard",
+        "subheading": "",
+        "heading": "Encuentra tu favorita",
+        "heading_size": "h1",
+        "heading_highlight_style": "none",
+        "description": "",
+        "text_size": "text-base",
+        "card_color_inherited": false,
+        "show_product_count": true,
+        "show_icon": true,
+        "card_style": "",
+        "card_image_ratio": "1/1",
+        "content_alignment": "left",
+        "columns_desktop": 4,
+        "column_gap": "medium",
+        "row_gap": "medium",
+        "enable_slider": true,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "image_with_text_hBkrHJ": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_88mdPQ": {
+          "type": "heading",
+          "settings": {
+            "heading": "¿Sabes qué es el calzado respetuoso o barefoot?",
+            "heading_size": "h1",
+            "heading_highlight_style": "none"
+          }
+        },
+        "text_bfNfpV": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Si eres nuevo en el mundo del calzado respetuoso o barefoot, no te preocupes, aquí te cuento todo lo que necesitas saber.</p><p>El término \"barefoot\" proviene del inglés y significa <strong>“descalzo”</strong>,<br/> lo que nos da una pista de lo que realmente significa este tipo de <br/>calzado: la idea es sentirnos como si estuviéramos descalzos, es decir, <br/>caminar o correr <strong>sin el soporte artificial</strong> que nos <br/>ofrece un calzado tradicional. El objetivo es permitir que el pie se <br/>mueva de forma libre, natural y sin restricciones, tal y como lo haría <br/>si no lleváramos nada puesto.</p><p>Pero, ¿por qué es tan importante este tipo de calzado? Y, sobre todo,<br/> ¿cuáles son sus características y beneficios para nuestros pies, <br/>especialmente los de los más pequeños? Vamos a verlo.</p>",
+            "text_size": "text-base"
+          }
+        },
+        "button_BjTnTY": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_88mdPQ",
+        "text_bfNfpV",
+        "button_BjTnTY"
+      ],
+      "name": "Image with text- qué es",
+      "settings": {
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image": "shopify://shop_images/49313-C58598-ZAPATO-MK-252-PLITYKAKY-C-06.jpg",
+        "image_height": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "center",
+        "desktop_content_alignment": "left",
+        "enable_parallax": false,
+        "parallax_direction": "vertical",
+        "mobile_content_alignment": "left",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "image_with_text_xe8tX9": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_aQRRdj": {
+          "type": "heading",
+          "settings": {
+            "heading": "Características del calzado barefoot",
+            "heading_size": "h1",
+            "heading_highlight_style": "none"
+          }
+        },
+        "text_itymBj": {
+          "type": "text",
+          "settings": {
+            "text": "<p>✔️ <strong>Suela flexible</strong><br/>Esta flexibilidad permite que el pie se mueva libremente, adaptándose a las diferentes superficies y proporcionando <br/>una sensación muy parecida a la de ir descalzo.</p><h4>✔️ <strong>Suela fina y sin drop (elevación de talón)</strong></h4><p>Esto permite que el pie esté en una posición más natural, promoviendo una pisada más equilibrada y mejorando la alineación del cuerpo.</p><p>✔️ <strong>Sin contrafuerte</strong><br/><br/>En los zapatos barefoot, al no tener contrafuerte, el pie puede moverse libremente, permitiendo que los músculos y ligamentos del pie se fortalezcan de forma natural. Esto es especialmente beneficioso en los niños, ya que sus pies están en pleno desarrollo y necesitan libertad de movimiento para crecer correctamente.</p>",
+            "text_size": "text-base"
+          }
+        },
+        "button_Yrf4rg": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_aQRRdj",
+        "text_itymBj",
+        "button_Yrf4rg"
+      ],
+      "name": "Image with text-caracteristicas",
+      "settings": {
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image": "shopify://shop_images/60840-C58600-ZAPATO-MU-252-PLITYOFFWHITE-C-06_4177b8a8-14ba-4055-8880-bed0e9265a59.jpg",
+        "image_height": "adapt",
+        "layout": "text_first",
+        "desktop_content_position": "center",
+        "desktop_content_alignment": "left",
+        "enable_parallax": false,
+        "parallax_direction": "vertical",
+        "mobile_content_alignment": "left",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "image_with_text_EWeBLL": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_KC7kE4": {
+          "type": "heading",
+          "settings": {
+            "heading": "Beneficios del calzado respetuoso o barefoot",
+            "heading_size": "h1",
+            "heading_highlight_style": "none"
+          }
+        },
+        "text_HTt9Gm": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Desarrollo natural de los pies</strong><br/>Esto ayuda a prevenir problemas a largo plazo, como el pie plano o el pie cavo, ya que los pies trabajan como deberían: <strong>flexibles, fuertes y adaptativos</strong>.<br/></p><p></p><p><strong>Mejora la postura</strong><br/>Al no tener un talón elevado, el calzado barefoot permite que nuestra postura sea más equilibrada y nuestros pies pueden sentir mejor el terreno y ajustar nuestra postura según sea necesario.<br/></p><p></p><p><strong>Mayor movilidad y sensación de libertad</strong><br/>El pie se mueve de forma más natural, lo que aumenta la comodidad y la sensación de estar descalzo. Para los niños, esta libertad es fundamental.<br/></p><p></p><p><strong>Mejor absorción de impactos</strong><br/>El pie está diseñado para amortiguar el impacto de manera eficiente. Con el calzado barefoot, el pie puede adaptarse mejor a los diferentes terrenos y reducir el impacto.<br/></p><p></p><p><strong>Fomento del equilibrio y la propiocepción</strong><br/>Al caminar con una suela fina, el pie puede detectar mejor el terreno, lo que mejora el equilibrio y la estabilidad. Esto es especialmente beneficioso para los niños que están desarrollando sus habilidades motrices y de coordinación.<br/></p>",
+            "text_size": "text-base"
+          }
+        },
+        "button_MqrCUf": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_KC7kE4",
+        "text_HTt9Gm",
+        "button_MqrCUf"
+      ],
+      "name": "Image with text- beneficios",
+      "settings": {
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image": "shopify://shop_images/nina-vestido.webp",
+        "image_height": "adapt",
+        "layout": "image_first",
+        "desktop_content_position": "center",
+        "desktop_content_alignment": "left",
+        "enable_parallax": false,
+        "parallax_direction": "vertical",
+        "mobile_content_alignment": "left",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "blocks_P43Lk4": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_6d5c379_ratH7t": {
+          "type": "ai_gen_block_6d5c379",
+          "settings": {
+            "main_title": "Calzado Barefoot",
+            "subtitle": "Así es el calzado que respeta la forma y movimiento de tus pies",
+            "icon_1": "shopify://shop_images/Mesa_de_trabajo_1_3a3f24a6-df1b-4fce-8591-5843fc6cc0c6.png",
+            "feature_1_title": "Comodidad",
+            "feature_1_text": "Permite que el pie se mueva con total libertad. Facilita la adaptación al terreno y simula la sensación de ir descalzo.",
+            "feature_1_button_text": "¿Qué es Barefoot?",
+            "feature_1_button_link": "https://www.diezdeditoslibres.com/blogs/habia-una-vez-diez-deditos-libres/que-es-el-calzado-barefoot-beneficios-para-los-pies-de-tu-familia",
+            "icon_2": "shopify://shop_images/21copia.png",
+            "feature_2_title": "La medida perfecta",
+            "feature_2_text": "Encontrar la talla adecuada para los zapatos de tus hijos es clave para su comodidad y desarrollo saludable",
+            "feature_2_button_text": "¿Cómo Medir los Pies?",
+            "feature_2_button_link": "https://www.diezdeditoslibres.com/blogs/habia-una-vez-diez-deditos-libres/como-medir-los-pies-de-los-ninos-y-elegir-la-talla-correcta-de-calzado",
+            "icon_3": "shopify://shop_images/2copia_85f6f77d-e871-4eae-92f8-0c6c8b084e28.png",
+            "feature_3_title": "Sin contrafuerte",
+            "feature_3_text": "No lleva la pieza rígida en el talón.\nAsí, el pie se mueve libremente y fortalece sus músculos de forma natural.",
+            "feature_3_button_text": "Contenido",
+            "feature_3_button_link": "",
+            "button_style": "primary",
+            "section_bg_color": "#ffffff",
+            "title_color": "#000000",
+            "text_color": "#666666",
+            "icon_bg_color": "#f8f9fa",
+            "icon_color": "#ea5cb8",
+            "title_font_size": 36,
+            "feature_title_font_size": 22,
+            "text_font_size": 18,
+            "section_padding": 60
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_6d5c379_ratH7t"
+      ],
+      "name": "Section-infoBarefoot",
+      "settings": {}
+    },
+    "image_with_text_overlay_aEiiAU": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "subheading_6DDrp6": {
+          "type": "subheading",
+          "settings": {
+            "subheading": ""
+          }
+        },
+        "heading_BiPPBY": {
+          "type": "heading",
+          "settings": {
+            "heading": "¿Por qué elegir calzado respetuoso o barefoot para tus hijos?",
+            "heading_size": "h1",
+            "heading_highlight_style": "none"
+          }
+        },
+        "text_fkM9HT": {
+          "type": "text",
+          "settings": {
+            "text": "<p>En el caso de los más pequeños, el calzado barefoot es <strong>ideal </strong>porque sus pies aún están en pleno desarrollo y son especialmente <br/>sensibles a los efectos de un calzado incorrecto. Los zapatos  tradicionales, que a menudo son rígidos o con una suela gruesa, pueden interferir en el desarrollo natural de los pies. Al ofrecerles calzado barefoot, estamos permitiendo que sus pies se desarrollen de manera libre y saludable, con todos los beneficios que ello conlleva.</p>",
+            "text_size": "text-base"
+          }
+        },
+        "button_WJQGGa": {
+          "type": "button",
+          "settings": {
+            "button_label": "Elige el Barefoot de tu hijo",
+            "button_link": "shopify://collections/primeros-pasos",
+            "button_style": "btn--secondary"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_6DDrp6",
+        "heading_BiPPBY",
+        "text_fkM9HT",
+        "button_WJQGGa"
+      ],
+      "name": "t:sections.image-with-text-overlay.name",
+      "settings": {
+        "container": "full",
+        "image": "shopify://shop_images/nino.webp",
+        "desktop_height": "extra-medium",
+        "overlay_opacity": 70,
+        "enable_parallax": false,
+        "parallax_direction": "vertical",
+        "color_scheme": "",
+        "content_position": "middle-left",
+        "content_alignment": "center",
+        "mobile_height": "auto",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "rich_text_iJpd6m": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_MLH6f3": {
+          "type": "heading",
+          "settings": {
+            "heading": "¿Qué tal una mejora en la pisada?",
+            "heading_size": "h1",
+            "heading_highlight_style": "none"
+          }
+        },
+        "text_Tm9mFw": {
+          "type": "text",
+          "settings": {
+            "text": "<p>En resumen, el calzado barefoot es más que una moda; es una forma de devolverle a nuestros pies su <strong>movimiento natural</strong> y su <strong>capacidad de adaptación </strong>al entorno. No solo es una excelente opción para los adultos, sino que también es una de las mejores decisiones que puedes tomar para el desarrollo saludable de los pies de tus hijos. Si te preguntas si deberían probarlo, la respuesta es: <strong>¡sin duda!</strong></p>",
+            "text_size": "text-base"
+          }
+        },
+        "button_epWMc4": {
+          "type": "button",
+          "settings": {
+            "button_label": "conocer los calzados Barefoot",
+            "button_link": "shopify://collections",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_MLH6f3",
+        "text_Tm9mFw",
+        "button_epWMc4"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "color_scheme": "",
+        "content_alignment": "center",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_fwFGAA",
+    "collection_list_nhYpWK",
+    "image_with_text_hBkrHJ",
+    "image_with_text_xe8tX9",
+    "image_with_text_EWeBLL",
+    "blocks_P43Lk4",
+    "image_with_text_overlay_aEiiAU",
+    "rich_text_iJpd6m"
+  ]
+}
