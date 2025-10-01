@@ -53,7 +53,7 @@
       "settings": {
         "section_color_scheme": "",
         "color_scheme": "",
-        "image": "shopify://shop_images/exterior1.webp",
+        "image": "shopify://shop_images/gloria-white_1.jpg",
         "image_height": "adapt",
         "layout": "text_first",
         "desktop_content_position": "center",
@@ -191,7 +191,7 @@
       "settings": {
         "section_color_scheme": "",
         "color_scheme": "",
-        "image": "shopify://shop_images/49313-C58598-ZAPATO-MK-252-PLITYKAKY-C-06.jpg",
+        "image": "shopify://shop_images/image_1.png",
         "image_height": "medium",
         "layout": "image_first",
         "desktop_content_position": "center",
@@ -241,7 +241,7 @@
       "settings": {
         "section_color_scheme": "",
         "color_scheme": "",
-        "image": "shopify://shop_images/60840-C58600-ZAPATO-MU-252-PLITYOFFWHITE-C-06_4177b8a8-14ba-4055-8880-bed0e9265a59.jpg",
+        "image": "shopify://shop_images/FOTOS_CUADRADAS_WEB_-_12.png",
         "image_height": "adapt",
         "layout": "text_first",
         "desktop_content_position": "center",
@@ -291,7 +291,7 @@
       "settings": {
         "section_color_scheme": "",
         "color_scheme": "",
-        "image": "shopify://shop_images/nina-vestido.webp",
+        "image": "shopify://shop_images/49323-C60127-DEPORTIVO-MK-252-GAMONBLANCOGAMONNARANJA-C-04.jpg",
         "image_height": "adapt",
         "layout": "image_first",
         "desktop_content_position": "center",
@@ -390,7 +390,7 @@
       "name": "t:sections.image-with-text-overlay.name",
       "settings": {
         "container": "full",
-        "image": "shopify://shop_images/nino.webp",
+        "image": "shopify://shop_images/Copiade_DSC5516_5c11cfbd-e85d-434e-80f8-b35b33f672c8.jpg",
         "desktop_height": "extra-medium",
         "overlay_opacity": 70,
         "enable_parallax": false,
