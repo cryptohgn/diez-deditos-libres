@@ -261,7 +261,7 @@
         "heading_KC7kE4": {
           "type": "heading",
           "settings": {
-            "heading": "Beneficios del calzado respetuoso o barefoot",
+            "heading": "Los básicos que nunca deben faltar en un barefoot",
             "heading_size": "h1",
             "heading_highlight_style": "none"
           }
@@ -269,7 +269,7 @@
         "text_HTt9Gm": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Desarrollo natural de los pies</strong><br/>Esto ayuda a prevenir problemas a largo plazo, como el pie plano o el pie cavo, ya que los pies trabajan como deberían: <strong>flexibles, fuertes y adaptativos</strong>.<br/></p><p></p><p><strong>Mejora la postura</strong><br/>Al no tener un talón elevado, el calzado barefoot permite que nuestra postura sea más equilibrada y nuestros pies pueden sentir mejor el terreno y ajustar nuestra postura según sea necesario.<br/></p><p></p><p><strong>Mayor movilidad y sensación de libertad</strong><br/>El pie se mueve de forma más natural, lo que aumenta la comodidad y la sensación de estar descalzo. Para los niños, esta libertad es fundamental.<br/></p><p></p><p><strong>Mejor absorción de impactos</strong><br/>El pie está diseñado para amortiguar el impacto de manera eficiente. Con el calzado barefoot, el pie puede adaptarse mejor a los diferentes terrenos y reducir el impacto.<br/></p><p></p><p><strong>Fomento del equilibrio y la propiocepción</strong><br/>Al caminar con una suela fina, el pie puede detectar mejor el terreno, lo que mejora el equilibrio y la estabilidad. Esto es especialmente beneficioso para los niños que están desarrollando sus habilidades motrices y de coordinación.<br/></p>",
+            "text": "<p>Un zapato respetuoso de verdad siempre cumple con estos cuatro puntos:</p><ol><li>Puntera ancha (para que los dedos se muevan libres).<br/><br/></li><li>Zero drop (nada de tacón).<br/><br/></li><li>Suela fina y flexible.<br/><br/></li><li>Ligereza (que acompañe, no pese).</li></ol>",
             "text_size": "text-base"
           }
         },
@@ -360,7 +360,7 @@
         "heading_BiPPBY": {
           "type": "heading",
           "settings": {
-            "heading": "¿Por qué elegir calzado respetuoso o barefoot para tus hijos?",
+            "heading": "Lo que se puede adaptar según la persona",
             "heading_size": "h1",
             "heading_highlight_style": "none"
           }
@@ -368,8 +368,8 @@
         "text_fkM9HT": {
           "type": "text",
           "settings": {
-            "text": "<p>En el caso de los más pequeños, el calzado barefoot es <strong>ideal </strong>porque sus pies aún están en pleno desarrollo y son especialmente <br/>sensibles a los efectos de un calzado incorrecto. Los zapatos  tradicionales, que a menudo son rígidos o con una suela gruesa, pueden interferir en el desarrollo natural de los pies. Al ofrecerles calzado barefoot, estamos permitiendo que sus pies se desarrollen de manera libre y saludable, con todos los beneficios que ello conlleva.</p>",
-            "text_size": "text-base"
+            "text": "<ul><li>👶 En niños: cuanto antes mejor, sus pies aún se están formando.<br/><br/></li><li>🧑‍🦳 En adultos: se puede empezar a cualquier edad, pero cuanto más tiempo llevemos en calzado convencional, más paciencia necesitamos.<br/><br/></li><li>💡 Si hay molestias o patologías: no pasa nada. Se puede usar transición más lenta, plantillas o combinar tipos de calzado. Y si tienes dudas, consulta siempre a un profesional, podólogo o fisioterapeuta..</li></ul>",
+            "text_size": "text-lg"
           }
         },
         "button_WJQGGa": {
