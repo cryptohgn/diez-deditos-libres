@@ -262,7 +262,7 @@
           "type": "heading",
           "settings": {
             "heading": "Los básicos que nunca deben faltar en un barefoot",
-            "heading_size": "h1",
+            "heading_size": "h2",
             "heading_highlight_style": "none"
           }
         },
@@ -387,6 +387,7 @@
         "text_fkM9HT",
         "button_WJQGGa"
       ],
+      "custom_css": [],
       "name": "t:sections.image-with-text-overlay.name",
       "settings": {
         "container": "full",
@@ -398,9 +399,9 @@
         "color_scheme": "",
         "content_position": "middle-left",
         "content_alignment": "center",
-        "mobile_height": "auto",
-        "padding_top": 50,
-        "padding_bottom": 50
+        "mobile_height": "extra-large",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "rich_text_iJpd6m": {
