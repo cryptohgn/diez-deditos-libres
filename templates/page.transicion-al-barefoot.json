@@ -425,7 +425,7 @@
           "type": "button",
           "settings": {
             "button_label": "conoce los calzados Barefoot",
-            "button_link": "shopify://collections",
+            "button_link": "shopify://collections/all",
             "button_style": "btn--primary"
           }
         }
