@@ -375,8 +375,8 @@
         "button_WJQGGa": {
           "type": "button",
           "settings": {
-            "button_label": "Elige el Barefoot de tu hijo",
-            "button_link": "shopify://collections/primeros-pasos",
+            "button_label": "Elige el Barefoot",
+            "button_link": "shopify://collections",
             "button_style": "btn--secondary"
           }
         }
@@ -409,7 +409,7 @@
         "heading_MLH6f3": {
           "type": "heading",
           "settings": {
-            "heading": "¿Qué tal una mejora en la pisada?",
+            "heading": "En resumen",
             "heading_size": "h1",
             "heading_highlight_style": "none"
           }
@@ -417,14 +417,14 @@
         "text_Tm9mFw": {
           "type": "text",
           "settings": {
-            "text": "<p>En resumen, el calzado barefoot es más que una moda; es una forma de devolverle a nuestros pies su <strong>movimiento natural</strong> y su <strong>capacidad de adaptación </strong>al entorno. No solo es una excelente opción para los adultos, sino que también es una de las mejores decisiones que puedes tomar para el desarrollo saludable de los pies de tus hijos. Si te preguntas si deberían probarlo, la respuesta es: <strong>¡sin duda!</strong></p>",
+            "text": "<p>La transición barefoot no es una carrera. Es un viaje de autoconciencia, de darle a nuestros pies la libertad que quizá llevan años esperando.</p><p>Cuando te escuchas, vas despacio y cuidas a tu cuerpo en cada paso… llega un momento en que ya no quieres volver atrás. </p><p>Porque andar descalzo —o con barefoot— se siente <strong>ligero, natural y auténtico</strong>. 🌿</p><p>👉 Si quieres empezar, en mi tienda encontrarás calzado barefoot para todas las edades y complementos como la pelota de masaje que te ayudará muchísimo en este camino.</p><p>Y recuerda: <strong>disfruta del proceso, no tengas prisa</strong>. Tus pies saben más de lo que imaginas.</p>",
             "text_size": "text-base"
           }
         },
         "button_epWMc4": {
           "type": "button",
           "settings": {
-            "button_label": "conocer los calzados Barefoot",
+            "button_label": "conoce los calzados Barefoot",
             "button_link": "shopify://collections",
             "button_style": "btn--primary"
           }
