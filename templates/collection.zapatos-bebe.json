@@ -144,7 +144,7 @@
       ],
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "custom_liquid": "<div class=\"boton-container\">\n  <a href=\"https://www.diezdeditoslibres.com/collections/calzado-respetuoso-bebe\" class=\"boton-deditos\">Calzado Respetuoso Bebé</a>\n<a href=\"https://www.diezdeditoslibres.com/collections/zapatos-bebe-nina\" class=\"boton-deditos\">Zapatos Bebé Niña</a>\n<a href=\"https://www.diezdeditoslibres.com/collections/zapatos-bebe-nino\" class=\"boton-deditos\">Zapatos Bebé Niño</a>\n</div>\n<a href=\"https://www.diezdeditoslibres.com/collections/zapatillas-bebe-sin-suela\" class=\"boton-deditos\">Zapatos Bebé Sin Suela</a>\n</div>",
+        "custom_liquid": "<div class=\"boton-container\">\n  <a href=\"https://www.diezdeditoslibres.com/collections/calzado-respetuoso-bebe\" class=\"boton-deditos\">Calzado Respetuoso Bebé</a>\n<a href=\"https://www.diezdeditoslibres.com/collections/zapatos-bebe-nina\" class=\"boton-deditos\">Zapatos Bebé Niña</a>\n<a href=\"https://www.diezdeditoslibres.com/collections/zapatos-bebe-nino\" class=\"boton-deditos\">Zapatos Bebé Niño</a>\n<a href=\"https://www.diezdeditoslibres.com/collections/zapatos-bebe-sin-suela\" class=\"boton-deditos\">Zapatos Bebé Sin Suela</a>\n</div>",
         "color_scheme": "",
         "padding_top": 50,
         "padding_bottom": 50
