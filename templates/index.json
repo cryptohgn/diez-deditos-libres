@@ -34,6 +34,7 @@
         },
         "slide_JhU8hg": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "color_scheme": "scheme-9",
             "background": "shopify://shop_images/Banner_Adultos_10DL.png",
