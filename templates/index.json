@@ -34,11 +34,10 @@
         },
         "slide_JhU8hg": {
           "type": "slide",
-          "disabled": true,
           "settings": {
             "color_scheme": "scheme-9",
             "background": "shopify://shop_images/Banner_Adultos_10DL.png",
-            "background_mobile": "shopify://shop_images/Gemini_Generated_Image_qohctkqohctkqohc.png",
+            "background_mobile": "shopify://shop_images/Gemini_Generated_Image_bwwko3bwwko3bwwk.png",
             "image_overlay_opacity": 30,
             "content_position": "middle-right",
             "text_alignment": "center",
