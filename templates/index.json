@@ -47,7 +47,7 @@
             "description": "<p>+ Envío gratis +25€</p>",
             "description_size": "text-lg",
             "button_label": "Comprar ahora",
-            "button_link": "shopify://collections/caminantes",
+            "button_link": "shopify://collections/adultos",
             "button_style": "btn--primary"
           }
         },
