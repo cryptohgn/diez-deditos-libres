@@ -64,7 +64,6 @@
         },
         "text_QCAxbn": {
           "type": "text",
-          "disabled": true,
           "settings": {
             "text": "10% ADULTOS + ENVÍO GRATIS +25€ a Peníinsula",
             "text_link": "shopify://collections/saldo",
@@ -80,6 +79,7 @@
         },
         "text_KmQqhE": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "GASTOS ENVÍO desde 3,90€",
             "text_link": "shopify://collections/colegiales",
