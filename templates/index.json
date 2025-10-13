@@ -39,14 +39,14 @@
             "background": "shopify://shop_images/Banner_adultoxinfantil_10DL_Opcion_2_natural.png",
             "background_mobile": "shopify://shop_images/Gemini_Generated_Image_s8awb5s8awb5s8aw.png",
             "image_overlay_opacity": 30,
-            "content_position": "middle-right",
+            "content_position": "top-center",
             "text_alignment": "center",
-            "title": "",
+            "title": "Nueva colección",
             "heading_size": "hd2",
             "subheading": "",
             "description": "",
             "description_size": "text-lg",
-            "button_label": "",
+            "button_label": "Comprar ahora",
             "button_link": "shopify://collections/adultos",
             "button_style": "btn--primary"
           }
