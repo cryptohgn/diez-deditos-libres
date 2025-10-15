@@ -462,7 +462,7 @@
         "color_scheme": "",
         "content_alignment": "center",
         "padding_top": 100,
-        "padding_bottom": 50,
+        "padding_bottom": 100,
         "show_section_divider": false,
         "divider_width": "fixed"
       }
@@ -597,49 +597,6 @@
         "divider_layout": "vertical"
       }
     },
-    "17580188792b213968": {
-      "type": "_blocks",
-      "blocks": {
-        "ai_gen_block_6d5c379_4brHLC": {
-          "type": "ai_gen_block_6d5c379",
-          "settings": {
-            "main_title": "Calzado Barefoot",
-            "subtitle": "Así es el calzado que respeta la forma y movimiento de tus pies",
-            "icon_1": "shopify://shop_images/Mesa_de_trabajo_1_3a3f24a6-df1b-4fce-8591-5843fc6cc0c6.png",
-            "feature_1_title": "Comodidad",
-            "feature_1_text": "Permite que el pie se mueva con total libertad. Facilita la adaptación al terreno y simula la sensación de ir descalzo.",
-            "feature_1_button_text": "¿Qué es Barefoot?",
-            "feature_1_button_link": "shopify://pages/que-es-el-calzado-barefoot",
-            "icon_2": "shopify://shop_images/21copia.png",
-            "feature_2_title": "La medida perfecta",
-            "feature_2_text": "Encontrar la talla adecuada para los zapatos de tus hijos es clave para su comodidad y desarrollo saludable",
-            "feature_2_button_text": "¿Cómo Medir los Pies?",
-            "feature_2_button_link": "shopify://pages/como-medir-los-pies",
-            "icon_3": "shopify://shop_images/2copia_85f6f77d-e871-4eae-92f8-0c6c8b084e28.png",
-            "feature_3_title": "Transición al calzado barefoot",
-            "feature_3_text": "Cambiar del calzado convencional al barefoot no es solo un cambio de zapatos. Es volver a confiar en nuestros pies.",
-            "feature_3_button_text": "¿Cómo hacer la transición?",
-            "feature_3_button_link": "shopify://pages/transicion-al-calzado-barefoot",
-            "button_style": "primary",
-            "section_bg_color": "#ffffff",
-            "title_color": "#000000",
-            "text_color": "#666666",
-            "icon_bg_color": "#f8f9fa",
-            "icon_color": "#ea5cb8",
-            "title_font_size": 40,
-            "feature_title_font_size": 22,
-            "text_font_size": 18,
-            "section_padding": 60
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "ai_gen_block_6d5c379_4brHLC"
-      ],
-      "name": "Section-infoBarefoot",
-      "settings": {}
-    },
     "multicolumn_fyPhFX": {
       "type": "multicolumn",
       "blocks": {
@@ -712,6 +669,49 @@
         "show_section_divider": false,
         "divider_width": "fixed"
       }
+    },
+    "17580188792b213968": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_6d5c379_4brHLC": {
+          "type": "ai_gen_block_6d5c379",
+          "settings": {
+            "main_title": "Calzado Barefoot",
+            "subtitle": "Así es el calzado que respeta la forma y movimiento de tus pies",
+            "icon_1": "shopify://shop_images/Mesa_de_trabajo_1_3a3f24a6-df1b-4fce-8591-5843fc6cc0c6.png",
+            "feature_1_title": "Comodidad",
+            "feature_1_text": "Permite que el pie se mueva con total libertad. Facilita la adaptación al terreno y simula la sensación de ir descalzo.",
+            "feature_1_button_text": "¿Qué es Barefoot?",
+            "feature_1_button_link": "shopify://pages/que-es-el-calzado-barefoot",
+            "icon_2": "shopify://shop_images/21copia.png",
+            "feature_2_title": "La medida perfecta",
+            "feature_2_text": "Encontrar la talla adecuada para los zapatos de tus hijos es clave para su comodidad y desarrollo saludable",
+            "feature_2_button_text": "¿Cómo Medir los Pies?",
+            "feature_2_button_link": "shopify://pages/como-medir-los-pies",
+            "icon_3": "shopify://shop_images/2copia_85f6f77d-e871-4eae-92f8-0c6c8b084e28.png",
+            "feature_3_title": "Transición al calzado barefoot",
+            "feature_3_text": "Cambiar del calzado convencional al barefoot no es solo un cambio de zapatos. Es volver a confiar en nuestros pies.",
+            "feature_3_button_text": "¿Cómo hacer la transición?",
+            "feature_3_button_link": "shopify://pages/transicion-al-calzado-barefoot",
+            "button_style": "primary",
+            "section_bg_color": "#ffffff",
+            "title_color": "#000000",
+            "text_color": "#666666",
+            "icon_bg_color": "#f8f9fa",
+            "icon_color": "#ea5cb8",
+            "title_font_size": 40,
+            "feature_title_font_size": 22,
+            "text_font_size": 18,
+            "section_padding": 60
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_6d5c379_4brHLC"
+      ],
+      "name": "Section-infoBarefoot",
+      "settings": {}
     },
     "1748340579271eabb5": {
       "type": "apps",
