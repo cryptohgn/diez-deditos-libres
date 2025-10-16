@@ -12,8 +12,8 @@
     "main": {
       "type": "main-list-collections",
       "settings": {
-        "sort": "alphabetical",
-        "title": "Collections",
+        "sort": "date_reversed",
+        "title": "Colecciones",
         "heading_size": "h1",
         "card_image_ratio": "1/1",
         "columns_desktop": 4,
