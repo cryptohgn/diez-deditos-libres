@@ -17,6 +17,98 @@
         "padding_bottom": 28
       }
     },
+    "rich_text_NTqXDJ": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_iM6xEX": {
+          "type": "heading",
+          "settings": {
+            "heading": "Calzado Barefoot 👣 Qué Es, Beneficios y Opiniones Sobre Andar Descalzo",
+            "heading_size": "hd1",
+            "heading_highlight_style": "none"
+          }
+        },
+        "text_NyFXB9": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text_size": "text-base"
+          }
+        },
+        "button_BFDaLD": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_iM6xEX",
+        "text_NyFXB9",
+        "button_BFDaLD"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "color_scheme": "",
+        "content_alignment": "center",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "image_with_text_hBkrHJ": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_88mdPQ": {
+          "type": "heading",
+          "settings": {
+            "heading": "¿Sabes qué es el calzado respetuoso o barefoot?",
+            "heading_size": "h1",
+            "heading_highlight_style": "none"
+          }
+        },
+        "text_bfNfpV": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Si eres nuevo en el mundo del calzado respetuoso o barefoot, no te preocupes, aquí te cuento todo lo que necesitas saber.</p><p>El término \"barefoot\" proviene del inglés y significa <strong>“descalzo”</strong>,<br/> lo que nos da una pista de lo que realmente significa este tipo de <br/>calzado: la idea es sentirnos como si estuviéramos descalzos, es decir, <br/>caminar o correr <strong>sin el soporte artificial</strong> que nos <br/>ofrece un calzado tradicional. El objetivo es permitir que el pie se <br/>mueva de forma libre, natural y sin restricciones, tal y como lo haría <br/>si no lleváramos nada puesto.</p><p>Pero, ¿por qué es tan importante este tipo de calzado? Y, sobre todo,<br/> ¿cuáles son sus características y beneficios para nuestros pies, <br/>especialmente los de los más pequeños? Vamos a verlo.</p>",
+            "text_size": "text-base"
+          }
+        },
+        "button_BjTnTY": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_88mdPQ",
+        "text_bfNfpV",
+        "button_BjTnTY"
+      ],
+      "name": "Image with text- qué es",
+      "settings": {
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image": "shopify://shop_images/49313-C58598-ZAPATO-MK-252-PLITYKAKY-C-06.jpg",
+        "image_height": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "center",
+        "desktop_content_alignment": "left",
+        "enable_parallax": false,
+        "parallax_direction": "vertical",
+        "mobile_content_alignment": "left",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
     "image_with_text_fwFGAA": {
       "type": "image-with-text",
       "blocks": {
@@ -149,56 +241,6 @@
         "enable_slider": true,
         "columns_mobile": "1",
         "swipe_on_mobile": true,
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "show_section_divider": false,
-        "divider_width": "fixed"
-      }
-    },
-    "image_with_text_hBkrHJ": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_88mdPQ": {
-          "type": "heading",
-          "settings": {
-            "heading": "¿Sabes qué es el calzado respetuoso o barefoot?",
-            "heading_size": "h1",
-            "heading_highlight_style": "none"
-          }
-        },
-        "text_bfNfpV": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Si eres nuevo en el mundo del calzado respetuoso o barefoot, no te preocupes, aquí te cuento todo lo que necesitas saber.</p><p>El término \"barefoot\" proviene del inglés y significa <strong>“descalzo”</strong>,<br/> lo que nos da una pista de lo que realmente significa este tipo de <br/>calzado: la idea es sentirnos como si estuviéramos descalzos, es decir, <br/>caminar o correr <strong>sin el soporte artificial</strong> que nos <br/>ofrece un calzado tradicional. El objetivo es permitir que el pie se <br/>mueva de forma libre, natural y sin restricciones, tal y como lo haría <br/>si no lleváramos nada puesto.</p><p>Pero, ¿por qué es tan importante este tipo de calzado? Y, sobre todo,<br/> ¿cuáles son sus características y beneficios para nuestros pies, <br/>especialmente los de los más pequeños? Vamos a verlo.</p>",
-            "text_size": "text-base"
-          }
-        },
-        "button_BjTnTY": {
-          "type": "button",
-          "settings": {
-            "button_label": "",
-            "button_link": "",
-            "button_style": "btn--primary"
-          }
-        }
-      },
-      "block_order": [
-        "heading_88mdPQ",
-        "text_bfNfpV",
-        "button_BjTnTY"
-      ],
-      "name": "Image with text- qué es",
-      "settings": {
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "image": "shopify://shop_images/49313-C58598-ZAPATO-MK-252-PLITYKAKY-C-06.jpg",
-        "image_height": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "center",
-        "desktop_content_alignment": "left",
-        "enable_parallax": false,
-        "parallax_direction": "vertical",
-        "mobile_content_alignment": "left",
         "padding_top": 50,
         "padding_bottom": 50,
         "show_section_divider": false,
@@ -448,9 +490,10 @@
   },
   "order": [
     "main",
+    "rich_text_NTqXDJ",
+    "image_with_text_hBkrHJ",
     "image_with_text_fwFGAA",
     "collection_list_nhYpWK",
-    "image_with_text_hBkrHJ",
     "image_with_text_xe8tX9",
     "image_with_text_EWeBLL",
     "blocks_P43Lk4",
