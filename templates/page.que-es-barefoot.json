@@ -158,6 +158,56 @@
         "divider_width": "fixed"
       }
     },
+    "image_with_text_xe8tX9": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_aQRRdj": {
+          "type": "heading",
+          "settings": {
+            "heading": "Características del calzado barefoot",
+            "heading_size": "h1",
+            "heading_highlight_style": "none"
+          }
+        },
+        "text_itymBj": {
+          "type": "text",
+          "settings": {
+            "text": "<p>✔️ <strong>Suela flexible</strong><br/>Esta flexibilidad permite que el pie se mueva libremente, adaptándose a las diferentes superficies y proporcionando <br/>una sensación muy parecida a la de ir descalzo.</p><h4>✔️ <strong>Suela fina y sin drop (elevación de talón)</strong></h4><p>Esto permite que el pie esté en una posición más natural, promoviendo una pisada más equilibrada y mejorando la alineación del cuerpo.</p><p>✔️ <strong>Sin contrafuerte</strong><br/><br/>En los zapatos barefoot, al no tener contrafuerte, el pie puede moverse libremente, permitiendo que los músculos y ligamentos del pie se fortalezcan de forma natural. Esto es especialmente beneficioso en los niños, ya que sus pies están en pleno desarrollo y necesitan libertad de movimiento para crecer correctamente.</p>",
+            "text_size": "text-base"
+          }
+        },
+        "button_Yrf4rg": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_aQRRdj",
+        "text_itymBj",
+        "button_Yrf4rg"
+      ],
+      "name": "Image with text-caracteristicas",
+      "settings": {
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image": "shopify://shop_images/60840-C58600-ZAPATO-MU-252-PLITYOFFWHITE-C-06_4177b8a8-14ba-4055-8880-bed0e9265a59.jpg",
+        "image_height": "adapt",
+        "layout": "text_first",
+        "desktop_content_position": "center",
+        "desktop_content_alignment": "left",
+        "enable_parallax": false,
+        "parallax_direction": "vertical",
+        "mobile_content_alignment": "left",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
     "collection_list_nhYpWK": {
       "type": "collection-list",
       "blocks": {
@@ -223,7 +273,7 @@
         "color_scheme": "scheme-3",
         "layout": "standard",
         "subheading": "",
-        "heading": "Encuentra tu favorita",
+        "heading": "Nuestro Calzado Barefoot",
         "heading_size": "h1",
         "heading_highlight_style": "none",
         "description": "",
@@ -240,56 +290,6 @@
         "enable_slider": true,
         "columns_mobile": "1",
         "swipe_on_mobile": true,
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "show_section_divider": false,
-        "divider_width": "fixed"
-      }
-    },
-    "image_with_text_xe8tX9": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_aQRRdj": {
-          "type": "heading",
-          "settings": {
-            "heading": "Características del calzado barefoot",
-            "heading_size": "h1",
-            "heading_highlight_style": "none"
-          }
-        },
-        "text_itymBj": {
-          "type": "text",
-          "settings": {
-            "text": "<p>✔️ <strong>Suela flexible</strong><br/>Esta flexibilidad permite que el pie se mueva libremente, adaptándose a las diferentes superficies y proporcionando <br/>una sensación muy parecida a la de ir descalzo.</p><h4>✔️ <strong>Suela fina y sin drop (elevación de talón)</strong></h4><p>Esto permite que el pie esté en una posición más natural, promoviendo una pisada más equilibrada y mejorando la alineación del cuerpo.</p><p>✔️ <strong>Sin contrafuerte</strong><br/><br/>En los zapatos barefoot, al no tener contrafuerte, el pie puede moverse libremente, permitiendo que los músculos y ligamentos del pie se fortalezcan de forma natural. Esto es especialmente beneficioso en los niños, ya que sus pies están en pleno desarrollo y necesitan libertad de movimiento para crecer correctamente.</p>",
-            "text_size": "text-base"
-          }
-        },
-        "button_Yrf4rg": {
-          "type": "button",
-          "settings": {
-            "button_label": "",
-            "button_link": "",
-            "button_style": "btn--primary"
-          }
-        }
-      },
-      "block_order": [
-        "heading_aQRRdj",
-        "text_itymBj",
-        "button_Yrf4rg"
-      ],
-      "name": "Image with text-caracteristicas",
-      "settings": {
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "image": "shopify://shop_images/60840-C58600-ZAPATO-MU-252-PLITYOFFWHITE-C-06_4177b8a8-14ba-4055-8880-bed0e9265a59.jpg",
-        "image_height": "adapt",
-        "layout": "text_first",
-        "desktop_content_position": "center",
-        "desktop_content_alignment": "left",
-        "enable_parallax": false,
-        "parallax_direction": "vertical",
-        "mobile_content_alignment": "left",
         "padding_top": 50,
         "padding_bottom": 50,
         "show_section_divider": false,
@@ -492,8 +492,8 @@
     "rich_text_NTqXDJ",
     "image_with_text_hBkrHJ",
     "image_with_text_fwFGAA",
-    "collection_list_nhYpWK",
     "image_with_text_xe8tX9",
+    "collection_list_nhYpWK",
     "image_with_text_EWeBLL",
     "blocks_P43Lk4",
     "image_with_text_overlay_aEiiAU",
