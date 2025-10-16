@@ -20,33 +20,31 @@
     "rich_text_NTqXDJ": {
       "type": "rich-text",
       "blocks": {
-        "heading_iM6xEX": {
-          "type": "heading",
-          "settings": {
-            "heading": "Calzado Barefoot 👣 Qué Es, Beneficios y Opiniones Sobre Andar Descalzo",
-            "heading_size": "hd1",
-            "heading_highlight_style": "none"
-          }
-        },
         "text_NyFXB9": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "text_size": "text-base"
+            "text": "<h1>Calzado Barefoot 👣 Qué Es, Beneficios y Opiniones Sobre Andar Descalzo</h1>",
+            "text_size": "text-inherit"
+          }
+        },
+        "subheading_djMD98": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Beneficios para los Pies de tu Familia."
           }
         },
         "button_BFDaLD": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
+            "button_label": "Elige tu Barefoot",
+            "button_link": "shopify://collections",
             "button_style": "btn--primary"
           }
         }
       },
       "block_order": [
-        "heading_iM6xEX",
         "text_NyFXB9",
+        "subheading_djMD98",
         "button_BFDaLD"
       ],
       "name": "t:sections.rich-text.presets.name",
@@ -141,6 +139,7 @@
         "text_XMQJ3U",
         "button_ctdxRN"
       ],
+      "disabled": true,
       "name": "Image with text-hero",
       "settings": {
         "section_color_scheme": "",
