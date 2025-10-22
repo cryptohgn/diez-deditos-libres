@@ -67,21 +67,6 @@
         "divider_width": "fixed"
       }
     },
-    "custom_liquid_UhggM8": {
-      "type": "custom-liquid",
-      "custom_css": [
-        ".boton-diezdeditos {display: inline-block; background-color: #ea5cb8; color: #ffffff; text-decoration: none; padding: 12px 24px; border-radius: 8px; /* Picos redondeados */ font-weight: bold; transition: background-color 0.3s ease, transform 0.2s ease; margin: 10px;}",
-        ".boton-diezdeditos:hover {background-color: #f077c6; /* Color más claro al pasar el ratón */ transform: scale(1.05); /* Efecto sutil */}",
-        ".boton-container {text-align: center;}"
-      ],
-      "name": "t:sections.custom-liquid.presets.name",
-      "settings": {
-        "custom_liquid": "<div class=\"boton-container\">\n  <a href=\"https://www.diezdeditoslibres.com/collections/botas-y-botines-para-nina\" class=\"boton-diezdeditos\">Botas y Botines para Niña</a>\n</div>",
-        "color_scheme": "",
-        "padding_top": 50,
-        "padding_bottom": 50
-      }
-    },
     "rich_text_w8U3Uw": {
       "type": "rich-text",
       "blocks": {
@@ -105,13 +90,28 @@
         "show_section_divider": false,
         "divider_width": "fixed"
       }
+    },
+    "custom_liquid_UhggM8": {
+      "type": "custom-liquid",
+      "custom_css": [
+        ".boton-diezdeditos {display: inline-block; background-color: #ea5cb8; color: #ffffff; text-decoration: none; padding: 12px 24px; border-radius: 8px; /* Picos redondeados */ font-weight: bold; transition: background-color 0.3s ease, transform 0.2s ease; margin: 10px;}",
+        ".boton-diezdeditos:hover {background-color: #f077c6; /* Color más claro al pasar el ratón */ transform: scale(1.05); /* Efecto sutil */}",
+        ".boton-container {text-align: center;}"
+      ],
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<div class=\"boton-container\">\n  <a href=\"https://www.diezdeditoslibres.com/collections/botas-y-botines-para-nina\" class=\"boton-diezdeditos\">Botas y Botines para Niña</a>\n</div>",
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
     }
   },
   "order": [
     "breadcrumbs_Gxg9wp",
     "banner",
     "product-grid",
-    "custom_liquid_UhggM8",
-    "rich_text_w8U3Uw"
+    "rich_text_w8U3Uw",
+    "custom_liquid_UhggM8"
   ]
 }
