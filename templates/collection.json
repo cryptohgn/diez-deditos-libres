@@ -134,6 +134,16 @@
         "show_section_divider": false,
         "divider_width": "fixed"
       }
+    },
+    "custom_liquid_E8jJza": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "",
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
     }
   },
   "order": [
@@ -141,6 +151,7 @@
     "banner",
     "product-grid",
     "17539423821d3adb98",
-    "rich_text_w8U3Uw"
+    "rich_text_w8U3Uw",
+    "custom_liquid_E8jJza"
   ]
 }
