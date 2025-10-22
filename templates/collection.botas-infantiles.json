@@ -76,7 +76,7 @@
       ],
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "custom_liquid": "<div class=\"boton-container\">\n  <a href=\"https://www.diezdeditoslibres.com/collections/botas-1\" class=\"boton-diezdeditos\">Botas y Botines para Niña</a>\n</div>",
+        "custom_liquid": "<div class=\"boton-container\">\n  <a href=\"https://www.diezdeditoslibres.com/collections/botas-y-botines-para-nina\" class=\"boton-diezdeditos\">Botas y Botines para Niña</a>\n</div>",
         "color_scheme": "",
         "padding_top": 50,
         "padding_bottom": 50
