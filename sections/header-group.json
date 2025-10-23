@@ -64,9 +64,8 @@
         },
         "text_QCAxbn": {
           "type": "text",
-          "disabled": true,
           "settings": {
-            "text": "10% ADULTOS + ENVÍO GRATIS +25€ a Peníinsula",
+            "text": "ENVÍO GRATIS +25€ a Peníinsula",
             "text_link": "shopify://collections/saldo",
             "text_size": "text-base",
             "font_weight": "font-heading",
