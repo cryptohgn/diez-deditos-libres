@@ -55,8 +55,8 @@
           "type": "slide",
           "settings": {
             "color_scheme": "scheme-9",
-            "background": "shopify://shop_images/Copia_de_nueva_cleccion_barefoot.webp",
-            "background_mobile": "shopify://shop_images/nuevos-oct-25.webp",
+            "background": "shopify://shop_images/nuevo-nov-25.webp",
+            "background_mobile": "shopify://shop_images/nueva-coleccion_barefoot-oct-25.webp",
             "image_overlay_opacity": 25,
             "content_position": "middle-center",
             "text_alignment": "center",
@@ -100,7 +100,7 @@
       "custom_css": [
         ".text-lg {font-size: 2.7rem;}",
         ".btn {font-weight: bolder;}",
-        "@media (max-width: 767.98px) {.slideshow__text {margin: auto; margin-top: 10px; } .text-lg {font-size: 2.6rem; }}"
+        "@media (max-width: 767.98px) {.slideshow__text {margin: auto; margin-top: -10px; } .text-lg {font-size: 2.6rem; }}"
       ],
       "settings": {
         "container": "full",
