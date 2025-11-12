@@ -34,7 +34,7 @@
         "image_rjBwjd"
       ],
       "custom_css": [
-        ".media-wrapper {position: absolute; top: 80%; left: 20%; transform: translateX(-50%); z-index: 10; width: 100%; max-width: 600px; pointer-events: none; transform: rotate(-25deg);}",
+        ".media-wrapper {position: absolute; top: 80%; left: 20%; transform: translateX(-50%); z-index: 10; width: 100%; max-width: 500px; pointer-events: none; transform: rotate(-25deg);}",
         ".media-wrapper img {width: 100%; height: auto;}",
         "@media (max-width: 768px) {.media-wrapper {max-width: 200px; top: 15%; }}"
       ],
