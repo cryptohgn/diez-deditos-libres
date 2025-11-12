@@ -11,13 +11,345 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "image_with_text_8VGL7p": {
+      "type": "image-with-text",
+      "custom_css": [
+        ".image-flotante {position: absolute; top: 20%; left: 50%; transform: translateX(-50%); z-index: 10; width: 100%; max-width: 400px; pointer-events: none;}",
+        ".image-flotante img {width: 100%; height: auto;}",
+        "@media (max-width: 768px) {.image-flotante {max-width: 200px; top: 15%; }}"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image": "shopify://shop_images/upscalemedia-transformed_1.png",
+        "image_height": "adapt",
+        "layout": "image_first",
+        "desktop_content_position": "center",
+        "desktop_content_alignment": "left",
+        "enable_parallax": false,
+        "parallax_direction": "vertical",
+        "mobile_content_alignment": "left",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "slideshow_kjXeQm": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_DJUn7M": {
+          "type": "slide",
+          "settings": {
+            "color_scheme": "",
+            "image_overlay_opacity": 0,
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "title": "Image slide",
+            "heading_size": "hd1",
+            "subheading": "",
+            "description": "<p>Tell your brand's story through images</p>",
+            "description_size": "text-base",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "slide_CfDARW": {
+          "type": "slide",
+          "settings": {
+            "color_scheme": "",
+            "image_overlay_opacity": 0,
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "title": "Image slide",
+            "heading_size": "hd1",
+            "subheading": "",
+            "description": "<p>Tell your brand's story through images</p>",
+            "description_size": "text-base",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "slide_n3Vib8": {
+          "type": "slide",
+          "settings": {
+            "color_scheme": "",
+            "image_overlay_opacity": 0,
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "title": "Image slide",
+            "heading_size": "hd1",
+            "subheading": "",
+            "description": "<p>Tell your brand's story through images</p>",
+            "description_size": "text-base",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "slide_DJUn7M",
+        "slide_CfDARW",
+        "slide_n3Vib8"
+      ],
+      "name": "t:sections.slideshow.name",
+      "settings": {
+        "container": "full",
+        "layout": "standard",
+        "slide_height": "medium",
+        "show_dots": true,
+        "autoplay": false,
+        "autoplay_delay": 3,
+        "controls_position": "bottom",
+        "show_text_below": false,
+        "text_alignment_mobile": "center",
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "feature_list_n8M4nz": {
+      "type": "feature-list",
+      "blocks": {
+        "feature_item_fJdUCn": {
+          "type": "feature_item",
+          "settings": {
+            "color_scheme": "",
+            "icon": "truck",
+            "icon_style": "btn--secondary",
+            "text": "parking gratis"
+          }
+        },
+        "feature_item_FFcFVe": {
+          "type": "feature_item",
+          "settings": {
+            "color_scheme": "",
+            "icon": "check",
+            "icon_style": "btn--secondary",
+            "text": "Fácil acceso"
+          }
+        },
+        "feature_item_7WC86i": {
+          "type": "feature_item",
+          "settings": {
+            "color_scheme": "",
+            "icon": "check",
+            "icon_style": "btn--secondary",
+            "text": "Ofertas exclusivas"
+          }
+        },
+        "feature_item_K78UfM": {
+          "type": "feature_item",
+          "disabled": true,
+          "settings": {
+            "color_scheme": "",
+            "icon": "check",
+            "icon_style": "btn--secondary",
+            "text": "Feature"
+          }
+        },
+        "feature_item_EKWYdD": {
+          "type": "feature_item",
+          "disabled": true,
+          "settings": {
+            "color_scheme": "",
+            "icon": "check",
+            "icon_style": "btn--secondary",
+            "text": "Feature"
+          }
+        }
+      },
+      "block_order": [
+        "feature_item_fJdUCn",
+        "feature_item_FFcFVe",
+        "feature_item_7WC86i",
+        "feature_item_K78UfM",
+        "feature_item_EKWYdD"
+      ],
+      "name": "Feature list",
+      "settings": {
+        "color_scheme": "",
+        "subheading": "",
+        "heading": "Porque ir al showroom",
+        "heading_size": "h2",
+        "heading_highlight_style": "none",
+        "description": "",
+        "text_size": "text-base",
+        "item_alignment": "center",
+        "icon_size": "extra-medium",
+        "swipe_on_mobile": true,
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "featured_collection_D8d9kM": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "color_scheme": "",
+        "header_layout": "horizontal",
+        "heading": "Titulo de la colección",
+        "heading_size": "h1",
+        "heading_highlight_style": "none",
+        "subheading": "",
+        "description": "",
+        "text_size": "text-base",
+        "show_collection_description": false,
+        "collection": "",
+        "limit": 8,
+        "columns": 4,
+        "column_gap": "medium",
+        "row_gap": "inherit",
+        "grid_layout": "standard",
+        "enable_slider": true,
+        "controls_position": "inside",
+        "pcard_image_ratio": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "show_all_button_on_top": true,
+        "button_label": "Ver toda colección",
+        "button_style": "btn--underline",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "image_with_text_iYtG73": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_d6bQmP": {
+          "type": "heading",
+          "settings": {
+            "heading": "Sábado entre 09:00-21:00h",
+            "heading_size": "hd1",
+            "heading_highlight_style": "none"
+          }
+        },
+        "text_RQMkaq": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Poner la dirección del evento y como llegar</p>",
+            "text_size": "text-base"
+          }
+        },
+        "button_C8qeaR": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_d6bQmP",
+        "text_RQMkaq",
+        "button_C8qeaR"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_height": "adapt",
+        "layout": "image_first",
+        "desktop_content_position": "center",
+        "desktop_content_alignment": "left",
+        "enable_parallax": false,
+        "parallax_direction": "vertical",
+        "mobile_content_alignment": "left",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "custom_liquid_mYpCAe": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d49312.0937588983!2d-0.5536607949789152!3d39.423991944819925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6051c7fe680011%3A0xaf232fc62a915f0c!2sTorrent%2C%20Valencia!5e0!3m2!1ses!2ses!4v1762937306524!5m2!1ses!2ses\" width=\"90%\" height=\"450\" style=\"border:0; border-radius:16px;display: block; margin: 0 auto;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "countdown_timer_PfRLr3": {
+      "type": "countdown-timer",
+      "blocks": {
+        "heading_xdUGng": {
+          "type": "heading",
+          "settings": {
+            "heading": "La cuenta atrás",
+            "heading_size": "hd2"
+          }
+        },
+        "text_BTVTAB": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Nuestro showroom extra info y detalles</p>",
+            "text_size": "text-base"
+          }
+        },
+        "timer_ja3B6P": {
+          "type": "timer",
+          "settings": {
+            "type": "fixed_time",
+            "style": "number",
+            "number_size": "hd2",
+            "duration": "every_month",
+            "time": "2025/11/21 09:00 AM"
+          }
+        },
+        "button_e47zwG": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_xdUGng",
+        "text_BTVTAB",
+        "timer_ja3B6P",
+        "button_e47zwG"
+      ],
+      "name": "t:sections.countdown-timer.name",
+      "settings": {
+        "container": "full",
+        "color_schema": "",
+        "image_overlay_opacity": 0,
+        "content_alignment": "center",
+        "text_alignment": "center",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "image_with_text_8VGL7p",
+    "slideshow_kjXeQm",
+    "feature_list_n8M4nz",
+    "featured_collection_D8d9kM",
+    "image_with_text_iYtG73",
+    "custom_liquid_mYpCAe",
+    "countdown_timer_PfRLr3"
   ]
 }
