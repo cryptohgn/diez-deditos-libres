@@ -36,7 +36,8 @@
       "custom_css": [
         ".media-wrapper {position: absolute; top: 90%; left: 25%; transform: translateX(-50%); z-index: 10; width: 100%; max-width: 500px; pointer-events: none; transform: rotate(-35deg);}",
         ".media-wrapper img {width: 100%; height: auto;}",
-        "@media (max-width: 768px) {.media-wrapper {max-width: 220px; margin-top: 70%; left: 36%; transform: rotate(0deg); }}"
+        "@media (max-width: 768px) {.media-wrapper {max-width: 220px; margin-top: 70%; left: 36%; transform: rotate(0deg); }}",
+        "@media (max-width: 990px) and (min-width: 769px) {.media-wrapper {margin-top: 10% !important; top: 10% !important; max-width: 300px; }}"
       ],
       "name": "t:sections.custom-content.name",
       "settings": {
@@ -192,7 +193,7 @@
             "color_scheme": "",
             "icon": "truck",
             "icon_style": "btn--secondary",
-            "text": "parking gratis"
+            "text": "Parking gratis"
           }
         },
         "feature_item_FFcFVe": {
@@ -208,7 +209,7 @@
           "type": "feature_item",
           "settings": {
             "color_scheme": "",
-            "icon": "check",
+            "icon": "currency-circle-dollar",
             "icon_style": "btn--secondary",
             "text": "Ofertas exclusivas"
           }
