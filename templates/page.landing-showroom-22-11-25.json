@@ -78,8 +78,8 @@
         "text_FVHFzM": {
           "type": "text",
           "settings": {
-            "text": "<p>Use this text to share information about your brand with your customers. <br>Describe a product, share announcements, or welcome customers to your store.</p>",
-            "text_size": "text-base"
+            "text": "<p>En Valencia, sábado 22 de noviembre. De 10h a 17h.</p>",
+            "text_size": "text-lg"
           }
         }
       },
