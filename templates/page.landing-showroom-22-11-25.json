@@ -33,6 +33,7 @@
       "block_order": [
         "image_rjBwjd"
       ],
+      "disabled": true,
       "custom_css": [
         ".media-wrapper {position: absolute; top: 90%; left: 25%; transform: translateX(-50%); z-index: 10; width: 100%; max-width: 500px; pointer-events: none; transform: rotate(-35deg);}",
         ".media-wrapper img {width: 100%; height: auto;}",
@@ -64,15 +65,14 @@
       "blocks": {
         "subheading_LAbRbx": {
           "type": "subheading",
-          "disabled": true,
           "settings": {
-            "subheading": "Add a tagline"
+            "subheading": "Vente a nuestro Showroom"
           }
         },
         "heading_N8DXY6": {
           "type": "heading",
           "settings": {
-            "heading": "Ven a nuestro Showroom",
+            "heading": "15% de descuento y segunda unidad a 20%",
             "heading_size": "hd1",
             "heading_highlight_style": "none"
           }
@@ -299,7 +299,7 @@
         "heading_d6bQmP": {
           "type": "heading",
           "settings": {
-            "heading": "Sábado entre 09:00-21:00h",
+            "heading": "Be on a paid, active <a href=\"https://www.shopify.com/plus/\" target=\"_blank\"><span style=\"text-decoration:underline\">Shopify Plus</span></a> plan",
             "heading_size": "hd1",
             "heading_highlight_style": "none"
           }
