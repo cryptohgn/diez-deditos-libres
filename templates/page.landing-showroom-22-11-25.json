@@ -78,7 +78,7 @@
         "text_FVHFzM": {
           "type": "text",
           "settings": {
-            "text": "<p>En Valencia, sábado 22 de noviembre. De 10h a 17h.</p>",
+            "text": "<p>En Valencia, sábado 22 de noviembre. </p><p>De 10h a 17h.</p>",
             "text_size": "text-lg"
           }
         }
