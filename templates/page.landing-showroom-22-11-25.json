@@ -72,7 +72,7 @@
         "heading_N8DXY6": {
           "type": "heading",
           "settings": {
-            "heading": "15% de descuento segunda unidad a 20%",
+            "heading": "¡Tu segunda unidad con un 20% DTO! (Y un 15% en la primera)",
             "heading_size": "hd2",
             "heading_highlight_style": "none"
           }
@@ -91,7 +91,7 @@
         "text_FVHFzM"
       ],
       "custom_css": [
-        "h2 {width: 90%; max-width: 550px;}",
+        "h2 {width: 100%; max-width: 550px;}",
         "@media (max-width: 768px) {h2 {}}"
       ],
       "name": "t:sections.image-with-text-overlay.name",
@@ -102,7 +102,7 @@
         "enable_parallax": false,
         "parallax_direction": "vertical",
         "color_scheme": "",
-        "content_position": "middle-center",
+        "content_position": "middle-left",
         "content_alignment": "left",
         "mobile_height": "medium",
         "padding_top": 0,
@@ -305,6 +305,14 @@
             "description": ""
           }
         },
+        "featured_collection_ciayy8": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "botas-agua",
+            "title": "",
+            "description": ""
+          }
+        },
         "featured_collection_dQrC34": {
           "type": "featured_collection",
           "settings": {
@@ -324,6 +332,7 @@
       },
       "block_order": [
         "featured_collection_wnahGG",
+        "featured_collection_ciayy8",
         "featured_collection_dQrC34",
         "featured_collection_Pg8W7E"
       ],
@@ -343,7 +352,7 @@
         "card_style": "",
         "card_image_ratio": "1/1",
         "content_alignment": "left",
-        "columns_desktop": 3,
+        "columns_desktop": 4,
         "column_gap": "medium",
         "row_gap": "medium",
         "enable_slider": true,
