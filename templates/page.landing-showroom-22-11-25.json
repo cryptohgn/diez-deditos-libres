@@ -88,6 +88,9 @@
         "heading_N8DXY6",
         "text_FVHFzM"
       ],
+      "custom_css": [
+        "h2 {font-size: 12rem;}"
+      ],
       "name": "t:sections.image-with-text-overlay.name",
       "settings": {
         "container": "full",
