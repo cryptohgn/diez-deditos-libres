@@ -96,7 +96,7 @@
         "enable_parallax": false,
         "parallax_direction": "vertical",
         "color_scheme": "",
-        "content_position": "middle-left",
+        "content_position": "middle-center",
         "content_alignment": "left",
         "mobile_height": "auto",
         "padding_top": 0,
