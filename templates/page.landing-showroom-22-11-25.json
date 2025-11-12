@@ -34,7 +34,7 @@
         "image_rjBwjd"
       ],
       "custom_css": [
-        ".media-wrapper {position: absolute; top: 20%; left: 50%; transform: translateX(-50%); z-index: 10; width: 100%; max-width: 400px; pointer-events: none;}",
+        ".media-wrapper {position: absolute; top: 80%; left: 40%; transform: translateX(-50%); z-index: 10; width: 100%; max-width: 600px; pointer-events: none; transform: rotate(-25deg);}",
         ".media-wrapper img {width: 100%; height: auto;}",
         "@media (max-width: 768px) {.media-wrapper {max-width: 200px; top: 15%; }}"
       ],
@@ -52,10 +52,55 @@
         "row_gap": "large",
         "swipe_on_mobile": false,
         "columns_mobile": "1",
-        "padding_top": 50,
-        "padding_bottom": 50,
+        "padding_top": 0,
+        "padding_bottom": 0,
         "show_section_divider": false,
         "divider_width": "fixed"
+      }
+    },
+    "image_with_text_overlay_t8VANc": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "subheading_LAbRbx": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Add a tagline"
+          }
+        },
+        "heading_N8DXY6": {
+          "type": "heading",
+          "settings": {
+            "heading": "Ven a nuestro Showroom y te regalamos 2 entradas para el evento de 2 ruedas",
+            "heading_size": "hd1",
+            "heading_highlight_style": "none"
+          }
+        },
+        "text_FVHFzM": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Use this text to share information about your brand with your customers. <br>Describe a product, share announcements, or welcome customers to your store.</p>",
+            "text_size": "text-base"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_LAbRbx",
+        "heading_N8DXY6",
+        "text_FVHFzM"
+      ],
+      "name": "t:sections.image-with-text-overlay.name",
+      "settings": {
+        "container": "full",
+        "desktop_height": "extra-medium",
+        "overlay_opacity": 70,
+        "enable_parallax": false,
+        "parallax_direction": "vertical",
+        "color_scheme": "",
+        "content_position": "middle-left",
+        "content_alignment": "left",
+        "mobile_height": "auto",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "slideshow_kjXeQm": {
@@ -68,11 +113,11 @@
             "image_overlay_opacity": 0,
             "content_position": "middle-center",
             "text_alignment": "center",
-            "title": "Image slide",
+            "title": "Ven a nuestro Showroom y te regalamos 2 entradas para el evento de 2 ruedas",
             "heading_size": "hd1",
             "subheading": "",
             "description": "<p>Tell your brand's story through images</p>",
-            "description_size": "text-base",
+            "description_size": "text-lg",
             "button_label": "Button label",
             "button_link": "",
             "button_style": "btn--primary"
@@ -118,6 +163,7 @@
         "slide_CfDARW",
         "slide_n3Vib8"
       ],
+      "disabled": true,
       "name": "t:sections.slideshow.name",
       "settings": {
         "container": "full",
@@ -361,6 +407,7 @@
   "order": [
     "main",
     "custom_content_qgJeWq",
+    "image_with_text_overlay_t8VANc",
     "slideshow_kjXeQm",
     "feature_list_n8M4nz",
     "featured_collection_D8d9kM",
