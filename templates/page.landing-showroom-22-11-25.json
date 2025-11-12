@@ -72,7 +72,7 @@
         "heading_N8DXY6": {
           "type": "heading",
           "settings": {
-            "heading": "15% de descuento y segunda unidad a 20%",
+            "heading": "15% de descuento segunda unidad a 20%",
             "heading_size": "hd1",
             "heading_highlight_style": "none"
           }
@@ -91,7 +91,7 @@
         "text_FVHFzM"
       ],
       "custom_css": [
-        "h2 {font-size: 11rem;}",
+        "h2 {max-width:650px;}",
         "@media (max-width: 768px) {h2 {font-size: 6rem; }}"
       ],
       "name": "t:sections.image-with-text-overlay.name",
