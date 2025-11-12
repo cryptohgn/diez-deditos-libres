@@ -89,7 +89,7 @@
         "text_FVHFzM"
       ],
       "custom_css": [
-        "h2 {font-size: 12rem;}"
+        "h2 {font-size: 11rem;}"
       ],
       "name": "t:sections.image-with-text-overlay.name",
       "settings": {
