@@ -66,14 +66,14 @@
         "subheading_LAbRbx": {
           "type": "subheading",
           "settings": {
-            "subheading": "Vente a nuestro Showroom"
+            "subheading": "Showroom de invierno"
           }
         },
         "heading_N8DXY6": {
           "type": "heading",
           "settings": {
             "heading": "15% de descuento segunda unidad a 20%",
-            "heading_size": "hd1",
+            "heading_size": "hd2",
             "heading_highlight_style": "none"
           }
         },
@@ -91,8 +91,8 @@
         "text_FVHFzM"
       ],
       "custom_css": [
-        "h2 {}",
-        "@media (max-width: 768px) {h2 {font-size: 6rem; }}"
+        "h2 {width: 90%; max-width: 550px;}",
+        "@media (max-width: 768px) {h2 {}}"
       ],
       "name": "t:sections.image-with-text-overlay.name",
       "settings": {
@@ -187,13 +187,13 @@
     "feature_list_n8M4nz": {
       "type": "feature-list",
       "blocks": {
-        "feature_item_fJdUCn": {
+        "feature_item_7WC86i": {
           "type": "feature_item",
           "settings": {
             "color_scheme": "",
-            "icon": "truck",
+            "icon": "currency-circle-dollar",
             "icon_style": "btn--secondary",
-            "text": "Parking gratis"
+            "text": "Ofertas exclusivas"
           }
         },
         "feature_item_FFcFVe": {
@@ -205,13 +205,13 @@
             "text": "Fácil acceso"
           }
         },
-        "feature_item_7WC86i": {
+        "feature_item_fJdUCn": {
           "type": "feature_item",
           "settings": {
             "color_scheme": "",
-            "icon": "currency-circle-dollar",
+            "icon": "truck",
             "icon_style": "btn--secondary",
-            "text": "Ofertas exclusivas"
+            "text": "Parking gratis"
           }
         },
         "feature_item_K78UfM": {
@@ -236,9 +236,9 @@
         }
       },
       "block_order": [
-        "feature_item_fJdUCn",
-        "feature_item_FFcFVe",
         "feature_item_7WC86i",
+        "feature_item_FFcFVe",
+        "feature_item_fJdUCn",
         "feature_item_K78UfM",
         "feature_item_EKWYdD"
       ],
@@ -262,6 +262,7 @@
     },
     "featured_collection_D8d9kM": {
       "type": "featured-collection",
+      "disabled": true,
       "name": "t:sections.featured-collection.presets.name",
       "settings": {
         "color_scheme": "",
@@ -287,6 +288,67 @@
         "show_all_button_on_top": true,
         "button_label": "Ver toda colección",
         "button_style": "btn--underline",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "collection_list_px97fw": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_wnahGG": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "botas-y-botines",
+            "title": "",
+            "description": ""
+          }
+        },
+        "featured_collection_dQrC34": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "merceditas",
+            "title": "",
+            "description": ""
+          }
+        },
+        "featured_collection_Pg8W7E": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bailarinas",
+            "title": "",
+            "description": ""
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_wnahGG",
+        "featured_collection_dQrC34",
+        "featured_collection_Pg8W7E"
+      ],
+      "name": "t:sections.collection-list.name",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "layout": "standard",
+        "subheading": "",
+        "heading": "Collections",
+        "heading_size": "h1",
+        "heading_highlight_style": "none",
+        "description": "",
+        "text_size": "text-base",
+        "card_color_inherited": false,
+        "show_product_count": false,
+        "show_icon": true,
+        "card_style": "",
+        "card_image_ratio": "1/1",
+        "content_alignment": "left",
+        "columns_desktop": 3,
+        "column_gap": "medium",
+        "row_gap": "medium",
+        "enable_slider": true,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
         "padding_top": 50,
         "padding_bottom": 50,
         "show_section_divider": false,
@@ -417,6 +479,7 @@
     "slideshow_kjXeQm",
     "feature_list_n8M4nz",
     "featured_collection_D8d9kM",
+    "collection_list_px97fw",
     "image_with_text_iYtG73",
     "custom_liquid_mYpCAe",
     "countdown_timer_PfRLr3"
