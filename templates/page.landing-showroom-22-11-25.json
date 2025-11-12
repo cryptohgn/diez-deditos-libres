@@ -91,7 +91,7 @@
         "text_FVHFzM"
       ],
       "custom_css": [
-        "h2 {max-width:650px;}",
+        "h2 {}",
         "@media (max-width: 768px) {h2 {font-size: 6rem; }}"
       ],
       "name": "t:sections.image-with-text-overlay.name",
@@ -299,7 +299,7 @@
         "heading_d6bQmP": {
           "type": "heading",
           "settings": {
-            "heading": "Be on a paid, active <a href=\"https://www.shopify.com/plus/\" target=\"_blank\"><span style=\"text-decoration:underline\">Shopify Plus</span></a> plan",
+            "heading": "Showroom de invierno en el Hotel Silken Puerta Valencia",
             "heading_size": "hd1",
             "heading_highlight_style": "none"
           }
@@ -307,7 +307,7 @@
         "text_RQMkaq": {
           "type": "text",
           "settings": {
-            "text": "<p>Poner la dirección del evento y como llegar</p>",
+            "text": "<p>Avd. Cardenal Benlloch 28 (Salón Turia, en la entreplanta)</p><p>Parada de metro Aragón, línea 5 </p><p>Autobús líneas 1, 2, 4, 18, 89 y 90</p>",
             "text_size": "text-base"
           }
         },
@@ -347,7 +347,7 @@
       "type": "custom-liquid",
       "name": "t:sections.custom-liquid.presets.name",
       "settings": {
-        "custom_liquid": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d49312.0937588983!2d-0.5536607949789152!3d39.423991944819925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6051c7fe680011%3A0xaf232fc62a915f0c!2sTorrent%2C%20Valencia!5e0!3m2!1ses!2ses!4v1762937306524!5m2!1ses!2ses\" width=\"90%\" height=\"450\" style=\"border:0; border-radius:16px;display: block; margin: 0 auto;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
+        "custom_liquid": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3080.037790253389!2d-0.35820192398979933!3d39.46847497160778!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd604895861bd1ed%3A0xd1a5312ba0bbb151!2sSilken%20Puerta%20Valencia!5e0!3m2!1ses!2ses!4v1762950572348!5m2!1ses!2ses\" width=\"90%\" height=\"450\" style=\"border:0; border-radius:16px;display: block; margin: 0 auto;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>",
         "color_scheme": "",
         "padding_top": 50,
         "padding_bottom": 50
