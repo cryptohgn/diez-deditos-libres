@@ -91,7 +91,7 @@
         "text_FVHFzM"
       ],
       "custom_css": [
-        "h2 {width: 100%; max-width: 550px; }",
+        "h2 {width: 100%; max-width: 550px;}",
         "@media (max-width: 768px) {h2 {font-size: 2.8rem; }}"
       ],
       "name": "t:sections.image-with-text-overlay.name",
@@ -339,10 +339,10 @@
       ],
       "name": "t:sections.collection-list.name",
       "settings": {
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-3",
         "layout": "standard",
         "subheading": "",
-        "heading": "Algunas de nuestras colecciones",
+        "heading": "Encuentra tu favorita",
         "heading_size": "h1",
         "heading_highlight_style": "none",
         "description": "",
