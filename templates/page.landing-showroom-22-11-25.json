@@ -372,7 +372,7 @@
           "type": "heading",
           "settings": {
             "heading": "Showroom de invierno en el Hotel Silken Puerta Valencia",
-            "heading_size": "hd1",
+            "heading_size": "hd2",
             "heading_highlight_style": "none"
           }
         },
@@ -397,6 +397,9 @@
         "heading_d6bQmP",
         "text_RQMkaq",
         "button_C8qeaR"
+      ],
+      "custom_css": [
+        "@media only screen and (max-width: 749px) {.rich-text__heading {font-size: 2.4rem; }}"
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
@@ -511,6 +514,9 @@
         "text_BTVTAB",
         "timer_ja3B6P",
         "button_e47zwG"
+      ],
+      "custom_css": [
+        "@media only screen and (max-width: 749px) {.rich-text__heading {font-size: 2.4rem; }}"
       ],
       "name": "t:sections.countdown-timer.name",
       "settings": {
