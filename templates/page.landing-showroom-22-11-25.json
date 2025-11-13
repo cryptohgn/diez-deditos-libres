@@ -72,7 +72,7 @@
         "heading_N8DXY6": {
           "type": "heading",
           "settings": {
-            "heading": "¡Tu segunda unidad con un 20% DTO! (Y un 15% en la primera)",
+            "heading": "¡Tu segunda unidad con un 20% DTO! (Y un 15% en la primera)*",
             "heading_size": "hd2",
             "heading_highlight_style": "none"
           }
@@ -80,7 +80,7 @@
         "text_FVHFzM": {
           "type": "text",
           "settings": {
-            "text": "<p>Descuentos unicamente en el evento.</p><p>En Valencia, sábado 22 de noviembre. De 10h a 17h.</p>",
+            "text": "<p>Sábado 22 de noviembre, de 10:00 a 17:00 en Valencia</p><p>* Descuentos disponibles solo durante el evento</p>",
             "text_size": "text-lg"
           }
         }
@@ -341,7 +341,7 @@
         "color_scheme": "scheme-1",
         "layout": "standard",
         "subheading": "",
-        "heading": "",
+        "heading": "Algunas de nuestras colecciones",
         "heading_size": "h1",
         "heading_highlight_style": "none",
         "description": "",
@@ -358,48 +358,6 @@
         "enable_slider": true,
         "columns_mobile": "1",
         "swipe_on_mobile": true,
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "show_section_divider": false,
-        "divider_width": "fixed"
-      }
-    },
-    "rich_text_wqMqQk": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_QEMzzr": {
-          "type": "heading",
-          "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "hd1",
-            "heading_highlight_style": "none"
-          }
-        },
-        "text_7EC7YQ": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "text_size": "text-base"
-          }
-        },
-        "button_zRfRD8": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style": "btn--primary"
-          }
-        }
-      },
-      "block_order": [
-        "heading_QEMzzr",
-        "text_7EC7YQ",
-        "button_zRfRD8"
-      ],
-      "name": "t:sections.rich-text.presets.name",
-      "settings": {
-        "color_scheme": "",
-        "content_alignment": "center",
         "padding_top": 50,
         "padding_bottom": 50,
         "show_section_divider": false,
@@ -467,20 +425,63 @@
         "padding_bottom": 50
       }
     },
+    "rich_text_wqMqQk": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_QEMzzr": {
+          "type": "heading",
+          "settings": {
+            "heading": "Ven a nuestro showroom y siente la diferencia barefoot",
+            "heading_size": "hd2",
+            "heading_highlight_style": "none"
+          }
+        },
+        "text_7EC7YQ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Fortalece tus pies, mejora tu postura y recupera tu movimiento natural.</p>",
+            "text_size": "text-base"
+          }
+        },
+        "button_zRfRD8": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_QEMzzr",
+        "text_7EC7YQ",
+        "button_zRfRD8"
+      ],
+      "disabled": true,
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "color_scheme": "",
+        "content_alignment": "center",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
     "countdown_timer_PfRLr3": {
       "type": "countdown-timer",
       "blocks": {
         "heading_xdUGng": {
           "type": "heading",
           "settings": {
-            "heading": "La cuenta atrás",
+            "heading": "Ven a nuestro showroom y siente la diferencia barefoot",
             "heading_size": "hd2"
           }
         },
         "text_BTVTAB": {
           "type": "text",
           "settings": {
-            "text": "<p>Nuestro showroom extra info y detalles</p>",
+            "text": "<p>La cuenta atrás </p>",
             "text_size": "text-base"
           }
         },
@@ -517,8 +518,8 @@
         "image_overlay_opacity": 0,
         "content_alignment": "center",
         "text_alignment": "center",
-        "padding_top": 50,
-        "padding_bottom": 50,
+        "padding_top": 40,
+        "padding_bottom": 80,
         "show_section_divider": false,
         "divider_width": "fixed"
       }
@@ -532,9 +533,9 @@
     "feature_list_n8M4nz",
     "featured_collection_D8d9kM",
     "collection_list_px97fw",
-    "rich_text_wqMqQk",
     "image_with_text_iYtG73",
     "custom_liquid_mYpCAe",
+    "rich_text_wqMqQk",
     "countdown_timer_PfRLr3"
   ]
 }
