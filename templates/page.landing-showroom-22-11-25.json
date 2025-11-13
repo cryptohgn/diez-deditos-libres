@@ -91,15 +91,15 @@
         "text_FVHFzM"
       ],
       "custom_css": [
-        "h2 {width: 100%; max-width: 550px;}",
-        "@media (max-width: 768px) {h2 {}}"
+        "h2 {width: 100%; max-width: 550px; }",
+        "@media (max-width: 768px) {h2 {font-size: 2.8rem; }}"
       ],
       "name": "t:sections.image-with-text-overlay.name",
       "settings": {
         "container": "full",
         "image": "shopify://shop_images/bannerShowroom3.webp",
         "desktop_height": "extra-medium",
-        "overlay_opacity": 25,
+        "overlay_opacity": 30,
         "enable_parallax": false,
         "parallax_direction": "vertical",
         "color_scheme": "",
