@@ -97,8 +97,9 @@
       "name": "t:sections.image-with-text-overlay.name",
       "settings": {
         "container": "full",
+        "image": "shopify://shop_images/bannerShowroom2.webp",
         "desktop_height": "extra-medium",
-        "overlay_opacity": 70,
+        "overlay_opacity": 25,
         "enable_parallax": false,
         "parallax_direction": "vertical",
         "color_scheme": "",
