@@ -72,7 +72,7 @@
         "heading_N8DXY6": {
           "type": "heading",
           "settings": {
-            "heading": "¡Tu segunda unidad con un 20% DTO! (Y un 15% en la primera)*",
+            "heading": "¡Black Friday en nuestro showroom! 15% DTO en tu 1ª unidad y 20% en la 2ª *",
             "heading_size": "hd2",
             "heading_highlight_style": "none"
           }
@@ -91,7 +91,7 @@
         "text_FVHFzM"
       ],
       "custom_css": [
-        "h2 {width: 100%; max-width: 550px;}",
+        "h2 {width: 100%; max-width: 850px;}",
         "@media (max-width: 768px) {h2 {font-size: 2.8rem; }}"
       ],
       "name": "t:sections.image-with-text-overlay.name",
@@ -99,7 +99,7 @@
         "container": "full",
         "image": "shopify://shop_images/bannerShowroom3.webp",
         "desktop_height": "extra-medium",
-        "overlay_opacity": 30,
+        "overlay_opacity": 35,
         "enable_parallax": false,
         "parallax_direction": "vertical",
         "color_scheme": "",
@@ -449,6 +449,7 @@
         },
         "button_zRfRD8": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "Button label",
             "button_link": "",
@@ -461,7 +462,6 @@
         "text_7EC7YQ",
         "button_zRfRD8"
       ],
-      "disabled": true,
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "color_scheme": "",
@@ -478,7 +478,7 @@
         "heading_xdUGng": {
           "type": "heading",
           "settings": {
-            "heading": "Ven a nuestro showroom y siente la diferencia barefoot",
+            "heading": "Sábado 22 de noviembre, de 10:00h a 17:00h en Valencia",
             "heading_size": "hd2"
           }
         },
