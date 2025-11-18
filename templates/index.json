@@ -157,7 +157,7 @@
         "subtitle_HeUfFP": {
           "type": "subtitle",
           "settings": {
-            "text": "Black Friday 20225",
+            "text": "Ofertas increibles calzado Barefoot",
             "size": 16,
             "size_mobile": 16,
             "color": "#ffffff",
@@ -167,7 +167,7 @@
         "title_Exw6Qk": {
           "type": "title",
           "settings": {
-            "text": "Suscríbete a nuestra lista anticipada para recibir acceso anticipado a las ofertas",
+            "text": "Black Friday 2025",
             "size": 56,
             "size_mobile": 42,
             "color": "#ffffff",
@@ -177,7 +177,7 @@
         "description_xKxTVm": {
           "type": "description",
           "settings": {
-            "text": "<p>Save on best-sellers while the countdown runs.</p>",
+            "text": "<p>Descuentos de hasta el 50% en calzado de temporada</p>",
             "size": 16,
             "size_mobile": 16,
             "color": "#ffffff",
@@ -186,7 +186,6 @@
         },
         "countdown_CGNYnE": {
           "type": "countdown",
-          "disabled": true,
           "settings": {
             "end_date": "2025-11-23",
             "end_time": "00:00",
@@ -216,16 +215,15 @@
         "countdown_CGNYnE",
         "button_Fd9inA"
       ],
-      "disabled": true,
       "name": "Countdown",
       "settings": {
-        "bg_type": "image",
-        "image_height": "original",
-        "fixed_height_desktop": 560,
-        "fixed_height_mobile": 420,
+        "bg_type": "solid",
+        "image_height": "fixed",
+        "fixed_height_desktop": 290,
+        "fixed_height_mobile": 250,
         "bg_color": "#000000",
-        "tint_color": "#000000",
-        "tint_opacity": 20,
+        "tint_color": "rgba(0,0,0,0)",
+        "tint_opacity": 100,
         "text_position": "middle-center",
         "text_align": "center",
         "center_mobile": true
