@@ -198,7 +198,6 @@
         },
         "button_Fd9inA": {
           "type": "button",
-          "disabled": true,
           "settings": {
             "label": "Acceder al Early Access",
             "url": "https://manage.kmail-lists.com/subscriptions/subscribe?a=Xcxbcr&g=UrCqV5",
