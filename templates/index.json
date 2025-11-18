@@ -151,6 +151,84 @@
         "divider_width": "fixed"
       }
     },
+    "countdowntimer_iwi7bW": {
+      "type": "countdowntimer",
+      "blocks": {
+        "subtitle_HeUfFP": {
+          "type": "subtitle",
+          "settings": {
+            "text": "Black Friday 20225",
+            "size": 16,
+            "size_mobile": 16,
+            "color": "#ffffff",
+            "margin_top": 0
+          }
+        },
+        "title_Exw6Qk": {
+          "type": "title",
+          "settings": {
+            "text": "Suscríbete a nuestra lista anticipada para recibir acceso anticipado a las ofertas",
+            "size": 56,
+            "size_mobile": 42,
+            "color": "#ffffff",
+            "margin_top": 0
+          }
+        },
+        "description_xKxTVm": {
+          "type": "description",
+          "settings": {
+            "text": "<p>Save on best-sellers while the countdown runs.</p>",
+            "size": 16,
+            "size_mobile": 16,
+            "color": "#ffffff",
+            "margin_top": 0
+          }
+        },
+        "countdown_CGNYnE": {
+          "type": "countdown",
+          "settings": {
+            "end_date": "2025-11-23",
+            "end_time": "00:00",
+            "end_text": "",
+            "number_size": 48,
+            "number_size_mobile": 24,
+            "number_color": "#ffffff",
+            "margin_top": 0
+          }
+        },
+        "button_Fd9inA": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "label": "Shop now",
+            "url": "",
+            "bg": "#fbc43f",
+            "fg": "#181733",
+            "margin_top": 0
+          }
+        }
+      },
+      "block_order": [
+        "subtitle_HeUfFP",
+        "title_Exw6Qk",
+        "description_xKxTVm",
+        "countdown_CGNYnE",
+        "button_Fd9inA"
+      ],
+      "name": "Countdown",
+      "settings": {
+        "bg_type": "image",
+        "image_height": "original",
+        "fixed_height_desktop": 560,
+        "fixed_height_mobile": 420,
+        "bg_color": "#000000",
+        "tint_color": "#000000",
+        "tint_opacity": 20,
+        "text_position": "middle-center",
+        "text_align": "center",
+        "center_mobile": true
+      }
+    },
     "featured_collection_i6hcRW": {
       "type": "featured-collection",
       "name": "t:sections.featured-collection.presets.name",
@@ -770,6 +848,7 @@
   "order": [
     "slideshow_q3U4Jn",
     "rich_text_Jr78BJ",
+    "countdowntimer_iwi7bW",
     "featured_collection_i6hcRW",
     "featured_collection_qBzGAg",
     "image_with_text_overlay_NaDGKJ",
