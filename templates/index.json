@@ -186,6 +186,7 @@
         },
         "countdown_CGNYnE": {
           "type": "countdown",
+          "disabled": true,
           "settings": {
             "end_date": "2025-11-23",
             "end_time": "00:00",
@@ -215,6 +216,7 @@
         "countdown_CGNYnE",
         "button_Fd9inA"
       ],
+      "disabled": true,
       "name": "Countdown",
       "settings": {
         "bg_type": "image",
