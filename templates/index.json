@@ -219,7 +219,7 @@
         "bg_type": "solid",
         "image_height": "fixed",
         "fixed_height_desktop": 350,
-        "fixed_height_mobile": 300,
+        "fixed_height_mobile": 380,
         "bg_color": "#000000",
         "tint_color": "rgba(0,0,0,0)",
         "tint_opacity": 100,
