@@ -200,11 +200,11 @@
           "type": "button",
           "disabled": true,
           "settings": {
-            "label": "Shop now",
-            "url": "",
-            "bg": "#fbc43f",
-            "fg": "#181733",
-            "margin_top": 0
+            "label": "Acceder al Early Access",
+            "url": "https://manage.kmail-lists.com/subscriptions/subscribe?a=Xcxbcr&g=UrCqV5",
+            "bg": "#ffffff",
+            "fg": "#072135",
+            "margin_top": 31
           }
         }
       },
@@ -219,8 +219,8 @@
       "settings": {
         "bg_type": "solid",
         "image_height": "fixed",
-        "fixed_height_desktop": 290,
-        "fixed_height_mobile": 250,
+        "fixed_height_desktop": 350,
+        "fixed_height_mobile": 300,
         "bg_color": "#000000",
         "tint_color": "rgba(0,0,0,0)",
         "tint_opacity": 100,
