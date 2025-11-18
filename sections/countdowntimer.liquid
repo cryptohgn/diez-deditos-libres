@@ -1,0 +1,839 @@
+{% comment %}
+  Image Banner + Countdown Section
+  - Background: image (desktop/mobile), solid color, or gradient
+  - Overlay tint color + opacity
+  - Content blocks: subtitle, title, description, countdown, button
+  - Layout controls: image height mode, fixed heights, text position, alignment, center on mobile
+  - Countdown: per-digit smooth downward shift + opacity transition; days/hours/mins/secs; nowrap
+{% endcomment %}
+
+
+{% liquid
+  assign section_id = section.id
+%}
+
+
+<style>
+            .countdown-{{ section_id }} {
+              position: relative;
+              overflow: hidden;
+              --countdown-text-align: {{ section.settings.text_align }};
+            }
+
+
+            .countdown-{{ section_id }} .button:after {
+                content: none !important;
+            }
+
+
+            .countdown-{{ section_id }} .countdown__media {
+              position: absolute;
+              inset: 0;
+              width: 100%;
+              height: 100%;
+              pointer-events: none;
+              z-index: 0;
+            }
+            .countdown-{{ section_id }} .countdown__media img { width:100%; height:100%; object-fit: cover; display:block; }
+            .countdown-{{ section_id }} .countdown__bg-solid { position:absolute; inset:0; }
+            .countdown-{{ section_id }} .countdown__bg-gradient { position:absolute; inset:0; }
+
+
+            .countdown-{{ section_id }} .countdown__tint {
+              position:absolute; inset:0; pointer-events:none;
+              background: {{ section.settings.tint_color }};
+              opacity: {{ section.settings.tint_opacity | divided_by: 100.0 }};
+              display: block;
+            }
+
+
+            .countdown-{{ section_id }} .countdown__container {
+              position: relative;
+              display: grid;
+              width: 100%;
+              height: 100%;
+              padding: 20px;
+              z-index: 1;
+            }
+
+
+            /* Positioning grid: 3x3 */
+            .countdown-{{ section_id }} .countdown__grid {
+              display: grid;
+              grid-template-columns: 1fr 1fr 1fr;
+              grid-template-rows: 1fr 1fr 1fr;
+              width: 100%;
+              height: 100%;
+              min-height: 100%;
+            }
+            .countdown-{{ section_id }} .countdown__content {
+              align-self: center;
+              justify-self: center;
+              text-align: var(--countdown-text-align);
+              max-width: min(100%, 1100px);
+              width: max-content;
+            }
+
+
+            /* Map positions (grid cell + alignment) */
+            .countdown-{{ section_id }}[data-pos="top-left"] .countdown__content      { grid-column:1; grid-row:1; justify-self:start;  align-self:start; }
+            .countdown-{{ section_id }}[data-pos="top-center"] .countdown__content    { grid-column:2; grid-row:1; justify-self:center; align-self:start; }
+            .countdown-{{ section_id }}[data-pos="top-right"] .countdown__content     { grid-column:3; grid-row:1; justify-self:end;    align-self:start; }
+            .countdown-{{ section_id }}[data-pos="middle-left"] .countdown__content   { grid-column:1; grid-row:2; justify-self:start;  align-self:center; }
+            .countdown-{{ section_id }}[data-pos="middle-center"] .countdown__content { grid-column:2; grid-row:2; justify-self:center; align-self:center; }
+            .countdown-{{ section_id }}[data-pos="middle-right"] .countdown__content  { grid-column:3; grid-row:2; justify-self:end;    align-self:center; }
+            .countdown-{{ section_id }}[data-pos="bottom-left"] .countdown__content   { grid-column:1; grid-row:3; justify-self:start;  align-self:end; }
+            .countdown-{{ section_id }}[data-pos="bottom-center"] .countdown__content { grid-column:2; grid-row:3; justify-self:center; align-self:end; }
+            .countdown-{{ section_id }}[data-pos="bottom-right"] .countdown__content  { grid-column:3; grid-row:3; justify-self:end;    align-self:end; }
+
+
+            /* Countdown (nowrap del conjunto) */
+          .countdown-{{ section_id }} .countdown__countdown {
+            display:flex;
+            gap: clamp(10px, 2vw, 28px);
+            flex-wrap: nowrap;
+            white-space: nowrap;
+            justify-content: center;
+          }
+
+
+          /* Per-digit: el nuevo dígito entra desde arriba y baja con opacidad */
+          .countdown-{{ section_id }} .countdown__num { white-space: nowrap; }
+          .countdown-{{ section_id }} .countdown__digits { display:inline-flex; gap: 0.02em; }
+          .countdown-{{ section_id }} .countdown__digit { display:inline-block; }
+          .countdown-{{ section_id }} .countdown__digit-inner {
+            display:inline-block;
+            transform: translateY(0);
+            opacity: 1;
+            transition: transform 140ms ease, opacity 140ms ease; /* transición breve */
+            will-change: transform, opacity;
+          }
+
+
+          /* Estado inicial al cambiar: aparece más arriba y con menos opacidad */
+          .countdown-{{ section_id }} .countdown__digit-inner.is-entering {
+            transform: translateY(-20%);
+            opacity: 0;
+          }
+
+
+            /* Button */
+            .countdown-{{ section_id }} .countdown__btn {
+              display:inline-flex; align-items:center; justify-content:center;
+              padding: 0.85em 1.4em; border-radius: 999px; font-weight:600; text-decoration:none;
+            }
+
+
+            /* Height modes */
+            .countdown-{{ section_id }}.is-original .countdown__area { min-height: 320px; }
+            .countdown-{{ section_id }}.is-fixed .countdown__area { height: var(--countdown-fixed-height-desktop); }
+            .countdown-{{ section_id }}.is-full .countdown__area { height: 100vh; }
+
+
+            @media (max-width: 768px) {
+              .countdown-{{ section_id }}.has-center-mobile .countdown__content {
+                grid-column: 2; grid-row: 2;
+                justify-self: center; align-self: center;
+                text-align: center;
+                max-width: calc(100vw - 40px);
+              }
+              .countdown-{{ section_id }}.is-fixed .countdown__area { height: var(--countdown-fixed-height-mobile); }
+            }
+
+
+            .countdown__title {
+                margin: 0;
+            }
+
+
+          .countdown__label {
+        color: var(--countdown-num-color);
+  }
+</style>
+
+
+{%- assign height_mode = section.settings.image_height -%}
+{%- assign position_attr = section.settings.text_position -%}
+{%- assign desktop_h = section.settings.fixed_height_desktop | append: 'px' -%}
+{%- assign mobile_h = section.settings.fixed_height_mobile | append: 'px' -%}
+
+
+<section
+  id="countdown-{{ section_id }}"
+  class="countdown-{{ section_id }} is-{% if height_mode == 'original' %}original{% elsif height_mode == 'fixed' %}fixed{% else %}full{% endif %}{% if section.settings.center_mobile %} has-center-mobile{% endif %}"
+  style="--countdown-fixed-height-desktop: {{ desktop_h }}; --countdown-fixed-height-mobile: {{ mobile_h }};"
+  data-pos="{{ position_attr }}"
+>
+  <div class="countdown__area">
+    <div
+      class="countdown__media"
+      aria-hidden="true"
+      {% if section.settings.bg_type == 'solid' %}
+        style="background: {{ section.settings.bg_color }}"
+      {% elsif section.settings.bg_type == 'gradient' %}
+        style="background-image: {{ section.settings.bg_gradient }}"
+      {% endif %}
+    >
+      {% case section.settings.bg_type %}
+        {% when 'image' %}
+          {%- assign mobile_image = section.settings.image_mobile | default: section.settings.image -%}
+          {%- if section.settings.image != blank or mobile_image != blank -%}
+            <picture>
+              {% if mobile_image != blank %}
+                <source
+                  media="(max-width: 768px)"
+                  srcset="{{ mobile_image | image_url: width: 1500 }} 1500w, {{ mobile_image | image_url: width: 1000 }} 1000w, {{ mobile_image | image_url: width: 750 }} 750w"
+                >
+              {% endif %}
+              {% if section.settings.image != blank %}
+                <img
+                  src="{{ section.settings.image | image_url: width: 2400 }}"
+                  srcset="{{ section.settings.image | image_url: width: 2400 }} 2400w, {{ section.settings.image | image_url: width: 1600 }} 1600w, {{ section.settings.image | image_url: width: 1200 }} 1200w"
+                  sizes="100vw"
+                  alt="{{ section.settings.image.alt | escape }}"
+                  loading="lazy"
+                  width="{% if section.settings.image.width %}{{ section.settings.image.width }}{% else %}2400{% endif %}"
+                  height="{% if section.settings.image.height %}{{ section.settings.image.height }}{% else %}1200{% endif %}"
+                >
+              {% else %}
+                <img
+                  src="{{ mobile_image | image_url: width: 1600 }}"
+                  alt=""
+                  loading="lazy"
+                  width="{% if mobile_image.width %}{{ mobile_image.width }}{% else %}1600{% endif %}"
+                  height="{% if mobile_image.height %}{{ mobile_image.height }}{% else %}900{% endif %}"
+                >
+              {% endif %}
+            </picture>
+          {%- endif -%}
+        {% when 'solid' %}
+          <div class="countdown__bg-solid" style="background: {{ section.settings.bg_color }}"></div>
+        {% when 'gradient' %}
+          <div class="countdown__bg-gradient" style="background-image: {{ section.settings.bg_gradient }}"></div>
+      {% endcase %}
+      {% if section.settings.tint_opacity > 0 %}<div class="countdown__tint"></div>{% endif %}
+    </div>
+
+
+    <div class="countdown__container">
+      <div class="countdown__grid">
+        <div class="countdown__content">
+          <div class="countdown__stack">
+            {%- for block in section.blocks -%}
+              {%- case block.type -%}
+                {%- when 'subtitle' -%}
+                  {% style %}
+                    .countdown-{{ section_id }} .countdown__subtitle {
+                      font-size: {{ block.settings.size }}px !important;
+                    }
+
+
+                    @media (max-width: 768px) {
+                      .countdown-{{ section_id }} .countdown__subtitle {
+                        font-size: {{ block.settings.size_mobile }}px !important;
+                      }
+                    }
+                  {% endstyle %}
+                  <div
+                    class="countdown__subtitle"
+                    style="color: {{ block.settings.color }}; margin-top: {{ block.settings.margin_top | append: 'px' }};"
+                  >
+                    {{ block.settings.text }}
+                  </div>
+                {%- when 'title' -%}
+                  {% style %}
+                    .countdown-{{ section_id }} .countdown__title {
+                      font-size: {{ block.settings.size }}px !important;
+                    }
+
+
+                    @media (max-width: 768px) {
+                      .countdown-{{ section_id }} .countdown__title {
+                        font-size: {{ block.settings.size_mobile }}px !important;
+                      }
+                    }
+                  {% endstyle %}
+                  <h2
+                    class="countdown__title"
+                    style="color: {{ block.settings.color }}; margin-top: {{ block.settings.margin_top | append: 'px' }};"
+                  >
+                    {{ block.settings.text }}
+                  </h2>
+                {%- when 'description' -%}
+                  {% style %}
+                    .countdown-{{ section_id }} .countdown-{{ section_id }} .countdown__desc {
+                      font-size: {{ block.settings.size }}px !important;
+                    }
+
+
+                    @media (max-width: 768px) {
+                      .countdown-{{ section_id }} .countdown-{{ section_id }} .countdown__desc {
+                        font-size: {{ block.settings.size_mobile }}px !important;
+                      }
+                    }
+                  {% endstyle %}
+                  <div
+                    class="countdown__desc"
+                    style="color: {{ block.settings.color }}; margin-top: {{ block.settings.margin_top | append: 'px' }};"
+                  >
+                    {{ block.settings.text }}
+                  </div>
+                {%- when 'countdown' -%}
+                  {% style %}
+                    .countdown-{{ section_id }} .countdown__digit-inner {
+                      font-size: {{ block.settings.number_size }}px !important;
+                    }
+
+
+                    @media (max-width: 768px) {
+                      .countdown-{{ section_id }} .countdown__digit-inner {
+                        font-size: {{ block.settings.number_size_mobile }}px !important;
+                      }
+                    }
+                  {% endstyle %}
+                  <div
+                    class="countdown__countdown"
+                    id="countdown-countdown-{{ section_id }}-{{ forloop.index }}"
+                    data-end-date="{{ block.settings.end_date }}"
+                    data-end-time="{{ block.settings.end_time }}"
+                    data-end-text="{{ block.settings.end_text | escape }}"
+                    data-store-offset="{{ 'now' | date: '%z' }}"
+                    style="--countdown-num-color: {{ block.settings.number_color }}; margin-top: {{ block.settings.margin_top | append: 'px' }}; color: var(--countdown-num-color);"
+                    {{ block.shopify_attributes }}
+                  >
+                    {% assign units = 'days,hours,minutes,seconds' | split: ',' %}
+                    {% for u in units %}
+                      <div class="countdown__unit" data-unit="{{ u }}">
+                        <span
+                          class="countdown__num"
+                          aria-live="polite"
+                          aria-atomic="true"
+                          style="color: var(--countdown-num-color);"
+                        >
+                          <span class="countdown__digits">
+                            <span class="countdown__digit"
+                              ><span
+                                class="countdown__digit-inner"
+                                style="color: var(--countdown-num-color);"
+                                >0</span
+                              ></span
+                            ><span class="countdown__digit"
+                              ><span
+                                class="countdown__digit-inner"
+                                style="color: var(--countdown-num-color);"
+                                >0</span
+                              ></span
+                            >
+                          </span>
+                        </span>
+
+
+                        <span class="countdown__label">
+                          {% case u %}
+                            {% when 'days' -%}
+                              Días
+                            {%- when 'hours' -%}
+                              Horas
+                            {%- when 'minutes' -%}
+                              Min
+                            {%- else -%}
+                              Seg
+                          {%- endcase %}
+                        </span>
+                      </div>
+                    {% endfor %}
+                  </div>
+                {%- when 'button' -%}
+                  {% if block.settings.url != blank %}
+                    <div style="margin-top: {{ block.settings.margin_top | append: 'px' }};">
+                      <a
+                        class="button button--primary"
+                        href="{{ block.settings.url }}"
+                        style="background: {{ block.settings.bg }}; color: {{ block.settings.fg }};"
+                      >
+                        {{- block.settings.label -}}
+                      </a>
+                    </div>
+                  {% endif %}
+              {%- endcase -%}
+            {%- endfor -%}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<script>
+  (function () {
+    const root = document.getElementById('countdown-{{ section_id }}');
+    if (!root) return;
+
+
+    // Alineación de texto
+    root.style.setProperty('--countdown-text-align', '{{ section.settings.text_align }}');
+
+
+    // Cuenta atrás
+    const cds = root.querySelectorAll('.countdown__countdown');
+
+
+    // +0200 -> minutos 120
+    function parseStoreOffset(z) {
+      const m = /([+-])(\d{2})(\d{2})/.exec(z || '+0000');
+      if (!m) return 0;
+      const sign = m[1] === '-' ? -1 : 1;
+      const hh = parseInt(m[2], 10),
+        mm = parseInt(m[3], 10);
+      return sign * (hh * 60 + mm);
+    }
+
+
+    // Interpreta fecha/hora en zona de la tienda y la convierte a UTC real
+    function targetDateFromInputs(dateStr, timeStr, storeOffset) {
+      if (!dateStr) return null;
+      const [y, M, d] = dateStr.split('-').map(Number);
+      let h = 0,
+        min = 0;
+      if (timeStr && /^(\d{1,2}):(\d{2})$/.test(timeStr)) {
+        const p = timeStr.split(':');
+        h = parseInt(p[0], 10);
+        min = parseInt(p[1], 10);
+      }
+      const dt = new Date(Date.UTC(y, M - 1, d, h, min, 0));
+      dt.setUTCMinutes(dt.getUTCMinutes() - storeOffset);
+      return dt;
+    }
+
+
+    const pad = (n) => String(n).padStart(2, '0');
+
+
+    // Asegura que haya tantos dígitos como 'length' y devuelve los .countdown__digit-inner
+    function ensureDigits(numEl, length) {
+      let wrap = numEl.querySelector('.countdown__digits');
+      if (!wrap) {
+        wrap = document.createElement('span');
+        wrap.className = 'countdown__digits';
+        numEl.appendChild(wrap);
+      }
+      const current = wrap.querySelectorAll('.countdown__digit-inner');
+      if (current.length !== length) {
+        wrap.innerHTML = '';
+        for (let i = 0; i < length; i++) {
+          wrap.insertAdjacentHTML(
+            'beforeend',
+            '<span class="countdown__digit"><span class="countdown__digit-inner">0</span></span>'
+          );
+        }
+      }
+      return wrap.querySelectorAll('.countdown__digit-inner');
+    }
+
+
+    // Nuevo dígito entra desde arriba (no movemos el anterior)
+    function enterFromTop(el, nextChar) {
+      if (!el || el.textContent === nextChar) return;
+      el.textContent = nextChar; // cambiamos ya el texto
+      el.classList.add('is-entering'); // estado inicial: arriba y translúcido
+      // Doble RAF para asegurar el reflow y que la transición se aplique
+      requestAnimationFrame(() =>
+        requestAnimationFrame(() => {
+          el.classList.remove('is-entering'); // anima hacia su posición final
+        })
+      );
+    }
+
+
+    cds.forEach((cd) => {
+      const endText = cd.getAttribute('data-end-text') || '';
+      const endAt = (function () {
+        const dateStr = cd.getAttribute('data-end-date');
+        const timeStr = cd.getAttribute('data-end-time');
+        const storeOffset = parseStoreOffset(cd.getAttribute('data-store-offset'));
+        return targetDateFromInputs(dateStr, timeStr, storeOffset);
+      })();
+
+
+      if (!endAt) {
+        cd.textContent = endText || '';
+        return;
+      }
+
+
+      // Helpers para cada unidad
+      function unitEl(name) {
+        return cd.querySelector(`[data-unit="${name}"] .countdown__num`);
+      }
+      const units = {
+        days: unitEl('days'),
+        hours: unitEl('hours'),
+        minutes: unitEl('minutes'),
+        seconds: unitEl('seconds'),
+      };
+
+
+      let firstPaint = true;
+
+
+      function setUnit(numEl, str, animate) {
+        const inners = ensureDigits(numEl, str.length);
+        for (let i = 0; i < str.length; i++) {
+          if (animate) {
+            enterFromTop(inners[i], str[i]);
+          } else {
+            // Primer pintado sin animación para evitar “saltos” al cargar
+            if (inners[i].textContent !== str[i]) inners[i].textContent = str[i];
+          }
+        }
+      }
+
+
+      function tick() {
+        const now = new Date();
+        const diff = endAt - now;
+        if (diff <= 0) {
+          cd.innerHTML = endText ? `<div class="countdown__ended">${endText.replace(/</g, '&lt;')}</div>` : '';
+          clearInterval(timer);
+          return;
+        }
+        let secs = Math.floor(diff / 1000);
+        const d = Math.floor(secs / 86400);
+        secs -= d * 86400;
+        const h = Math.floor(secs / 3600);
+        secs -= h * 3600;
+        const m = Math.floor(secs / 60);
+        secs -= m * 60;
+        const s = secs;
+
+
+        const animate = !firstPaint; // solo animamos después del primer render
+        setUnit(units.days, String(d), animate);
+        setUnit(units.hours, pad(h), animate);
+        setUnit(units.minutes, pad(m), animate);
+        setUnit(units.seconds, pad(s), animate);
+
+
+        firstPaint = false;
+      }
+
+
+      tick();
+      const timer = setInterval(tick, 1000);
+    });
+  })();
+</script>
+
+
+{% schema %}
+{
+  "name": "Countdown",
+  "tag": "section",
+  "class": "image-banner-countdown",
+  "settings": [
+    {
+      "type": "select",
+      "id": "bg_type",
+      "label": "Background type",
+      "default": "image",
+      "options": [
+        { "value": "image", "label": "Image" },
+        { "value": "solid", "label": "Solid color" }
+      ]
+    },
+
+
+    { "type": "image_picker", "id": "image", "label": "Desktop image (optional)" },
+    { "type": "image_picker", "id": "image_mobile", "label": "Mobile image (optional)" },
+
+
+    {
+      "type": "select",
+      "id": "image_height",
+      "label": "Image height",
+      "default": "original",
+      "options": [
+        { "value": "original", "label": "Original image height" },
+        { "value": "fixed", "label": "Fixed height" },
+        { "value": "full", "label": "Full height" }
+      ]
+    },
+    {
+      "type": "range",
+      "id": "fixed_height_desktop",
+      "label": "Fixed height (desktop)",
+      "min": 100,
+      "max": 1000,
+      "step": 10,
+      "unit": "px",
+      "default": 560
+    },
+    {
+      "type": "range",
+      "id": "fixed_height_mobile",
+      "label": "Fixed height (mobile)",
+      "min": 100,
+      "max": 800,
+      "step": 10,
+      "unit": "px",
+      "default": 420
+    },
+
+
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Background color",
+      "default": "#000000"
+    },
+
+
+    { "type": "color", "id": "tint_color", "label": "Image tint color", "default": "#000000" },
+    {
+      "type": "range",
+      "id": "tint_opacity",
+      "label": "Image tint opacity",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "%",
+      "default": 20
+    },
+
+
+    {
+      "type": "select",
+      "id": "text_position",
+      "label": "Text overlay position",
+      "default": "middle-center",
+      "options": [
+        { "value": "top-left", "label": "Top left" },
+        { "value": "top-center", "label": "Top center" },
+        { "value": "top-right", "label": "Top right" },
+        { "value": "middle-left", "label": "Middle left" },
+        { "value": "middle-center", "label": "Middle center" },
+        { "value": "middle-right", "label": "Middle right" },
+        { "value": "bottom-left", "label": "Bottom left" },
+        { "value": "bottom-center", "label": "Bottom center" },
+        { "value": "bottom-right", "label": "Bottom right" }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "text_align",
+      "label": "Text alignment",
+      "default": "center",
+      "options": [
+        { "value": "left", "label": "Left" },
+        { "value": "center", "label": "Center" },
+        { "value": "right", "label": "Right" }
+      ]
+    },
+    { "type": "checkbox", "id": "center_mobile", "label": "Center text on mobile", "default": true }
+  ],
+  "blocks": [
+    {
+      "type": "subtitle",
+      "name": "Subtitle",
+      "limit": 1,
+      "settings": [
+        { "type": "textarea", "id": "text", "label": "Text", "default": "Limited time" },
+        {
+          "type": "range",
+          "id": "size",
+          "label": "Font size",
+          "min": 12,
+          "max": 32,
+          "step": 1,
+          "unit": "px",
+          "default": 16
+        },
+        {
+          "type": "range",
+          "id": "size_mobile",
+          "label": "Font size (mobile)",
+          "min": 12,
+          "max": 32,
+          "step": 1,
+          "unit": "px",
+          "default": 16
+        },
+        { "type": "color", "id": "color", "label": "Color", "default": "#ffffff" },
+        {
+          "type": "range",
+          "id": "margin_top",
+          "label": "Margin top",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "unit": "px",
+          "default": 0
+        }
+      ]
+    },
+    {
+      "type": "title",
+      "name": "Title",
+      "limit": 1,
+      "settings": [
+        { "type": "textarea", "id": "text", "label": "Text", "default": "Big seasonal sale" },
+        {
+          "type": "range",
+          "id": "size",
+          "label": "Max font size (desktop)",
+          "min": 28,
+          "max": 80,
+          "step": 1,
+          "unit": "px",
+          "default": 56
+        },
+        {
+          "type": "range",
+          "id": "size_mobile",
+          "label": "Font size (mobile)",
+          "min": 24,
+          "max": 60,
+          "step": 1,
+          "unit": "px",
+          "default": 42
+        },
+        { "type": "color", "id": "color", "label": "Color", "default": "#ffffff" },
+        {
+          "type": "range",
+          "id": "margin_top",
+          "label": "Margin top",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "unit": "px",
+          "default": 0
+        }
+      ]
+    },
+    {
+      "type": "description",
+      "name": "Description",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "Text",
+          "default": "<p>Save on best-sellers while the countdown runs.</p>"
+        },
+        {
+          "type": "range",
+          "id": "size",
+          "label": "Font size",
+          "min": 12,
+          "max": 28,
+          "step": 1,
+          "unit": "px",
+          "default": 16
+        },
+        {
+          "type": "range",
+          "id": "size_mobile",
+          "label": "Font size (mobile)",
+          "min": 12,
+          "max": 28,
+          "step": 1,
+          "unit": "px",
+          "default": 16
+        },
+        { "type": "color", "id": "color", "label": "Color", "default": "#ffffff" },
+        {
+          "type": "range",
+          "id": "margin_top",
+          "label": "Margin top",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "unit": "px",
+          "default": 0
+        }
+      ]
+    },
+    {
+      "type": "countdown",
+      "name": "Countdown",
+      "limit": 1,
+      "settings": [
+        { "type": "text", "id": "end_date", "label": "End date (YYYY-MM-DD)", "placeholder": "2025-12-31" },
+        {
+          "type": "text",
+          "id": "end_time",
+          "label": "End time (optional, 24h)",
+          "info": "Format: 17:00. Uses the store timezone"
+        },
+        { "type": "text", "id": "end_text", "label": "End text", "default": "Offer ended" },
+        {
+          "type": "range",
+          "id": "number_size",
+          "label": "Number size",
+          "min": 24,
+          "max": 120,
+          "step": 1,
+          "unit": "px",
+          "default": 48
+        },
+        {
+          "type": "range",
+          "id": "number_size_mobile",
+          "label": "Number size (mobile)",
+          "min": 12,
+          "max": 60,
+          "step": 1,
+          "unit": "px",
+          "default": 24
+        },
+        { "type": "color", "id": "number_color", "label": "Number color", "default": "#ffffff" },
+        {
+          "type": "range",
+          "id": "margin_top",
+          "label": "Margin top",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "unit": "px",
+          "default": 0
+        }
+      ]
+    },
+    {
+      "type": "button",
+      "name": "Button (CTA)",
+      "limit": 1,
+      "settings": [
+        { "type": "text", "id": "label", "label": "Label", "default": "Shop now" },
+        { "type": "url", "id": "url", "label": "Link" },
+        { "type": "color", "id": "bg", "label": "Background", "default": "#fbc43f" },
+        { "type": "color", "id": "fg", "label": "Text color", "default": "#181733" },
+        {
+          "type": "range",
+          "id": "margin_top",
+          "label": "Margin top",
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "unit": "px",
+          "default": 0
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Countdown",
+      "blocks": [
+        { "type": "subtitle" },
+        { "type": "title" },
+        { "type": "description" },
+        { "type": "countdown" },
+        { "type": "button" }
+      ]
+    }
+  ]
+}
+{% endschema %}
