@@ -70,6 +70,27 @@
             "button_style": "btn--primary"
           }
         },
+        "slide_A9eKkP": {
+          "type": "slide",
+          "name": "Image slide Black_friday",
+          "disabled": true,
+          "settings": {
+            "color_scheme": "scheme-9",
+            "background": "shopify://shop_images/nuevo-nov-25.webp",
+            "background_mobile": "shopify://shop_images/nueva-coleccion_barefoot-oct-25.webp",
+            "image_overlay_opacity": 75,
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "title": "Black Friday 2025",
+            "heading_size": "hd2",
+            "subheading": "",
+            "description": "<p>Descuentos increibles solo esta semana</p>",
+            "description_size": "text-lg",
+            "button_label": "Comprar Ahora",
+            "button_link": "shopify://collections/novedades-1",
+            "button_style": "btn--primary"
+          }
+        },
         "slide_9yhE8c": {
           "type": "slide",
           "disabled": true,
@@ -95,6 +116,7 @@
         "slide_8EaHdq",
         "slide_JhU8hg",
         "slide_9R3n8Y",
+        "slide_A9eKkP",
         "slide_9yhE8c"
       ],
       "custom_css": [
