@@ -34,6 +34,7 @@
         },
         "slide_JhU8hg": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "color_scheme": "scheme-9",
             "background": "shopify://shop_images/Banner_adultoxinfantil_10DL_Opcion_2_natural.png",
@@ -53,6 +54,7 @@
         },
         "slide_9R3n8Y": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "color_scheme": "scheme-9",
             "background": "shopify://shop_images/nuevo-nov-25.webp",
@@ -73,7 +75,6 @@
         "slide_A9eKkP": {
           "type": "slide",
           "name": "Image slide Black_friday",
-          "disabled": true,
           "settings": {
             "color_scheme": "scheme-9",
             "background": "shopify://shop_images/nuevo-nov-25.webp",
