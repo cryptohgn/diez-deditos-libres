@@ -81,8 +81,8 @@
         "text_KmQqhE": {
           "type": "text",
           "settings": {
-            "text": "GASTOS ENVÍO desde 3,90€",
-            "text_link": "shopify://collections/colegiales",
+            "text": "Añade tus productos al carrito y disfruta de tu descuento por Black Friday",
+            "text_link": "shopify://collections/black-friday",
             "text_size": "text-base",
             "font_weight": "font-heading",
             "font_style": "normal",
