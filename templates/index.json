@@ -82,11 +82,11 @@
             "image_overlay_opacity": 75,
             "content_position": "middle-center",
             "text_alignment": "center",
-            "title": "Black Friday 2025",
+            "title": "Black Friday",
             "heading_size": "hd2",
             "subheading": "",
             "description": "<p>Descuentos increíbles solo esta semana</p>",
-            "description_size": "text-lg",
+            "description_size": "text-base",
             "button_label": "Comprar Ahora",
             "button_link": "shopify://collections/novedades-1",
             "button_style": "btn--primary"
