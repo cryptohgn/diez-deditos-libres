@@ -88,7 +88,7 @@
             "description": "<p>Descuentos increíbles solo esta semana</p>",
             "description_size": "text-base",
             "button_label": "Comprar Ahora",
-            "button_link": "shopify://collections/novedades-1",
+            "button_link": "shopify://collections/black-friday",
             "button_style": "btn--primary"
           }
         },
