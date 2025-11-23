@@ -85,7 +85,7 @@
             "title": "Black Friday",
             "heading_size": "hd2",
             "subheading": "",
-            "description": "<p>Descuentos increíbles en toda la web. Añade tus productos favoritos de nuestra colección y disfruta hasta el 50% de dto. en tu pedido.</p>",
+            "description": "<p>Descuentos increíbles en toda la web. Añade tus productos favoritos de nuestra colección a tu carrito y disfruta hasta el 50% de dto. en tu pedido.</p>",
             "description_size": "text-base",
             "button_label": "Comprar Ahora",
             "button_link": "shopify://collections/black-friday",
