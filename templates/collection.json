@@ -21,7 +21,7 @@
         "heading_z8zcwK": {
           "type": "heading",
           "settings": {
-            "heading": "Añade tus favoritos de la colección al carrito y disfruta del 20% de dto. en tu pedido.",
+            "heading": "Añade tus favoritos de la colección Black Friday al carrito y disfruta del 20% de dto. en tu pedido.",
             "heading_size": "h3",
             "heading_highlight_style": "underline"
           }
@@ -49,7 +49,6 @@
         "text_9Bq9nV",
         "button_zzC9Xk"
       ],
-      "disabled": true,
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "color_scheme": "",
