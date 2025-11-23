@@ -15,6 +15,50 @@
         "text_alignment": "start"
       }
     },
+    "rich_text_7RA4dM": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_z8zcwK": {
+          "type": "heading",
+          "settings": {
+            "heading": "Añade tus favoritos alcarrito y disfruta de un 20% de descuento por Black Friday",
+            "heading_size": "h3",
+            "heading_highlight_style": "none"
+          }
+        },
+        "text_9Bq9nV": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text_size": "text-base"
+          }
+        },
+        "button_zzC9Xk": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_z8zcwK",
+        "text_9Bq9nV",
+        "button_zzC9Xk"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "color_scheme": "",
+        "content_alignment": "center",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
     "banner": {
       "type": "main-collection-banner",
       "blocks": {
@@ -23,7 +67,7 @@
           "settings": {
             "heading_size": "hd2",
             "heading_tag": "h1",
-            "show_description": false,
+            "show_description": true,
             "padding_top": 0,
             "padding_bottom": 0
           }
@@ -138,6 +182,7 @@
   },
   "order": [
     "breadcrumbs_Gxg9wp",
+    "rich_text_7RA4dM",
     "banner",
     "product-grid",
     "17539423821d3adb98",
