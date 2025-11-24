@@ -28,10 +28,9 @@
         },
         "text_9Bq9nV": {
           "type": "text",
-          "disabled": true,
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "text_size": "text-base"
+            "text": "<p><strong>Añade tus favoritos de la colección Black Friday al carrito y disfruta de hasta el 50% de dto. en tu pedido.</strong></p>",
+            "text_size": "text-lg"
           }
         },
         "button_zzC9Xk": {
