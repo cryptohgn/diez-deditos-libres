@@ -32,7 +32,6 @@
         },
         "text_xVMVnW": {
           "type": "text",
-          "disabled": true,
           "settings": {
             "text": "FLASH SALE CALZADO DEPORTIVO 15% DTO.",
             "text_link": "",
@@ -121,8 +120,8 @@
         "text_GJgyqj": {
           "type": "text",
           "settings": {
-            "text": "Segunda Unidad Deportivas al 60% de DESCUENTO, infantil y adulto.",
-            "text_link": "shopify://collections/2ª-unidad-60",
+            "text": "Añade tu deportiva al carrito y disfruta de tu descuento.",
+            "text_link": "shopify://collections/deportivas-flash-sale",
             "text_size": "text-base",
             "font_weight": "font-heading",
             "font_style": "normal",
@@ -137,7 +136,6 @@
       "block_order": [
         "text_GJgyqj"
       ],
-      "disabled": true,
       "settings": {
         "color_scheme": "scheme-3",
         "vertical_alignment": "start",
