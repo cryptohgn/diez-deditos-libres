@@ -47,7 +47,7 @@
             "description": "",
             "description_size": "text-lg",
             "button_label": "Comprar ahora",
-            "button_link": "shopify://collections/adultos",
+            "button_link": "shopify://collections/deportivas",
             "button_style": "btn--primary"
           }
         },
