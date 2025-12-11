@@ -34,7 +34,6 @@
         },
         "slide_JhU8hg": {
           "type": "slide",
-          "disabled": true,
           "settings": {
             "color_scheme": "scheme-9",
             "background": "shopify://shop_images/Banner_adultoxinfantil_10DL_Opcion_2_natural.png",
@@ -42,9 +41,9 @@
             "image_overlay_opacity": 30,
             "content_position": "middle-center",
             "text_alignment": "center",
-            "title": "Nueva colección",
+            "title": "FLASH SALE CALZADO DEPORTIVO",
             "heading_size": "hd2",
-            "subheading": "",
+            "subheading": "15% DE DESCUENTO",
             "description": "",
             "description_size": "text-lg",
             "button_label": "Comprar ahora",
