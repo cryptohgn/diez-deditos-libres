@@ -53,6 +53,7 @@
         },
         "slide_9R3n8Y": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "color_scheme": "scheme-9",
             "background": "shopify://shop_images/nuevo-nov-25.webp",
