@@ -32,6 +32,7 @@
         },
         "text_xVMVnW": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "FLASH SALE CALZADO DEPORTIVO 15% DTO.",
             "text_link": "",
@@ -119,6 +120,7 @@
       "blocks": {
         "text_GJgyqj": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "Añade tu deportiva al carrito y disfruta de tu descuento.",
             "text_link": "shopify://collections/deportivas-flash-sale",
