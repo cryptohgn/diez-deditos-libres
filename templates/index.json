@@ -34,6 +34,7 @@
         },
         "slide_JhU8hg": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "color_scheme": "scheme-9",
             "background": "shopify://shop_images/Banner_adultoxinfantil_10DL_Opcion_2_natural.png",
