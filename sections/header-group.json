@@ -68,7 +68,7 @@
             "text": "ENVÍO GRATIS +25€ a Peníinsula",
             "text_link": "shopify://collections/saldo",
             "text_size": "text-base",
-            "font_weight": "font-heading",
+            "font_weight": "font-body",
             "font_style": "normal",
             "letter_spacing": 0,
             "text_opacity": 90,
@@ -117,17 +117,31 @@
     "scrolling_promotion_aNNVVD": {
       "type": "scrolling-promotion",
       "blocks": {
-        "text_GJgyqj": {
+        "text_d4JyCt": {
           "type": "text",
-          "disabled": true,
           "settings": {
-            "text": "Añade tu deportiva al carrito y disfruta de tu descuento.",
-            "text_link": "shopify://collections/deportivas-flash-sale",
+            "text": "¿Quieres probar y comprar calzado sin salir de casa? Consulta nuestras sesiones Zapatupper",
+            "text_link": "shopify://pages/zapatupper",
             "text_size": "text-base",
             "font_weight": "font-heading",
             "font_style": "normal",
             "letter_spacing": 0,
-            "text_opacity": 100,
+            "text_opacity": 90,
+            "text_style": "normal",
+            "use_custom_color": false,
+            "custom_color": "#000000"
+          }
+        },
+        "text_GJgyqj": {
+          "type": "text",
+          "settings": {
+            "text": "**SOMOS TIENDA ONLINE** Entrega en mano en Torrent y punto de entrega en Valencia.",
+            "text_link": "shopify://collections/novedades-1",
+            "text_size": "text-base",
+            "font_weight": "font-heading",
+            "font_style": "normal",
+            "letter_spacing": 0,
+            "text_opacity": 90,
             "text_style": "normal",
             "use_custom_color": false,
             "custom_color": "#072135"
@@ -135,6 +149,7 @@
         }
       },
       "block_order": [
+        "text_d4JyCt",
         "text_GJgyqj"
       ],
       "settings": {
