@@ -25,7 +25,7 @@
             "heading_size": "hd1",
             "subheading": "",
             "description": "<p>Hasta 20%</p>",
-            "description_size": "text-base",
+            "description_size": "text-lg",
             "button_label": "Comprar ahora",
             "button_link": "shopify://collections/pre-rebajas",
             "button_style": "btn--primary"
