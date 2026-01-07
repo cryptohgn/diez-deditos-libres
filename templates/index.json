@@ -27,7 +27,7 @@
             "description": "<p>Hasta 30%</p>",
             "description_size": "text-lg",
             "button_label": "Comprar ahora",
-            "button_link": "shopify://collections/pre-rebajas",
+            "button_link": "shopify://collections/rebajas-invierno",
             "button_style": "btn--primary"
           }
         },
