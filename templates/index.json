@@ -279,11 +279,11 @@
       "settings": {
         "color_scheme": "scheme-1",
         "header_layout": "vertical",
-        "heading": "Novedades Invierno",
+        "heading": "Novedades",
         "heading_size": "h1",
         "heading_highlight_style": "none",
         "subheading": "",
-        "description": "<p><br/>Descubre las novedades de invierno: calzado barefoot cómodo, elegante y preparado para el día a día.<br/>✨ Nuevos colores y modelos que acompañan cada paso con libertad y estilo.<br/><br/></p>",
+        "description": "<p><strong>Novedades barefoot para peques y adultos 👣</strong><br/>Zapatos respetuosos, flexibles y cómodos para acompañar cada paso del día a día.<br/><br/><br/></p>",
         "text_size": "text-base",
         "show_collection_description": false,
         "collection": "novedades-1",
