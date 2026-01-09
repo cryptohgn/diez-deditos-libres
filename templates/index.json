@@ -17,9 +17,9 @@
           "settings": {
             "color_scheme": "scheme-7f446801-c12d-46c8-a1c4-9c3e6c0fd60d",
             "background": "shopify://shop_images/rebajas_invierno.png",
-            "background_mobile": "shopify://shop_images/Diseno_sin_titulo_50.png",
+            "background_mobile": "shopify://shop_images/rebajas_invierno.png",
             "image_overlay_opacity": 0,
-            "content_position": "bottom-left",
+            "content_position": "bottom-center",
             "text_alignment": "center",
             "title": "¡Rebajas!",
             "heading_size": "hd1",
