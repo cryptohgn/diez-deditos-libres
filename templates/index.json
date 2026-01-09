@@ -24,7 +24,7 @@
             "title": "¡Rebajas!",
             "heading_size": "hd1",
             "subheading": "",
-            "description": "<h4><strong>Hasta 30%</strong></h4>",
+            "description": "<h5><strong>Hasta 30%</strong></h5>",
             "description_size": "text-lg",
             "button_label": "Comprar ahora",
             "button_link": "shopify://collections/rebajas-invierno",
