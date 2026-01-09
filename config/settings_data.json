@@ -358,9 +358,9 @@
       },
       "scheme-7f446801-c12d-46c8-a1c4-9c3e6c0fd60d": {
         "settings": {
-          "primary_accent": "#ea4c89",
+          "primary_accent": "#ea5cb8",
           "border": "#e8e8e8",
-          "text": "#120b3d",
+          "text": "#ea5cb8",
           "background": "#ffffff",
           "secondary_background": "#f7f7f7",
           "button": "#ea4c89",
