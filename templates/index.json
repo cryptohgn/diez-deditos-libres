@@ -19,7 +19,7 @@
             "background": "shopify://shop_images/rebajas_invierno.png",
             "background_mobile": "shopify://shop_images/Diseno_sin_titulo_50.png",
             "image_overlay_opacity": 0,
-            "content_position": "middle-right",
+            "content_position": "bottom-left",
             "text_alignment": "center",
             "title": "¡Rebajas!",
             "heading_size": "hd1",
