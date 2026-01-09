@@ -47,10 +47,9 @@
         },
         "text_t3BcT4": {
           "type": "text",
-          "disabled": true,
           "settings": {
-            "text": "¿Quieres probar y comprar calzado sin salir de casa? Consulta nuestras sesiones Zapatupper",
-            "text_link": "",
+            "text": "OUTLET HASTA 70%",
+            "text_link": "shopify://collections/saldo",
             "text_size": "text-base",
             "font_weight": "font-heading",
             "font_style": "normal",
