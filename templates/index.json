@@ -273,6 +273,39 @@
         "center_mobile": true
       }
     },
+    "featured_collection_aTx4Jq": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.presets.name",
+      "settings": {
+        "color_scheme": "",
+        "header_layout": "vertical",
+        "heading": "Packs Familiares",
+        "heading_size": "h1",
+        "heading_highlight_style": "none",
+        "subheading": "",
+        "description": "<p>Ahorra más llevando 2 o 3 pares<br/><br/></p>",
+        "text_size": "text-base",
+        "show_collection_description": false,
+        "collection": "packs-barefoot",
+        "limit": 12,
+        "columns": 6,
+        "column_gap": "medium",
+        "row_gap": "inherit",
+        "grid_layout": "standard",
+        "enable_slider": true,
+        "controls_position": "inside",
+        "pcard_image_ratio": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "show_all_button_on_top": false,
+        "button_label": "",
+        "button_style": "btn--primary",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
     "featured_collection_i6hcRW": {
       "type": "featured-collection",
       "name": "t:sections.featured-collection.presets.name",
@@ -893,6 +926,7 @@
     "slideshow_q3U4Jn",
     "rich_text_Jr78BJ",
     "countdowntimer_iwi7bW",
+    "featured_collection_aTx4Jq",
     "featured_collection_i6hcRW",
     "featured_collection_qBzGAg",
     "image_with_text_overlay_NaDGKJ",
