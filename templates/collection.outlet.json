@@ -84,11 +84,33 @@
         "divider_width": "fixed"
       }
     },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "custom_css": [],
+      "settings": {
+        "color_scheme": "scheme-3",
+        "products_per_page": 35,
+        "columns_desktop": 5,
+        "grid_layout": "standard",
+        "pagination": "number",
+        "enable_color_swatch": true,
+        "enable_filtering": true,
+        "filter_type": "drawer",
+        "enable_sorting": true,
+        "expand_filter_groups": "Availability, Price, Color, Size, Product type",
+        "columns_mobile": "2",
+        "padding_top": 40,
+        "padding_bottom": 100,
+        "show_section_divider": true,
+        "divider_width": "fixed"
+      }
+    },
     "rich_text_mfFdNL": {
       "type": "rich-text",
       "blocks": {
         "heading_iiGLEA": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "Talk about your brand",
             "heading_size": "hd1",
@@ -98,12 +120,13 @@
         "text_TkdyDg": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>{{ collection.metafields.custom.descripcion_seo | metafield_tag }}",
+            "text": "{{ collection.metafields.custom.descripcion_seo | metafield_tag }}",
             "text_size": "text-base"
           }
         },
         "button_TQCKQe": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "Button label",
             "button_link": "",
@@ -123,27 +146,6 @@
         "padding_top": 50,
         "padding_bottom": 50,
         "show_section_divider": false,
-        "divider_width": "fixed"
-      }
-    },
-    "product-grid": {
-      "type": "main-collection-product-grid",
-      "custom_css": [],
-      "settings": {
-        "color_scheme": "scheme-3",
-        "products_per_page": 35,
-        "columns_desktop": 5,
-        "grid_layout": "standard",
-        "pagination": "number",
-        "enable_color_swatch": true,
-        "enable_filtering": true,
-        "filter_type": "drawer",
-        "enable_sorting": true,
-        "expand_filter_groups": "Availability, Price, Color, Size, Product type",
-        "columns_mobile": "2",
-        "padding_top": 40,
-        "padding_bottom": 100,
-        "show_section_divider": true,
         "divider_width": "fixed"
       }
     },
@@ -228,8 +230,8 @@
     "rich_text_w8U3Uw",
     "breadcrumbs_Gxg9wp",
     "rich_text_NyVbEf",
-    "rich_text_mfFdNL",
     "product-grid",
+    "rich_text_mfFdNL",
     "17539423821d3adb98",
     "banner"
   ]
