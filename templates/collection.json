@@ -61,6 +61,61 @@
         "divider_width": "fixed"
       }
     },
+    "custom_content_RiyJwa": {
+      "type": "custom-content",
+      "blocks": {
+        "image_t6mRHp": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "width": "50%",
+            "alignment": "center",
+            "block_custom_class": ""
+          }
+        },
+        "text_EXpWdQ": {
+          "type": "text",
+          "settings": {
+            "heading": "{{ collection.title }}",
+            "heading_size": "h1",
+            "heading_highlight_style": "none",
+            "subheading": "",
+            "description": "{{ collection.description }}",
+            "text_size": "text-base",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style": "btn--primary",
+            "content_alignment": "left",
+            "width": "50%",
+            "alignment": "center",
+            "block_custom_class": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_t6mRHp",
+        "text_EXpWdQ"
+      ],
+      "name": "t:sections.custom-content.name",
+      "settings": {
+        "container": "fixed",
+        "color_scheme": "",
+        "enable_sticky_column": false,
+        "heading": "Custom content",
+        "heading_size": "h1",
+        "heading_highlight_style": "none",
+        "subheading": "",
+        "description": "<p>Combine images with text and a stand-out offer</p>",
+        "column_gap": "medium",
+        "row_gap": "large",
+        "swipe_on_mobile": false,
+        "columns_mobile": "1",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
     "17539423821d3adb98": {
       "type": "_blocks",
       "blocks": {
@@ -122,6 +177,7 @@
       "block_order": [
         "collection_info_zUNyKV"
       ],
+      "disabled": true,
       "custom_css": [],
       "settings": {
         "color_scheme": "scheme-1",
@@ -141,6 +197,7 @@
     "rich_text_w8U3Uw",
     "breadcrumbs_Gxg9wp",
     "product-grid",
+    "custom_content_RiyJwa",
     "17539423821d3adb98",
     "banner"
   ]
