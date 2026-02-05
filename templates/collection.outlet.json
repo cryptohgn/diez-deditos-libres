@@ -55,7 +55,7 @@
         "text_RYGMFW": {
           "type": "text",
           "settings": {
-            "text": "<p></p>{{ collection.metafields.custom.richtextapoyo | metafield_tag }}",
+            "text": "{{ collection.metafields.custom.richtextapoyo | metafield_tag }}",
             "text_size": "text-base"
           }
         },
