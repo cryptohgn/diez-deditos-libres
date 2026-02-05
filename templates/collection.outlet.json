@@ -1,0 +1,148 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "rich_text_w8U3Uw": {
+      "type": "rich-text",
+      "blocks": {
+        "text_b9M8Xb": {
+          "type": "text",
+          "settings": {
+            "text": "{{ collection.metafields.custom.descripcion_seo | metafield_tag }}",
+            "text_size": "text-base"
+          }
+        }
+      },
+      "block_order": [
+        "text_b9M8Xb"
+      ],
+      "disabled": true,
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "color_scheme": "",
+        "content_alignment": "left",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
+    "breadcrumbs_Gxg9wp": {
+      "type": "breadcrumbs",
+      "settings": {
+        "text_alignment": "start"
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "custom_css": [],
+      "settings": {
+        "color_scheme": "scheme-3",
+        "products_per_page": 35,
+        "columns_desktop": 5,
+        "grid_layout": "standard",
+        "pagination": "number",
+        "enable_color_swatch": true,
+        "enable_filtering": true,
+        "filter_type": "drawer",
+        "enable_sorting": true,
+        "expand_filter_groups": "Availability, Price, Color, Size, Product type",
+        "columns_mobile": "2",
+        "padding_top": 40,
+        "padding_bottom": 100,
+        "show_section_divider": true,
+        "divider_width": "fixed"
+      }
+    },
+    "17539423821d3adb98": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_c82a648_nTg8pT": {
+          "type": "ai_gen_block_c82a648",
+          "settings": {
+            "main_menu": "main-menu",
+            "show_parent_button": true,
+            "padding_top": 0,
+            "padding_bottom": 40,
+            "background_color": "#ffffff",
+            "border_width": 0,
+            "border_color": "#e5e5e5",
+            "button_spacing": 12,
+            "button_padding_vertical": 12,
+            "button_padding_horizontal": 20,
+            "button_font_size": 14,
+            "button_font_weight": "500",
+            "button_border_width": 1,
+            "button_bg_color": "#f5f5f5",
+            "button_text_color": "#333333",
+            "button_border_color": "#e5e5e5",
+            "button_hover_bg_color": "#ea5cb8",
+            "button_hover_text_color": "#ffffff",
+            "button_hover_border_color": "#ea5cb8",
+            "button_active_bg_color": "#ea5cb8",
+            "button_active_text_color": "#ffffff",
+            "button_active_border_color": "#ea5cb8",
+            "button_active_hover_bg_color": "#f3a6d8",
+            "button_active_hover_text_color": "#ffffff",
+            "button_active_hover_border_color": "#f3a6d8"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_c82a648_nTg8pT"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".ai-collection-nav__button-aukoymkrut0dsbkx2uaigenblockc82a648ntg8pt {font-size: 12px;}"
+      ],
+      "settings": {}
+    },
+    "banner": {
+      "type": "main-collection-banner",
+      "blocks": {
+        "collection_info_zUNyKV": {
+          "type": "collection_info",
+          "settings": {
+            "heading_size": "hd2",
+            "heading_tag": "h1",
+            "show_description": true,
+            "padding_top": 0,
+            "padding_bottom": 0
+          }
+        }
+      },
+      "block_order": [
+        "collection_info_zUNyKV"
+      ],
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "image_overlay_opacity": 0,
+        "image_position": "top",
+        "image_height": "extra-small",
+        "text_alignment": "center",
+        "enable_parallax": true,
+        "parallax_direction": "vertical",
+        "image_height_mobile": "auto",
+        "padding_top": 32,
+        "padding_bottom": 50
+      }
+    }
+  },
+  "order": [
+    "rich_text_w8U3Uw",
+    "breadcrumbs_Gxg9wp",
+    "product-grid",
+    "17539423821d3adb98",
+    "banner"
+  ]
+}
