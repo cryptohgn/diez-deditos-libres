@@ -82,11 +82,11 @@
             "subheading": "",
             "description": "{{ collection.description }}",
             "text_size": "text-base",
-            "button_label": "Button label",
+            "button_label": "",
             "button_link": "",
             "button_style": "btn--primary",
             "content_alignment": "left",
-            "width": "50%",
+            "width": "100%",
             "alignment": "center",
             "block_custom_class": ""
           }
