@@ -133,6 +133,7 @@
         },
         "text_d4JyCt": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "¿Quieres probar y comprar calzado sin salir de casa? Consulta nuestras sesiones Zapatupper",
             "text_link": "shopify://pages/zapatupper",
@@ -148,6 +149,7 @@
         },
         "text_GJgyqj": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "**SOMOS TIENDA ONLINE** Entrega en mano en Torrent y punto de entrega en Valencia.",
             "text_link": "shopify://collections/novedades-1",
