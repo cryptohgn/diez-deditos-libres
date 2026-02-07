@@ -275,6 +275,7 @@
     },
     "featured_collection_aTx4Jq": {
       "type": "featured-collection",
+      "disabled": true,
       "name": "t:sections.featured-collection.presets.name",
       "settings": {
         "color_scheme": "",
