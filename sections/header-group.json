@@ -116,6 +116,21 @@
     "scrolling_promotion_aNNVVD": {
       "type": "scrolling-promotion",
       "blocks": {
+        "text_MP7MAC": {
+          "type": "text",
+          "settings": {
+            "text": "PRÓXIMAMENTE TIENDA FÍSICA EN TORRENT",
+            "text_link": "",
+            "text_size": "h2",
+            "font_weight": "font-heading",
+            "font_style": "normal",
+            "letter_spacing": 0,
+            "text_opacity": 100,
+            "text_style": "normal",
+            "use_custom_color": false,
+            "custom_color": "#000000"
+          }
+        },
         "text_d4JyCt": {
           "type": "text",
           "settings": {
@@ -148,6 +163,7 @@
         }
       },
       "block_order": [
+        "text_MP7MAC",
         "text_d4JyCt",
         "text_GJgyqj"
       ],
