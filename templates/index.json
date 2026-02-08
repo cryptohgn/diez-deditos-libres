@@ -322,7 +322,7 @@
         "show_collection_description": false,
         "collection": "novedades-1",
         "limit": 12,
-        "columns": 6,
+        "columns": 4,
         "column_gap": "medium",
         "row_gap": "inherit",
         "grid_layout": "standard",
