@@ -27,7 +27,7 @@
             "description": "",
             "description_size": "text-lg",
             "button_label": "Comprar ahora",
-            "button_link": "shopify://collections/rebajas-invierno",
+            "button_link": "shopify://collections/novedades-1",
             "button_style": "btn--primary"
           }
         },
