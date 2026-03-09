@@ -32,6 +32,7 @@
         },
         "text_xVMVnW": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "REBAJAS HASTA 30%",
             "text_link": "shopify://collections/rebajas-invierno",
@@ -48,7 +49,7 @@
         "text_t3BcT4": {
           "type": "text",
           "settings": {
-            "text": "OUTLET HASTA 70%",
+            "text": "OUTLET DESDE 10€",
             "text_link": "shopify://collections/saldo",
             "text_size": "text-base",
             "font_weight": "font-heading",
