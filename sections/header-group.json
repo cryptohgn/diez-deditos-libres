@@ -63,22 +63,22 @@
         },
         "text_QCAxbn": {
           "type": "text",
-          "disabled": true,
           "settings": {
-            "text": "ENVÍO GRATIS +25€ a Peníinsula",
+            "text": "10% DSCTO: CÓDIGO \"FALLAS26\" HASTA 19/3",
             "text_link": "shopify://collections/saldo",
             "text_size": "text-base",
             "font_weight": "font-body",
             "font_style": "normal",
             "letter_spacing": 0,
             "text_opacity": 90,
-            "text_style": "normal",
+            "text_style": "stroke",
             "use_custom_color": false,
             "custom_color": "#000000"
           }
         },
         "text_KmQqhE": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "ENVÍO GRATIS A PARTIR DE 80€",
             "text_link": "shopify://collections/deportivas-flash-sale",
