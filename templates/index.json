@@ -34,10 +34,10 @@
         "slide_8EaHdq": {
           "type": "slide",
           "settings": {
-            "color_scheme": "scheme-inverse",
+            "color_scheme": "scheme-9",
             "background": "shopify://shop_images/ChatGPT_Image_14_mar_2026_20_34_47.png",
             "background_mobile": "shopify://shop_images/ChatGPT_Image_14_mar_2026_20_34_47.png",
-            "image_overlay_opacity": 0,
+            "image_overlay_opacity": 40,
             "content_position": "middle-center",
             "text_alignment": "center",
             "title": "<strong>Descuento Semana Fallera</strong>",
