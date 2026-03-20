@@ -33,6 +33,7 @@
         },
         "slide_8EaHdq": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "color_scheme": "scheme-9",
             "background": "shopify://shop_images/ChatGPT_Image_14_mar_2026_20_34_47.png",
