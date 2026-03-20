@@ -665,7 +665,7 @@
         "text_QcbBQ9": {
           "type": "text",
           "settings": {
-            "text": "**SOMOS TIENDA ONLINE** Entrega en mano en Torrent y punto de entrega en Valencia.",
+            "text": "Tenemos punto de entrega en Valencia.",
             "text_link": "",
             "text_size": "h3",
             "font_weight": "font-body",
@@ -715,6 +715,7 @@
         },
         "text_K7hiEY": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "¿Quieres probar y comprar calzado sin salir de casa? Consulta nuestras sesiones Zapatupper.",
             "text_link": "",
