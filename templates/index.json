@@ -14,6 +14,7 @@
       "blocks": {
         "slide_xPQQgC": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "color_scheme": "scheme-7f446801-c12d-46c8-a1c4-9c3e6c0fd60d",
             "background": "shopify://shop_images/Diseno_sin_titulo_4_8fbb7335-52aa-4b5b-811a-52361660c8c8.jpg",
