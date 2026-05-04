@@ -14,7 +14,6 @@
       "blocks": {
         "slide_xPQQgC": {
           "type": "slide",
-          "disabled": true,
           "settings": {
             "color_scheme": "scheme-7f446801-c12d-46c8-a1c4-9c3e6c0fd60d",
             "background": "shopify://shop_images/Diseno_sin_titulo_4_8fbb7335-52aa-4b5b-811a-52361660c8c8.jpg",
@@ -36,18 +35,18 @@
           "type": "slide",
           "settings": {
             "color_scheme": "scheme-9",
-            "background": "shopify://shop_images/PORTADA_WEB_1920X700_2fe3319c-a5d8-4bc5-88a3-808e301fb379.png",
-            "background_mobile": "shopify://shop_images/ChatGPT_Image_26_abr_2026_00_12_21.png",
+            "background": "shopify://shop_images/PORTADA_WEB_1920X700_56211749-84ea-41da-be65-1017093220fc.jpg",
+            "background_mobile": "shopify://shop_images/PORTADA_WEB_1920X700_56211749-84ea-41da-be65-1017093220fc.jpg",
             "image_overlay_opacity": 40,
             "content_position": "middle-center",
             "text_alignment": "center",
-            "title": "<strong>Promoción Día de la Madre</strong>",
+            "title": "",
             "heading_size": "hd2",
-            "subheading": "Código: MAMA15",
-            "description": "<p>15% DE DESCUENTO Y ENVÍO GRATIS</p>",
+            "subheading": "",
+            "description": "",
             "description_size": "text-lg",
             "button_label": "Descubrir",
-            "button_link": "shopify://collections/promocion-dia-madre",
+            "button_link": "shopify://collections/novedades-1",
             "button_style": "btn--primary"
           }
         },
