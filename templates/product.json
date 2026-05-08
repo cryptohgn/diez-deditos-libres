@@ -80,6 +80,31 @@
             "show_gift_card_recipient": true
           }
         },
+        "shipping_Edhzqn": {
+          "type": "shipping",
+          "settings": {
+            "deliver_text": "Envío estimado:",
+            "deliver_days": "3",
+            "date_format": "%b %d"
+          }
+        },
+        "collapsible_tab_yQqDDp": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check-circle",
+            "content": "",
+            "page": "",
+            "default_open": false
+          }
+        },
+        "text_MxUgyT": {
+          "type": "text",
+          "settings": {
+            "text": "🚚 Envío estándar (48/72h) — 3,90€ · Express (24/48h) — 5,50€ · Baleares — 7,50€🌍 Resto de destinos internacionales, consulta en el carrito de compra✅ Envío GRATIS a partir de 60€",
+            "text_style": "body"
+          }
+        },
         "collapsible_tab_3cpfAJ": {
           "type": "collapsible_tab",
           "settings": {
@@ -206,6 +231,9 @@
         "popup_Fj8KDC",
         "variant_picker",
         "buy_buttons",
+        "shipping_Edhzqn",
+        "collapsible_tab_yQqDDp",
+        "text_MxUgyT",
         "collapsible_tab_3cpfAJ",
         "collapsible_tab_7HzjbR",
         "collapsible_tab_bExi78",
