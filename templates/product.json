@@ -32,13 +32,6 @@
             "heading_size": "h2"
           }
         },
-        "text_YK4Mry": {
-          "type": "text",
-          "settings": {
-            "text": "Barefoot",
-            "text_style": "body"
-          }
-        },
         "judge_me_reviews_preview_badge_9jbUUp": {
           "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {}
@@ -231,7 +224,6 @@
       "block_order": [
         "badges",
         "title",
-        "text_YK4Mry",
         "judge_me_reviews_preview_badge_9jbUUp",
         "price",
         "description",
