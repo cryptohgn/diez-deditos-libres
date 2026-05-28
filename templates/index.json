@@ -12,25 +12,6 @@
     "slideshow_q3U4Jn": {
       "type": "slideshow",
       "blocks": {
-        "slide_xPQQgC": {
-          "type": "slide",
-          "settings": {
-            "color_scheme": "scheme-7f446801-c12d-46c8-a1c4-9c3e6c0fd60d",
-            "background": "shopify://shop_images/PORTADA_WEB_1920X700_2.jpg",
-            "background_mobile": "shopify://shop_images/PORTADA_WEB_MOVIL_600X480_36dd8510-59ce-4eba-96a0-dc699a62b5e0.jpg",
-            "image_overlay_opacity": 0,
-            "content_position": "middle-center",
-            "text_alignment": "center",
-            "title": "",
-            "heading_size": "hd1",
-            "subheading": "",
-            "description": "",
-            "description_size": "text-lg",
-            "button_label": "Comprar ahora",
-            "button_link": "shopify://collections/novedades-1",
-            "button_style": "btn--primary"
-          }
-        },
         "slide_8EaHdq": {
           "type": "slide",
           "settings": {
@@ -46,6 +27,25 @@
             "description": "",
             "description_size": "text-lg",
             "button_label": "Descubrir",
+            "button_link": "shopify://collections/novedades-1",
+            "button_style": "btn--primary"
+          }
+        },
+        "slide_xPQQgC": {
+          "type": "slide",
+          "settings": {
+            "color_scheme": "scheme-7f446801-c12d-46c8-a1c4-9c3e6c0fd60d",
+            "background": "shopify://shop_images/PORTADA_WEB_1920X700_2.jpg",
+            "background_mobile": "shopify://shop_images/PORTADA_WEB_MOVIL_600X480_36dd8510-59ce-4eba-96a0-dc699a62b5e0.jpg",
+            "image_overlay_opacity": 0,
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "title": "",
+            "heading_size": "hd1",
+            "subheading": "",
+            "description": "",
+            "description_size": "text-lg",
+            "button_label": "Comprar ahora",
             "button_link": "shopify://collections/novedades-1",
             "button_style": "btn--primary"
           }
@@ -133,8 +133,8 @@
         }
       },
       "block_order": [
-        "slide_xPQQgC",
         "slide_8EaHdq",
+        "slide_xPQQgC",
         "slide_JhU8hg",
         "slide_9R3n8Y",
         "slide_A9eKkP",
