@@ -197,6 +197,7 @@
         "collection_V4pQLY",
         "collection_HnGPRD"
       ],
+      "disabled": true,
       "name": "t:sections.collections-showcase.name",
       "settings": {
         "container": "full",
@@ -205,7 +206,7 @@
         "heading_size": "h1",
         "heading_highlight_style": "none",
         "subheading": "Elige según la etapa, el uso o la necesidad. Y si dudas con la talla, te ayudamos antes de comprar.",
-        "tab_color_scheme": "",
+        "tab_color_scheme": "scheme-inverse",
         "image_position": "left",
         "image_ratio": "adapt",
         "image_overlay_opacity": 30,
