@@ -163,6 +163,7 @@
       "blocks": {
         "collection_R39WaE": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "collection": "",
             "image": "shopify://shop_images/baby-girl-feet.jpg",
