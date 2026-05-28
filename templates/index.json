@@ -45,8 +45,8 @@
             "subheading": "",
             "description": "",
             "description_size": "text-lg",
-            "button_label": "Ver Calzado Barefoot",
-            "button_link": "shopify://collections/novedades-1",
+            "button_label": "Ayúdame con la Talla",
+            "button_link": "shopify://pages/como-medir-los-pies",
             "button_style": "btn--primary"
           }
         },
