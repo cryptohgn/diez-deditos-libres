@@ -34,14 +34,14 @@
         "slide_xPQQgC": {
           "type": "slide",
           "settings": {
-            "color_scheme": "scheme-7f446801-c12d-46c8-a1c4-9c3e6c0fd60d",
-            "background": "shopify://shop_images/PORTADA_WEB_1920X700_2.jpg",
+            "color_scheme": "scheme-9",
+            "background": "shopify://shop_images/PORTADA_WEB_1920X700_3.jpg",
             "background_mobile": "shopify://shop_images/PORTADA_WEB_MOVIL_600X480_36dd8510-59ce-4eba-96a0-dc699a62b5e0.jpg",
             "image_overlay_opacity": 0,
             "content_position": "middle-center",
             "text_alignment": "center",
-            "title": "",
-            "heading_size": "hd1",
+            "title": "<strong>Calzado Barefoot para Ellos, hasta la 46. Calzado para Escuelas de Verano.  Calzado para Eventos</strong>",
+            "heading_size": "h2",
             "subheading": "",
             "description": "",
             "description_size": "text-lg",
