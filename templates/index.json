@@ -158,6 +158,66 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
+    "collections_showcase_mrjExf": {
+      "type": "collections-showcase",
+      "blocks": {
+        "collection_R39WaE": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify://shop_images/baby-girl-feet.jpg",
+            "title": "Primeros Pasos",
+            "button_label": "Primeros pasos",
+            "button_style": "btn--primary"
+          }
+        },
+        "collection_V4pQLY": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "",
+            "title": "",
+            "button_label": "Shop now",
+            "button_style": "btn--primary"
+          }
+        },
+        "collection_HnGPRD": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "",
+            "title": "",
+            "button_label": "Shop now",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "collection_R39WaE",
+        "collection_V4pQLY",
+        "collection_HnGPRD"
+      ],
+      "name": "t:sections.collections-showcase.name",
+      "settings": {
+        "container": "full",
+        "color_scheme": "",
+        "heading": "<em>¿Para quién buscas Calzado Barefoot?</em>",
+        "heading_size": "h1",
+        "heading_highlight_style": "none",
+        "subheading": "Elige según la etapa, el uso o la necesidad. Y si dudas con la talla, te ayudamos antes de comprar.",
+        "tab_color_scheme": "",
+        "image_position": "left",
+        "image_ratio": "adapt",
+        "image_overlay_opacity": 30,
+        "collection_heading_size": "h1",
+        "products_to_display": 4,
+        "pcard_image_ratio": "",
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
+    },
     "rich_text_Jr78BJ": {
       "type": "rich-text",
       "blocks": {
@@ -925,6 +985,7 @@
   },
   "order": [
     "slideshow_q3U4Jn",
+    "collections_showcase_mrjExf",
     "rich_text_Jr78BJ",
     "countdowntimer_iwi7bW",
     "featured_collection_aTx4Jq",
