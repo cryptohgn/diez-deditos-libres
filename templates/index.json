@@ -23,10 +23,10 @@
             "text_alignment": "center",
             "title": "Calzado Barefoot para Peques y Adultos.",
             "heading_size": "hd2",
-            "subheading": "Zapatos respetuosos, flexibles y cómodos, seleccionados para acompañar cada paso sin comprimir el pie. Te ayudamos a elegir la talla y el modelo adecuado antes de comprar.",
-            "description": "<p><br/><br/></p>",
-            "description_size": "text-lg",
-            "button_label": "Descubrir",
+            "subheading": "Te ayudamos para acertar la talla",
+            "description": "<p>Zapatos respetuosos, flexibles y cómodos, seleccionados para acompañar cada paso sin comprimir el pie. Te ayudamos a elegir la talla y el modelo adecuado antes de comprar.<br/><br/><br/></p>",
+            "description_size": "text-base",
+            "button_label": "Ver Calzado Barefoot",
             "button_link": "shopify://collections/novedades-1",
             "button_style": "btn--primary"
           }
@@ -45,7 +45,7 @@
             "subheading": "",
             "description": "",
             "description_size": "text-lg",
-            "button_label": "Comprar ahora",
+            "button_label": "Ver Calzado Barefoot",
             "button_link": "shopify://collections/novedades-1",
             "button_style": "btn--primary"
           }
