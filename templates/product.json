@@ -42,7 +42,6 @@
         },
         "description": {
           "type": "description",
-          "disabled": true,
           "settings": {}
         },
         "inventory": {
@@ -77,6 +76,13 @@
             "show_quantity_selector": false,
             "show_dynamic_checkout": true,
             "show_gift_card_recipient": true
+          }
+        },
+        "text_tyLJLm": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_style": "body"
           }
         },
         "shipping_Edhzqn": {
@@ -230,6 +236,7 @@
         "popup_Fj8KDC",
         "variant_picker",
         "buy_buttons",
+        "text_tyLJLm",
         "shipping_Edhzqn",
         "collapsible_tab_yQqDDp",
         "text_MxUgyT",
