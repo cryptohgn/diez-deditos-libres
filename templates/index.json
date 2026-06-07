@@ -17,6 +17,7 @@
           "settings": {
             "color_scheme": "scheme-9",
             "background": "shopify://shop_images/TERCER_ANIVERSARIO.png",
+            "background_mobile": "shopify://shop_images/9632C309-211C-45AA-8EFE-ACEF8303655C.png",
             "image_overlay_opacity": 30,
             "content_position": "middle-center",
             "text_alignment": "center",
@@ -36,6 +37,7 @@
           "settings": {
             "color_scheme": "scheme-9",
             "background": "shopify://shop_images/LUNES_ANIVERSARIO.png",
+            "background_mobile": "shopify://shop_images/1F4D1A31-A5A1-4656-80ED-8DE86EE00AC3.png",
             "image_overlay_opacity": 25,
             "content_position": "middle-center",
             "text_alignment": "center",
