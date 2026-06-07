@@ -30,6 +30,25 @@
             "button_style": "btn--primary"
           }
         },
+        "slide_9R3n8Y": {
+          "type": "slide",
+          "name": "LUNES ANIVERSARIO",
+          "settings": {
+            "color_scheme": "scheme-9",
+            "background": "shopify://shop_images/LUNES_ANIVERSARIO.png",
+            "image_overlay_opacity": 25,
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "title": "",
+            "heading_size": "hd2",
+            "subheading": "",
+            "description": "",
+            "description_size": "text-lg",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--primary"
+          }
+        },
         "slide_8EaHdq": {
           "type": "slide",
           "settings": {
@@ -68,30 +87,9 @@
             "button_style": "btn--primary"
           }
         },
-        "slide_9R3n8Y": {
-          "type": "slide",
-          "name": "LUNES ANIVERSARIO",
-          "disabled": true,
-          "settings": {
-            "color_scheme": "scheme-9",
-            "background": "shopify://shop_images/LUNES_ANIVERSARIO.png",
-            "image_overlay_opacity": 25,
-            "content_position": "middle-center",
-            "text_alignment": "center",
-            "title": "Nueva colección",
-            "heading_size": "hd2",
-            "subheading": "",
-            "description": "",
-            "description_size": "text-lg",
-            "button_label": "Comprar Ahora",
-            "button_link": "shopify://collections/novedades-1",
-            "button_style": "btn--primary"
-          }
-        },
         "slide_A9eKkP": {
           "type": "slide",
           "name": "Image slide Black_friday",
-          "disabled": true,
           "settings": {
             "color_scheme": "scheme-9",
             "background": "shopify://shop_images/nuevo-nov-25.webp",
@@ -132,9 +130,9 @@
       },
       "block_order": [
         "slide_JhU8hg",
+        "slide_9R3n8Y",
         "slide_8EaHdq",
         "slide_xPQQgC",
-        "slide_9R3n8Y",
         "slide_A9eKkP",
         "slide_9yhE8c"
       ],
