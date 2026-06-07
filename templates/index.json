@@ -52,21 +52,20 @@
         },
         "slide_JhU8hg": {
           "type": "slide",
-          "disabled": true,
           "settings": {
             "color_scheme": "scheme-9",
-            "background": "shopify://shop_images/Banner_adultoxinfantil_10DL_Opcion_2_natural.png",
-            "background_mobile": "shopify://shop_images/Gemini_Generated_Image_s8awb5s8awb5s8aw.png",
+            "background": "shopify://shop_images/TERCER_ANIVERSARIO.png",
+            "background_mobile": "shopify://shop_images/TERCER_ANIVERSARIO.png",
             "image_overlay_opacity": 30,
             "content_position": "middle-center",
             "text_alignment": "center",
-            "title": "FLASH SALE CALZADO DEPORTIVO",
+            "title": "",
             "heading_size": "hd2",
-            "subheading": "15% DE DESCUENTO",
+            "subheading": "",
             "description": "",
             "description_size": "text-lg",
-            "button_label": "Comprar ahora",
-            "button_link": "shopify://collections/deportivas-flash-sale",
+            "button_label": "",
+            "button_link": "",
             "button_style": "btn--primary"
           }
         },
