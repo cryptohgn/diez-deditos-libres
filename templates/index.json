@@ -12,6 +12,25 @@
     "slideshow_q3U4Jn": {
       "type": "slideshow",
       "blocks": {
+        "slide_JhU8hg": {
+          "type": "slide",
+          "settings": {
+            "color_scheme": "scheme-9",
+            "background": "shopify://shop_images/TERCER_ANIVERSARIO.png",
+            "background_mobile": "shopify://shop_images/TERCER_ANIVERSARIO.png",
+            "image_overlay_opacity": 30,
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "title": "",
+            "heading_size": "hd2",
+            "subheading": "",
+            "description": "",
+            "description_size": "text-lg",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--primary"
+          }
+        },
         "slide_8EaHdq": {
           "type": "slide",
           "settings": {
@@ -47,25 +66,6 @@
             "description_size": "text-lg",
             "button_label": "Ayúdame con la Talla",
             "button_link": "shopify://pages/como-medir-los-pies",
-            "button_style": "btn--primary"
-          }
-        },
-        "slide_JhU8hg": {
-          "type": "slide",
-          "settings": {
-            "color_scheme": "scheme-9",
-            "background": "shopify://shop_images/TERCER_ANIVERSARIO.png",
-            "background_mobile": "shopify://shop_images/TERCER_ANIVERSARIO.png",
-            "image_overlay_opacity": 30,
-            "content_position": "middle-center",
-            "text_alignment": "center",
-            "title": "",
-            "heading_size": "hd2",
-            "subheading": "",
-            "description": "",
-            "description_size": "text-lg",
-            "button_label": "",
-            "button_link": "",
             "button_style": "btn--primary"
           }
         },
@@ -132,9 +132,9 @@
         }
       },
       "block_order": [
+        "slide_JhU8hg",
         "slide_8EaHdq",
         "slide_xPQQgC",
-        "slide_JhU8hg",
         "slide_9R3n8Y",
         "slide_A9eKkP",
         "slide_9yhE8c"
