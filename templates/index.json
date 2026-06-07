@@ -75,7 +75,6 @@
           "settings": {
             "color_scheme": "scheme-9",
             "background": "shopify://shop_images/LUNES_ANIVERSARIO.png",
-            "background_mobile": "shopify://shop_images/nueva-coleccion_barefoot-oct-25.webp",
             "image_overlay_opacity": 25,
             "content_position": "middle-center",
             "text_alignment": "center",
