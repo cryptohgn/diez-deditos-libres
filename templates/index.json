@@ -305,7 +305,7 @@
         "heading_nxCWcP": {
           "type": "heading",
           "settings": {
-            "heading": "Novedades Verano",
+            "heading": "Calzado Barefoot Para Peques y Adultos",
             "heading_size": "hd1",
             "heading_highlight_style": "none"
           }
@@ -313,7 +313,7 @@
         "text_4HMP7y": {
           "type": "text",
           "settings": {
-            "text": "<p>La nueva colección, de verano, que hemos seleccionado en <em>Diez Deditos Libres</em> combina frescura, flexibilidad y diseño natural.<br/><br/>Sandalias minimalistas pensadas para el movimiento real, sin renunciar al estilo.<br/><br/>Porque cada paso cuenta… y cada dedo también.</p>",
+            "text": "<p>Zapatos respetuosos, flexibles y cómodos, seleccionados para acompañar cada paso sin comprimir el pie. Te ayudamos a elegir la talla y el modelo adecuado antes de comprar.<br/><br/>★ 4,9/5 en 115 reseñas · Envío desde 3,90 € · Devoluciones 14 días<br/></p>",
             "text_size": "text-base"
           }
         }
@@ -322,7 +322,6 @@
         "heading_nxCWcP",
         "text_4HMP7y"
       ],
-      "disabled": true,
       "custom_css": [
         "@media (min-width: 950px) and (max-width: 1536px) {{max-width: 750px; margin: auto; }}"
       ],
@@ -453,11 +452,11 @@
       "settings": {
         "color_scheme": "scheme-1",
         "header_layout": "vertical",
-        "heading": "🌸 Novedades Primavera ✨",
+        "heading": "🌸 Novedades Verano✨",
         "heading_size": "h1",
         "heading_highlight_style": "none",
         "subheading": "",
-        "description": "<p><strong>Novedades barefoot para peques y adultos 👣</strong><br/>Zapatos respetuosos, flexibles y cómodos para acompañar cada paso del día a día.<br/><br/><br/></p>",
+        "description": "<p><strong>Novedades barefoot para peques y adultos 👣</strong><br/>Para acompañar cada paso del día a día.<br/><br/><br/></p>",
         "text_size": "text-base",
         "show_collection_description": false,
         "collection": "novedades-1",
