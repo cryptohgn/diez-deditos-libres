@@ -32,26 +32,6 @@
             "button_style": "btn--primary"
           }
         },
-        "slide_JhU8hg": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "color_scheme": "scheme-9",
-            "background": "shopify://shop_images/TERCER_ANIVERSARIO.png",
-            "background_mobile": "shopify://shop_images/9632C309-211C-45AA-8EFE-ACEF8303655C.png",
-            "image_overlay_opacity": 30,
-            "content_position": "middle-center",
-            "text_alignment": "center",
-            "title": "",
-            "heading_size": "hd2",
-            "subheading": "",
-            "description": "",
-            "description_size": "text-lg",
-            "button_label": "",
-            "button_link": "",
-            "button_style": "btn--primary"
-          }
-        },
         "slide_9R3n8Y": {
           "type": "slide",
           "name": "LUNES ANIVERSARIO",
@@ -111,6 +91,26 @@
             "button_style": "btn--primary"
           }
         },
+        "slide_4DDDAN": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "color_scheme": "scheme-9",
+            "background": "shopify://shop_images/PORTADA_WEB_1920X700_56211749-84ea-41da-be65-1017093220fc.jpg",
+            "background_mobile": "shopify://shop_images/PORTADA_WEB_MOVIL_600X480_9670ffd8-548f-4f2f-aa0f-d10ba472e18c.png",
+            "image_overlay_opacity": 0,
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "title": "Calzado Barefoot para Peques y Adultos.",
+            "heading_size": "hd2",
+            "subheading": "Te ayudamos para acertar la talla",
+            "description": "<p>Zapatos respetuosos, flexibles y cómodos, seleccionados para acompañar cada paso sin comprimir el pie. Te ayudamos a elegir la talla y el modelo adecuado antes de comprar.</p>",
+            "description_size": "text-base",
+            "button_label": "Ver Calzado Barefoot",
+            "button_link": "shopify://collections/novedades-1",
+            "button_style": "btn--primary"
+          }
+        },
         "slide_xPQQgC": {
           "type": "slide",
           "settings": {
@@ -133,10 +133,10 @@
       },
       "block_order": [
         "slide_Ff4Drj",
-        "slide_JhU8hg",
         "slide_9R3n8Y",
         "slide_A9eKkP",
         "slide_8EaHdq",
+        "slide_4DDDAN",
         "slide_xPQQgC"
       ],
       "custom_css": [
