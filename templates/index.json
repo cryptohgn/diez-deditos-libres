@@ -147,7 +147,7 @@
       "settings": {
         "container": "full",
         "layout": "standard",
-        "slide_height": "adapt",
+        "slide_height": "small",
         "show_dots": true,
         "autoplay": true,
         "autoplay_delay": 6,
