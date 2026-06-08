@@ -161,6 +161,42 @@
     "slideshow_NPK9w4": {
       "type": "slideshow",
       "blocks": {
+        "slide_pdn4jd": {
+          "type": "slide",
+          "settings": {
+            "color_scheme": "scheme-9",
+            "background": "shopify://shop_images/TERCER_ANIVERSARIO_d85bdfa5-12e7-4993-ba77-a0183aa28549.png",
+            "image_overlay_opacity": 0,
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "title": "",
+            "heading_size": "hd1",
+            "subheading": "",
+            "description": "",
+            "description_size": "text-base",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "slide_AYbXEm": {
+          "type": "slide",
+          "settings": {
+            "color_scheme": "scheme-9",
+            "background": "shopify://shop_images/LUNES_ANIVERSARIO_9fea4af3-3a51-4dbc-a362-3e5ed00a6293.png",
+            "image_overlay_opacity": 0,
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "title": "",
+            "heading_size": "hd1",
+            "subheading": "",
+            "description": "",
+            "description_size": "text-base",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "btn--primary"
+          }
+        },
         "slide_GThaVp": {
           "type": "slide",
           "settings": {
@@ -178,46 +214,12 @@
             "button_link": "shopify://collections/novedades-1",
             "button_style": "btn--primary"
           }
-        },
-        "slide_pdn4jd": {
-          "type": "slide",
-          "settings": {
-            "color_scheme": "",
-            "image_overlay_opacity": 0,
-            "content_position": "middle-center",
-            "text_alignment": "center",
-            "title": "Image slide",
-            "heading_size": "hd1",
-            "subheading": "",
-            "description": "<p>Tell your brand's story through images</p>",
-            "description_size": "text-base",
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style": "btn--primary"
-          }
-        },
-        "slide_AYbXEm": {
-          "type": "slide",
-          "settings": {
-            "color_scheme": "",
-            "image_overlay_opacity": 0,
-            "content_position": "middle-center",
-            "text_alignment": "center",
-            "title": "Image slide",
-            "heading_size": "hd1",
-            "subheading": "",
-            "description": "<p>Tell your brand's story through images</p>",
-            "description_size": "text-base",
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style": "btn--primary"
-          }
         }
       },
       "block_order": [
-        "slide_GThaVp",
         "slide_pdn4jd",
-        "slide_AYbXEm"
+        "slide_AYbXEm",
+        "slide_GThaVp"
       ],
       "name": "t:sections.slideshow.name",
       "settings": {
