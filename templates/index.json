@@ -139,6 +139,7 @@
         "slide_4DDDAN",
         "slide_xPQQgC"
       ],
+      "disabled": true,
       "custom_css": [
         ".text-lg {font-size: 2.7rem;}",
         ".btn {font-weight: bolder;}",
@@ -152,6 +153,81 @@
         "autoplay": true,
         "autoplay_delay": 6,
         "controls_position": "below",
+        "show_text_below": false,
+        "text_alignment_mobile": "center",
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "slideshow_NPK9w4": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_GThaVp": {
+          "type": "slide",
+          "settings": {
+            "color_scheme": "scheme-9",
+            "background": "shopify://shop_images/PORTADA_WEB_ZAPATILLAS_BAREFOO.png",
+            "image_overlay_opacity": 0,
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "title": "Calzado Barefoot para Peques y Adultos",
+            "heading_size": "hd1",
+            "subheading": "Te ayudamos para acertar la talla",
+            "description": "<p>Zapatos respetuosos, flexibles y cómodos, seleccionados para acompañar cada paso sin comprimir el pie. Te ayudamos a elegir la talla y el modelo adecuado antes de comprar.<br/><br/>★ 4,9/5 en 115 reseñas · Envío desde 3,90 € · Devoluciones 14 días<br/></p>",
+            "description_size": "text-base",
+            "button_label": "VER CALZADO BAREFOOT",
+            "button_link": "shopify://collections/novedades-1",
+            "button_style": "btn--primary"
+          }
+        },
+        "slide_pdn4jd": {
+          "type": "slide",
+          "settings": {
+            "color_scheme": "",
+            "image_overlay_opacity": 0,
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "title": "Image slide",
+            "heading_size": "hd1",
+            "subheading": "",
+            "description": "<p>Tell your brand's story through images</p>",
+            "description_size": "text-base",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style": "btn--primary"
+          }
+        },
+        "slide_AYbXEm": {
+          "type": "slide",
+          "settings": {
+            "color_scheme": "",
+            "image_overlay_opacity": 0,
+            "content_position": "middle-center",
+            "text_alignment": "center",
+            "title": "Image slide",
+            "heading_size": "hd1",
+            "subheading": "",
+            "description": "<p>Tell your brand's story through images</p>",
+            "description_size": "text-base",
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "slide_GThaVp",
+        "slide_pdn4jd",
+        "slide_AYbXEm"
+      ],
+      "name": "t:sections.slideshow.name",
+      "settings": {
+        "container": "full",
+        "layout": "standard",
+        "slide_height": "large",
+        "show_dots": true,
+        "autoplay": false,
+        "autoplay_delay": 3,
+        "controls_position": "bottom",
         "show_text_below": false,
         "text_alignment_mobile": "center",
         "accessibility_info": "Slideshow about our brand"
@@ -985,6 +1061,7 @@
   },
   "order": [
     "slideshow_q3U4Jn",
+    "slideshow_NPK9w4",
     "collections_showcase_mrjExf",
     "rich_text_Jr78BJ",
     "countdowntimer_iwi7bW",
