@@ -145,7 +145,7 @@
         "@media (max-width: 767.98px) {.slideshow__text {margin: auto; margin-top: -10px; } .text-lg {font-size: 2.6rem; }}"
       ],
       "settings": {
-        "container": "full",
+        "container": "fixed",
         "layout": "standard",
         "slide_height": "small",
         "show_dots": true,
