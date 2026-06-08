@@ -211,7 +211,7 @@
             "title": "Calzado Barefoot para Peques y Adultos",
             "heading_size": "hd1",
             "subheading": "Te ayudamos para acertar la talla",
-            "description": "<p>Zapatos respetuosos, flexibles y cómodos, seleccionados para acompañar cada paso sin comprimir el pie. Te ayudamos a elegir la talla y el modelo adecuado antes de comprar.<br/><br/>★ 4,9/5 en 115 reseñas · Envío desde 3,90 € · Devoluciones 14 días<br/></p>",
+            "description": "",
             "description_size": "text-base",
             "button_label": "VER CALZADO BAREFOOT",
             "button_link": "shopify://collections/novedades-1",
@@ -236,6 +236,32 @@
         "show_text_below": false,
         "text_alignment_mobile": "center",
         "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "rich_text_Jr78BJ": {
+      "type": "rich-text",
+      "blocks": {
+        "text_4HMP7y": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Zapatos respetuosos, flexibles y cómodos, seleccionados para acompañar cada paso sin comprimir el pie. Te ayudamos a elegir la talla y el modelo adecuado antes de comprar.<br/><br/>★ 4,9/5 en 115 reseñas · Envío desde 3,90 € · Devoluciones 14 días<br/></p>",
+            "text_size": "text-base"
+          }
+        }
+      },
+      "block_order": [
+        "text_4HMP7y"
+      ],
+      "custom_css": [
+        "@media (min-width: 950px) and (max-width: 1536px) {{max-width: 750px; margin: auto; }}"
+      ],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "content_alignment": "center",
+        "padding_top": 100,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
       }
     },
     "collections_showcase_mrjExf": {
@@ -295,41 +321,6 @@
         "pcard_image_ratio": "",
         "padding_top": 0,
         "padding_bottom": 0,
-        "show_section_divider": false,
-        "divider_width": "fixed"
-      }
-    },
-    "rich_text_Jr78BJ": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_nxCWcP": {
-          "type": "heading",
-          "settings": {
-            "heading": "Calzado Barefoot Para Peques y Adultos",
-            "heading_size": "hd1",
-            "heading_highlight_style": "none"
-          }
-        },
-        "text_4HMP7y": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Zapatos respetuosos, flexibles y cómodos, seleccionados para acompañar cada paso sin comprimir el pie. Te ayudamos a elegir la talla y el modelo adecuado antes de comprar.<br/><br/>★ 4,9/5 en 115 reseñas · Envío desde 3,90 € · Devoluciones 14 días<br/></p>",
-            "text_size": "text-base"
-          }
-        }
-      },
-      "block_order": [
-        "heading_nxCWcP",
-        "text_4HMP7y"
-      ],
-      "custom_css": [
-        "@media (min-width: 950px) and (max-width: 1536px) {{max-width: 750px; margin: auto; }}"
-      ],
-      "settings": {
-        "color_scheme": "scheme-1",
-        "content_alignment": "center",
-        "padding_top": 100,
-        "padding_bottom": 50,
         "show_section_divider": false,
         "divider_width": "fixed"
       }
@@ -1066,8 +1057,8 @@
   "order": [
     "slideshow_q3U4Jn",
     "slideshow_NPK9w4",
-    "collections_showcase_mrjExf",
     "rich_text_Jr78BJ",
+    "collections_showcase_mrjExf",
     "countdowntimer_iwi7bW",
     "featured_collection_aTx4Jq",
     "featured_collection_i6hcRW",
