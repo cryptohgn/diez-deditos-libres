@@ -204,6 +204,7 @@
           "settings": {
             "color_scheme": "scheme-9",
             "background": "shopify://shop_images/PORTADA_WEB_SANDALIAS_BAREFOOT.png",
+            "background_mobile": "shopify://shop_images/PORTADA_WEB_MOVIL_600X480_2.jpg",
             "image_overlay_opacity": 0,
             "content_position": "middle-center",
             "text_alignment": "center",
