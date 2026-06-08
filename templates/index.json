@@ -59,7 +59,7 @@
             "color_scheme": "scheme-9",
             "background": "shopify://shop_images/LUNES_ANIVERSARIO.png",
             "background_mobile": "shopify://shop_images/1F4D1A31-A5A1-4656-80ED-8DE86EE00AC3_dce783f4-3a5e-4f4b-873f-6b4b8843c084.png",
-            "image_overlay_opacity": 25,
+            "image_overlay_opacity": 0,
             "content_position": "middle-center",
             "text_alignment": "center",
             "title": "",
