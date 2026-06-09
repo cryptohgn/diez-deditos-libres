@@ -35,6 +35,7 @@
         "slide_9R3n8Y": {
           "type": "slide",
           "name": "LUNES ANIVERSARIO",
+          "disabled": true,
           "settings": {
             "color_scheme": "scheme-9",
             "background": "shopify://shop_images/LUNES_ANIVERSARIO_9fea4af3-3a51-4dbc-a362-3e5ed00a6293.png",
@@ -55,7 +56,6 @@
         "slide_A9eKkP": {
           "type": "slide",
           "name": "MARTES ANIVERSARIO",
-          "disabled": true,
           "settings": {
             "color_scheme": "scheme-9",
             "background": "shopify://shop_images/MARTES_ANIVERSARIO.png",
@@ -139,7 +139,6 @@
         "slide_4DDDAN",
         "slide_xPQQgC"
       ],
-      "disabled": true,
       "custom_css": [
         ".text-lg {font-size: 2.7rem;}",
         ".btn {font-weight: bolder;}",
@@ -224,6 +223,7 @@
         "slide_AYbXEm",
         "slide_GThaVp"
       ],
+      "disabled": true,
       "name": "t:sections.slideshow.name",
       "settings": {
         "container": "full",
