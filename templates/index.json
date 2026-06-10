@@ -34,12 +34,11 @@
         },
         "slide_9R3n8Y": {
           "type": "slide",
-          "name": "LUNES ANIVERSARIO",
-          "disabled": true,
+          "name": "MIÉRCOLES ANIVERSARIO",
           "settings": {
             "color_scheme": "scheme-9",
-            "background": "shopify://shop_images/LUNES_ANIVERSARIO_9fea4af3-3a51-4dbc-a362-3e5ed00a6293.png",
-            "background_mobile": "shopify://shop_images/PORTADA_WEB_MOVIL_600X480_479c85b5-045f-48b7-896d-437e8a2e5c2d.jpg",
+            "background": "shopify://shop_images/PORTADA_WEB_1920X900_85b63f8d-bd1f-4d8b-bc06-5f01a9ed81b0.png",
+            "background_mobile": "shopify://shop_images/PORTADA_WEB_MOVIL_600X480_a270662f-c38d-4f4b-a934-5702b0bc214d.png",
             "image_overlay_opacity": 0,
             "content_position": "middle-center",
             "text_alignment": "center",
@@ -56,6 +55,7 @@
         "slide_A9eKkP": {
           "type": "slide",
           "name": "MARTES ANIVERSARIO",
+          "disabled": true,
           "settings": {
             "color_scheme": "scheme-9",
             "background": "shopify://shop_images/MARTES_ANIVERSARIO.png",
@@ -148,7 +148,7 @@
       "settings": {
         "container": "fixed",
         "layout": "standard",
-        "slide_height": "adapt",
+        "slide_height": "small",
         "show_dots": true,
         "autoplay": true,
         "autoplay_delay": 6,
