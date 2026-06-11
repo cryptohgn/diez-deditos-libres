@@ -54,12 +54,12 @@
         },
         "slide_A9eKkP": {
           "type": "slide",
-          "name": "MARTES ANIVERSARIO",
+          "name": "VIERNES ANIVERSARIO",
           "disabled": true,
           "settings": {
             "color_scheme": "scheme-9",
             "background": "shopify://shop_images/VIERNES_ANIVERSARIO_WEB_daa3001e-3dde-405c-92b5-cc172e1d0963.png",
-            "background_mobile": "shopify://shop_images/MARTES_ANIVERSARIO_30fd6c04-7d5b-4502-a8fd-129098264a2c.png",
+            "background_mobile": "shopify://shop_images/VIERNES_ANIVERSARIO_MOVIL.png",
             "image_overlay_opacity": 75,
             "content_position": "middle-center",
             "text_alignment": "center",
