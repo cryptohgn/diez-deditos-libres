@@ -164,6 +164,7 @@
       "blocks": {
         "slide_pdn4jd": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "color_scheme": "scheme-9",
             "background": "shopify://shop_images/TERCER_ANIVERSARIO_d85bdfa5-12e7-4993-ba77-a0183aa28549.png",
@@ -183,6 +184,7 @@
         },
         "slide_AYbXEm": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "color_scheme": "scheme-9",
             "background": "shopify://shop_images/LUNES_ANIVERSARIO_9fea4af3-3a51-4dbc-a362-3e5ed00a6293.png",
@@ -202,6 +204,7 @@
         },
         "slide_GThaVp": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "color_scheme": "scheme-9",
             "background": "shopify://shop_images/PORTADA_WEB_SANDALIAS_BAREFOOT.png",
@@ -225,7 +228,6 @@
         "slide_AYbXEm",
         "slide_GThaVp"
       ],
-      "disabled": true,
       "name": "t:sections.slideshow.name",
       "settings": {
         "container": "full",
