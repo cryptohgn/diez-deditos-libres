@@ -94,7 +94,6 @@
         },
         "slide_4DDDAN": {
           "type": "slide",
-          "disabled": true,
           "settings": {
             "color_scheme": "scheme-9",
             "background": "shopify://shop_images/PORTADA_WEB_1920X700_56211749-84ea-41da-be65-1017093220fc.jpg",
@@ -245,7 +244,6 @@
       "blocks": {
         "text_4HMP7y": {
           "type": "text",
-          "disabled": true,
           "settings": {
             "text": "<p>Zapatos respetuosos, flexibles y cómodos, seleccionados para acompañar cada paso sin comprimir el pie. Te ayudamos a elegir la talla y el modelo adecuado antes de comprar.<br/><br/>★ 4,9/5 en 115 reseñas · Envío desde 3,90 € · Devoluciones 14 días<br/></p>",
             "text_size": "text-base"
@@ -261,8 +259,8 @@
       "settings": {
         "color_scheme": "scheme-1",
         "content_alignment": "center",
-        "padding_top": 100,
-        "padding_bottom": 50,
+        "padding_top": 30,
+        "padding_bottom": 10,
         "show_section_divider": false,
         "divider_width": "fixed"
       }
