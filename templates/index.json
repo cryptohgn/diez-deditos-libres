@@ -35,6 +35,7 @@
         "slide_9R3n8Y": {
           "type": "slide",
           "name": "JUEVES ANIVERSARIO",
+          "disabled": true,
           "settings": {
             "color_scheme": "scheme-9",
             "background": "shopify://shop_images/JUEVES_ANIVERSARIO_WEB_29e181ac-b5b8-46b8-a2c9-347aec82a14c.png",
@@ -55,7 +56,6 @@
         "slide_A9eKkP": {
           "type": "slide",
           "name": "VIERNES ANIVERSARIO",
-          "disabled": true,
           "settings": {
             "color_scheme": "scheme-9",
             "background": "shopify://shop_images/VIERNES_ANIVERSARIO_WEB_daa3001e-3dde-405c-92b5-cc172e1d0963.png",
