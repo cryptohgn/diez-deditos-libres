@@ -39,7 +39,7 @@
           "settings": {
             "color_scheme": "scheme-9",
             "background": "shopify://shop_images/SABADO_ANIVERSARIO_WEB.png",
-            "background_mobile": "shopify://shop_images/JUEVES_ANIVERSARIO_MOVIL.png",
+            "background_mobile": "shopify://shop_images/SABADO_ANIVERSARIO_MOVIL.png",
             "image_overlay_opacity": 0,
             "content_position": "middle-center",
             "text_alignment": "center",
