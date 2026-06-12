@@ -34,11 +34,10 @@
         },
         "slide_9R3n8Y": {
           "type": "slide",
-          "name": "JUEVES ANIVERSARIO",
-          "disabled": true,
+          "name": "SABADO ANIVERSARIO",
           "settings": {
             "color_scheme": "scheme-9",
-            "background": "shopify://shop_images/JUEVES_ANIVERSARIO_WEB_29e181ac-b5b8-46b8-a2c9-347aec82a14c.png",
+            "background": "shopify://shop_images/SABADO_ANIVERSARIO_WEB.png",
             "background_mobile": "shopify://shop_images/JUEVES_ANIVERSARIO_MOVIL.png",
             "image_overlay_opacity": 0,
             "content_position": "middle-center",
