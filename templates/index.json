@@ -35,6 +35,7 @@
         "slide_9R3n8Y": {
           "type": "slide",
           "name": "SABADO ANIVERSARIO",
+          "disabled": true,
           "settings": {
             "color_scheme": "scheme-9",
             "background": "shopify://shop_images/SABADO_ANIVERSARIO_WEB.png",
