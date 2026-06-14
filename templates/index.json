@@ -35,7 +35,6 @@
         "slide_9R3n8Y": {
           "type": "slide",
           "name": "SABADO ANIVERSARIO",
-          "disabled": true,
           "settings": {
             "color_scheme": "scheme-9",
             "background": "shopify://shop_images/SABADO_ANIVERSARIO_WEB.png",
@@ -56,6 +55,7 @@
         "slide_A9eKkP": {
           "type": "slide",
           "name": "VIERNES ANIVERSARIO",
+          "disabled": true,
           "settings": {
             "color_scheme": "scheme-9",
             "background": "shopify://shop_images/VIERNES_ANIVERSARIO_WEB_daa3001e-3dde-405c-92b5-cc172e1d0963.png",
