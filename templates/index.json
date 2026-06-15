@@ -15,6 +15,7 @@
         "slide_Ff4Drj": {
           "type": "slide",
           "name": "ANIVERSARIO",
+          "disabled": true,
           "settings": {
             "color_scheme": "scheme-9",
             "background": "shopify://shop_images/TERCER_ANIVERSARIO_d85bdfa5-12e7-4993-ba77-a0183aa28549.png",
@@ -35,6 +36,7 @@
         "slide_9R3n8Y": {
           "type": "slide",
           "name": "SABADO ANIVERSARIO",
+          "disabled": true,
           "settings": {
             "color_scheme": "scheme-9",
             "background": "shopify://shop_images/SABADO_ANIVERSARIO_WEB.png",
