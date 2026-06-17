@@ -27,8 +27,23 @@
             "order_first": true
           }
         },
-        "menu_DEKGYP": {
+        "contact_information_4w4R3t": {
+          "type": "contact_information",
+          "settings": {
+            "block_width": 25,
+            "heading": "Atención al Cliente",
+            "heading_size": "h4",
+            "address": "",
+            "working_hours": "Lunes a Viernes  10:00 a 13:30 y de 17:00 a 19:30",
+            "email": "pedidos@diezdeditoslibres.com",
+            "phone": "WhatsApp 604 279 152",
+            "open_default": true,
+            "show_divider": false
+          }
+        },
+        "menu_9HaN3A": {
           "type": "menu",
+          "disabled": true,
           "settings": {
             "block_width": 17,
             "heading": "Colecciones Destacadas",
@@ -63,7 +78,8 @@
       },
       "block_order": [
         "newsletter_3qCrWc",
-        "menu_DEKGYP",
+        "contact_information_4w4R3t",
+        "menu_9HaN3A",
         "menu_6rhtVW",
         "menu_4eCrBB"
       ],
