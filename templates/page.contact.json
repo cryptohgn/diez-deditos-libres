@@ -65,6 +65,7 @@
         "custom_field_8AQYaC",
         "image_card_yBPyAg"
       ],
+      "disabled": true,
       "custom_css": [
         "@media (min-width: 768px) {.card-media {border-radius: 0; }}",
         "@media (max-width: 767px) {.contact-form {padding-block-end: 0; } .contact-form__wrapper {border-radius: 0; margin-left: -1.5rem; margin-right: -1.5rem; } .card-media {padding: 0 1.5rem 4.8rem; }}"
