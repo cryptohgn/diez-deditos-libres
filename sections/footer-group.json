@@ -14,19 +14,6 @@
     "footer": {
       "type": "footer",
       "blocks": {
-        "newsletter_3qCrWc": {
-          "type": "newsletter",
-          "settings": {
-            "block_width": 41,
-            "heading": "Suscríbete al correo",
-            "heading_size": "h1",
-            "newsletter_description": "<p>Sé la primera en enterarte de nuevas colecciones y ofertas exclusivas.</p>",
-            "newsletter_term": "<p>Al suscribirse, acepta los Términos de uso y la Política de privacidad.</p>",
-            "newsletter_text_alignment": "left",
-            "form_width": 465,
-            "order_first": true
-          }
-        },
         "contact_information_4w4R3t": {
           "type": "contact_information",
           "settings": {
@@ -74,14 +61,27 @@
             "open_default": false,
             "show_divider": false
           }
+        },
+        "newsletter_3qCrWc": {
+          "type": "newsletter",
+          "settings": {
+            "block_width": 41,
+            "heading": "Suscríbete al correo",
+            "heading_size": "h1",
+            "newsletter_description": "<p>Sé la primera en enterarte de nuevas colecciones y ofertas exclusivas.</p>",
+            "newsletter_term": "<p>Al suscribirse, acepta los Términos de uso y la Política de privacidad.</p>",
+            "newsletter_text_alignment": "left",
+            "form_width": 465,
+            "order_first": true
+          }
         }
       },
       "block_order": [
-        "newsletter_3qCrWc",
         "contact_information_4w4R3t",
         "menu_9HaN3A",
         "menu_6rhtVW",
-        "menu_4eCrBB"
+        "menu_4eCrBB",
+        "newsletter_3qCrWc"
       ],
       "custom_css": [
         ".form-control {--color-border: var(--color-field);}"
