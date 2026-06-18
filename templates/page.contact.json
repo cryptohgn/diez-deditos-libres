@@ -43,9 +43,9 @@
         "custom_field_tFyd9b": {
           "type": "custom_field",
           "settings": {
-            "field_type": "select",
-            "heading": "Fecha de Pedido",
-            "placeholder": "",
+            "field_type": "text",
+            "heading": "Fecha del pedido",
+            "placeholder": "DD/MM/YYYY",
             "required": true,
             "full_width": false,
             "select_options": "__/__/____",
