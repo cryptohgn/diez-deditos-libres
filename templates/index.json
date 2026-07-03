@@ -15,11 +15,10 @@
         "slide_Ff4Drj": {
           "type": "slide",
           "name": "ANIVERSARIO",
-          "disabled": true,
           "settings": {
             "color_scheme": "scheme-9",
-            "background": "shopify://shop_images/TERCER_ANIVERSARIO_d85bdfa5-12e7-4993-ba77-a0183aa28549.png",
-            "background_mobile": "shopify://shop_images/9632C309-211C-45AA-8EFE-ACEF8303655C.png",
+            "background": "shopify://shop_images/Portadas_web_cdb74a6a-39e2-4759-8ff9-13b922b715ab.jpg",
+            "background_mobile": "shopify://shop_images/Portadas_web_cdb74a6a-39e2-4759-8ff9-13b922b715ab.jpg",
             "image_overlay_opacity": 0,
             "content_position": "middle-center",
             "text_alignment": "center",
