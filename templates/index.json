@@ -153,7 +153,7 @@
         "slide_height": "small",
         "show_dots": true,
         "autoplay": true,
-        "autoplay_delay": 6,
+        "autoplay_delay": 4,
         "controls_position": "below",
         "show_text_below": false,
         "text_alignment_mobile": "center",
