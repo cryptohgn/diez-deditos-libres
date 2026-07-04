@@ -27,8 +27,8 @@
             "subheading": "",
             "description": "<p><br/><br/><br/><br/></p>",
             "description_size": "text-base",
-            "button_label": "",
-            "button_link": "",
+            "button_label": "Rebajas",
+            "button_link": "shopify://collections/novedades",
             "button_style": "btn--primary"
           }
         },
