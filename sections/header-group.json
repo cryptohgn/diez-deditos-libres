@@ -78,9 +78,8 @@
         },
         "text_KmQqhE": {
           "type": "text",
-          "disabled": true,
           "settings": {
-            "text": "ENVÍO GRATIS A PARTIR DE 60€",
+            "text": "ENVÍO GRATIS A PARTIR DE 50€",
             "text_link": "shopify://collections/deportivas-flash-sale",
             "text_size": "text-base",
             "font_weight": "font-heading",
