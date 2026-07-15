@@ -15,7 +15,7 @@
       "type": "cart-drawer",
       "settings": {
         "show_cart_note": false,
-        "show_shipping_rates_calculator": false,
+        "show_shipping_rates_calculator": true,
         "show_free_shipping_goal": false,
         "enable_cart_recommendations": true,
         "cart_recommendations_heading": "También te pueden interesar:",
