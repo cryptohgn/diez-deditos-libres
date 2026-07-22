@@ -17,10 +17,10 @@
           "name": "ANIVERSARIO",
           "settings": {
             "color_scheme": "scheme-9",
-            "background": "shopify://shop_images/Portadas_web_cdb74a6a-39e2-4759-8ff9-13b922b715ab.jpg",
+            "background": "shopify://shop_images/Portadas_web_1_2e2fb53c-7054-4e36-a63b-1295a9e4c5e2.jpg",
             "background_mobile": "shopify://shop_images/Portadas_web_cdb74a6a-39e2-4759-8ff9-13b922b715ab.jpg",
             "image_overlay_opacity": 0,
-            "content_position": "middle-center",
+            "content_position": "bottom-center",
             "text_alignment": "center",
             "title": "",
             "heading_size": "hd2",
@@ -28,7 +28,7 @@
             "description": "<p><br/><br/><br/><br/></p>",
             "description_size": "text-base",
             "button_label": "Rebajas",
-            "button_link": "shopify://collections/novedades",
+            "button_link": "shopify://collections/rebajas-verano",
             "button_style": "btn--primary"
           }
         },
