@@ -17,8 +17,8 @@
           "name": "ANIVERSARIO",
           "settings": {
             "color_scheme": "scheme-9",
-            "background": "shopify://shop_images/Portadas_web_1_2e2fb53c-7054-4e36-a63b-1295a9e4c5e2.jpg",
-            "background_mobile": "shopify://shop_images/PORTADA_WEB_MOVIL_600X480_4.jpg",
+            "background": "shopify://shop_images/Portada_rebajas.jpg",
+            "background_mobile": "shopify://shop_images/PORTADA_WEB_MOVIL_600X480_5.jpg",
             "image_overlay_opacity": 0,
             "content_position": "bottom-center",
             "text_alignment": "center",
