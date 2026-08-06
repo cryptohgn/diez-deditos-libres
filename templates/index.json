@@ -15,6 +15,7 @@
         "slide_Ff4Drj": {
           "type": "slide",
           "name": "ANIVERSARIO",
+          "disabled": true,
           "settings": {
             "color_scheme": "scheme-9",
             "background": "shopify://shop_images/Portada_rebajas.jpg",
