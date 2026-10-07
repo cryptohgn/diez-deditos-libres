@@ -1,0 +1,296 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      },
+      "disabled": true
+    },
+    "club_hero": {
+      "type": "rich-text",
+      "settings": {
+        "color_scheme": "",
+        "content_alignment": "center",
+        "padding_top": 60,
+        "padding_bottom": 40,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      },
+      "blocks": {
+        "subheading_0": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Club Family DiezDeditos"
+          }
+        },
+        "heading_1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Estrena tu Club: 5% siempre y un 5% extra en tu primera compra",
+            "heading_size": "hd2",
+            "heading_highlight_style": "none"
+          }
+        },
+        "text_2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Para las familias que ya caminan con nosotros: ventajas por seguir creciendo con Diez Deditos Libres.</p>",
+            "text_size": "text-lg"
+          }
+        },
+        "button_3": {
+          "type": "button",
+          "settings": {
+            "button_label": "Quiero unirme",
+            "button_link": "#unete",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_0",
+        "heading_1",
+        "text_2",
+        "button_3"
+      ]
+    },
+    "club_beneficios": {
+      "type": "feature-list",
+      "settings": {
+        "color_scheme": "",
+        "subheading": "",
+        "heading": "Lo que incluye el Club",
+        "heading_size": "h2",
+        "heading_highlight_style": "none",
+        "description": "",
+        "text_size": "text-base",
+        "item_alignment": "center",
+        "icon_size": "extra-medium",
+        "swipe_on_mobile": false,
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      },
+      "blocks": {
+        "feature_item_0": {
+          "type": "feature_item",
+          "settings": {
+            "color_scheme": "",
+            "icon": "tag",
+            "icon_style": "btn--secondary",
+            "text": "5% de descuento siempre (excepto Outlet)"
+          }
+        },
+        "feature_item_1": {
+          "type": "feature_item",
+          "settings": {
+            "color_scheme": "",
+            "icon": "gift",
+            "icon_style": "btn--secondary",
+            "text": "Regalo de cumpleaños"
+          }
+        },
+        "feature_item_2": {
+          "type": "feature_item",
+          "settings": {
+            "color_scheme": "",
+            "icon": "star-four",
+            "icon_style": "btn--secondary",
+            "text": "Acceso anticipado y novedades"
+          }
+        },
+        "feature_item_3": {
+          "type": "feature_item",
+          "settings": {
+            "color_scheme": "",
+            "icon": "ruler",
+            "icon_style": "btn--secondary",
+            "text": "Revisión de talla en cada compra"
+          }
+        },
+        "feature_item_4": {
+          "type": "feature_item",
+          "settings": {
+            "color_scheme": "",
+            "icon": "confetti",
+            "icon_style": "btn--secondary",
+            "text": "Próximamente: eventos para socios"
+          }
+        },
+        "feature_item_5": {
+          "type": "feature_item",
+          "settings": {
+            "color_scheme": "",
+            "icon": "heart",
+            "icon_style": "btn--secondary",
+            "text": "Un extra de bienvenida (pendiente de confirmar)"
+          }
+        }
+      },
+      "block_order": [
+        "feature_item_0",
+        "feature_item_1",
+        "feature_item_2",
+        "feature_item_3",
+        "feature_item_4",
+        "feature_item_5"
+      ]
+    },
+    "club_como": {
+      "type": "feature-list",
+      "settings": {
+        "color_scheme": "scheme-3",
+        "subheading": "",
+        "heading": "Cómo funciona",
+        "heading_size": "h2",
+        "heading_highlight_style": "none",
+        "description": "",
+        "text_size": "text-base",
+        "item_alignment": "center",
+        "icon_size": "extra-medium",
+        "swipe_on_mobile": false,
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      },
+      "blocks": {
+        "feature_item_0": {
+          "type": "feature_item",
+          "settings": {
+            "color_scheme": "",
+            "icon": "check-circle",
+            "icon_style": "btn--primary",
+            "text": "1. Te apuntas con tu email"
+          }
+        },
+        "feature_item_1": {
+          "type": "feature_item",
+          "settings": {
+            "color_scheme": "",
+            "icon": "package",
+            "icon_style": "btn--primary",
+            "text": "2. Compras y se aplican tus ventajas"
+          }
+        },
+        "feature_item_2": {
+          "type": "feature_item",
+          "settings": {
+            "color_scheme": "",
+            "icon": "heart",
+            "icon_style": "btn--primary",
+            "text": "3. Disfrutas del Club todo el año"
+          }
+        }
+      },
+      "block_order": [
+        "feature_item_0",
+        "feature_item_1",
+        "feature_item_2"
+      ]
+    },
+    "club_form": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div id=\"unete\" class=\"page-width\" style=\"max-width:640px;margin:0 auto;text-align:center;\">\n  <h2 class=\"h2\">Únete al Club Family</h2>\n  <p>Déjanos tu email y te enviamos los siguientes pasos. Sin spam: solo lo del Club.</p>\n  {%- form 'customer', id: 'ClubFamilyForm', is: 'club-form' -%}\n    <input type=\"hidden\" name=\"contact[tags]\" value=\"club-family\">\n    {%- if form.posted_successfully? -%}\n      <p class=\"form-message alert alert--success blocks-radius\" tabindex=\"-1\" autofocus>¡Bienvenida/o al Club! Revisa tu correo.</p>\n    {%- endif -%}\n    {%- if form.errors -%}\n      <p class=\"form-message alert alert--error blocks-radius\">{{ form.errors | default_errors }}</p>\n    {%- endif -%}\n    <div class=\"form-field\" style=\"margin-bottom:12px;\">\n      <label class=\"form-label\" for=\"ClubName\">Nombre</label>\n      <input id=\"ClubName\" type=\"text\" name=\"contact[first_name]\" class=\"form-control\" autocomplete=\"given-name\">\n    </div>\n    <div class=\"form-field\" style=\"margin-bottom:12px;\">\n      <label class=\"form-label\" for=\"ClubEmail\">Email</label>\n      <input id=\"ClubEmail\" type=\"email\" name=\"contact[email]\" class=\"form-control\" value=\"{{ form.email }}\" autocomplete=\"email\" autocorrect=\"off\" autocapitalize=\"off\" required>\n    </div>\n    <div style=\"margin-bottom:16px;text-align:left;\">\n      <label>\n        <input type=\"checkbox\" required>\n        He leído y acepto la <a href=\"{{ routes.root_url }}policies/privacy-policy\" target=\"_blank\" rel=\"noopener\">política de privacidad</a> y quiero recibir comunicaciones del Club.\n      </label>\n    </div>\n    <button type=\"submit\" class=\"btn btn--primary w-full\" name=\"commit\">Unirme al Club</button>\n  {%- endform -%}\n</div>",
+        "color_scheme": "",
+        "padding_top": 50,
+        "padding_bottom": 50
+      }
+    },
+    "club_condiciones": {
+      "type": "rich-text",
+      "settings": {
+        "color_scheme": "scheme-3",
+        "content_alignment": "center",
+        "padding_top": 30,
+        "padding_bottom": 30,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      },
+      "blocks": {
+        "heading_0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Condiciones del Club",
+            "heading_size": "h5",
+            "heading_highlight_style": "none"
+          }
+        },
+        "text_1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ventajas no acumulables con otras promociones salvo que se indique. El 5% no se aplica a Outlet ni a artículos rebajados. El Club es gratuito y puedes darte de baja cuando quieras escribiéndonos. Condiciones sujetas a cambios con aviso previo.</p>",
+            "text_size": "text-sm"
+          }
+        }
+      },
+      "block_order": [
+        "heading_0",
+        "text_1"
+      ]
+    },
+    "club_cta": {
+      "type": "rich-text",
+      "settings": {
+        "color_scheme": "",
+        "content_alignment": "center",
+        "padding_top": 50,
+        "padding_bottom": 60,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      },
+      "blocks": {
+        "heading_0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Seguimos caminando contigo",
+            "heading_size": "hd2",
+            "heading_highlight_style": "none"
+          }
+        },
+        "text_1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Gracias por confiar en Diez Deditos Libres.</p>",
+            "text_size": "text-base"
+          }
+        },
+        "button_2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Unirme al Club",
+            "button_link": "#unete",
+            "button_style": "btn--primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_0",
+        "text_1",
+        "button_2"
+      ]
+    }
+  },
+  "order": [
+    "main",
+    "club_hero",
+    "club_beneficios",
+    "club_como",
+    "club_form",
+    "club_condiciones",
+    "club_cta"
+  ]
+}
