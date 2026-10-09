@@ -19,20 +19,6 @@
     },
     "club_hero": {
       "type": "image-with-text",
-      "settings": {
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "image_height": "adapt",
-        "layout": "text_first",
-        "desktop_content_position": "center",
-        "desktop_content_alignment": "left",
-        "enable_parallax": false,
-        "mobile_content_alignment": "left",
-        "padding_top": 50,
-        "padding_bottom": 50,
-        "show_section_divider": false,
-        "divider_width": "fixed"
-      },
       "blocks": {
         "subheading_0": {
           "type": "subheading",
@@ -43,16 +29,16 @@
         "heading_1": {
           "type": "heading",
           "settings": {
-            "heading": "Estrena tu Club con un 5% + un 5% extra en tu primera compra",
+            "heading": "Estrena tu Club con un &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 5% + un 5% extra en tu primera compra&nbsp;",
             "heading_size": "hd2",
-            "heading_highlight_style": "none"
+            "heading_highlight_style": "underline"
           }
         },
         "text_2": {
           "type": "text",
           "settings": {
-            "text": "<p>5% siempre · Acceso anticipado · Revisión de talla · Regalo de cumpleaños</p><p><a href=\"#ventajas\">Ver ventajas ↓</a></p><p>Gratis · Sin permanencia · Para toda la familia. Outlet excluido de los descuentos del Club.</p>",
-            "text_size": "text-base"
+            "text": "<h2><strong>5% siempre&nbsp;<br/>Acceso anticipado<br/>Revisión de talla<br/>Regalo de cumpleaños</strong></h2><p><a href=\"#ventajas\">Ver ventajas ↓</a></p><p>Gratis · Sin permanencia&nbsp;<br/>Para toda la familia.&nbsp;<br/></p>",
+            "text_size": "text-lg"
           }
         },
         "button_3": {
@@ -69,7 +55,23 @@
         "heading_1",
         "text_2",
         "button_3"
-      ]
+      ],
+      "settings": {
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image": "shopify://shop_images/club-family-10deditos-featured.jpg",
+        "image_height": "adapt",
+        "layout": "text_first",
+        "desktop_content_position": "center",
+        "desktop_content_alignment": "left",
+        "enable_parallax": false,
+        "parallax_direction": "vertical",
+        "mobile_content_alignment": "left",
+        "padding_top": 50,
+        "padding_bottom": 50,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
     },
     "club_ancla": {
       "type": "custom-liquid",
@@ -82,6 +84,104 @@
     },
     "club_beneficios": {
       "type": "multicolumn",
+      "blocks": {
+        "column_0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/5-descuento-club-family-10-deditoslibres.jpg",
+            "image_width": "full",
+            "title": "5% de descuento",
+            "heading_size": "h3",
+            "text": "<p>En todas tus compras, todo el año. Outlet excluido.</p>",
+            "text_size": "text-base",
+            "button_label": "",
+            "button_style": "btn--primary",
+            "button_link": "",
+            "mobile_layout": "inherit"
+          }
+        },
+        "column_1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/descarga_4.jpg",
+            "image_width": "full",
+            "title": "+5% extra en tu 1ª compra",
+            "heading_size": "h3",
+            "text": "<p>Tu primera compra como socia/o del Club: 5% + 5%.</p>",
+            "text_size": "text-base",
+            "button_label": "",
+            "button_style": "btn--primary",
+            "button_link": "",
+            "mobile_layout": "inherit"
+          }
+        },
+        "column_2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/12_ca94fff2-16d2-4f65-a43d-82c8a96c0992.webp",
+            "image_width": "full",
+            "title": "Acceso anticipado",
+            "heading_size": "h3",
+            "text": "<p>A novedades y colecciones antes que nadie.</p>",
+            "text_size": "text-base",
+            "button_label": "",
+            "button_style": "btn--primary",
+            "button_link": "",
+            "mobile_layout": "inherit"
+          }
+        },
+        "column_3": {
+          "type": "column",
+          "settings": {
+            "image_width": "medium",
+            "title": "Revisión de talla",
+            "heading_size": "h5",
+            "text": "<p>Te ayudamos a acertar con la talla y el modelo.</p>",
+            "text_size": "text-base",
+            "button_label": "",
+            "button_style": "btn--primary",
+            "button_link": "",
+            "mobile_layout": "inherit"
+          }
+        },
+        "column_4": {
+          "type": "column",
+          "settings": {
+            "image_width": "medium",
+            "title": "Regalo de cumpleaños",
+            "heading_size": "h5",
+            "text": "<p>Un detalle para celebrar tu cumpleaños.</p>",
+            "text_size": "text-base",
+            "button_label": "",
+            "button_style": "btn--primary",
+            "button_link": "",
+            "mobile_layout": "inherit"
+          }
+        },
+        "column_5": {
+          "type": "column",
+          "disabled": true,
+          "settings": {
+            "image_width": "medium",
+            "title": "Regalo de bienvenida",
+            "heading_size": "h5",
+            "text": "<p>Un detalle al unirte al Club.</p>",
+            "text_size": "text-base",
+            "button_label": "",
+            "button_style": "btn--primary",
+            "button_link": "",
+            "mobile_layout": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "column_0",
+        "column_1",
+        "column_2",
+        "column_3",
+        "column_4",
+        "column_5"
+      ],
       "settings": {
         "color_scheme": "",
         "heading": "Lo que ganas al unirte al Club",
@@ -99,108 +199,10 @@
         "padding_bottom": 50,
         "show_section_divider": false,
         "divider_width": "fixed"
-      },
-      "blocks": {
-        "column_0": {
-          "type": "column",
-          "settings": {
-            "image_width": "medium",
-            "title": "5% de descuento",
-            "heading_size": "h5",
-            "text": "<p>En todas tus compras, todo el año. Outlet excluido.</p>",
-            "text_size": "text-base",
-            "button_label": "",
-            "button_style": "btn--primary",
-            "mobile_layout": "inherit"
-          }
-        },
-        "column_1": {
-          "type": "column",
-          "settings": {
-            "image_width": "medium",
-            "title": "+5% extra en tu 1ª compra",
-            "heading_size": "h5",
-            "text": "<p>Tu primera compra como socia/o del Club: 5% + 5%.</p>",
-            "text_size": "text-base",
-            "button_label": "",
-            "button_style": "btn--primary",
-            "mobile_layout": "inherit"
-          }
-        },
-        "column_2": {
-          "type": "column",
-          "settings": {
-            "image_width": "medium",
-            "title": "Acceso anticipado",
-            "heading_size": "h5",
-            "text": "<p>A novedades y colecciones antes que nadie.</p>",
-            "text_size": "text-base",
-            "button_label": "",
-            "button_style": "btn--primary",
-            "mobile_layout": "inherit"
-          }
-        },
-        "column_3": {
-          "type": "column",
-          "settings": {
-            "image_width": "medium",
-            "title": "Revisión de talla",
-            "heading_size": "h5",
-            "text": "<p>Te ayudamos a acertar con la talla y el modelo.</p>",
-            "text_size": "text-base",
-            "button_label": "",
-            "button_style": "btn--primary",
-            "mobile_layout": "inherit"
-          }
-        },
-        "column_4": {
-          "type": "column",
-          "settings": {
-            "image_width": "medium",
-            "title": "Regalo de cumpleaños",
-            "heading_size": "h5",
-            "text": "<p>Un detalle para celebrar tu cumpleaños.</p>",
-            "text_size": "text-base",
-            "button_label": "",
-            "button_style": "btn--primary",
-            "mobile_layout": "inherit"
-          }
-        },
-        "column_5": {
-          "type": "column",
-          "settings": {
-            "image_width": "medium",
-            "title": "Regalo de bienvenida",
-            "heading_size": "h5",
-            "text": "<p>Un detalle al unirte al Club.</p>",
-            "text_size": "text-base",
-            "button_label": "",
-            "button_style": "btn--primary",
-            "mobile_layout": "inherit"
-          },
-          "disabled": true
-        }
-      },
-      "block_order": [
-        "column_0",
-        "column_1",
-        "column_2",
-        "column_3",
-        "column_4",
-        "column_5"
-      ]
+      }
     },
     "club_eventos": {
       "type": "rich-text",
-      "disabled": true,
-      "settings": {
-        "color_scheme": "scheme-3",
-        "content_alignment": "center",
-        "padding_top": 20,
-        "padding_bottom": 20,
-        "show_section_divider": false,
-        "divider_width": "fixed"
-      },
       "blocks": {
         "text_0": {
           "type": "text",
@@ -212,14 +214,72 @@
       },
       "block_order": [
         "text_0"
-      ]
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "scheme-3",
+        "content_alignment": "center",
+        "padding_top": 20,
+        "padding_bottom": 20,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
     },
     "club_como": {
       "type": "multicolumn",
+      "blocks": {
+        "column_0": {
+          "type": "column",
+          "settings": {
+            "image_width": "medium",
+            "title": "1. Apúntate con tu familia",
+            "heading_size": "h3",
+            "text": "<p>Nombres y cumpleaños. Gratis.</p>",
+            "text_size": "text-base",
+            "button_label": "1",
+            "button_style": "btn--primary",
+            "button_link": "",
+            "mobile_layout": "inherit"
+          }
+        },
+        "column_1": {
+          "type": "column",
+          "settings": {
+            "image_width": "medium",
+            "title": "2. Recibe tu carnet",
+            "heading_size": "h3",
+            "text": "<p>Digital, por email.</p>",
+            "text_size": "text-base",
+            "button_label": "2",
+            "button_style": "btn--primary",
+            "button_link": "",
+            "mobile_layout": "inherit"
+          }
+        },
+        "column_2": {
+          "type": "column",
+          "settings": {
+            "image_width": "medium",
+            "title": "3. Compra con tus ventajas",
+            "heading_size": "h3",
+            "text": "<p>5% + 5% extra en la primera.</p>",
+            "text_size": "text-base",
+            "button_label": "3",
+            "button_style": "btn--primary",
+            "button_link": "",
+            "mobile_layout": "inherit"
+          }
+        }
+      },
+      "block_order": [
+        "column_0",
+        "column_1",
+        "column_2"
+      ],
       "settings": {
         "color_scheme": "scheme-3",
         "heading": "Así de fácil",
-        "heading_size": "h2",
+        "heading_size": "hd1",
         "heading_highlight_style": "none",
         "subheading": "",
         "description": "",
@@ -233,64 +293,10 @@
         "padding_bottom": 50,
         "show_section_divider": false,
         "divider_width": "fixed"
-      },
-      "blocks": {
-        "column_0": {
-          "type": "column",
-          "settings": {
-            "image_width": "medium",
-            "title": "1. Apúntate con tu familia",
-            "heading_size": "h5",
-            "text": "<p>Nombres y cumpleaños. Gratis.</p>",
-            "text_size": "text-base",
-            "button_label": "",
-            "button_style": "btn--primary",
-            "mobile_layout": "inherit"
-          }
-        },
-        "column_1": {
-          "type": "column",
-          "settings": {
-            "image_width": "medium",
-            "title": "2. Recibe tu carnet",
-            "heading_size": "h5",
-            "text": "<p>Digital, por email.</p>",
-            "text_size": "text-base",
-            "button_label": "",
-            "button_style": "btn--primary",
-            "mobile_layout": "inherit"
-          }
-        },
-        "column_2": {
-          "type": "column",
-          "settings": {
-            "image_width": "medium",
-            "title": "3. Compra con tus ventajas",
-            "heading_size": "h5",
-            "text": "<p>5% + 5% extra en la primera.</p>",
-            "text_size": "text-base",
-            "button_label": "",
-            "button_style": "btn--primary",
-            "mobile_layout": "inherit"
-          }
-        }
-      },
-      "block_order": [
-        "column_0",
-        "column_1",
-        "column_2"
-      ]
+      }
     },
     "club_oferta": {
       "type": "rich-text",
-      "settings": {
-        "color_scheme": "",
-        "content_alignment": "center",
-        "padding_top": 40,
-        "padding_bottom": 10,
-        "show_section_divider": false,
-        "divider_width": "fixed"
-      },
       "blocks": {
         "subheading_0": {
           "type": "subheading",
@@ -318,7 +324,15 @@
         "subheading_0",
         "heading_1",
         "text_2"
-      ]
+      ],
+      "settings": {
+        "color_scheme": "",
+        "content_alignment": "center",
+        "padding_top": 40,
+        "padding_bottom": 10,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
     },
     "club_form": {
       "type": "custom-liquid",
@@ -331,15 +345,6 @@
     },
     "club_resena": {
       "type": "rich-text",
-      "disabled": true,
-      "settings": {
-        "color_scheme": "",
-        "content_alignment": "center",
-        "padding_top": 30,
-        "padding_bottom": 30,
-        "show_section_divider": false,
-        "divider_width": "fixed"
-      },
       "blocks": {
         "text_0": {
           "type": "text",
@@ -351,18 +356,19 @@
       },
       "block_order": [
         "text_0"
-      ]
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "content_alignment": "center",
+        "padding_top": 30,
+        "padding_bottom": 30,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
     },
     "club_condiciones": {
       "type": "rich-text",
-      "settings": {
-        "color_scheme": "scheme-3",
-        "content_alignment": "left",
-        "padding_top": 40,
-        "padding_bottom": 40,
-        "show_section_divider": false,
-        "divider_width": "fixed"
-      },
       "blocks": {
         "heading_0": {
           "type": "heading",
@@ -383,18 +389,18 @@
       "block_order": [
         "heading_0",
         "text_1"
-      ]
+      ],
+      "settings": {
+        "color_scheme": "scheme-3",
+        "content_alignment": "left",
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
     },
     "club_cta": {
       "type": "rich-text",
-      "settings": {
-        "color_scheme": "",
-        "content_alignment": "center",
-        "padding_top": 50,
-        "padding_bottom": 60,
-        "show_section_divider": false,
-        "divider_width": "fixed"
-      },
       "blocks": {
         "heading_0": {
           "type": "heading",
@@ -416,7 +422,15 @@
       "block_order": [
         "heading_0",
         "button_1"
-      ]
+      ],
+      "settings": {
+        "color_scheme": "",
+        "content_alignment": "center",
+        "padding_top": 50,
+        "padding_bottom": 60,
+        "show_section_divider": false,
+        "divider_width": "fixed"
+      }
     }
   },
   "order": [
