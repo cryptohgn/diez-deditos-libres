@@ -51,7 +51,7 @@
         "text_2": {
           "type": "text",
           "settings": {
-            "text": "<p>5% siempre · Acceso anticipado · Revisión de talla · Regalo de cumpleaños</p><p><a href=\"#ventajas\">Ver ventajas ↓</a></p><p><small>Gratis · Sin permanencia · Para toda la familia. Outlet excluido de los descuentos del Club.</small></p>",
+            "text": "<p>5% siempre · Acceso anticipado · Revisión de talla · Regalo de cumpleaños</p><p><a href=\"#ventajas\">Ver ventajas ↓</a></p><p>Gratis · Sin permanencia · Para toda la familia. Outlet excluido de los descuentos del Club.</p>",
             "text_size": "text-base"
           }
         },
