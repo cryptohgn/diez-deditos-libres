@@ -34,25 +34,24 @@
         "divider_width": "fixed"
       },
       "blocks": {
-        "heading_0": {
-          "type": "heading",
+        "subheading_0": {
+          "type": "subheading",
           "settings": {
-            "heading": "Club Family DiezDeditos",
-            "heading_size": "hd2",
-            "heading_highlight_style": "none"
+            "subheading": "Club Family DiezDeditos"
           }
         },
-        "text_1": {
-          "type": "text",
+        "heading_1": {
+          "type": "heading",
           "settings": {
-            "text": "<p>Estrena tu Club con un 5% + un 5% extra en tu primera compra.</p>",
-            "text_size": "text-lg"
+            "heading": "Estrena tu Club con un 5% + un 5% extra en tu primera compra",
+            "heading_size": "hd2",
+            "heading_highlight_style": "none"
           }
         },
         "text_2": {
           "type": "text",
           "settings": {
-            "text": "<p>5% siempre · Acceso anticipado · Revisión de talla · Regalo de cumpleaños</p>",
+            "text": "<p>5% siempre · Acceso anticipado · Revisión de talla · Regalo de cumpleaños</p><p><a href=\"#ventajas\">Ver ventajas ↓</a></p><p><small>Gratis · Sin permanencia · Para toda la familia. Outlet excluido de los descuentos del Club.</small></p>",
             "text_size": "text-base"
           }
         },
@@ -63,38 +62,13 @@
             "button_link": "#unete",
             "button_style": "btn--primary"
           }
-        },
-        "button_4": {
-          "type": "button",
-          "settings": {
-            "button_label": "Ver ventajas ↓",
-            "button_link": "#ventajas",
-            "button_style": "btn--underline"
-          }
-        },
-        "text_5": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Gratis · Sin permanencia · Para toda la familia</p>",
-            "text_size": "text-sm"
-          }
-        },
-        "text_6": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Outlet excluido de los descuentos del Club.</p>",
-            "text_size": "text-sm"
-          }
         }
       },
       "block_order": [
-        "heading_0",
-        "text_1",
+        "subheading_0",
+        "heading_1",
         "text_2",
-        "button_3",
-        "button_4",
-        "text_5",
-        "text_6"
+        "button_3"
       ]
     },
     "club_ancla": {
@@ -318,12 +292,10 @@
         "divider_width": "fixed"
       },
       "blocks": {
-        "heading_0": {
-          "type": "heading",
+        "subheading_0": {
+          "type": "subheading",
           "settings": {
-            "heading": "Estrena tu Club con un 5% + un 5% extra en tu primera compra",
-            "heading_size": "h3",
-            "heading_highlight_style": "none"
+            "subheading": "Estrena tu Club con un 5% + un 5% extra en tu primera compra"
           }
         },
         "heading_1": {
@@ -343,7 +315,7 @@
         }
       },
       "block_order": [
-        "heading_0",
+        "subheading_0",
         "heading_1",
         "text_2"
       ]
@@ -372,21 +344,13 @@
         "text_0": {
           "type": "text",
           "settings": {
-            "text": "<p>★★★★★ [Reseña real destacada que nombre a Amparo]</p>",
+            "text": "<p>★★★★★ [Reseña real destacada que nombre a Amparo]</p><p>— [Nombre] · [N] reseñas (Judge.me)</p>",
             "text_size": "text-base"
-          }
-        },
-        "text_1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>— [Nombre] · [N] reseñas (Judge.me)</p>",
-            "text_size": "text-sm"
           }
         }
       },
       "block_order": [
-        "text_0",
-        "text_1"
+        "text_0"
       ]
     },
     "club_condiciones": {
